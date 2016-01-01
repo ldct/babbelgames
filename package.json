@@ -1,0 +1,29 @@
+{
+  "name": "frex-backend",
+  "version": "1.0.0",
+  "description": "backend for frex (lessons, user management)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zodiac/frex-backend.git"
+  },
+  "author": "",
+  "license": "All Rights Reserved",
+  "bugs": {
+    "url": "https://github.com/zodiac/frex-backend/issues"
+  },
+  "homepage": "https://github.com/zodiac/frex-backend#readme",
+  "dependencies": {
+    "async": "^1.5.0",
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "deasync": "^0.1.4",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "pg": "^4.4.3",
+    "socket.io": "^1.3.7"
+  }
+}
