@@ -7,12 +7,18 @@ var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var cors = require('cors');
 var async = require('async');
+var fs = require('fs');
 
-var db = require('./postgres');
+// var db = require('./postgres');
 
 app.use(cors());
 app.use(bodyParser.json({ 'limit': '10mb' }));
 app.use(morgan('dev'));
+
+app.get('/lists/1.json', function (err, res) {
+  var list1 = fs.readFileSync('list1.json', 'utf-8');
+  return res.json(JSON.parse(list1));
+});
 
 var port = +process.argv[2] || 3000;
 server.listen(port, function() {
