@@ -1,0 +1,150 @@
+[
+  {
+    "title": "adjectives",
+    "sentences": [
+      {
+        "main": "Elle est petite"
+      },
+      {
+        "main": "Mon père est ​grand."
+      },
+      {
+        "main": "Il est ​gentil."
+      },
+      {
+        "main": "Elle est ​méchante."
+      },
+      {
+        "main": "C'est ​bon ​ça."
+      },
+      {
+        "main": "Ça c'est ​amusant."
+      },
+      {
+        "main": "Mon objet est ​rouge."
+      },
+      {
+        "main": "Ma couleur préférée est jaune."
+      },
+      {
+        "main": "J’aime la couleur ​bleu."
+      },
+      {
+        "main": "Je n’aime pas ​orange."
+      },
+      {
+        "main": "Cette fleure est ​rose."
+      },
+      {
+        "main": "Les arbres sont ​verts."
+      },
+      {
+        "main": "Ça c'est ​noir."
+      },
+      {
+        "main": "Ça c'est ​blanc."
+      }
+    ]
+  },
+  {
+    "title": "numbers",
+    "words": [
+      "un",
+      "deux",
+      "trois",
+      "quatre",
+      "cinq",
+      "six",
+      "sept",
+      "huit",
+      "neuf",
+      "dix",
+      "onze",
+      "douze",
+      "treize",
+      "quatorze",
+      "quinze",
+      "seize",
+      "dix-sept",
+      "dix-huit",
+      "dix-neuf",
+      "vingt",
+      "vingt-et-une",
+      "vingt-deux",
+      "vingt-trois",
+      "vingt-quatre",
+      "trente",
+      "quarante",
+      "cinquante",
+      "soixante",
+      "soixante-dix",
+      "quatre-vingt",
+      "quatre-vingt dix",
+      "cent"
+    ]
+  },
+  {
+    "title": "Expressions à Savoir",
+    "sentences": [
+      {
+        "main": "Quelle heure est-il?",
+        "resp": "il est / c’est ... huit heures (8 :00AM) / seize heures (16 :00) / dix-sept moins quart (16 :45) / treize heures (13 :00)"
+      },
+      {
+        "main": "Où est l'horloge?"
+      },
+      {
+        "main": "J’ai un ​montre​"
+      },
+      {
+        "main": "Aujourd’hui / Hier / Demain"
+      },
+      {
+        "main": "Je suis ... content / triste / heureux / fatigué."
+      },
+      {
+        "main": "Je ​ne suis pas ...​"
+      },
+      {
+        "main": "J'ai ... faim / soif / fini."
+      },
+      {
+        "main": "Je ​n'ai ​pas ..."
+      },
+      {
+        "main": "Tu as raison!"
+      },
+      {
+        "main": "Tu ​n'as ​pas ​raison. / Tu as tort."
+      },
+      {
+        "main": "J'aime ça!"
+      },
+      {
+        "main": "Je n'aime pas ça!"
+      },
+      {
+        "main": "parce que = ​because"
+      },
+      {
+        "main": "​J’aime ça parce que c’est orange."
+      },
+      {
+        "main": "​J’aime ça parce que c’est beau (beautiful)."
+      }
+    ]
+  },
+  {
+    "title": "Comment acheter? (How to Buy Things)",
+    "sentences": [
+      {
+        "main": "Ça coûte combien?",
+        "responses": [
+          "Ça coûte deux dollars.",
+          "Ça coûte vingt Euro.",
+          "Ça coûte ​cher​."
+        ]
+      }
+    ]
+  }
+]

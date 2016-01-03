@@ -1,5 +1,7 @@
-{
-  "sentences": [
+[
+  {
+    "title": "Introductions",
+    "sentences": [
     {
       "main": "Bonjour, je m'appelle Jacques.",
       "alt": [
@@ -69,5 +71,6 @@
     {
       "main": "Parlez plus lentement s’il-vous plaît."
     }
-  ]
-}
+    ]
+  }
+]

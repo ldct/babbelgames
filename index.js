@@ -20,6 +20,11 @@ app.get('/lists/1.json', function (err, res) {
   return res.json(JSON.parse(list1));
 });
 
+app.get('/lists/2.json', function (err, res) {
+  var list1 = fs.readFileSync('week2.json', 'utf-8');
+  return res.json(JSON.parse(list1));
+});
+
 var port = +process.argv[2] || 3000;
 server.listen(port, function() {
 
