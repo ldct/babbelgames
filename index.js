@@ -15,6 +15,8 @@ app.use(cors());
 app.use(bodyParser.json({ 'limit': '10mb' }));
 app.use(morgan('dev'));
 
+app.set('json spaces', 2);
+
 app.get('/lists/1.json', function (err, res) {
   var list1 = fs.readFileSync('week1.json', 'utf-8');
   return res.json(JSON.parse(list1));
