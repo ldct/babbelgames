@@ -17,6 +17,13 @@ app.use(morgan('dev'));
 
 app.set('json spaces', 2);
 
+app.get('/sentence/random.json', function (err, res) {
+	return res.json({
+		translatedSentence: "New parliament in Spain, divided but sentenced to agree",
+		sentence: "Nouveau parlement en Espagne, divisé mais condamné à s'entendre",
+	});
+})
+
 app.get('/lists/1.json', function (err, res) {
   var list1 = fs.readFileSync('week1.json', 'utf-8');
   return res.json(JSON.parse(list1));
