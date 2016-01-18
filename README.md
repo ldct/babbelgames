@@ -5,4 +5,4 @@ backend for frex (lessons, user management)
 
 mix deps.get
 iex -S mix
-{:ok, _} = Plug.Adapters.Cowboy.http Frex, []
+{:ok, _} = Plug.Adapters.Cowboy.http Frex, [], port: 4000
