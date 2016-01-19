@@ -24,7 +24,14 @@ defmodule Frex do
     })
 
     response = HTTPotion.get pocket_url
-    sentence = (Poison.decode! response.body)["excerpt"]
+
+    sentence = response.body
+    |> Poison.decode!
+    |> Map.fetch!("excerpt")
+    |> String.split(".")
+    |> List.first
+
+    sentence = sentence <> "."
 
     IO.inspect sentence
 
@@ -38,8 +45,11 @@ defmodule Frex do
 
     IO.inspect body
 
-    trans = body["data"]["translations"] |> List.first
-    tt = trans["translatedText"]
+    tt = body
+    |> Map.fetch!("data")
+    |> Map.fetch!("translations")
+    |> List.first
+    |> Map.fetch!("translatedText")
 
     conn
     |> put_resp_content_type("application/json")
