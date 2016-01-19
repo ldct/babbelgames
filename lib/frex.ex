@@ -10,16 +10,41 @@ defmodule Frex do
 
   get "/sentence/random.json" do
     api_key = File.read! "GOOGLE_TRANSLATE_API_KEY"
-    sentence = "Merci de te joindre à nous ce matin."
-    url = "https://www.googleapis.com/language/translate/v2?q=Merci+de+te+joindre+%C3%A0+nous+ce+matin.&target=en&source=fr&key=" <> api_key
 
-    response = HTTPotion.get url    
-    body = Poison.decode! response.body
+    hasard = "https://fr.vikidia.org/wiki/Sp%C3%A9cial:Page_au_hasard"
+    h_resp = HTTPotion.get hasard
+    {:Location, loc} = List.keyfind(h_resp.headers, :Location, 0)
+
+    pocket_endpoint = "http://text.readitlater.com/v3beta/text"
+    pocket_url = pocket_endpoint <> "?" <> URI.encode_query(%{
+      "images" => 0,
+      "output" => "json",
+      "msg" => 1,
+      "url" => loc
+    })
+
+    response = HTTPotion.get pocket_url
+    sentence = (Poison.decode! response.body)["excerpt"]
+
+    IO.inspect sentence
+
+    url = "https://www.googleapis.com/language/translate/v2?" <> URI.encode_query(%{
+      "target" => "en",
+      "source" => "fr",
+      "key" => api_key,
+      "q" => sentence
+    }) 
+    body = Poison.decode! ((HTTPotion.get url).body)
+
+    IO.inspect body
+
     trans = body["data"]["translations"] |> List.first
     tt = trans["translatedText"]
+
     conn
     |> put_resp_content_type("application/json")
     |> send_resp(200, Poison.encode!(%{
+      loc: loc,
       original: sentence,
       translated: tt
     }))
