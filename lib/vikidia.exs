@@ -1,7 +1,8 @@
 defmodule Frex.Vikidia do
 
 	def writeToFile(contents, key) do
-		File.write! "vikidia/allpages/" <> key, Poison.encode!(contents), [:write]
+		keyNs = String.replace key, "/", "___"
+		File.write! "vikidia/allpages/" <> keyNs, Poison.encode!(contents), [:write]
 		contents
 	end
 
