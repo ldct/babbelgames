@@ -10,9 +10,15 @@ defmodule Frex.Vikidia do
         File.ls!("vikidia/allpages")
         |> Enum.sort
         |> Enum.map(fn x -> 
-            IO.inspect writeTranslatedSentence x 
+            IO.inspect writeTranslatedSentenceIfNotExists x 
         end)
     end
+
+    def writeTranslatedSentenceIfNotExists(title) do 
+        unless File.exists?("vikidia/translated/" <> title <> ".json") do
+            writeTranslatedSentence(title)    
+        end
+    end        
 
     def writeTranslatedSentence(title) do
         api_key = File.read! "GOOGLE_TRANSLATE_API_KEY"
@@ -26,7 +32,7 @@ defmodule Frex.Vikidia do
           "url" => loc
         })
 
-        response = HTTPotion.get pocket_url,  [timeout: 50_000]
+        response = HTTPotion.get pocket_url,  [timeout: 500_000]
 
         sentence = response.body
         |> Poison.decode!
@@ -42,7 +48,7 @@ defmodule Frex.Vikidia do
             "key" => api_key,
             "q" => sentence
         }) 
-        body = Poison.decode! ((HTTPotion.get url,  [timeout: 50_000]).body)
+        body = Poison.decode! ((HTTPotion.get url,  [timeout: 500_000]).body)
 
         tt = body
         |> Map.fetch!("data")
