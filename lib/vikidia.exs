@@ -50,11 +50,12 @@ defmodule Frex.Vikidia do
         |> List.first
         |> Map.fetch!("translatedText")
 
-        %{
+        res = Poison.encode!(%{
             loc: loc,
             original: sentence,
             translated: tt
-        }
+        })
+        File.write! "vikidia/translated/" <> title <> ".json", res, [:write]
     end
 
     def cleanAllpage(filename) do
