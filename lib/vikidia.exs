@@ -1,5 +1,30 @@
 defmodule Frex.Vikidia do
 
+	def go do
+		# this is mainly documentation
+		getAllPages
+		collectTitles		
+	end
+
+	def collectTitles(filename) do
+		File.read!("vikidia/allpages/" <> filename)
+		|> Poison.decode!
+		|> Map.fetch!("query")
+		|> Map.fetch!("allpages")
+		|> Enum.map(fn x -> x["title"] end)
+	end
+
+	def cleanAllpageDir() do
+		contents = File.ls!("vikidia/allpages")
+		|> Enum.sort
+		|> Enum.map(fn x -> 
+			cleanAllpage x 
+		end)
+		|> List.flatten
+
+		File.write! "vikidia/titles.json", Poison.encode!(contents), [:write]
+	end
+
 	def writeToFile(contents, key) do
 		keyNs = String.replace key, "/", "___"
 		File.write! "vikidia/allpages/" <> keyNs, Poison.encode!(contents), [:write]
