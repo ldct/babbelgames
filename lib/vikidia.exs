@@ -1,72 +1,123 @@
 defmodule Frex.Vikidia do
 
-	def go do
-		# this is mainly documentation
-		getAllPages
-		collectTitles		
-	end
+    def go do
+        # this is mainly documentation
+        getAllPages
+        collectTitles       
+    end
 
-	def collectTitles(filename) do
-		File.read!("vikidia/allpages/" <> filename)
-		|> Poison.decode!
-		|> Map.fetch!("query")
-		|> Map.fetch!("allpages")
-		|> Enum.map(fn x -> x["title"] end)
-	end
+    def writeAllTranslatedSentences() do
+        File.ls!("vikidia/allpages")
+        |> Enum.sort
+        |> Enum.map(fn x -> 
+            IO.inspect writeTranslatedSentence x 
+        end)
+    end
 
-	def cleanAllpageDir() do
-		contents = File.ls!("vikidia/allpages")
-		|> Enum.sort
-		|> Enum.map(fn x -> 
-			cleanAllpage x 
-		end)
-		|> List.flatten
+    def writeTranslatedSentence(title) do
+        api_key = File.read! "GOOGLE_TRANSLATE_API_KEY"
+        loc = "https://fr.vikidia.org/wiki/" <> title
 
-		File.write! "vikidia/titles.json", Poison.encode!(contents), [:write]
-	end
+        pocket_endpoint = "http://text.readitlater.com/v3beta/text"
+        pocket_url = pocket_endpoint <> "?" <> URI.encode_query(%{
+          "images" => 0,
+          "output" => "json",
+          "msg" => 1,
+          "url" => loc
+        })
 
-	def writeToFile(contents, key) do
-		keyNs = String.replace key, "/", "___"
-		File.write! "vikidia/allpages/" <> keyNs, Poison.encode!(contents), [:write]
-		contents
-	end
+        response = HTTPotion.get pocket_url,  [timeout: 50_000]
 
-	def getAllPages do
-		vikidia_url = "https://fr.vikidia.org/w/api.php?action=query&list=allpages&rawcontinue=&format=json"
+        sentence = response.body
+        |> Poison.decode!
+        |> Map.fetch!("excerpt")
+        |> String.split(".")
+        |> List.first
 
-		response = HTTPotion.get vikidia_url, [timeout: 20_000]
-		response.body
-		|> Poison.decode!
-		|> IO.inspect
-		|> writeToFile("initial")
-		|> Map.fetch!("query-continue")
-		|> Map.fetch!("allpages")
-		|> Map.fetch!("apcontinue")
-		|> getPagesStarting
-	end
+        sentence = sentence <> "."
 
-	def getPagesStarting(apcontinue) do
-		vikidia_url = "https://fr.vikidia.org/w/api.php?action=query&list=allpages&rawcontinue=&format=json"
-		vikidia_url = vikidia_url <> "&apcontinue=" <> URI.encode(apcontinue)
+        url = "https://www.googleapis.com/language/translate/v2?" <> URI.encode_query(%{
+            "target" => "en",
+            "source" => "fr",
+            "key" => api_key,
+            "q" => sentence
+        }) 
+        body = Poison.decode! ((HTTPotion.get url,  [timeout: 50_000]).body)
 
-		IO.inspect "hi"
-		IO.inspect vikidia_url
+        tt = body
+        |> Map.fetch!("data")
+        |> Map.fetch!("translations")
+        |> List.first
+        |> Map.fetch!("translatedText")
 
-		response = HTTPotion.get vikidia_url, [timeout: 20_000]
+        %{
+            loc: loc,
+            original: sentence,
+            translated: tt
+        }
+    end
 
-		IO.inspect response.body
+    def cleanAllpage(filename) do
+        File.read!("vikidia/allpages/" <> filename)
+        |> Poison.decode!
+        |> Map.fetch!("query")
+        |> Map.fetch!("allpages")
+        |> Enum.map(fn x -> x["title"] end)
+    end
 
-		response.body
-		|> Poison.decode!
-		|> IO.inspect
-		|> writeToFile(apcontinue)
-		|> Map.fetch!("query-continue")
-		|> Map.fetch!("allpages")
-		|> Map.fetch!("apcontinue")
-		|> getPagesStarting
-	end
+    def collectTitles() do
+        contents = File.ls!("vikidia/allpages")
+        |> Enum.sort
+        |> Enum.map(fn x -> 
+            cleanAllpage x 
+        end)
+        |> List.flatten
 
-	def printSum(a, b) do
-		IO.inspect a+b
-	end
+        File.write! "vikidia/titles.json", Poison.encode!(contents), [:write]
+    end
+
+    def writeToFile(contents, key) do
+        keyNs = String.replace key, "/", "___"
+        File.write! "vikidia/allpages/" <> keyNs, Poison.encode!(contents), [:write]
+        contents
+    end
+
+    def getAllPages do
+        vikidia_url = "https://fr.vikidia.org/w/api.php?action=query&list=allpages&rawcontinue=&format=json"
+
+        response = HTTPotion.get vikidia_url, [timeout: 20_000]
+        response.body
+        |> Poison.decode!
+        |> IO.inspect
+        |> writeToFile("initial")
+        |> Map.fetch!("query-continue")
+        |> Map.fetch!("allpages")
+        |> Map.fetch!("apcontinue")
+        |> getPagesStarting
+    end
+
+    def getPagesStarting(apcontinue) do
+        vikidia_url = "https://fr.vikidia.org/w/api.php?action=query&list=allpages&rawcontinue=&format=json"
+        vikidia_url = vikidia_url <> "&apcontinue=" <> URI.encode(apcontinue)
+
+        IO.inspect "hi"
+        IO.inspect vikidia_url
+
+        response = HTTPotion.get vikidia_url, [timeout: 20_000]
+
+        IO.inspect response.body
+
+        response.body
+        |> Poison.decode!
+        |> IO.inspect
+        |> writeToFile(apcontinue)
+        |> Map.fetch!("query-continue")
+        |> Map.fetch!("allpages")
+        |> Map.fetch!("apcontinue")
+        |> getPagesStarting
+    end
+
+    def printSum(a, b) do
+        IO.inspect a+b
+    end
 end
