@@ -16,6 +16,7 @@ defmodule Frex do
     |> Integer.to_string
 
     lst = list_translated
+    |> Enum.sort
     |> List.last
 
     send_resp(conn, 200, l <> "\n" <> lst)
