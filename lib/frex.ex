@@ -8,6 +8,19 @@ defmodule Frex do
     send_resp(conn, 200, "world")
   end
 
+  get "/progress" do
+    list_translated = File.ls!("vikidia/translated")
+
+    l = list_translated 
+    |> length
+    |> Integer.to_string
+
+    lst = list_translated
+    |> List.last
+
+    send_resp(conn, 200, l <> "\n" <> lst)
+  end
+
   get "/sentence/random.json" do
     api_key = File.read! "GOOGLE_TRANSLATE_API_KEY"
 
