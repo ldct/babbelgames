@@ -7,7 +7,8 @@ defmodule Frex.Vikidia do
     end
 
     def writeAllTranslatedSentences() do
-        File.ls!("vikidia/allpages")
+        File.read!("vikidia/titles.json")
+        |> Poison.decode!
         |> Enum.sort
         |> Enum.map(fn x -> 
             IO.inspect writeTranslatedSentenceIfNotExists x 
