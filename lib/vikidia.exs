@@ -62,7 +62,9 @@ defmodule Frex.Vikidia do
             original: sentence,
             translated: tt
         })
-        File.write! "vikidia/translated/" <> title <> ".json", res, [:write]
+
+        titleNs = String.replace title, "/", "___"
+        File.write! "vikidia/translated/" <> titleNs <> ".json", res, [:write]
     end
 
     def cleanAllpage(filename) do
