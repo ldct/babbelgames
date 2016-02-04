@@ -24,14 +24,33 @@ defmodule Frex do
 
   get "/sentence/random.json" do
 
-    filename = File.ls!("vikidia/translated")
-    |> Enum.random
-
-    contents = File.read!("vikidia/translated/" <> filename)
+    contents = getShortSentence(10)
+    |> Poison.encode!
 
     conn
     |> put_resp_content_type("application/json")
     |> send_resp(200, contents)
+
+  end
+
+  def getShortSentence(max_length) do
+    
+    filename = File.ls!("vikidia/translated")
+    |> Enum.random
+
+    json = File.read!("vikidia/translated/" <> filename)
+    |> Poison.decode!
+
+    len = json
+    |> Map.fetch!("original")
+    |> String.split
+    |> length
+
+    if len <= max_length do
+      json
+    else
+      getShortSentence(max_length)
+    end
 
   end
 
