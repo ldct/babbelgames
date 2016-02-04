@@ -23,6 +23,19 @@ defmodule Frex do
   end
 
   get "/sentence/random.json" do
+
+    filename = File.ls!("vikidia/translated")
+    |> Enum.random
+
+    contents = File.read!("vikidia/translated/" <> filename)
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, contents)
+
+  end
+
+  get "/sentence/_random.json" do
     api_key = File.read! "GOOGLE_TRANSLATE_API_KEY"
 
     hasard = "https://fr.vikidia.org/wiki/Sp%C3%A9cial:Page_au_hasard"
