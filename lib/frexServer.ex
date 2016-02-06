@@ -33,23 +33,10 @@ defmodule FrexServer do
 
   end
 
-  def jsonContentsOf(title) do
-    
-    File.read!("vikidia/translated/" <> title)
-    |> Poison.decode!
-
-  end
-
-  def allJsonContents() do
-    
-    File.ls!("vikidia/translated")
-    |> Enum.map(fn x -> jsonContentsOf(x) end)
-
-  end
-
   get "/sentence/random.json" do
     
-    res = allJsonContents() 
+    :random.seed(:os.timestamp)
+    res = VikidiaSentenceCache.get()
     |> Enum.random
     |> Poison.encode!
     conn
