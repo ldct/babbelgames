@@ -22,7 +22,7 @@ defmodule Frex do
     send_resp(conn, 200, l <> "\n" <> lst)
   end
 
-  get "/sentence/random.json" do
+  get "/sentence/__random.json" do
 
     contents = getShortSentence(10)
     |> Poison.encode!
@@ -30,6 +30,31 @@ defmodule Frex do
     conn
     |> put_resp_content_type("application/json")
     |> send_resp(200, contents)
+
+  end
+
+  def jsonContentsOf(title) do
+    
+    File.read!("vikidia/translated/" <> title)
+    |> Poison.decode!
+
+  end
+
+  def allJsonContents() do
+    
+    File.ls!("vikidia/translated")
+    |> Enum.map(fn x -> jsonContentsOf(x) end)
+
+  end
+
+  get "/sentence/random.json" do
+    
+    res = allJsonContents() 
+    |> Enum.random
+    |> Poison.encode!
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, res)
 
   end
 

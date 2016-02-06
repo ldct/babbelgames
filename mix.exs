@@ -4,7 +4,7 @@ defmodule Frex.Mixfile do
   def project do
     [app: :frex,
      version: "0.0.1",
-     elixir: "~> 1.3-dev",
+     elixir: "~> 1.1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -14,7 +14,9 @@ defmodule Frex.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:httpotion, :logger]]
+    [applications: 
+      [:httpotion, :logger],
+      mod: {FrexApp, []}]
   end
 
   # Dependencies can be Hex packages:
