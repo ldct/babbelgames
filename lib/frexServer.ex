@@ -1,4 +1,4 @@
-defmodule Frex do
+defmodule FrexServer do
   use Plug.Router
 
   plug :match
