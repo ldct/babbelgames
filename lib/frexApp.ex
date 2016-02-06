@@ -9,11 +9,7 @@ defmodule FrexApp do
   end
 
   def getPort do
-    if Mix.env == :dev do
-      4000
-    else
-      80
-    end
+    80
   end
 
 end
