@@ -5,6 +5,7 @@ defmodule FrexApp do
     IO.inspect "hello world!"
     {:ok, _} = VikidiaSentenceCache.start_link
     Plug.Adapters.Cowboy.http FrexServer, [], port: getPort
+    |> IO.inspect
   end
 
   def getPort do
