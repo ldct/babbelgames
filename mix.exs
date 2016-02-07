@@ -4,7 +4,7 @@ defmodule Frex.Mixfile do
   def project do
     [app: :frex,
      version: "0.0.1",
-     elixir: "> 1.1.1",
+     elixir: ">= 1.1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -32,7 +32,7 @@ defmodule Frex.Mixfile do
     [
       {:cowboy, "~> 1.0.0"},
       {:plug, "~> 1.0"},
-      {:poison, "~> 1.4.0"},
+      {:poison, "~> 2.0"},
       {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.2"},
       {:httpotion, "~> 2.1.0"}
     ]

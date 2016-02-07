@@ -8,18 +8,43 @@ defmodule FrexServer do
     send_resp(conn, 200, "world")
   end
 
-  get "/progress" do
-    list_translated = File.ls!("vikidia/translated")
+  get "/sentence/all/:start/:stop" do
+    start = String.to_integer(start)
+    stop = String.to_integer(stop)
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, Poison.encode!(
+      VikidiaSentenceCache.get() |> Enum.slice(start..stop),
+      pretty: true
+    ))
+  end
 
-    l = list_translated 
-    |> length
-    |> Integer.to_string
+  get "/sentence/random.json" do    
+    :random.seed(:os.timestamp)
 
-    lst = list_translated
-    |> Enum.sort
-    |> List.last
+    res = VikidiaSentenceCache.get()
+    |> Enum.random
+    |> Poison.encode!(pretty: true)
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, res)
 
-    send_resp(conn, 200, l <> "\n" <> lst)
+  end
+
+  get "/sentence/sorted-by-length/:start/:stop" do
+    start = String.to_integer(start)
+    stop = String.to_integer(stop)
+
+    res = VikidiaSentenceCache.get()
+    |> Enum.map(fn s -> s["original"] end)
+    |> IO.inspect
+    |> Enum.sort_by(&String.length/1)
+    |> Enum.slice(start..stop)
+    |> Poison.encode!(pretty: true)
+    
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, res)
   end
 
   get "/sentence/__random.json" do
@@ -33,16 +58,18 @@ defmodule FrexServer do
 
   end
 
-  get "/sentence/random.json" do
-    
-    :random.seed(:os.timestamp)
-    res = VikidiaSentenceCache.get()
-    |> Enum.random
-    |> Poison.encode!
-    conn
-    |> put_resp_content_type("application/json")
-    |> send_resp(200, res)
+  get "/_progress" do
+    list_translated = File.ls!("vikidia/translated")
 
+    l = list_translated 
+    |> length
+    |> Integer.to_string
+
+    lst = list_translated
+    |> Enum.sort
+    |> List.last
+
+    send_resp(conn, 200, l <> "\n" <> lst)
   end
 
   def getShortSentence(max_length) do
