@@ -31,6 +31,28 @@ defmodule FrexServer do
 
   end
 
+  def randomIndex do
+    :rand.uniform * 100000 |> round
+  end
+
+  get "subtitle/random.json" do    
+    
+    fr = File.stream!("opus-OS/en-fr/fr")
+    en = File.stream!("opus-OS/en-fr/en")
+    n = randomIndex()
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, Poison.encode!(
+      %{
+        'original': fr |> Enum.at(n),
+        'translated': en |> Enum.at(n)
+      },
+      pretty: true
+    ))
+
+  end
+
   get "/sentence/sorted-by-length/:start/:stop" do
     start = String.to_integer(start)
     stop = String.to_integer(stop)
