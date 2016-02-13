@@ -41,12 +41,18 @@ defmodule FrexServer do
     en = File.stream!("opus-OS/en-fr/en")
     n = randomIndex()
 
+    frSentence = fr |> Enum.at(n) |> String.replace("\n", "")
+    enSentence = en |> Enum.at(n) |> String.replace("\n", "")
+
     conn
     |> put_resp_content_type("application/json")
     |> send_resp(200, Poison.encode!(
       %{
-        'original': fr |> Enum.at(n),
-        'translated': en |> Enum.at(n)
+        'original': frSentence,
+        'awrScore': frSentence |> Nlp.averageWordRankScore,
+        'hwrScore': frSentence |> Nlp.highestWordRankScore,
+        'swrScore': frSentence |> Nlp.sumWordRankScore,
+        'translated': enSentence,
       },
       pretty: true
     ))
