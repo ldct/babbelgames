@@ -8,3 +8,4 @@ erl_crash.dump
 *.lock
 GOOGLE_TRANSLATE_API_KEY
 /opus-OS
+/stanford-parser/
