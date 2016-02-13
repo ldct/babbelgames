@@ -49,6 +49,7 @@ defmodule FrexServer do
     |> send_resp(200, Poison.encode!(
       %{
         'original': frSentence,
+        'constituents': frSentence |> Nlp.parseConstituents,
         'awrScore': frSentence |> Nlp.averageWordRankScore,
         'hwrScore': frSentence |> Nlp.highestWordRankScore,
         'swrScore': frSentence |> Nlp.sumWordRankScore,

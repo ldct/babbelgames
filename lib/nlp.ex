@@ -1,5 +1,34 @@
 defmodule Nlp do
 
+    def tokenize(str) do
+        tokenizeFrom(str, 0, "")
+    end
+
+    def singletonOrEmpty(s) do
+        if s == "" do
+            []
+        else
+            [s]
+        end
+    end
+
+    def tokenizeFrom(str, n, prefix) do
+        # tokenize prefix + str[n:] where prefix
+        # does not contain [\(\)\s]
+        cond do
+            String.length(str) == n ->
+                singletonOrEmpty(prefix)
+            String.at(str, n) == "(" -> 
+                ["("] ++ tokenizeFrom(str, n+1, "")
+            String.at(str, n) == ")" -> 
+                [")"] ++ tokenizeFrom(str, n+1, "")
+            String.at(str, n) == " " ->
+                singletonOrEmpty(prefix) ++ tokenizeFrom(str, n+1, "")
+            true -> 
+                tokenizeFrom(str, n+1, prefix <> String.at(str, n))
+        end
+    end
+
     def deconjugate(word) do
         # todo: this is probably wrong
         # todo: assert that there is no more than one ' in a row
@@ -19,6 +48,11 @@ defmodule Nlp do
         |> String.split(" ")
         |> Enum.map(fn s -> deconjugate(s) end)
         |> List.flatten
+    end
+
+    def parseConstituents(frenchSentence) do
+        Porcelain.exec("bash", ["./parse_french_sentence.sh"], in: frenchSentence <> "\n").out
+        |> String.replace("\n", " ")
     end
 
 
