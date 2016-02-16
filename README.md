@@ -1,6 +1,17 @@
 # frex-backend
 backend for frex (lessons, user management)
 
+## path to MVP
+
+- [ ] explore using constituent parses to make sentences simpler
+  - [ ] run stanford parser
+  - [ ] tokenize stanford parser output
+  - [ ] parse stanford parser output
+  - [ ] (visualize stanford parser output)
+  - [ ] chunk sentence
+- [ ] provide hints
+  - [ ] lookup all chunks/words in a dictionary
+
 ## deployment
 
 mix deps.get
