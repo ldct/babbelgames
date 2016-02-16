@@ -9,7 +9,7 @@ defmodule FrexApp do
   end
 
   def getPort do
-    80
+    4000
   end
 
 end

@@ -1,5 +1,22 @@
 defmodule Nlp do
 
+    # usage: Nlp.parseSentence("Je baisse les yeux et je vois un telephone")
+
+    def parseSentence(sentence) do
+        File.write!("/tmp/french_sentence", sentence)
+        {parsed_str, 0} = System.cmd("java",  [
+            "-mx150m", "-Xmx4098m", 
+            "-cp", "./stanford-parser/*:", 
+            "edu.stanford.nlp.parser.lexparser.LexicalizedParser",
+            "-outputFormat", "penn", 
+            "edu/stanford/nlp/models/lexparser/frenchFactored.ser.gz",
+            "/tmp/french_sentence"])
+        parsed_str
+        |> SymbolicExpression.Parser.parse
+    end
+
+    # tokenize stanford NLP parse tree output
+
     def tokenize(str) do
         tokenizeFrom(str, 0, "")
     end
@@ -28,6 +45,8 @@ defmodule Nlp do
                 tokenizeFrom(str, n+1, prefix <> String.at(str, n))
         end
     end
+
+    # j'ai -> je ai etc
 
     def deconjugate(word) do
         # todo: this is probably wrong
