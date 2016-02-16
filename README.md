@@ -7,7 +7,7 @@ backend for frex (lessons, user management)
   - [ ] run stanford parser
   - [ ] tokenize stanford parser output
   - [ ] parse stanford parser output
-  - [ ] (visualize stanford parser output)
+  - [ ] visualize stanford parser output (optional)
   - [ ] chunk sentence
 - [ ] provide hints
   - [ ] lookup all chunks/words in a dictionary
