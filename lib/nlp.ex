@@ -4,15 +4,41 @@ defmodule Nlp do
 
     def parseSentence(sentence) do
         File.write!("/tmp/french_sentence", sentence)
-        {parsed_str, 0} = System.cmd("java",  [
+        {sexpr, 0} = System.cmd("java",  [
             "-mx150m", "-Xmx4098m", 
             "-cp", "./stanford-parser/*:", 
             "edu.stanford.nlp.parser.lexparser.LexicalizedParser",
             "-outputFormat", "penn", 
             "edu/stanford/nlp/models/lexparser/frenchFactored.ser.gz",
             "/tmp/french_sentence"])
-        parsed_str
+        {:ok, parsed} = sexpr
         |> SymbolicExpression.Parser.parse
+        parsed
+    end
+
+    def extractMinimumConstituents(sentence) do
+        parsed = sentence |> parseSentence
+        ["ROOT", ["SENT" | root]] = parsed
+        root
+        |> Enum.map(fn t -> Nlp.collect(t) end)
+    end
+
+    # collect roots
+    def collect(tree) do
+        cond do
+            is_list(tree) ->
+                [_ | rest] = tree
+                rest
+                |> Enum.map(fn t -> Nlp.collect(t) end)
+                |> Enum.join(" ")
+            is_binary(tree) ->
+                tree
+            true ->
+                "\n\n\nWTF\n" 
+                |> IO.inspect
+                tree
+                |> IO.inspect
+        end
     end
 
     # tokenize stanford NLP parse tree output

@@ -171,5 +171,5 @@ defmodule SymbolicExpression.Parser do
     end
   end
 
-  defp process_atom(term), do: term
+  defp process_atom(term), do: ((for <<c <- term>>, do: c) |> to_string)
 end

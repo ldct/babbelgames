@@ -41,17 +41,25 @@ defmodule FrexServer do
     en = File.stream!("opus-OS/en-fr/en")
     n = randomIndex()
 
-    frSentence = fr |> Enum.at(n) |> String.replace("\n", "")
-    enSentence = en |> Enum.at(n) |> String.replace("\n", "")
+    frSentence = fr |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
+    enSentence = en |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
+
+    frContext = fr |> Enum.slice(n-3, 6)
+    enContext = en |> Enum.slice(n-3, 6)
 
     conn
     |> put_resp_content_type("application/json")
     |> send_resp(200, Poison.encode!(
       %{
         'original': frSentence,
-        'constituents': frSentence |> Nlp.parseConstituents,
-        'awrScore': frSentence |> Nlp.averageWordRankScore,
-        'hwrScore': frSentence |> Nlp.highestWordRankScore,
+        'context': %{
+          'original': frContext,
+          'translated': enContext
+        },
+        'constituents': frSentence |> Nlp.extractMinimumConstituents,
+        'parsed': frSentence |> Nlp.parseSentence,
+        # 'awrScore': frSentence |> Nlp.averageWordRankScore,
+        # 'hwrScore': frSentence |> Nlp.highestWordRankScore,
         'swrScore': frSentence |> Nlp.sumWordRankScore,
         'translated': enSentence,
       },
