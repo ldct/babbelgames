@@ -9,3 +9,4 @@ erl_crash.dump
 GOOGLE_TRANSLATE_API_KEY
 /opus-OS
 /stanford-parser/
+.node-version
