@@ -3,7 +3,9 @@ defmodule Nlp do
     # usage: Nlp.parseSentence("Je baisse les yeux et je vois un telephone")
 
     def parseSentence(sentence) do
-        File.write!("/tmp/french_sentence", sentence)
+        sentenceEscaped = sentence
+        |> String.replace("PUNC \"", "PUNC DOUBLEQUOTE")
+        File.write!("/tmp/french_sentence", sentenceEscaped)
         {sexpr, 0} = System.cmd("java",  [
             "-mx150m", "-Xmx4098m", 
             "-cp", "./stanford-parser/*:", 
@@ -16,14 +18,43 @@ defmodule Nlp do
         parsed
     end
 
+    # extract top-level constituents of sentence
     def extractMinimumConstituents(sentence) do
         parsed = sentence |> parseSentence
-        ["ROOT", ["SENT" | root]] = parsed
-        root
+        ["ROOT", ["SENT" | sentenceConstituents]] = parsed
+        sentenceConstituents
         |> Enum.map(fn t -> Nlp.collect(t) end)
     end
 
-    # collect roots
+    # extract constituents of sentence that are no
+    # more than 3 words long, greedily
+    def extractChunkedConstituents(sentence) do
+        parsed = sentence |> parseSentence
+        ["ROOT", sent] = parsed
+        extractChunkedConstituentsTree(sent)
+    end
+
+    def extractChunkedConstituentsTree(tree) do
+
+        IO.inspect("extractChunkedConstituentsTree")
+        IO.inspect(tree)
+
+        len = tree
+        |> collect
+        |> String.split(" ")
+        |> length
+
+        if len <= 3 do
+            [collect(tree)]
+        else
+            [nodeLabel | children] = tree
+            children
+            |> Enum.map(fn t -> extractChunkedConstituentsTree(t) end)
+            |> List.flatten
+        end
+    end
+
+    # collect leaves
     def collect(tree) do
         cond do
             is_list(tree) ->

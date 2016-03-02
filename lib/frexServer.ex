@@ -31,8 +31,35 @@ defmodule FrexServer do
 
   end
 
+
   def randomIndex do
     :rand.uniform * 100000 |> round
+  end
+
+  get "/index.html" do
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, "<html>hi</html>") # todo replace    
+  end
+
+
+  get "subtitle-noparse/random.json" do
+    fr = File.stream!("opus-OS/en-fr/fr")
+    en = File.stream!("opus-OS/en-fr/en")
+    n = randomIndex()
+
+    frSentence = fr |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
+    enSentence = en |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, Poison.encode!(
+      %{
+        'original': frSentence,
+        'translated': enSentence,
+      },
+      pretty: true
+    ))
   end
 
   get "subtitle/random.json" do    
@@ -56,8 +83,9 @@ defmodule FrexServer do
           'original': frContext,
           'translated': enContext
         },
-        'constituents': frSentence |> Nlp.extractMinimumConstituents,
+        'constituents': frSentence |> Nlp.extractChunkedConstituents,
         'parsed': frSentence |> Nlp.parseSentence,
+        '_n': n,
         # 'awrScore': frSentence |> Nlp.averageWordRankScore,
         # 'hwrScore': frSentence |> Nlp.highestWordRankScore,
         'swrScore': frSentence |> Nlp.sumWordRankScore,
