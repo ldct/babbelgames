@@ -1,11 +1,13 @@
 defmodule Nlp do
 
-    # usage: Nlp.parseSentence("Je baisse les yeux et je vois un telephone")
+    def hexDigest(str) do
+        :crypto.hash(:sha256, str) 
+        |> Base.encode16
+        |> String.downcase
+    end
 
-    def parseSentence(sentence) do
-        sentenceEscaped = sentence
-        |> String.replace("PUNC \"", "PUNC DOUBLEQUOTE")
-        File.write!("/tmp/french_sentence", sentenceEscaped)
+    def parseSentenceToSerializedSexpr(sentence) do
+        File.write!("/tmp/french_sentence", sentence)
         {sexpr, 0} = System.cmd("java",  [
             "-mx150m", "-Xmx4098m", 
             "-cp", "./stanford-parser/*:", 
@@ -13,7 +15,18 @@ defmodule Nlp do
             "-outputFormat", "penn", 
             "edu/stanford/nlp/models/lexparser/frenchFactored.ser.gz",
             "/tmp/french_sentence"])
-        {:ok, parsed} = sexpr
+        sexpr
+    end
+
+    def parseAndCacheSentence(sentence) do 
+        filename = "parsedSentences/" <> hexDigest(sentence)
+        File.write!(filename, sentence <> "\n" <> parseSentenceToSerializedSexpr(sentence))
+    end
+
+    # usage: Nlp.parseSentence("Je baisse les yeux et je vois un telephone")
+    def parseSentence(sentence) do
+        {:ok, parsed} = parseSentenceToSerializedSexpr(sentence)
+        |> String.replace("PUNC \"", "PUNC DOUBLEQUOTE")
         |> SymbolicExpression.Parser.parse
         parsed
     end
@@ -47,7 +60,7 @@ defmodule Nlp do
         if len <= 3 do
             [collect(tree)]
         else
-            [nodeLabel | children] = tree
+            [_ | children] = tree
             children
             |> Enum.map(fn t -> extractChunkedConstituentsTree(t) end)
             |> List.flatten

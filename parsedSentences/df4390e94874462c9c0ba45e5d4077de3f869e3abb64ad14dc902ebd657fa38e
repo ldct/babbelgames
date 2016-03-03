@@ -1,0 +1,7 @@
+Quelle heure il est ?
+(ROOT
+  (SENT
+    (NP (DETWH Quelle) (NC heure))
+    (VN (CLS il) (V est))
+    (PUNC ?)))
+
