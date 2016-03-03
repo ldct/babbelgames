@@ -11,4 +11,4 @@ fi
 scriptdir=`dirname $0`
 
 java -mx150m -Xmx30000m -cp "$scriptdir/*:" edu.stanford.nlp.parser.lexparser.LexicalizedParser \
- -outputFormat "penn" -sentences newline -maxLength 40 -nthreads 4 edu/stanford/nlp/models/lexparser/frenchFactored.ser.gz $*
+ -outputFormat "oneline" -maxLength 15 -writeOutputFiles -nthreads 3 edu/stanford/nlp/models/lexparser/frenchFactored.ser.gz $*
