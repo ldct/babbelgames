@@ -23,6 +23,16 @@ defmodule Nlp do
         File.write!(filename, sentence <> "\n" <> parseSentenceToSerializedSexpr(sentence))
     end
 
+    def parseAndCacheAllSentences() do
+        fr = File.stream!("opus-OS/en-fr/fr")
+
+        frSentence = fr |> Enum.map(fn (sentence) -> sentence 
+            |> String.replace("\n", "") 
+            |> String.replace(~r/^- /, "")
+            |> parseAndCacheSentence
+        end)
+    end
+
     # usage: Nlp.parseSentence("Je baisse les yeux et je vois un telephone")
     def parseSentence(sentence) do
         {:ok, parsed} = parseSentenceToSerializedSexpr(sentence)
