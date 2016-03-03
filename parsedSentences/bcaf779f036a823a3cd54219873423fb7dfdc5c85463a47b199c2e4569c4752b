@@ -1,0 +1,10 @@
+(C'est celle-Ià.)
+(ROOT
+  (SENT
+    (NP (PUNC -LRB-))
+    (VN (CLS C') (V est))
+    (NP (PRO celle))
+    (PUNC -)
+    (NP (NPP Ià) (NPP .))
+    (PUNC -RRB-)))
+

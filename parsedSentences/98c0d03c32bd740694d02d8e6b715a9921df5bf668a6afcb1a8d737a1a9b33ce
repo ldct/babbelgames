@@ -1,0 +1,15 @@
+Tu débarques comme ça, avec l'air en colère.)
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V débarques))
+    (PP (P comme)
+      (NP (PRO ça)))
+    (PUNC ,)
+    (COORD
+      (PP (P avec)
+        (NP (DET l') (NC air)))
+      (PP (P en)
+        (NP (NC colère)
+          (AP (ADJ .)))))
+    (PUNC -RRB-)))
+

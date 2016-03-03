@@ -1,0 +1,14 @@
+J'ai parlé à Daniel. - Et ?
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai) (VPP parlé))
+    (PP (P à)
+      (NP (NPP Daniel)))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (NP (PUNC -))
+    (VN (V Et))
+    (PUNC ?)))
+

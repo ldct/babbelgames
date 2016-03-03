@@ -1,0 +1,10 @@
+Tu n'as pas pris au sérieux le rôle que je t'ai confié.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (ADV n') (V as) (ADV pas) (VPP pris))
+    (PP (P au)
+      (NP (ADJ sérieux) (DET le) (NC rôle)))
+    (Ssub (CS que)
+      (VN (CLS je) (CLR t') (V ai) (VPP confié)))
+    (PUNC .)))
+

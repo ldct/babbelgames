@@ -1,0 +1,7 @@
+Connor est mort.
+(ROOT
+  (SENT
+    (NP (NPP Connor))
+    (VN (V est) (VPP mort))
+    (PUNC .)))
+

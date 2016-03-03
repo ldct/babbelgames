@@ -1,0 +1,9 @@
+C'est quoi, ça ?
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (NP (PROWH quoi))
+    (PUNC ,)
+    (NP (PRO ça))
+    (PUNC ?)))
+

@@ -1,0 +1,9 @@
+Oui, on va au New Burger ?
+(ROOT
+  (SENT (ADV Oui) (PUNC ,)
+    (VN (CLS on) (V va))
+    (PP (P au)
+      (NP
+        (MWN (ET New) (ET Burger))))
+    (PUNC ?)))
+

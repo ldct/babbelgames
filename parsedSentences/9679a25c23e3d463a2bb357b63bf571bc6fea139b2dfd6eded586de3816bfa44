@@ -1,0 +1,11 @@
+Nous deux ! Levons-nous.
+(ROOT
+  (SENT
+    (NP (PRO Nous) (ADJ deux))
+    (PUNC !)))
+
+(ROOT
+  (SENT
+    (VN (V Levons) (CLS -nous))
+    (PUNC .)))
+

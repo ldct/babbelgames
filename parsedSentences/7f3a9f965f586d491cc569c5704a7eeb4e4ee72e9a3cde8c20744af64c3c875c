@@ -1,0 +1,11 @@
+Merci d'avoir donné votre accord pour cet article.
+(ROOT
+  (SENT
+    (VN (V Merci))
+    (VPinf (P d')
+      (VN (VINF avoir) (VPP donné))
+      (NP (DET votre) (NC accord))
+      (PP (P pour)
+        (NP (DET cet) (NC article))))
+    (PUNC .)))
+

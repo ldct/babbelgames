@@ -1,0 +1,15 @@
+La tourner ? Pourquoi la tourner ?
+(ROOT
+  (SENT
+    (VPinf
+      (VN (CLO La) (VINF tourner)))
+    (PUNC ?)))
+
+(ROOT
+  (SENT
+    (Ssub (CS Pourquoi)
+      (NP (NC la))
+      (VPinf
+        (VN (VINF tourner))))
+    (PUNC ?)))
+

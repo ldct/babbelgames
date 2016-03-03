@@ -1,0 +1,6 @@
+Elle a dit non.
+(ROOT
+  (SENT
+    (VN (CLS Elle) (V a) (VPP dit))
+    (ADV non) (PUNC .)))
+

@@ -1,0 +1,11 @@
+On avait un plan, payer Castelar.
+(ROOT
+  (SENT
+    (VN (CLS On) (V avait))
+    (NP (DET un) (NC plan))
+    (PUNC ,)
+    (VPinf
+      (VN (VINF payer))
+      (NP (NC Castelar)))
+    (PUNC .)))
+

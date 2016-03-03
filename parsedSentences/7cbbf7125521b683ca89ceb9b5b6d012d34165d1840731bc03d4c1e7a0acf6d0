@@ -1,0 +1,15 @@
+Il semblerait que Wilhelmina Slater a été touchée de cécité par le dieu de la mode.
+(ROOT
+  (SENT
+    (VN (CLS Il) (V semblerait))
+    (Ssub (CS que)
+      (NP (NPP Wilhelmina) (NPP Slater))
+      (VN (V a) (VPP été) (VPP touchée))
+      (VPinf (P de)
+        (VN (VINF cécité))
+        (PP (P par)
+          (NP (DET le) (NC dieu)
+            (PP (P de)
+              (NP (DET la) (NC mode)))))))
+    (PUNC .)))
+

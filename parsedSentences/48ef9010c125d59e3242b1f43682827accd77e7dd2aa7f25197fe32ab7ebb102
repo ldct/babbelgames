@@ -1,0 +1,19 @@
+Est-ce dingue d'aider les toxicos à décrocher, à quitter la rue, les remettre sur les rails ?
+(ROOT
+  (SENT
+    (VN (V Est) (CLS -ce) (VPP dingue))
+    (VPinf (P d')
+      (VN (VINF aider))
+      (NP (DET les) (NC toxicos))
+      (VPinf (P à)
+        (VN (VINF décrocher))
+        (PUNC ,)
+        (VPinf (P à)
+          (VN (VINF quitter))
+          (NP (DET la) (NC rue)))))
+    (PUNC ,)
+    (VPinf
+      (VN (CLO les) (VINF remettre))
+      (MWADV (P sur) (DET les) (N rails)))
+    (PUNC ?)))
+

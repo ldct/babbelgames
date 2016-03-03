@@ -1,0 +1,8 @@
+Tu m'envoies au Vénézuéla ?
+(ROOT
+  (SENT
+    (VN (CLS Tu) (CLO m') (V envoies))
+    (PP (P au)
+      (NP (NPP Vénézuéla)))
+    (PUNC ?)))
+

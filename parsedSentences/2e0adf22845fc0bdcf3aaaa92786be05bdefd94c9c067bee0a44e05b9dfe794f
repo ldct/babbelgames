@@ -1,0 +1,9 @@
+J'te l'enverrai J'te le verserai sur la tête
+(ROOT
+  (SENT
+    (VN (CLS J') (CLO te) (CLO l') (V enverrai) (CLS J'))
+    (VPinf
+      (VN (CLO te) (CLO le) (VINF verserai))
+      (PP (P sur)
+        (NP (DET la) (NC tête))))))
+

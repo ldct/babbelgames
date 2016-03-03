@@ -1,0 +1,13 @@
+Qu'est-ce que je vais faire au Vénézuéla ?
+(ROOT
+  (SENT
+    (NP (PROWH Qu'))
+    (VN (V est) (CLS -ce))
+    (Ssub (CS que)
+      (VN (CLS je) (V vais))
+      (VPinf
+        (VN (VINF faire))
+        (PP (P au)
+          (NP (NPP Vénézuéla)))))
+    (PUNC ?)))
+

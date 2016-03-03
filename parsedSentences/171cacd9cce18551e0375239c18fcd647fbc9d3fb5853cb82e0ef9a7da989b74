@@ -1,0 +1,19 @@
+C'est pas mon habitude de juger quelque chose qui semble pouvoir t'aider.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (ADV pas)
+    (NP (DET mon) (NC habitude)
+      (VPinf (P de)
+        (VN (VINF juger))
+        (NP
+          (MWPRO (DET quelque) (N chose))
+          (Srel
+            (NP (PROREL qui))
+            (VN (V semble))
+            (VPinf
+              (VN (VINF pouvoir))
+              (VPinf
+                (VN (CLR t') (VINF aider))))))))
+    (PUNC .)))
+

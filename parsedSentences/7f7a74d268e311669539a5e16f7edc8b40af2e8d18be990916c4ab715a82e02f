@@ -1,0 +1,6 @@
+Je te mordille...
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO te) (V mordille))
+    (PUNC ...)))
+

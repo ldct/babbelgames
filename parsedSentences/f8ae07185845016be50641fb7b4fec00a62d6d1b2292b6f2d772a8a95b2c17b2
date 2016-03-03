@@ -1,0 +1,6 @@
+Son trésor ?
+(ROOT
+  (SENT
+    (NP (DET Son) (NC trésor))
+    (PUNC ?)))
+

@@ -1,0 +1,8 @@
+J'ai pas commencé à jouer.
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai) (ADV pas) (VPP commencé))
+    (VPinf (P à)
+      (VN (VINF jouer)))
+    (PUNC .)))
+

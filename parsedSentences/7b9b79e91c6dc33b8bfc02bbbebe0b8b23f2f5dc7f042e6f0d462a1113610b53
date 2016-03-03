@@ -1,0 +1,10 @@
+24h sur 24, je m'arrêterai pas !
+(ROOT
+  (SENT
+    (NP (DET 24) (NC h)
+      (PP (P sur)
+        (NP (ADJ 24))))
+    (PUNC ,)
+    (VN (CLS je) (CLO m') (V arrêterai))
+    (ADV pas) (PUNC !)))
+

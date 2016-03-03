@@ -1,0 +1,8 @@
+Avec les autres, oui.
+(ROOT
+  (SENT
+    (PP (P Avec)
+      (NP (DET les) (PRO autres))
+      (PUNC ,))
+    (ADV oui) (PUNC .)))
+

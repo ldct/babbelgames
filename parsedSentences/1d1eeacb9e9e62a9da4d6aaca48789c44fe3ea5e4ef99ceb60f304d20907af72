@@ -1,0 +1,12 @@
+Je dois aller à la réunion des rédacteurs.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V dois))
+    (VPinf
+      (VN (VINF aller))
+      (PP (P à)
+        (NP (DET la) (NC réunion)
+          (PP (P des)
+            (NP (NC rédacteurs))))))
+    (PUNC .)))
+

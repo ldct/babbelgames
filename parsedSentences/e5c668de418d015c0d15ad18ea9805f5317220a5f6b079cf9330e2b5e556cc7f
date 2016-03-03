@@ -1,0 +1,8 @@
+Demain soir chez moi.
+(ROOT
+  (SENT (ADV Demain)
+    (NP (NC soir)
+      (PP (P chez)
+        (NP (PRO moi))))
+    (PUNC .)))
+

@@ -1,0 +1,10 @@
+Oh, ça va.
+(ROOT
+  (SENT
+    (VN (V Oh))
+    (PUNC ,)
+    (Sint
+      (NP (PRO ça))
+      (VN (V va)))
+    (PUNC .)))
+

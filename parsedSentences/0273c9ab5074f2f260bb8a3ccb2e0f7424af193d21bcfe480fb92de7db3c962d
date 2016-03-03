@@ -1,0 +1,17 @@
+Et ils lui disent ce qu'il peut ou pas mettre dans son magazine.
+(ROOT
+  (SENT
+    (COORD (CC Et)
+      (VN (CLS ils) (CLO lui) (V disent))
+      (NP (PRO ce)
+        (Srel
+          (NP (PROREL qu'))
+          (VN (CLS il) (V peut))
+          (VPinf
+            (VN
+              (MWADV (C ou) (ADV pas))
+              (VINF mettre))
+            (PP (P dans)
+              (NP (DET son) (NC magazine)))))))
+    (PUNC .)))
+

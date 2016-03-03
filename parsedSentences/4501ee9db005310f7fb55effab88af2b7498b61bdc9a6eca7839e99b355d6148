@@ -1,0 +1,15 @@
+I thought a chance is far from me You ain't no lonely !
+(ROOT
+  (SENT
+    (NP (ADJ I) (NC thought))
+    (VN (V a))
+    (NP (NC chance)
+      (MWN (ET is) (ET far))
+      (PP
+        (NP (ET from))))
+    (VPpart
+      (VN (CLO me) (VPR You))
+      (NP
+        (MWN (ET ain't) (ET no) (ET lonely))))
+    (PUNC !)))
+

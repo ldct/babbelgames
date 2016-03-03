@@ -1,0 +1,10 @@
+Trouver un moyen de tourner la roue.
+(ROOT
+  (SENT
+    (VN (V Trouver))
+    (NP (DET un) (NC moyen)
+      (VPinf (P de)
+        (VN
+          (MWV (V tourner) (DET la) (N roue)))))
+    (PUNC .)))
+

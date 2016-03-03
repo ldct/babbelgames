@@ -1,0 +1,10 @@
+You are the sun, you are the star To me forever
+(ROOT
+  (SENT
+    (NP
+      (MWN (ET You) (ET are) (ET the) (ET sun))
+      (PUNC ,)
+      (NP
+        (MWN (ET you) (ET are) (ET the) (ET star) (ET To))))
+    (VN (CLO me) (V forever))))
+

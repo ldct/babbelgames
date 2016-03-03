@@ -1,0 +1,10 @@
+Je t'ai entendu rigoler, Ià, non ?
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLR t') (V ai) (VPP entendu) (VPP rigoler))
+    (PUNC ,)
+    (NP (NPP Ià))
+    (PUNC ,)
+    (NP (I non))
+    (PUNC ?)))
+

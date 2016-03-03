@@ -1,0 +1,11 @@
+Comprendre, c'est la raison de ma présence ici.
+(ROOT
+  (SENT
+    (NP (NC Comprendre))
+    (PUNC ,)
+    (VN (CLS c') (V est))
+    (NP (DET la) (NC raison)
+      (PP (P de)
+        (NP (DET ma) (NC présence))))
+    (ADV ici) (PUNC .)))
+

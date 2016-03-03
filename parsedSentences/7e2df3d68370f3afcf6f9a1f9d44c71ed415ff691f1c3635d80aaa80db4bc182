@@ -1,0 +1,14 @@
+Elle a un sacré vécu, Ryûsuke l'a eue dans un coin chaud.
+(ROOT
+  (SENT
+    (VN (CLS Elle) (V a)
+      (NP (DET un) (ADJ sacré))
+      (VPP vécu))
+    (PUNC ,)
+    (Sint
+      (NP (NPP Ryûsuke))
+      (VN (CLO l') (V a) (VPP eue))
+      (PP (P dans)
+        (NP (DET un) (NC coin) (ADJ chaud))))
+    (PUNC .)))
+

@@ -1,0 +1,8 @@
+Allez, dis-nous !
+(ROOT
+  (SENT
+    (NP (NC Allez))
+    (PUNC ,)
+    (VN (V dis) (CLS -nous))
+    (PUNC !)))
+

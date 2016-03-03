@@ -1,0 +1,7 @@
+Le payer comment ?
+(ROOT
+  (SENT
+    (NP (DET Le) (NC payer)
+      (AP (ADJ comment)))
+    (PUNC ?)))
+

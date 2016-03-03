@@ -1,0 +1,10 @@
+Ces images ont été envoyées par nos téléspectateurs.
+(ROOT
+  (SENT
+    (NP (DET Ces) (NC images))
+    (VN (V ont) (VPP été))
+    (VPpart (VPP envoyées)
+      (PP (P par)
+        (NP (DET nos) (NC téléspectateurs))))
+    (PUNC .)))
+

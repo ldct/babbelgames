@@ -1,0 +1,8 @@
+Et il a amené quelques amis.
+(ROOT
+  (SENT
+    (COORD (CC Et)
+      (VN (CLS il) (V a) (VPP amené))
+      (NP (DET quelques) (NC amis)))
+    (PUNC .)))
+

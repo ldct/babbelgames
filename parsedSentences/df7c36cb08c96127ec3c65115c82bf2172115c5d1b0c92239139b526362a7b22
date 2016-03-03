@@ -1,0 +1,27 @@
+Je pense pas que "génial" est le mot que tout le monde va utiliser. N'est-il pas l'heure de commencer la réunion ?
+(ROOT
+  (SENT
+    (VN (CLS Je) (V pense))
+    (ADV pas)
+    (Ssub (CS que)
+      (AP (PUNC ") (ADJ génial) (PUNC "))
+      (VN (V est))
+      (NP (DET le) (NC mot))
+      (Ssub (CS que)
+        (NP
+          (MWPRO (ADJ tout) (DET le) (N monde)))
+        (VN (V va))
+        (VPinf
+          (VN (VINF utiliser)))))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (ADV N') (V est) (CLS -il))
+    (ADV pas)
+    (NP (DET l') (NC heure)
+      (VPinf (P de)
+        (VN (VINF commencer))
+        (NP (DET la) (NC réunion))))
+    (PUNC ?)))
+

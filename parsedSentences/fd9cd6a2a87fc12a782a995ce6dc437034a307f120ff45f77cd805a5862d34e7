@@ -1,0 +1,13 @@
+Je vous mène en bateau. Je suis désolé.
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO vous) (V mène))
+    (PP (P en)
+      (NP (NC bateau)))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (CLS Je) (V suis) (VPP désolé))
+    (PUNC .)))
+

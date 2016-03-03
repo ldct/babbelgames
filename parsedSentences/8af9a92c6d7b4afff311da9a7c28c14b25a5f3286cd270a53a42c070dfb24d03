@@ -1,0 +1,18 @@
+Une fois fait, je peux être responsable de ce qu'il pourrait se passer.
+(ROOT
+  (SENT
+    (NP (DET Une) (NC fois))
+    (VN (V fait))
+    (PUNC ,)
+    (Sint
+      (VN (CLS je) (V peux) (VINF être))
+      (AP (ADJ responsable)
+        (PP (P de)
+          (NP (PRO ce)
+            (Srel
+              (NP (PROREL qu'))
+              (VN (CLS il) (V pourrait))
+              (VPinf
+                (VN (CLR se) (VINF passer))))))))
+    (PUNC .)))
+

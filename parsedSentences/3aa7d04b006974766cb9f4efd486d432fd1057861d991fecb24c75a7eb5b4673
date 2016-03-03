@@ -1,0 +1,20 @@
+Pour l'instant, ce n'est qu'une suite de détails, mais ça deviendra une façon de vivre.
+(ROOT
+  (SENT
+    (MWADV (P Pour) (DET l') (N instant))
+    (PUNC ,)
+    (VN (CLS ce) (ADV n') (V est))
+    (ADV qu')
+    (NP (DET une) (NC suite)
+      (PP (P de)
+        (NP (NC détails))))
+    (PUNC ,)
+    (COORD (CC mais)
+      (Sint
+        (NP (PRO ça))
+        (VN (V deviendra))
+        (NP (DET une) (NC façon)
+          (VPinf (P de)
+            (VN (VINF vivre))))))
+    (PUNC .)))
+

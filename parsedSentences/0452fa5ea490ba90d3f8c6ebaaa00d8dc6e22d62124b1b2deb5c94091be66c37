@@ -1,0 +1,7 @@
+Droit en enfer.
+(ROOT
+  (SENT
+    (NP
+      (MWN (N Droit) (P en) (N enfer)))
+    (PUNC .)))
+

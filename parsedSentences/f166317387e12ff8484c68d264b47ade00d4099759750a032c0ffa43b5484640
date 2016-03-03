@@ -1,0 +1,14 @@
+Venez. Vous voulez de l'eau du Phénix ?
+(ROOT
+  (SENT
+    (VN (V Venez))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (CLS Vous) (V voulez))
+    (PP (P de)
+      (NP (DET l')
+        (MWN (N eau) (P du) (N Phénix))))
+    (PUNC ?)))
+

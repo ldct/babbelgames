@@ -1,0 +1,7 @@
+Je suis Betty Suarez.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V suis))
+    (NP (DET Betty) (NC Suarez))
+    (PUNC .)))
+

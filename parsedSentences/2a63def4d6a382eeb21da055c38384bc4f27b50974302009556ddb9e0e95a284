@@ -1,0 +1,20 @@
+Avec ça... Avec ça ! Je peux aller voir Ryûsuke !
+(ROOT
+  (SENT
+    (PP (P Avec)
+      (NP (PRO ça))
+      (PUNC ...)
+      (PP (P Avec)
+        (NP (PRO ça)))
+      (PUNC !))))
+
+(ROOT
+  (SENT
+    (VN (CLS Je) (V peux))
+    (VPinf
+      (VN (VINF aller))
+      (VPinf
+        (VN (VINF voir))
+        (NP (NPP Ryûsuke))))
+    (PUNC !)))
+

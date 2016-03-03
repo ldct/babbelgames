@@ -1,0 +1,6 @@
+Je ne sais pas.
+(ROOT
+  (SENT
+    (VN (CLS Je) (ADV ne) (V sais))
+    (ADV pas) (PUNC .)))
+

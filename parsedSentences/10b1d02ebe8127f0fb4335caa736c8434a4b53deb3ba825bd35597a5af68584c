@@ -1,0 +1,9 @@
+Privé, ah bon.
+(ROOT
+  (SENT
+    (NP (NC Privé))
+    (PUNC ,)
+    (VN (V ah))
+    (AP (ADJ bon))
+    (PUNC .)))
+

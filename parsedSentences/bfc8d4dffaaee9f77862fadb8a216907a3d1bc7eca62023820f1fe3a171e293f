@@ -1,0 +1,6 @@
+Takes me cruisin'
+(ROOT
+  (SENT
+    (NP (NC Takes))
+    (VN (CLO me) (V cruisin) (VPP '))))
+

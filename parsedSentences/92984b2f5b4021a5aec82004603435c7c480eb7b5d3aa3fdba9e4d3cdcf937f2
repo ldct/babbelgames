@@ -1,0 +1,6 @@
+Who ?
+(ROOT
+  (SENT
+    (NP (NC Who))
+    (PUNC ?)))
+

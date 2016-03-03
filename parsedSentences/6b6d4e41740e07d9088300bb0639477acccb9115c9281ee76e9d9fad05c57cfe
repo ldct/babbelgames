@@ -1,0 +1,7 @@
+(Quoi ?
+(ROOT
+  (SENT
+    (VN (PUNC -LRB-))
+    (NP (PROWH Quoi))
+    (PUNC ?)))
+

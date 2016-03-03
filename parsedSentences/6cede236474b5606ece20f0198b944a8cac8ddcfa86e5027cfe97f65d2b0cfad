@@ -1,0 +1,6 @@
+Come on !
+(ROOT
+  (SENT
+    (VN (V Come) (CLS on))
+    (PUNC !)))
+

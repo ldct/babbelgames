@@ -1,0 +1,10 @@
+Non merci.
+(ROOT
+  (SENT
+    (COORD
+      (PP
+        (MWADV (ADV Non)))
+      (PP
+        (MWADV (N merci))))
+    (PUNC .)))
+

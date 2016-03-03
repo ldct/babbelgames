@@ -1,0 +1,7 @@
+Des sabots, Willie ?
+(ROOT
+  (SENT
+    (NP (DET Des) (NC sabots) (PUNC ,)
+      (NP (NPP Willie)))
+    (PUNC ?)))
+

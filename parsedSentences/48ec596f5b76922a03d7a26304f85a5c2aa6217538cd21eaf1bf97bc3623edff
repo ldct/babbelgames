@@ -1,0 +1,15 @@
+Les gens qui connaissent la communauté nous voient comme un genre de secte.
+(ROOT
+  (SENT
+    (NP (DET Les) (NC gens)
+      (Srel
+        (NP (PROREL qui))
+        (VN (V connaissent))
+        (NP (DET la) (NC communauté))))
+    (VN (CLS nous) (V voient))
+    (PP (P comme)
+      (NP (DET un) (NC genre)
+        (PP (P de)
+          (NP (NC secte)))))
+    (PUNC .)))
+

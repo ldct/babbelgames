@@ -1,0 +1,7 @@
+Hein, sérieux ?
+(ROOT
+  (SENT
+    (VN (V Hein) (PUNC ,))
+    (AP (ADJ sérieux))
+    (PUNC ?)))
+

@@ -1,0 +1,8 @@
+Le monde est-il devenu fou ?
+(ROOT
+  (SENT
+    (NP (DET Le) (NC monde))
+    (VN (V est) (CLS -il) (VPP devenu))
+    (AP (ADJ fou))
+    (PUNC ?)))
+

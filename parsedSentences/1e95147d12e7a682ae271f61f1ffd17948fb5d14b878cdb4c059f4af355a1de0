@@ -1,0 +1,10 @@
+Mais aussi en montrant le butin.
+(ROOT
+  (SENT
+    (COORD (CC Mais)
+      (ADV aussi)
+      (VPpart (P en)
+        (VN (VPR montrant))
+        (NP (DET le) (NC butin))))
+    (PUNC .)))
+

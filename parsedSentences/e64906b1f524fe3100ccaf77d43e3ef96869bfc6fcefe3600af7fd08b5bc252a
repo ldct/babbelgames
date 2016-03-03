@@ -1,0 +1,16 @@
+Je me suis déjà prosternée devant cette momie de Claire Meade et ai supplié qu'elle me rende mon travail.
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLR me) (V suis) (ADV déjà) (VPP prosternée))
+    (PP (P devant)
+      (NP (DET cette) (NC momie)
+        (PP (P de)
+          (NP (NPP Claire) (NPP Meade)))))
+    (COORD (CC et)
+      (Sint
+        (VN (V ai) (VPP supplié))
+        (Ssub (CS qu')
+          (VN (CLS elle) (CLO me) (V rende))
+          (NP (DET mon) (NC travail)))))
+    (PUNC .)))
+

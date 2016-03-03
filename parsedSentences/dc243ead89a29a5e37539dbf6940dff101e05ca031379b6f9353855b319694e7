@@ -1,0 +1,12 @@
+C'est quelque chose que tu dois vivre.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (NP
+      (MWPRO (DET quelque) (N chose)))
+    (Ssub (CS que)
+      (VN (CLS tu) (V dois))
+      (VPinf
+        (VN (VINF vivre))))
+    (PUNC .)))
+

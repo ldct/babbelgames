@@ -1,0 +1,9 @@
+Ryûsuke, tu parles anglais !
+(ROOT
+  (SENT
+    (NP (NPP Ryûsuke))
+    (PUNC ,)
+    (VN (CLS tu) (V parles))
+    (AP (ADJ anglais))
+    (PUNC !)))
+

@@ -1,0 +1,7 @@
+C'est un déguisement !
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (NP (DET un) (NC déguisement))
+    (PUNC !)))
+

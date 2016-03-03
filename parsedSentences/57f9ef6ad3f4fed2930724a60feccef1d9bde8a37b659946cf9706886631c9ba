@@ -1,0 +1,11 @@
+Euh. 430 yen...
+(ROOT
+  (SENT
+    (NP (NPP Euh))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (NP (DET 430) (NC yen))
+    (PUNC ...)))
+

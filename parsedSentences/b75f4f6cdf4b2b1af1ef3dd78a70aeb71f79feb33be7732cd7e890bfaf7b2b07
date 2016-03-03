@@ -1,0 +1,16 @@
+Betty n'en saura rien car je vais sortir avec lui en secret.
+(ROOT
+  (SENT
+    (NP (NPP Betty))
+    (VN (ADV n') (CLO en) (V saura))
+    (NP (PRO rien))
+    (COORD (CC car)
+      (VN (CLS je) (V vais))
+      (VPinf
+        (VN (VINF sortir))
+        (PP (P avec)
+          (NP (PRO lui)))
+        (PP (P en)
+          (NP (NC secret)))))
+    (PUNC .)))
+

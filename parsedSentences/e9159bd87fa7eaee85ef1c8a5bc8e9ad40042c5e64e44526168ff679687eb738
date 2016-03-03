@@ -1,0 +1,8 @@
+Viens voir.
+(ROOT
+  (SENT
+    (VN (V Viens))
+    (VPinf
+      (VN (VINF voir)))
+    (PUNC .)))
+

@@ -1,0 +1,12 @@
+J'oublierai ce dérapage car nous savons tous deux que je le mérite.
+(ROOT
+  (SENT
+    (VN (CLS J') (V oublierai))
+    (NP (DET ce) (NC dérapage))
+    (COORD (CC car)
+      (VN (CLS nous) (V savons))
+      (NP (DET tous) (PRO deux))
+      (Ssub (CS que)
+        (VN (CLS je) (CLO le) (V mérite))))
+    (PUNC .)))
+

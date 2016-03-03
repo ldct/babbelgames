@@ -1,0 +1,8 @@
+Tu plaisantes, Ià ?
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V plaisantes))
+    (PUNC ,)
+    (NP (NPP Ià))
+    (PUNC ?)))
+

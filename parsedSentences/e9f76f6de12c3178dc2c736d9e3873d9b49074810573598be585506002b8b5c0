@@ -1,0 +1,11 @@
+Je souhaite que tout le monde comprenne mieux la communauté.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V souhaite))
+    (Ssub (CS que)
+      (NP (ADJ tout) (DET le) (NC monde))
+      (VN (VS comprenne))
+      (ADV mieux)
+      (NP (DET la) (NC communauté)))
+    (PUNC .)))
+

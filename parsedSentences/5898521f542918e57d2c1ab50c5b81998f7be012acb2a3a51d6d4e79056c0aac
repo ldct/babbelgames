@@ -1,0 +1,7 @@
+A-t-elle choisi la dernière couverture ?
+(ROOT
+  (SENT
+    (VN (V A) (CLS -t-elle) (VPP choisi))
+    (NP (DET la) (ADJ dernière) (NC couverture))
+    (PUNC ?)))
+

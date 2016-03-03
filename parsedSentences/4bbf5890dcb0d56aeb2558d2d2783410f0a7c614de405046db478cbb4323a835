@@ -1,0 +1,13 @@
+La guitare avec le manche cassé, je leur ai donné à réparer.
+(ROOT
+  (SENT
+    (NP (DET La) (NC guitare)
+      (PP (P avec)
+        (NP (DET le) (NC manche)
+          (AP (ADJ cassé)))))
+    (PUNC ,)
+    (VN (CLS je) (CLO leur) (V ai) (VPP donné))
+    (VPinf (P à)
+      (VN (VINF réparer)))
+    (PUNC .)))
+

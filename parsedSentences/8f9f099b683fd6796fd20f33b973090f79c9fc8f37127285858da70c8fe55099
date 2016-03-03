@@ -1,0 +1,9 @@
+J'en peux plus de ce monde
+(ROOT
+  (SENT
+    (COORD
+      (VN (CLS J') (CLO en) (V peux))
+      (NP (ADV plus)
+        (PP (P de)
+          (NP (DET ce) (NC monde)))))))
+

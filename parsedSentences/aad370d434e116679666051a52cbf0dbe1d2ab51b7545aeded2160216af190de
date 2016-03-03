@@ -1,0 +1,7 @@
+Tu étais génial.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V étais))
+    (AP (ADJ génial))
+    (PUNC .)))
+

@@ -1,0 +1,8 @@
+T'es payé combien de l'heure ?
+(ROOT
+  (SENT
+    (NP (NPP T'))
+    (VN (V es) (VPP payé))
+    (NP (ADV combien) (P de) (DET l') (NC heure))
+    (PUNC ?)))
+

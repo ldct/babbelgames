@@ -1,0 +1,10 @@
+Alors qu'as-tu d'autre ?
+(ROOT
+  (SENT
+    (Ssub
+      (MWC (ADV Alors) (C qu'))
+      (VN (V as) (CLS -tu))
+      (PP (P d')
+        (NP (ADJ autre))))
+    (PUNC ?)))
+

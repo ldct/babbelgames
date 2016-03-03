@@ -1,0 +1,8 @@
+Tu étires mon col roulé !
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V étires))
+    (NP (DET mon) (NC col)
+      (AP (ADJ roulé)))
+    (PUNC !)))
+

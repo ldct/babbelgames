@@ -1,0 +1,8 @@
+Blow your mind Squeeze your sweat
+(ROOT
+  (SENT
+    (NP (DET Blow) (NC your))
+    (VN (V mind))
+    (NP (DET Squeeze) (NC your)
+      (AP (ADJ sweat)))))
+

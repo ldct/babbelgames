@@ -1,0 +1,10 @@
+Le premier concert de Beck, c'est décidé !
+(ROOT
+  (SENT
+    (NP (DET Le) (ADJ premier) (NC concert)
+      (PP (P de)
+        (NP (NPP Beck))))
+    (PUNC ,)
+    (VN (CLS c') (V est) (VPP décidé))
+    (PUNC !)))
+

@@ -1,0 +1,24 @@
+Peu importe. J'ai décidé de demander à Matt de sortir avec moi. Vraiment ?
+(ROOT
+  (SENT
+    (MWADV (ADV Peu) (V importe))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai) (VPP décidé))
+    (VPinf (P de)
+      (VN (VINF demander))
+      (PP (P à)
+        (NP (NPP Matt)))
+      (VPinf (P de)
+        (VN (VINF sortir))
+        (PP (P avec)
+          (NP (PRO moi)))))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (NP (NC Vraiment))
+    (PUNC ?)))
+

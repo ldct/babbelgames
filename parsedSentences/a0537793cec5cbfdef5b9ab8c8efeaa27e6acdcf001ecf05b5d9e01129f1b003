@@ -1,0 +1,8 @@
+Un plongeon après un service.
+(ROOT
+  (SENT
+    (NP (DET Un) (NC plongeon)
+      (PP (P après)
+        (NP (DET un) (NC service))))
+    (PUNC .)))
+

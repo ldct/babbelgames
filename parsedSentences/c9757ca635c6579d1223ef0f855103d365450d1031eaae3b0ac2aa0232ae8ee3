@@ -1,0 +1,8 @@
+Un gros paquet pour vous.
+(ROOT
+  (SENT
+    (NP (DET Un) (ADJ gros) (NC paquet)
+      (PP (P pour)
+        (NP (PRO vous))))
+    (PUNC .)))
+

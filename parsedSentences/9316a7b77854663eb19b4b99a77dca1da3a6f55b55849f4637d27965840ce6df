@@ -1,0 +1,9 @@
+Le concert, c'était génial !
+(ROOT
+  (SENT
+    (NP (DET Le) (NC concert))
+    (PUNC ,)
+    (VN (CLS c') (V était))
+    (AP (ADJ génial))
+    (PUNC !)))
+

@@ -1,0 +1,17 @@
+Je vais rester encore un peu ici, prends bien soin de Page.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V vais))
+    (VPinf
+      (VN (VINF rester))
+      (AdP (ADV encore)
+        (MWADV (DET un) (ADV peu) (ADV ici))))
+    (Sint (PUNC ,)
+      (VN (V prends))
+      (ADV bien)
+      (NP (NC soin)
+        (PP (P de)
+          (NP
+            (MWN (N Page))))))
+    (PUNC .)))
+

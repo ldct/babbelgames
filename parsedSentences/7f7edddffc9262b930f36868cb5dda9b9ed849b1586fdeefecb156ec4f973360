@@ -1,0 +1,9 @@
+Il est super occupé aujourd'hui.
+(ROOT
+  (SENT
+    (VN (CLS Il) (V est)
+      (AP (ADJ super))
+      (VPP occupé))
+    (AP (ADJ aujourd'hui))
+    (PUNC .)))
+

@@ -1,0 +1,11 @@
+Tu as dit Pa-ta-te.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V as) (VPP dit))
+    (NP
+      (MWN (N Pa) (PUNC -) (N ta))
+      (PUNC -))
+    (VPinf
+      (VN (CLO te)))
+    (PUNC .)))
+

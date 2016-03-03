@@ -1,0 +1,14 @@
+Nous allons décortiquer cet article sur les Bahamas, donc ne nous attardons pas, OK ?
+(ROOT
+  (SENT
+    (VN (CLS Nous) (V allons))
+    (VPinf
+      (VN (VINF décortiquer))
+      (NP (DET cet) (NC article)
+        (PP (P sur)
+          (NP (DET les) (NC Bahamas)))))
+    (PUNC ,) (ADV donc)
+    (Sint
+      (VN (ADV ne) (CLO nous) (V attardons) (ADV pas) (PUNC ,) (VPP OK)))
+    (PUNC ?)))
+

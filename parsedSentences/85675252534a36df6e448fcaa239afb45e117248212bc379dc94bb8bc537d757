@@ -1,0 +1,13 @@
+Quand elle a ouvert sa bouche, un nuage de poussière en est sorti.
+(ROOT
+  (SENT
+    (Ssub (CS Quand)
+      (VN (CLS elle) (V a) (VPP ouvert))
+      (NP (DET sa) (NC bouche)))
+    (PUNC ,)
+    (NP (DET un) (NC nuage)
+      (PP (P de)
+        (NP (NC poussière))))
+    (VN (CLO en) (V est) (VPP sorti))
+    (PUNC .)))
+

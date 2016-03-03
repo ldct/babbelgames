@@ -1,0 +1,7 @@
+Il prolonge encore son séjour ?
+(ROOT
+  (SENT
+    (VN (CLS Il) (V prolonge) (ADV encore))
+    (NP (DET son) (NC séjour))
+    (PUNC ?)))
+

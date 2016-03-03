@@ -1,0 +1,9 @@
+Parce que c'était providentiel.
+(ROOT
+  (SENT
+    (Ssub
+      (MWC (C Parce) (C que))
+      (VN (CLS c') (V était))
+      (AP (ADJ providentiel)))
+    (PUNC .)))
+

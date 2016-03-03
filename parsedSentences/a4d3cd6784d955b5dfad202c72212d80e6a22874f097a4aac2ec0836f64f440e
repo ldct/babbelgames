@@ -1,0 +1,12 @@
+En fait, c'était un jeu video de tennis.
+(ROOT
+  (SENT
+    (MWADV (P En) (N fait))
+    (PUNC ,)
+    (VN (CLS c') (V était))
+    (NP (DET un) (NC jeu)
+      (AP (ADJ video))
+      (PP (P de)
+        (NP (NC tennis))))
+    (PUNC .)))
+

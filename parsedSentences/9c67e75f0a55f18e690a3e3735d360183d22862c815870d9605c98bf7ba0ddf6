@@ -1,0 +1,12 @@
+Le technicien de la photocopieuse était ici pendant 20 minutes.
+(ROOT
+  (SENT
+    (NP (DET Le) (NC technicien)
+      (PP (P de)
+        (NP (DET la) (NC photocopieuse))))
+    (VN (V était))
+    (ADV ici)
+    (PP (P pendant)
+      (NP (DET 20) (NC minutes)))
+    (PUNC .)))
+

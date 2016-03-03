@@ -1,0 +1,10 @@
+Es-tu en train de me proposer un rencard ?
+(ROOT
+  (SENT
+    (VN (V Es) (CLS -tu))
+    (VPinf
+      (MWP (P en) (N train) (P de))
+      (VN (CLO me) (VINF proposer))
+      (NP (DET un) (NC rencard)))
+    (PUNC ?)))
+

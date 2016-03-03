@@ -1,0 +1,14 @@
+Un article ? - Pourquoi pas ?
+(ROOT
+  (SENT
+    (NP (DET Un) (NC article))
+    (PUNC ?)))
+
+(ROOT
+  (SENT
+    (VN (PUNC -))
+    (VPinf (ADVWH Pourquoi)
+      (VN
+        (MWV (N pas))))
+    (PUNC ?)))
+

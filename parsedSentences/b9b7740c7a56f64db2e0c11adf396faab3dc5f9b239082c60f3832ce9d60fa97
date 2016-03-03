@@ -1,0 +1,6 @@
+Nous vous attendions.
+(ROOT
+  (SENT
+    (VN (CLS Nous) (CLO vous) (V attendions))
+    (PUNC .)))
+

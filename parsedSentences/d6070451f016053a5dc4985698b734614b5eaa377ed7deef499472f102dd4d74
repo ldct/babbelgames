@@ -1,0 +1,10 @@
+Mais non, c'est rien !
+(ROOT
+  (SENT
+    (COORD (CC Mais)
+      (NP (NC non))
+      (PUNC ,)
+      (VN (CLS c') (V est))
+      (NP (PRO rien)))
+    (PUNC !)))
+

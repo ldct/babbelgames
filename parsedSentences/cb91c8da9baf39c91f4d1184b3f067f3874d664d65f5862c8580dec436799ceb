@@ -1,0 +1,7 @@
+She's really pretty One-eyed vision
+(ROOT
+  (SENT
+    (NP (DET She's)
+      (MWN (ET really) (ET pretty) (ET One) (PUNC -) (ET eyed)))
+    (NP (NC vision))))
+

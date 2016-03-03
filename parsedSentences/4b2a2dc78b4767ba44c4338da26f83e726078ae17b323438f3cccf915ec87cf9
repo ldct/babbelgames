@@ -1,0 +1,12 @@
+J'y ai des contacts qui te protègeront
+(ROOT
+  (SENT
+    (VN (CLS J') (CLO y) (V ai))
+    (VPinf
+      (AdP
+        (MWP (P des))
+        (NP (NC contacts)
+          (PP
+            (NP (PROREL qui)))))
+      (VN (CLO te) (VINF protègeront)))))
+

@@ -1,0 +1,8 @@
+Bennett avait raison.
+(ROOT
+  (SENT
+    (NP (NPP Bennett))
+    (VN (V avait))
+    (NP (NC raison))
+    (PUNC .)))
+

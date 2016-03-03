@@ -1,0 +1,11 @@
+Huh ! Beck !
+(ROOT
+  (SENT
+    (NP (NC Huh))
+    (PUNC !)))
+
+(ROOT
+  (SENT
+    (NP (NC Beck))
+    (PUNC !)))
+

@@ -1,0 +1,8 @@
+T'as dit quoi ?
+(ROOT
+  (SENT
+    (NP (NPP T'))
+    (VN (V as) (VPP dit))
+    (NP (PROWH quoi))
+    (PUNC ?)))
+

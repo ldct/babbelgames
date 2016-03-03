@@ -1,0 +1,13 @@
+Son groupe a autant de succès qu'un one-man show, tu sais ?
+(ROOT
+  (SENT
+    (NP (DET Son) (NC groupe))
+    (VN (V a))
+    (NP (ADV autant) (P de) (NC succès))
+    (Ssub (CS qu')
+      (NP (DET un) (NC one) (PUNC -)
+        (NP (NPP man) (NC show)))
+      (PUNC ,)
+      (VN (CLS tu) (V sais)))
+    (PUNC ?)))
+

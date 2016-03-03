@@ -1,0 +1,14 @@
+Laissons nos esprits se focaliser et nos discours s'exempter de toutes énergie négatives
+(ROOT
+  (SENT
+    (VN (VIMP Laissons))
+    (NP (DET nos) (NC esprits)
+      (VPpart
+        (VN (CLR se) (VPR focaliser)))
+      (COORD (CC et)
+        (NP (DET nos) (NC discours))))
+    (VN (CLR s') (V exempter))
+    (PP (P de)
+      (NP (ADJ toutes) (NC énergie)
+        (AP (ADJ négatives))))))
+

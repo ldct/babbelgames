@@ -1,0 +1,10 @@
+J'essaie de comprendre, Daniel.
+(ROOT
+  (SENT
+    (VN (CLS J') (V essaie))
+    (VPinf (P de)
+      (VN (VINF comprendre)))
+    (PUNC ,)
+    (NP (NPP Daniel))
+    (PUNC .)))
+

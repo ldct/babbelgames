@@ -1,0 +1,15 @@
+Il semblerait que l'ex icone de la mode fut un temps serveuse du salut.
+(ROOT
+  (SENT
+    (VN (CLS Il) (V semblerait))
+    (Ssub (CS que)
+      (NP (DET l') (PREF ex) (NC icone)
+        (PP (P de)
+          (NP (DET la) (NC mode))))
+      (VN (V fut))
+      (NP (DET un) (NC temps)
+        (AP (ADJ serveuse))
+        (PP (P du)
+          (NP (NC salut)))))
+    (PUNC .)))
+

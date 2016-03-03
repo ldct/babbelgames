@@ -1,0 +1,15 @@
+Il m'a demandé de l'aider la semaine passée pour de la mise en page.
+(ROOT
+  (SENT
+    (VN (CLS Il) (CLO m') (V a) (VPP demandé))
+    (VPinf (P de)
+      (VN (CLO l') (VINF aider))
+      (NP (DET la) (NC semaine)
+        (AP (ADJ passée)))
+      (PP (P pour)
+        (PP (P de)
+          (NP (DET la) (NC mise)
+            (PP (P en)
+              (NP (NC page)))))))
+    (PUNC .)))
+

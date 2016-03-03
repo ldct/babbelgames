@@ -1,0 +1,9 @@
+Alors dis-lui bonjour de ma part.
+(ROOT
+  (SENT (ADV Alors)
+    (VN (V dis))
+    (NP (PREF -lui) (NC bonjour)
+      (PP (P de)
+        (NP (DET ma) (NC part))))
+    (PUNC .)))
+

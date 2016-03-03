@@ -1,0 +1,17 @@
+Qu'est-ce qui se passe ? Un bon exemple de notre travail.
+(ROOT
+  (SENT
+    (NP (PROWH Qu'))
+    (VN (V est) (CLS -ce))
+    (Srel
+      (NP (PROREL qui))
+      (VN (CLR se) (V passe)))
+    (PUNC ?)))
+
+(ROOT
+  (SENT
+    (NP (DET Un) (ADJ bon) (NC exemple)
+      (PP (P de)
+        (NP (DET notre) (NC travail))))
+    (PUNC .)))
+

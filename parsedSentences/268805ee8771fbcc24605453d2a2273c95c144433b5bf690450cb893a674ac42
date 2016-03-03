@@ -1,0 +1,6 @@
+D'accord.
+(ROOT
+  (SENT
+    (MWADV (P D') (N accord))
+    (PUNC .)))
+

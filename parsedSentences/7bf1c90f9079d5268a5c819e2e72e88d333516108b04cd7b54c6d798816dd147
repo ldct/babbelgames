@@ -1,0 +1,20 @@
+"Je ne sais pas ce que je fais. Fais mon travail s'il te plaît."
+(ROOT
+  (SENT
+    (NP (PUNC "))
+    (VN (CLS Je) (ADV ne) (V sais))
+    (ADV pas)
+    (NP (PRO ce)
+      (Srel
+        (NP (PROREL que))
+        (VN (CLS je) (V fais))))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (V Fais))
+    (NP (DET mon) (NC travail))
+    (Ssub (CS s')
+      (VN (CLS il) (CLO te) (V plaît) (VPP .)))
+    (PUNC ")))
+

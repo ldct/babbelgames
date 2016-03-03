@@ -1,0 +1,10 @@
+On dirait un nom de fille.
+(ROOT
+  (SENT
+    (VN (CLS On) (V dirait))
+    (NP (DET un) (NC nom)
+      (PP (P de)
+        (NP
+          (MWN (N fille)))))
+    (PUNC .)))
+

@@ -1,0 +1,10 @@
+Je devrais l'écrire dans ton dossier ?
+(ROOT
+  (SENT
+    (VN (CLS Je) (V devrais))
+    (VPinf
+      (VN (CLO l') (VINF écrire))
+      (PP (P dans)
+        (NP (DET ton) (NC dossier))))
+    (PUNC ?)))
+

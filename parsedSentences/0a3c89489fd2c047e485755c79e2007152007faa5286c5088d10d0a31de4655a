@@ -1,0 +1,11 @@
+Cette guitare, elle porte le nom de Lucille.
+(ROOT
+  (SENT
+    (NP (DET Cette) (NC guitare))
+    (PUNC ,)
+    (VN (CLS elle) (V porte))
+    (NP (DET le) (NC nom)
+      (PP (P de)
+        (NP (NPP Lucille))))
+    (PUNC .)))
+

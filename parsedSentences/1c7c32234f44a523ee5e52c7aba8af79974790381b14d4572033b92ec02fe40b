@@ -1,0 +1,8 @@
+Tu peux t'en aller.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V peux))
+    (VPinf
+      (VN (CLR t') (CLO en) (VINF aller)))
+    (PUNC .)))
+

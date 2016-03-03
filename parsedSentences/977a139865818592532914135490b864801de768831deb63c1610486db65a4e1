@@ -1,0 +1,17 @@
+En Asie du Sud-Est, il y a un truc qui attire les hommes...
+(ROOT
+  (SENT
+    (PP (P En)
+      (NP (NPP Asie)
+        (PP (P du)
+          (NP
+            (MWN (N Sud) (PUNC -) (N Est))))))
+    (PUNC ,)
+    (PP
+      (MWP (CL il) (CL y) (V a))
+      (NP (DET un) (NC truc)))
+    (NP (PROREL qui))
+    (VN (V attire))
+    (NP (DET les) (NC hommes))
+    (PUNC ...)))
+

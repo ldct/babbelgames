@@ -1,0 +1,8 @@
+Tu penses que je n'ai pas essayé ?
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V penses))
+    (Ssub (CS que)
+      (VN (CLS je) (ADV n') (V ai) (ADV pas) (VPP essayé)))
+    (PUNC ?)))
+

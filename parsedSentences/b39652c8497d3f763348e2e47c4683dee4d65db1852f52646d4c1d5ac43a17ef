@@ -1,0 +1,15 @@
+J'ai dit que vous pouviez aller acheter vos sandwiches vous-mêmes.
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai) (VPP dit))
+    (Ssub (CS que)
+      (VN (CLS vous) (V pouviez))
+      (VPinf
+        (VN (VINF aller))
+        (VPinf
+          (VN (VINF acheter))
+          (NP (DET vos) (NC sandwiches))))
+      (PP
+        (NP (PRO vous) (PUNC -) (ADJ mêmes))))
+    (PUNC .)))
+

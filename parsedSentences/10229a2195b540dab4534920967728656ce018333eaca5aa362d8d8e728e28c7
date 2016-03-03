@@ -1,0 +1,11 @@
+C'est le "trésor personnel" de M. Saitô.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (NP (DET le) (PUNC ")
+      (MWN (N trésor) (ADJ personnel))
+      (PUNC ")
+      (PP (P de)
+        (NP (NC M.) (NPP Saitô))))
+    (PUNC .)))
+

@@ -1,0 +1,13 @@
+C'est trop compliqué, je ne peux pas retenir ça.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est) (ADV trop) (VPP compliqué))
+    (PUNC ,)
+    (Sint
+      (VN (CLS je) (ADV ne) (V peux))
+      (ADV pas)
+      (VPinf
+        (VN (VINF retenir))
+        (NP (PRO ça))))
+    (PUNC .)))
+

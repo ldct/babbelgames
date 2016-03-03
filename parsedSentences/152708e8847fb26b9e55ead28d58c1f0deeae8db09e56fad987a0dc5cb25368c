@@ -1,0 +1,10 @@
+Je pense que tu as tout trouvé...
+(ROOT
+  (SENT
+    (VN (CLS Je) (V pense))
+    (Ssub (CS que)
+      (VN (CLS tu) (V as)
+        (NP (PRO tout))
+        (VPP trouvé)))
+    (PUNC ...)))
+

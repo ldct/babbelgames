@@ -1,0 +1,11 @@
+Tu vas continuer comme ça encore longtemps ?
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V vas))
+    (VPinf
+      (VN (VINF continuer))
+      (PP (P comme)
+        (NP (PRO ça)))
+      (AdP (ADV encore) (ADV longtemps)))
+    (PUNC ?)))
+

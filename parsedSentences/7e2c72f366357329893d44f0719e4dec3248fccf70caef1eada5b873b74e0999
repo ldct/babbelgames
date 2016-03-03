@@ -1,0 +1,16 @@
+Depuis la fin des vacances d'été. Pourquoi ?
+(ROOT
+  (SENT
+    (PP (P Depuis)
+      (NP (DET la) (NC fin)
+        (PP (P des)
+          (NP (NC vacances)
+            (PP (P d')
+              (NP (NC été)))))))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (Ssub (CS Pourquoi))
+    (PUNC ?)))
+

@@ -1,0 +1,13 @@
+Je pourrais établir un profil sur Bennet et la communauté.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V pourrais))
+    (VPinf
+      (VN (VINF établir))
+      (NP (DET un) (NC profil)
+        (PP (P sur)
+          (NP (NPP Bennet))
+          (COORD (CC et)
+            (NP (DET la) (NC communauté))))))
+    (PUNC .)))
+

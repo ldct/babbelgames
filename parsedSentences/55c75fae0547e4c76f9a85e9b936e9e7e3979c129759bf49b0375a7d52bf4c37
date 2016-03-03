@@ -1,0 +1,15 @@
+Little sister showed me Really took me for a ride
+(ROOT
+  (SENT
+    (NP (NC Little)
+      (AP (ADJ sister))
+      (Srel
+        (NP (NC showed))
+        (VN (CLO me) (V Really) (VPP took))
+        (VPinf
+          (VN (CLO me)))
+        (NP
+          (MWN (N for)))))
+    (VN (V a))
+    (NP (NC ride))))
+

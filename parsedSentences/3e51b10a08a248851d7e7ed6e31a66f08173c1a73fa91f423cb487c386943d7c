@@ -1,0 +1,9 @@
+Ça ira, mon ange.
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (V ira))
+    (PUNC ,)
+    (NP (DET mon) (NC ange))
+    (PUNC .)))
+

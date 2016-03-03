@@ -1,0 +1,12 @@
+(C'est la L-48 qu'Eddie t'a donnée.)
+(ROOT
+  (SENT
+    (NP (PUNC -LRB-))
+    (VN (CLS C') (V est))
+    (NP (DET la) (NC L) (N -48))
+    (Ssub (CS qu')
+      (NP (NPP Eddie))
+      (VN (CLS t') (V a) (VPP donnée))
+      (AP (ADJ .)))
+    (PUNC -RRB-)))
+

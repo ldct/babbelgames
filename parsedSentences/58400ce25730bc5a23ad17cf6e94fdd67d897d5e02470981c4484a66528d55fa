@@ -1,0 +1,12 @@
+Tu veux redevenir ami avec ce Ryûsuke, non ?
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V veux))
+    (VPinf
+      (VN (VINF redevenir))
+      (NP (NC ami))
+      (PP (P avec)
+        (NP (DET ce) (NC Ryûsuke))
+        (PUNC ,) (ADV non)))
+    (PUNC ?)))
+

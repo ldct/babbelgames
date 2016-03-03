@@ -1,0 +1,9 @@
+A son pied, une simple Roger Mayer.
+(ROOT
+  (SENT
+    (PP (P A)
+      (NP (DET son) (NC pied) (PUNC ,)
+        (NP (DET une) (ADJ simple)
+          (NP (NPP Roger) (NPP Mayer)))))
+    (PUNC .)))
+

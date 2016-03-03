@@ -1,0 +1,11 @@
+Les Bahamas étaient un refuge parfait pour les pirates.
+(ROOT
+  (SENT
+    (NP (DET Les) (NC Bahamas))
+    (VN (V étaient))
+    (NP (DET un) (NC refuge)
+      (AP (ADJ parfait)))
+    (PP (P pour)
+      (NP (DET les) (NC pirates)))
+    (PUNC .)))
+

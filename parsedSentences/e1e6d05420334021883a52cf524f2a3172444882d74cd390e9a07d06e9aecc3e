@@ -1,0 +1,8 @@
+Laissez-moi vous guider.
+(ROOT
+  (SENT
+    (VN (V Laissez) (PRO -moi))
+    (VPinf
+      (VN (CLO vous) (VINF guider)))
+    (PUNC .)))
+

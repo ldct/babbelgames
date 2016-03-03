@@ -1,0 +1,9 @@
+Qu'est-ce qu'il se passe ?
+(ROOT
+  (SENT
+    (NP (PROWH Qu'))
+    (VN (V est) (CLS -ce))
+    (Ssub (CS qu')
+      (VN (CLS il) (CLR se) (V passe)))
+    (PUNC ?)))
+

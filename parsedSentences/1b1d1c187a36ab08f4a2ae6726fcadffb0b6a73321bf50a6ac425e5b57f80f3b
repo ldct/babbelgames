@@ -1,0 +1,7 @@
+La barbe te va bien.
+(ROOT
+  (SENT
+    (NP (DET La) (NC barbe))
+    (VN (CLO te) (V va))
+    (ADV bien) (PUNC .)))
+

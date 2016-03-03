@@ -1,0 +1,16 @@
+Nous y voilà. Traduction : Bebbop, Nounnox, S-Cer
+(ROOT
+  (SENT
+    (VN (CLS Nous) (CLO y) (V voilà))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (NP (NC Traduction) (PUNC :)
+      (NP (NPP Bebbop))
+      (PUNC ,)
+      (NP (NPP Nounnox))
+      (PUNC ,)
+      (NP
+        (MWN (N S) (PUNC -) (N Cer))))))
+

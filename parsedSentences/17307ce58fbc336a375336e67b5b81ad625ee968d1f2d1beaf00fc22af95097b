@@ -1,0 +1,14 @@
+Allez, dis-le ! N'importe quoi !
+(ROOT
+  (SENT
+    (NP (NC Allez))
+    (PUNC ,)
+    (VN (V dis) (CLO -le))
+    (PUNC !)))
+
+(ROOT
+  (SENT
+    (VN (ADV N') (V importe))
+    (NP (PROWH quoi))
+    (PUNC !)))
+

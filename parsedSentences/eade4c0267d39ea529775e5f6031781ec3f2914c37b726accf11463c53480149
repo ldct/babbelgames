@@ -1,0 +1,8 @@
+Je l'ai pas vécu, alors...
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO l') (V ai) (ADV pas) (VPP vécu))
+    (PUNC ,)
+    (NP (ADV alors))
+    (PUNC ...)))
+

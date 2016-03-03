@@ -1,0 +1,8 @@
+Ce n'est pas le cas.
+(ROOT
+  (SENT
+    (VN (CLS Ce) (ADV n') (V est))
+    (ADV pas)
+    (NP (DET le) (NC cas))
+    (PUNC .)))
+

@@ -1,0 +1,9 @@
+Je peux pas t'abandonner.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V peux))
+    (ADV pas)
+    (VPinf
+      (VN (CLR t') (VINF abandonner)))
+    (PUNC .)))
+

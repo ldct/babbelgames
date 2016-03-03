@@ -1,0 +1,9 @@
+C'était qu'une guitare pourrie.
+(ROOT
+  (SENT
+    (VN (CLS C') (V était))
+    (ADV qu')
+    (NP (DET une) (NC guitare)
+      (AP (ADJ pourrie)))
+    (PUNC .)))
+

@@ -1,0 +1,29 @@
+(Alors, celle que j'ai passée à Koyuki, c'était...) (C'était la fausse, que t'avais eue à ce magasin dans le Queens.)
+(ROOT
+  (SENT
+    (VN (PUNC -LRB-))
+    (ADV Alors) (PUNC ,)
+    (NP (PRO celle)
+      (Srel
+        (NP (PROREL que))
+        (VN (CLS j') (V ai) (VPP passée))
+        (PP (P à)
+          (NP (NPP Koyuki)))
+        (PUNC ,)
+        (Sint
+          (VN (CLS c') (V était)))
+        (PUNC ...) (PUNC -RRB-)))
+    (PUNC -LRB-)
+    (Sint
+      (VN (CLS C') (V était))
+      (NP (DET la) (ADJ fausse) (PUNC ,)
+        (Srel
+          (NP (PROREL que))
+          (VN (CLR t') (V avais) (VPP eue))
+          (PP (P à)
+            (NP (DET ce) (NC magasin)))
+          (PP (P dans)
+            (NP (DET le)
+              (MWN (ET Queens) (ET .)))))))
+    (PUNC -RRB-)))
+

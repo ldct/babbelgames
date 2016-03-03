@@ -1,0 +1,6 @@
+Je lui ai expliqué.
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO lui) (V ai) (VPP expliqué))
+    (PUNC .)))
+

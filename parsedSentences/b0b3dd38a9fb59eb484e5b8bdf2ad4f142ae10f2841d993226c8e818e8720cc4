@@ -1,0 +1,7 @@
+Il est sévère.
+(ROOT
+  (SENT
+    (VN (CLS Il) (V est))
+    (AP (ADJ sévère))
+    (PUNC .)))
+

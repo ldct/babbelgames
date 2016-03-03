@@ -1,0 +1,12 @@
+C'est cette fabuleuse organisation du nom de la communauté du Phénix.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (NP (DET cette) (ADJ fabuleuse) (NC organisation)
+      (PP (P du)
+        (NP (NC nom)
+          (PP (P de)
+            (NP (DET la)
+              (MWN (N communauté) (P du) (N Phénix)))))))
+    (PUNC .)))
+

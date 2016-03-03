@@ -1,0 +1,16 @@
+Le lavage de cerveau global s'étend. Non merci !
+(ROOT
+  (SENT
+    (NP (DET Le) (NC lavage)
+      (PP (P de)
+        (NP (NC cerveau)
+          (AP (ADJ global)))))
+    (VN (CLR s') (V étend))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (PP
+      (MWADV (ADV Non) (N merci)))
+    (PUNC !)))
+

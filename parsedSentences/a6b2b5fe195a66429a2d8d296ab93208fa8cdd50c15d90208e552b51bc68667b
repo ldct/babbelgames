@@ -1,0 +1,11 @@
+Rien d'impossible, à mon rythme !
+(ROOT
+  (SENT
+    (NP (PRO Rien)
+      (PP (P d')
+        (AP (ADJ impossible))))
+    (PUNC ,)
+    (PP (P à)
+      (NP (DET mon) (NC rythme)))
+    (PUNC !)))
+

@@ -1,0 +1,12 @@
+On ne peux pas étaler les dettes avec un maître-chanteur.
+(ROOT
+  (SENT
+    (VN (CLS On) (ADV ne) (V peux))
+    (ADV pas)
+    (VPinf
+      (VN (VINF étaler))
+      (NP (DET les) (NC dettes))
+      (PP (P avec)
+        (NP (DET un) (NC maître) (PUNC -) (NC chanteur))))
+    (PUNC .)))
+

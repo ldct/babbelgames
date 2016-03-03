@@ -1,0 +1,6 @@
+Non, ce n'est pas...
+(ROOT
+  (SENT (ADV Non) (PUNC ,)
+    (VN (CLS ce) (ADV n') (V est))
+    (ADV pas) (PUNC ...)))
+

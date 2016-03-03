@@ -1,0 +1,15 @@
+photographier nos modèles habillés comme des pirates, pillant un trésor...
+(ROOT
+  (SENT
+    (VPinf
+      (VN (VINF photographier))
+      (NP (DET nos) (NC modèles)
+        (AP (ADJ habillés)))
+      (PP (P comme)
+        (NP (DET des) (NC pirates))))
+    (PUNC ,)
+    (VPinf
+      (VN (VINF pillant))
+      (NP (DET un) (NC trésor)))
+    (PUNC ...)))
+

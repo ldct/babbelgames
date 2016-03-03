@@ -1,0 +1,7 @@
+(Regarde.)
+(ROOT
+  (SENT
+    (PP (PUNC -LRB-)
+      (NP (NPP Regarde) (NPP .)))
+    (PUNC -RRB-)))
+

@@ -1,0 +1,8 @@
+Koyuki, on va devant !
+(ROOT
+  (SENT
+    (NP (NPP Koyuki))
+    (PUNC ,)
+    (VN (CLS on) (V va) (ADV devant))
+    (PUNC !)))
+

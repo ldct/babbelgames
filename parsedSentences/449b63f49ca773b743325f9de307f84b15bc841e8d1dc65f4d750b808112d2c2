@@ -1,0 +1,16 @@
+Mais bien sûr, je lui ai fait une torsion au pied, c'était rien du tout...
+(ROOT
+  (SENT
+    (COORD (CC Mais)
+      (PP
+        (MWADV (ADV bien) (ADJ sûr)))
+      (PUNC ,)
+      (VN (CLS je) (CLO lui) (V ai) (VPP fait))
+      (NP (DET une) (NC torsion)
+        (MWADV (P au) (N pied)))
+      (PUNC ,)
+      (VN (CLS c') (V était))
+      (NP (PRO rien)
+        (MWADV (P du) (ADV tout))))
+    (PUNC ...)))
+

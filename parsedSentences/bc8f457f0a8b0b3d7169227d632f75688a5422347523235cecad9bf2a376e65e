@@ -1,0 +1,20 @@
+C'est quoi, tout ça ? Ça n'a rien à voir avec son travail !
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (NP (PROWH quoi))
+    (PUNC ,)
+    (NP (ADJ tout) (PRO ça))
+    (PUNC ?)))
+
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (ADV n') (V a))
+    (NP (PRO rien)
+      (VPinf (P à)
+        (VN (VINF voir))
+        (PP (P avec)
+          (NP (DET son) (NC travail)))))
+    (PUNC !)))
+

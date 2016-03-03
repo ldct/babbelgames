@@ -1,0 +1,9 @@
+Salut, Marc.
+(ROOT
+  (SENT
+    (NP
+      (MWN (N Salut))
+      (PUNC ,)
+      (NP (NPP Marc)))
+    (PUNC .)))
+

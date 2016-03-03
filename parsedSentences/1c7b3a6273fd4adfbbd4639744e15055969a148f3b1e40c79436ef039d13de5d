@@ -1,0 +1,17 @@
+Il est temps de se bouger les fesses J'travaille pas, ça m'casse la tête
+(ROOT
+  (SENT
+    (Sint
+      (VN (CLS Il) (V est))
+      (VPinf
+        (MWP (N temps) (P de))
+        (VN (CLR se) (VINF bouger))
+        (Sint
+          (NP (DET les) (NC fesses))
+          (VN (CLS J') (V travaille))
+          (ADV pas))))
+    (PUNC ,)
+    (NP (PRO ça))
+    (VN (CLO m') (V casse))
+    (NP (DET la) (NC tête))))
+

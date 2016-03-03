@@ -1,0 +1,15 @@
+Laisse-moi t'aider. Ça ne fait pas mal ?
+(ROOT
+  (SENT
+    (VN (V Laisse) (PRO -moi))
+    (VPinf
+      (VN (CLR t') (VINF aider)))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (ADV ne) (V fait))
+    (AdP (ADV pas) (ADV mal))
+    (PUNC ?)))
+

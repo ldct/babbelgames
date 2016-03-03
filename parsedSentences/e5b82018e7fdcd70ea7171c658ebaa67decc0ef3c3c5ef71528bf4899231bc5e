@@ -1,0 +1,14 @@
+Pour pouvoir réparer la guitare que Ryûsuke m'avait prêtée.
+(ROOT
+  (SENT
+    (VPinf (P Pour)
+      (VN (VINF pouvoir))
+      (VPinf
+        (VN (VINF réparer))
+        (NP (DET la) (NC guitare))))
+    (Ssub (CS que)
+      (NP (NPP Ryûsuke))
+      (VN (CLO m') (V avait))
+      (VPpart (VPP prêtée)))
+    (PUNC .)))
+

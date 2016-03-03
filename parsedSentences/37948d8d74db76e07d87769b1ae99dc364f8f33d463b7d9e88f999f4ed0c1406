@@ -1,0 +1,11 @@
+Tout n'est pas question de mode.
+(ROOT
+  (SENT
+    (NP (PRO Tout))
+    (VN (ADV n') (V est))
+    (ADV pas)
+    (NP (NC question)
+      (PP (P de)
+        (NP (NC mode))))
+    (PUNC .)))
+

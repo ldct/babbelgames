@@ -1,0 +1,7 @@
+Oiseau stupide !
+(ROOT
+  (SENT
+    (NP (NC Oiseau)
+      (AP (ADJ stupide)))
+    (PUNC !)))
+

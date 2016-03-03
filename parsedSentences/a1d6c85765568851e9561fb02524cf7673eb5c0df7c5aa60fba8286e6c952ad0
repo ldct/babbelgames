@@ -1,0 +1,23 @@
+Ma mère m'a dit un jour: "Depuis ce jour-Ià, tu joues de la guitare tous les jours, " "comme si tu étais obligé. "
+(ROOT
+  (SENT
+    (NP (DET Ma) (NC mère))
+    (VN (CLO m') (V a) (VPP dit))
+    (NP (DET un) (NC jour))
+    (PUNC :) (PUNC ")
+    (Sint
+      (PP (P Depuis)
+        (NP (DET ce)
+          (MWN (N jour) (PUNC -) (N Ià))))
+      (PUNC ,)
+      (VN (CLS tu) (V joues))
+      (VPinf (P de)
+        (VN (CLO la) (VINF guitare))
+        (NP (ADJ tous) (DET les) (NC jours)))
+      (PUNC ,) (PUNC ") (PUNC ")
+      (Ssub
+        (MWC (ADV comme) (C si))
+        (VN (CLS tu) (V étais) (VPP obligé))
+        (NP (NPP .))))
+    (PUNC ")))
+

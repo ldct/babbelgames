@@ -1,0 +1,11 @@
+Et tant que cette conversation reste dans ma tête
+(ROOT
+  (SENT
+    (COORD (CC Et)
+      (Ssub
+        (MWC (ADV tant) (C que))
+        (NP (DET cette) (NC conversation))
+        (VN (V reste))
+        (PP (P dans)
+          (NP (DET ma) (NC tête)))))))
+

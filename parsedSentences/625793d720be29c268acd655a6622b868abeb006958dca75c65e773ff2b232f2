@@ -1,0 +1,14 @@
+Où tu te tiens devant l'écran et tu bouges le truc dans tous les sens.
+(ROOT
+  (SENT (ADVWH Où)
+    (NP (NPP tu))
+    (VN (CLO te) (V tiens))
+    (PP (P devant)
+      (NP (DET l') (NC écran)))
+    (COORD (CC et)
+      (Sint
+        (VN (CLS tu) (V bouges))
+        (NP (DET le) (NC truc))
+        (PP (P dans)
+          (NP (ADJ tous) (DET les) (NC sens.)))))))
+

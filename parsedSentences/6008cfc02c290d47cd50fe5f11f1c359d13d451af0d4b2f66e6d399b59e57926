@@ -1,0 +1,11 @@
+Ils sont un peu trop... protecteurs.
+(ROOT
+  (SENT
+    (VN (CLS Ils) (V sont))
+    (AdP
+      (MWADV (DET un) (ADV peu))
+      (ADV trop))
+    (PUNC ...)
+    (AP (ADJ protecteurs))
+    (PUNC .)))
+

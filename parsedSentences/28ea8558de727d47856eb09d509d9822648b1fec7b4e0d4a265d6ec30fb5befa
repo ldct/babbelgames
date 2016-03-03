@@ -1,0 +1,7 @@
+Willie est-elle ruinée ?
+(ROOT
+  (SENT
+    (NP (NC Willie))
+    (VN (V est) (CLS -elle) (VPP ruinée))
+    (PUNC ?)))
+

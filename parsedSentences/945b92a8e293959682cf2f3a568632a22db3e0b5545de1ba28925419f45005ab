@@ -1,0 +1,14 @@
+La communauté nous apprend à faire tomber les barrières entre la vie et la mort.
+(ROOT
+  (SENT
+    (NP (DET La) (NC communauté))
+    (VN (CLS nous) (V apprend))
+    (VPinf (P à)
+      (VN (VINF faire) (VINF tomber))
+      (NP (DET les) (NC barrières)
+        (PP (P entre)
+          (NP (DET la) (NC vie))
+          (COORD (CC et)
+            (NP (DET la) (NC mort))))))
+    (PUNC .)))
+

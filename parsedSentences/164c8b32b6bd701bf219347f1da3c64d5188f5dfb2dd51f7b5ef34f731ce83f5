@@ -1,0 +1,17 @@
+Si tu n'as pas d'autre idée, je te suggère de rentrer faire tes valises.
+(ROOT
+  (SENT
+    (Ssub (CS Si)
+      (VN (CLS tu) (ADV n') (V as))
+      (ADV pas)
+      (PP (P d')
+        (NP (ADJ autre) (NC idée))))
+    (PUNC ,)
+    (VN (CLS je) (CLO te) (V suggère))
+    (VPinf (P de)
+      (VN (VINF rentrer))
+      (VPinf
+        (VN (VINF faire))
+        (NP (DET tes) (NC valises))))
+    (PUNC .)))
+

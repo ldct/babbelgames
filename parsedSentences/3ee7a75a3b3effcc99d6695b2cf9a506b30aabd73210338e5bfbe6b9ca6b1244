@@ -1,0 +1,10 @@
+B - E-C-K !
+(ROOT
+  (SENT
+    (NP
+      (MWN (N B) (PUNC -) (N E))
+      (PUNC -)
+      (NP (N C) (PUNC -)
+        (NP (NPP K)))
+      (PUNC !))))
+

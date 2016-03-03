@@ -1,0 +1,10 @@
+T'as un truc à dire ?
+(ROOT
+  (SENT
+    (NP (NPP T'))
+    (VN (V as))
+    (NP (DET un) (NC truc)
+      (VPinf (P à)
+        (VN (VINF dire))))
+    (PUNC ?)))
+

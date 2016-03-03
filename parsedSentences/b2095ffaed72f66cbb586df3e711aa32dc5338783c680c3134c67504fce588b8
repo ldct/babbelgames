@@ -1,0 +1,10 @@
+C'est seulement parce qu'ils me surveillent.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (ADV seulement)
+    (Ssub
+      (MWC (C parce) (C qu'))
+      (VN (CLS ils) (CLO me) (V surveillent)))
+    (PUNC .)))
+

@@ -1,0 +1,11 @@
+Du moins, je pense qu'elle a dit non.
+(ROOT
+  (SENT
+    (MWADV (P Du) (ADV moins))
+    (PUNC ,)
+    (VN (CLS je) (V pense))
+    (Ssub (CS qu')
+      (VN (CLS elle) (V a) (VPP dit))
+      (ADV non))
+    (PUNC .)))
+

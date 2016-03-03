@@ -1,0 +1,18 @@
+Ouais, comme j'ai vécu à New York, je suis plus à l'aise en anglais.
+(ROOT
+  (SENT
+    (VPpart (VPP Ouais))
+    (PUNC ,)
+    (Ssub (CS comme)
+      (VN (CLS j') (V ai) (VPP vécu))
+      (PP (P à)
+        (NP
+          (MWN (ET New) (ET York)))))
+    (PUNC ,)
+    (VN (CLS je) (V suis))
+    (AdP (ADV plus)
+      (MWADV (P à) (DET l') (N aise)))
+    (PP (P en)
+      (NP (NC anglais)))
+    (PUNC .)))
+

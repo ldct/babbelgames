@@ -1,0 +1,16 @@
+Et maintenant, nous apprenons que le super mec de Willie a rencontré une fin prématurée
+(ROOT
+  (SENT
+    (COORD (CC Et)
+      (VN (VPR maintenant))
+      (PUNC ,)
+      (Sint
+        (VN (CLS nous) (V apprenons))
+        (Ssub (CS que)
+          (NP (DET le) (ADJ super) (NC mec)
+            (PP (P de)
+              (NP (NPP Willie))))
+          (VN (V a) (VPP rencontré))
+          (NP (DET une) (NC fin)
+            (AP (ADJ prématurée))))))))
+

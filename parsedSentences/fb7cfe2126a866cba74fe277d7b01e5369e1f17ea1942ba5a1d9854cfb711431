@@ -1,0 +1,9 @@
+Avoir un point de vue intérieur.
+(ROOT
+  (SENT
+    (VPinf
+      (VN (VINF Avoir))
+      (NP (DET un)
+        (MWN (N point) (P de) (N vue) (ADJ intérieur))))
+    (PUNC .)))
+

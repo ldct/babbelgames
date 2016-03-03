@@ -1,0 +1,8 @@
+Comment tu m'as reconnu ?
+(ROOT
+  (SENT (ADVWH Comment)
+    (VN (CLS tu) (CLO m') (V as))
+    (VPinf
+      (VN (VPP reconnu)))
+    (PUNC ?)))
+

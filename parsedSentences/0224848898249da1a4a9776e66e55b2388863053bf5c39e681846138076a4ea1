@@ -1,0 +1,8 @@
+Elle te va bien, cette guitare.
+(ROOT
+  (SENT
+    (VN (CLS Elle) (CLO te) (V va))
+    (ADV bien) (PUNC ,)
+    (NP (DET cette) (NC guitare))
+    (PUNC .)))
+

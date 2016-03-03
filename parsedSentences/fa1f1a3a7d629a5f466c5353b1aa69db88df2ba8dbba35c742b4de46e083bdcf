@@ -1,0 +1,10 @@
+Ça veut dire que...
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (V veut))
+    (VPinf
+      (VN (VINF dire))
+      (ADV que))
+    (PUNC ...)))
+

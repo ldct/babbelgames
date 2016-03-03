@@ -1,0 +1,13 @@
+Sur la guitare de Ryûsuke... c'est des impacts de balle ?
+(ROOT
+  (SENT
+    (PP (P Sur)
+      (NP (DET la) (NC guitare)
+        (PP (P de)
+          (NP (NPP Ryûsuke) (PUNC ...)))))
+    (VN (CLS c') (V est))
+    (NP (DET des) (NC impacts)
+      (PP (P de)
+        (NP (NC balle))))
+    (PUNC ?)))
+

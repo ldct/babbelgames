@@ -1,0 +1,11 @@
+Rikiya, je crois que tu devrais pas.
+(ROOT
+  (SENT
+    (NP (NPP Rikiya))
+    (PUNC ,)
+    (VN (CLS je) (V crois))
+    (Ssub (CS que)
+      (VN (CLS tu) (V devrais))
+      (ADV pas))
+    (PUNC .)))
+

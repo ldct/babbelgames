@@ -1,0 +1,12 @@
+Inutile, c'est sans espoir...
+(ROOT
+  (SENT
+    (PP
+      (NP
+        (AP (ADJ Inutile))))
+    (PUNC ,)
+    (VN (CLS c') (V est))
+    (PP (P sans)
+      (NP (NC espoir)))
+    (PUNC ...)))
+

@@ -1,0 +1,9 @@
+Qui a parlé d'un rencard ?
+(ROOT
+  (SENT
+    (NP (PROWH Qui))
+    (VN (V a) (VPP parlé))
+    (PP (P d')
+      (NP (DET un) (NC rencard)))
+    (PUNC ?)))
+

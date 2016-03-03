@@ -1,0 +1,10 @@
+Si tu veux, prends mes frites.
+(ROOT
+  (SENT
+    (Ssub (CS Si)
+      (VN (CLS tu) (V veux)))
+    (PUNC ,)
+    (VN (V prends))
+    (NP (DET mes) (NC frites))
+    (PUNC .)))
+

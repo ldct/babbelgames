@@ -1,0 +1,10 @@
+Tu démarres pour nous, veux-tu ?
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V démarres))
+    (PP (P pour)
+      (NP (PRO nous)))
+    (Sint (PUNC ,)
+      (VN (V veux) (CLS -tu)))
+    (PUNC ?)))
+

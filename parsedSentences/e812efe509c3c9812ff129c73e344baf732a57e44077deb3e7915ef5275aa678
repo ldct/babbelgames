@@ -1,0 +1,11 @@
+Daniel. Betty ?
+(ROOT
+  (SENT
+    (NP (NPP Daniel))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (NP (NC Betty))
+    (PUNC ?)))
+

@@ -1,0 +1,10 @@
+Dis-nous où tu habitais, Ryûsuke !
+(ROOT
+  (SENT
+    (VN (V Dis) (CLS -nous))
+    (Ssub (ADVWH où)
+      (VN (CLS tu) (V habitais))
+      (PUNC ,)
+      (NP (NPP Ryûsuke)))
+    (PUNC !)))
+

@@ -1,0 +1,11 @@
+Ouais, et c'est des vrais !
+(ROOT
+  (SENT
+    (VN (V Ouais))
+    (PUNC ,)
+    (COORD (CC et)
+      (Sint
+        (VN (CLS c') (V est))
+        (PP (P des) (ADJ vrais))))
+    (PUNC !)))
+

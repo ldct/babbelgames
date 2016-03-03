@@ -1,0 +1,8 @@
+Met de glace dessus.
+(ROOT
+  (SENT
+    (NP
+      (MWN (ET Met) (ET de))
+      (NP (NC glace) (ADV dessus)))
+    (PUNC .)))
+

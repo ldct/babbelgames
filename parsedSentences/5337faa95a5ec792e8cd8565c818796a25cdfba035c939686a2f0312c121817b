@@ -1,0 +1,9 @@
+Salut, la peluche.
+(ROOT
+  (SENT
+    (NP
+      (MWN (N Salut)))
+    (PUNC ,)
+    (NP (DET la) (NC peluche))
+    (PUNC .)))
+

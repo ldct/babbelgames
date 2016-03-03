@@ -1,0 +1,12 @@
+Les gens pensent que nous sommes mêlés à des trucs bizarres.
+(ROOT
+  (SENT
+    (NP (DET Les) (NC gens))
+    (VN (V pensent))
+    (Ssub (CS que)
+      (VN (CLS nous) (V sommes) (VPP mêlés))
+      (PP (P à)
+        (NP (DET des) (NC trucs)
+          (AP (ADJ bizarres)))))
+    (PUNC .)))
+

@@ -1,0 +1,14 @@
+"Tragédie" ne fait pas partie de mon vocabulaire, Suzuki.
+(ROOT
+  (SENT
+    (PP
+      (NP (PUNC ") (NC Tragédie) (PUNC ")))
+    (VN (ADV ne) (V fait))
+    (ADV pas)
+    (NP (NC partie)
+      (PP (P de)
+        (NP (DET mon) (NC vocabulaire))))
+    (PUNC ,)
+    (NP (NPP Suzuki))
+    (PUNC .)))
+

@@ -1,0 +1,8 @@
+(Hey, Ray !
+(ROOT
+  (SENT
+    (NP (PUNC -LRB-))
+    (NP (NPP Hey) (PUNC ,)
+      (NP (NPP Ray)))
+    (PUNC !)))
+

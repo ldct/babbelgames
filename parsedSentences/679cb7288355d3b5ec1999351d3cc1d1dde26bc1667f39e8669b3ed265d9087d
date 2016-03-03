@@ -1,0 +1,13 @@
+Ils sont très confortables. - Stop !
+(ROOT
+  (SENT
+    (VN (CLS Ils) (V sont))
+    (AP (ADV très) (ADJ confortables))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (NP (PUNC -))
+    (NP (NPP Stop))
+    (PUNC !)))
+

@@ -1,0 +1,17 @@
+Il est de retour, mais il a dû aller chez le médecin ce matin.
+(ROOT
+  (SENT
+    (VN (CLS Il) (V est))
+    (PP (P de)
+      (NP (NC retour)))
+    (PUNC ,)
+    (COORD (CC mais)
+      (Sint
+        (VN (CLS il) (V a) (VPP dû))
+        (VPinf
+          (VN (VINF aller))
+          (PP (P chez)
+            (NP (DET le) (NC médecin)))
+          (NP (DET ce) (NC matin)))))
+    (PUNC .)))
+

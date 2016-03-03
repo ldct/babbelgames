@@ -1,0 +1,9 @@
+J'écoute pas mal les Sex Handles, et...
+(ROOT
+  (SENT
+    (VN (CLS J') (V écoute))
+    (ADV pas) (ADV mal)
+    (NP (DET les) (NPP Sex) (NPP Handles) (PUNC ,)
+      (AP (ADJ et)))
+    (PUNC ...)))
+

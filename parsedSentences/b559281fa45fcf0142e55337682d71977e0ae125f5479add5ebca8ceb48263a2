@@ -1,0 +1,6 @@
+Ah bon...
+(ROOT
+  (SENT (I Ah)
+    (NP (ADJ bon))
+    (PUNC ...)))
+

@@ -1,0 +1,13 @@
+Allez, oh hisse... Elle était réparable.
+(ROOT
+  (SENT
+    (NP (NC Allez))
+    (PUNC ,)
+    (Sint
+      (NP (NPP oh))
+      (VN (V hisse)))
+    (PUNC ...)
+    (VN (CLS Elle) (V était))
+    (AP (ADJ réparable))
+    (PUNC .)))
+

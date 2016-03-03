@@ -1,0 +1,7 @@
+Je n'ai pas eu le choix.
+(ROOT
+  (SENT
+    (VN (CLS Je) (ADV n') (V ai) (ADV pas) (VPP eu))
+    (NP (DET le) (NC choix))
+    (PUNC .)))
+

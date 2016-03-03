@@ -1,0 +1,7 @@
+C'est rien.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (NP (PRO rien))
+    (PUNC .)))
+

@@ -1,0 +1,9 @@
+Pour répondre à cette question,
+(ROOT
+  (SENT
+    (VPinf (P Pour)
+      (VN (VINF répondre))
+      (PP (P à)
+        (NP (DET cette) (NC question)))
+      (PUNC ,))))
+

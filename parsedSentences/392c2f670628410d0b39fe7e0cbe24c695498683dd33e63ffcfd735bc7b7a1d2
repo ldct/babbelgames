@@ -1,0 +1,12 @@
+Même si je fuis, ils continueront à te pourchasser.
+(ROOT
+  (SENT
+    (Ssub
+      (MWC (ADV Même) (C si))
+      (VN (CLS je) (V fuis)))
+    (PUNC ,)
+    (VN (CLS ils) (V continueront))
+    (VPinf (P à)
+      (VN (CLO te) (VINF pourchasser)))
+    (PUNC .)))
+

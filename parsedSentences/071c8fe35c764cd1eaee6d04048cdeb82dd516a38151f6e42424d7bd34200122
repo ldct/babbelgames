@@ -1,0 +1,15 @@
+Je vais trouver un moyen de savoir ce qu'il se passe.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V vais))
+    (VPinf
+      (VN (VINF trouver))
+      (NP (DET un) (NC moyen)
+        (VPinf (P de)
+          (VN (VINF savoir))
+          (NP (PRO ce)
+            (Srel
+              (NP (PROREL qu'))
+              (VN (CLS il) (CLR se) (V passe)))))))
+    (PUNC .)))
+

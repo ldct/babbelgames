@@ -1,0 +1,14 @@
+Je peux essayer de lui parler, trouver un arrangement.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V peux))
+    (VPinf
+      (VN (VINF essayer))
+      (VPinf (P de)
+        (VN (CLO lui) (VINF parler))
+        (PUNC ,)
+        (VPinf
+          (VN (VINF trouver))
+          (NP (DET un) (NC arrangement)))))
+    (PUNC .)))
+

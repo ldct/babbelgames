@@ -1,0 +1,7 @@
+Ça craint !
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (V craint))
+    (PUNC !)))
+

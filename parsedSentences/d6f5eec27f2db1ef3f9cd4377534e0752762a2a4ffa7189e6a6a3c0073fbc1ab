@@ -1,0 +1,15 @@
+Si tu en veux, prends les honneurs Pass, hot shot, parfait pour toi
+(ROOT
+  (SENT
+    (Ssub (CS Si)
+      (VN (CLS tu) (CLO en) (V veux)))
+    (PUNC ,)
+    (VN (V prends))
+    (NP (DET les) (NC honneurs) (NPP Pass) (PUNC ,)
+      (COORD
+        (NP (DET hot) (NC shot)))
+      (COORD (PUNC ,)
+        (NP (NC parfait)
+          (PP (P pour)
+            (NP (PRO toi))))))))
+

@@ -1,0 +1,6 @@
+Je répète.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V répète))
+    (PUNC .)))
+

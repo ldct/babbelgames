@@ -1,0 +1,9 @@
+Il s'est froissé un muscle pendant son tennis.
+(ROOT
+  (SENT
+    (VN (CLS Il) (CLR s') (V est) (VPP froissé))
+    (NP (DET un) (NC muscle))
+    (PP (P pendant)
+      (NP (DET son) (NC tennis)))
+    (PUNC .)))
+

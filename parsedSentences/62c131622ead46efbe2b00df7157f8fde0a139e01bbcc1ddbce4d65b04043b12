@@ -1,0 +1,13 @@
+Moi, j'adore trop comment tu chantes, Chiba !
+(ROOT
+  (SENT
+    (NP (PRO Moi))
+    (PUNC ,)
+    (VN (CLS j') (V adore))
+    (ADV trop)
+    (VPinf (ADVWH comment)
+      (VN (CL tu) (VINF chantes)))
+    (PUNC ,)
+    (NP (NPP Chiba))
+    (PUNC !)))
+

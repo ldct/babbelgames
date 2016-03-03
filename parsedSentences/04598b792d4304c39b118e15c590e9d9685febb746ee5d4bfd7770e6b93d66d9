@@ -1,0 +1,15 @@
+Vous savez, encore plus de bandanas et de boucles d'oreilles.
+(ROOT
+  (SENT
+    (VN (CLS Vous) (V savez))
+    (PUNC ,)
+    (AdP (ADV encore) (ADV plus))
+    (PP (P de)
+      (NP (NC bandanas))
+      (COORD (CC et)
+        (PP (P de)
+          (NP (NC boucles)
+            (PP (P d')
+              (NP (NC oreilles)))))))
+    (PUNC .)))
+

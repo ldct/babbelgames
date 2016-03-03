@@ -1,0 +1,14 @@
+Matt m'a demandé de prendre des notes afin qu'il n'oublie rien.
+(ROOT
+  (SENT
+    (NP (NPP Matt))
+    (VN (CLO m') (V a) (VPP demandé))
+    (VPinf (P de)
+      (VN (VINF prendre))
+      (NP (DET des) (NC notes)))
+    (Ssub
+      (MWC (P afin) (C qu'))
+      (VN (CLS il) (ADV n') (V oublie))
+      (NP (PRO rien)))
+    (PUNC .)))
+

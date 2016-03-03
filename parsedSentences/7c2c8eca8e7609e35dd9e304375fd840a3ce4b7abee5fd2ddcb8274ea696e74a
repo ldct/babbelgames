@@ -1,0 +1,9 @@
+C'est l'heure de papoter.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (NP (DET l') (NC heure)
+      (PP (P de)
+        (NP (NC papoter))))
+    (PUNC .)))
+

@@ -1,0 +1,12 @@
+Mandy. - Pas le temps.
+(ROOT
+  (SENT
+    (NP (NPP Mandy))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (PP (PUNC -)
+      (NP (ADV Pas) (DET le) (NC temps)))
+    (PUNC .)))
+

@@ -1,0 +1,14 @@
+Mais ces trous ont quand même pas été faits pendant un concert, si ?
+(ROOT
+  (SENT
+    (COORD (CC Mais)
+      (Sint
+        (NP (DET ces) (NC trous))
+        (VN (V ont)
+          (MWADV (ADV quand) (ADV même))
+          (ADV pas) (VPP été) (VPP faits))
+        (PP (P pendant)
+          (NP (DET un) (NC concert) (PUNC ,)
+            (AdP (ADV si))))))
+    (PUNC ?)))
+

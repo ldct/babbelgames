@@ -1,0 +1,11 @@
+Il me faut votre nom et numéro de téléphone.
+(ROOT
+  (SENT
+    (VN (CLS Il) (CLO me) (V faut))
+    (NP (DET votre) (NC nom)
+      (COORD (CC et)
+        (NP (NC numéro)
+          (PP (P de)
+            (NP (NC téléphone))))))
+    (PUNC .)))
+

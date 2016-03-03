@@ -1,0 +1,8 @@
+Ah bon, c'est parfait alors !
+(ROOT
+  (SENT
+    (NP (DET Ah) (ADJ bon))
+    (PUNC ,)
+    (VN (CLS c') (V est) (VPP parfait))
+    (ADV alors) (PUNC !)))
+

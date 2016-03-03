@@ -1,0 +1,7 @@
+Once you're here you won't go back
+(ROOT
+  (SENT
+    (NP (NC Once)
+      (NP (ET you're) (ET here) (ET you) (ET won't)
+        (MWET (ET go) (ET back))))))
+

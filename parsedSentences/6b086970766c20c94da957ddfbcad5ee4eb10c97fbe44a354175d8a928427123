@@ -1,0 +1,7 @@
+Nous sommes amis.
+(ROOT
+  (SENT
+    (VN (CLS Nous) (V sommes))
+    (NP (NC amis))
+    (PUNC .)))
+

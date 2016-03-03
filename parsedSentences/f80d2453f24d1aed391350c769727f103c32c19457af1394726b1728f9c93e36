@@ -1,0 +1,10 @@
+Alors, je vous mettrai sur la liste des invités !
+(ROOT
+  (SENT (ADV Alors) (PUNC ,)
+    (VN (CLS je) (CLO vous) (V mettrai))
+    (PP (P sur)
+      (NP (DET la) (NC liste)
+        (PP (P des)
+          (NP (NC invités)))))
+    (PUNC !)))
+

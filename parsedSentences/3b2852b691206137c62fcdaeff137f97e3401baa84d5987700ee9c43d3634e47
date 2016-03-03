@@ -1,0 +1,13 @@
+Aucun étranger n'a encore vu ce que vous allez voir.
+(ROOT
+  (SENT
+    (NP (DET Aucun) (NC étranger))
+    (VN (ADV n') (V a) (ADV encore) (VPP vu))
+    (NP (PRO ce)
+      (Srel
+        (NP (PROREL que))
+        (VN (CLS vous) (V allez))
+        (VPinf
+          (VN (VINF voir)))))
+    (PUNC .)))
+

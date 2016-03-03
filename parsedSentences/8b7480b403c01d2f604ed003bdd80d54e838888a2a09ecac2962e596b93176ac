@@ -1,0 +1,6 @@
+Ça s'appelle
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (CLR s') (V appelle))))
+

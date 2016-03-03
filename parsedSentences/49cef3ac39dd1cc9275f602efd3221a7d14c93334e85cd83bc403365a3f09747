@@ -1,0 +1,6 @@
+Trop fort !
+(ROOT
+  (SENT
+    (AP (ADV Trop) (ADJ fort))
+    (PUNC !)))
+

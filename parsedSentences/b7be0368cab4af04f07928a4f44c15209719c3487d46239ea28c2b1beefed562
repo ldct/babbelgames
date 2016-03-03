@@ -1,0 +1,19 @@
+Si tu veux bien m'excuser, j'ai besoin de trouver une autre voie pour sauver ma fille.
+(ROOT
+  (SENT
+    (Ssub (CS Si)
+      (VN (CLS tu) (V veux))
+      (ADV bien)
+      (VPinf
+        (VN (CLO m') (VINF excuser))))
+    (PUNC ,)
+    (VN (CLS j') (V ai))
+    (NP (NC besoin)
+      (VPinf (P de)
+        (VN (VINF trouver))
+        (NP (DET une) (ADJ autre) (NC voie))
+        (VPinf (P pour)
+          (VN (VINF sauver))
+          (NP (DET ma) (NC fille)))))
+    (PUNC .)))
+

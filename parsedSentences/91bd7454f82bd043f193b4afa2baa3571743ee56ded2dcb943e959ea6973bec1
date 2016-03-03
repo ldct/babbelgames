@@ -1,0 +1,9 @@
+It's got me spinnin' 'round
+(ROOT
+  (SENT
+    (NP
+      (MWN (ET It) (ET ') (ET s) (ET got)))
+    (VN (CLO me) (V spinnin))
+    (NP
+      (MWN (ET ') (ET ') (ET round)))))
+

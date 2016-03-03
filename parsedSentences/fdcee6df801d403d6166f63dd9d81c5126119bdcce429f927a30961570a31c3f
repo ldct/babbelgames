@@ -1,0 +1,17 @@
+Hé, Masaru. Fais-moi essayer, un peu.
+(ROOT
+  (SENT
+    (VN (V Hé) (PUNC ,))
+    (NP (NPP Masaru))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (V Fais) (PRO -moi))
+    (VPinf
+      (VN (VINF essayer))
+      (PUNC ,)
+      (AdP
+        (MWADV (DET un) (ADV peu))))
+    (PUNC .)))
+

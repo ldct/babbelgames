@@ -1,0 +1,12 @@
+Sa musique fend le vent Son corps est libre
+(ROOT
+  (SENT
+    (NP (DET Sa) (NC musique))
+    (VN (V fend))
+    (Ssub
+      (NP (DET le) (NC vent)
+        (Srel
+          (NP (DET Son) (NC corps))
+          (VN (V est))
+          (AP (ADJ libre)))))))
+

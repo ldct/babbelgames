@@ -1,0 +1,13 @@
+Mais pourtant, il faudrait que tu retiennes les gammes au plus vite.
+(ROOT
+  (SENT
+    (COORD (CC Mais)
+      (ADV pourtant)
+      (Sint (PUNC ,)
+        (VN (CLS il) (V faudrait))
+        (Ssub (CS que)
+          (VN (CLS tu) (V retiennes))
+          (NP (DET les) (NC gammes))
+          (MWADV (P au) (ADV plus) (ADV vite)))))
+    (PUNC .)))
+

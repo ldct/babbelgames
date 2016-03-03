@@ -1,0 +1,7 @@
+Arrête ça.
+(ROOT
+  (SENT
+    (VN (VIMP Arrête))
+    (NP (PRO ça))
+    (PUNC .)))
+

@@ -1,0 +1,16 @@
+Donc j'ai vu l'interview de Suzuki et je pense que c'était pas si mal.
+(ROOT
+  (SENT
+    (NP (NC Donc))
+    (VN (CLS j') (V ai) (VPP vu))
+    (NP (DET l') (NC interview)
+      (PP (P de)
+        (NP (NPP Suzuki))))
+    (COORD (CC et)
+      (VN (CLS je) (V pense))
+      (Ssub (CS que)
+        (VN (CLS c') (V était))
+        (ADV pas)
+        (AdP (ADV si) (ADV mal))))
+    (PUNC .)))
+

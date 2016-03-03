@@ -1,0 +1,10 @@
+I was made to hit in America
+(ROOT
+  (SENT
+    (NP
+      (MWN (N I) (ET was) (ET made))
+      (NP (ET to) (NPP hit)))
+    (PP
+      (NP
+        (MWN (ET in) (ET America))))))
+

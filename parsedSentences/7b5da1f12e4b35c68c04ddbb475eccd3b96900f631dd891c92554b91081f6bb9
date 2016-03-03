@@ -1,0 +1,7 @@
+Fais pas le malin !
+(ROOT
+  (SENT
+    (VN (V Fais))
+    (NP (ADV pas) (DET le) (NC malin))
+    (PUNC !)))
+

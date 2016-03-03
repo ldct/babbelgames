@@ -1,0 +1,20 @@
+Enfer de béton ! L'homme s'échappe du zoo, singe cérébré.
+(ROOT
+  (SENT
+    (VPinf
+      (VN (VINF Enfer))
+      (PP (P de)
+        (NP (NC béton))))
+    (PUNC !)))
+
+(ROOT
+  (SENT
+    (NP (DET L') (NC homme))
+    (VN (CLR s') (V échappe))
+    (PP (P du)
+      (NP (NC zoo)))
+    (PUNC ,)
+    (NP (NC singe)
+      (AP (ADJ cérébré)))
+    (PUNC .)))
+

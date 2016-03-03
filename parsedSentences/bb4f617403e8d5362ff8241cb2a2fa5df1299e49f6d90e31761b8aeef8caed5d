@@ -1,0 +1,12 @@
+En tous cas, je suis content si je t'ai rendu le sourire.
+(ROOT
+  (SENT
+    (MWADV (P En) (DET tous) (N cas))
+    (PUNC ,)
+    (VN (CLS je) (V suis))
+    (AP (ADJ content))
+    (Ssub (CS si)
+      (VN (CLS je) (CLR t') (V ai) (VPP rendu))
+      (NP (DET le) (NC sourire)))
+    (PUNC .)))
+

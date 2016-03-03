@@ -1,0 +1,10 @@
+Tu comprendras certainement au vu du contexte.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V comprendras))
+    (ADV certainement)
+    (PP
+      (MWP (P au) (V vu) (P du))
+      (NP (NC contexte)))
+    (PUNC .)))
+

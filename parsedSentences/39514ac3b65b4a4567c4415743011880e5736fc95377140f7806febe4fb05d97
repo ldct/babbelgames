@@ -1,0 +1,9 @@
+Puis ces réunions de la communauté.
+(ROOT
+  (SENT
+    (COORD (CC Puis)
+      (NP (DET ces) (NC réunions)
+        (PP (P de)
+          (NP (DET la) (NC communauté)))))
+    (PUNC .)))
+

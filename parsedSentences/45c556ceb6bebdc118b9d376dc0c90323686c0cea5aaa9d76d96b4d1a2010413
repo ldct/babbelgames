@@ -1,0 +1,8 @@
+Pense à nous.
+(ROOT
+  (SENT
+    (VN (V Pense))
+    (PP (P à)
+      (NP (PRO nous)))
+    (PUNC .)))
+

@@ -1,0 +1,11 @@
+Pourquoi ne me racontes-tu pas ce que tu traverses ?
+(ROOT
+  (SENT (ADVWH Pourquoi)
+    (VN (ADV ne) (CLO me) (V racontes) (CLS -tu))
+    (ADV pas)
+    (NP (PRO ce)
+      (Srel
+        (NP (PROREL que))
+        (VN (CLS tu) (V traverses))))
+    (PUNC ?)))
+

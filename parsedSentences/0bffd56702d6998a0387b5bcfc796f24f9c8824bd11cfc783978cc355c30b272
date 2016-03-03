@@ -1,0 +1,11 @@
+(T'as trouvé quoi ? )
+(ROOT
+  (SENT
+    (PP (PUNC -LRB-)
+      (NP (NPP T')))
+    (VN (V as) (VPP trouvé))
+    (NP (PROWH quoi))
+    (VPinf
+      (VN (VINF ?)))
+    (PUNC -RRB-)))
+

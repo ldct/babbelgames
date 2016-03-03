@@ -1,0 +1,7 @@
+N'importe quoi.
+(ROOT
+  (SENT
+    (VN (ADV N') (V importe))
+    (NP (PROWH quoi))
+    (PUNC .)))
+

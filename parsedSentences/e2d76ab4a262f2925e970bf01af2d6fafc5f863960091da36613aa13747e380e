@@ -1,0 +1,9 @@
+J'étais si fier de toi.
+(ROOT
+  (SENT
+    (VN (CLS J') (V étais))
+    (AP (ADV si) (ADJ fier)
+      (PP (P de)
+        (NP (PRO toi))))
+    (PUNC .)))
+

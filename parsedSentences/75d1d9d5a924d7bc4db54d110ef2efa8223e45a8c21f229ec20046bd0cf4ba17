@@ -1,0 +1,8 @@
+Tu vas grossir.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V vas))
+    (VPinf
+      (VN (VINF grossir)))
+    (PUNC .)))
+

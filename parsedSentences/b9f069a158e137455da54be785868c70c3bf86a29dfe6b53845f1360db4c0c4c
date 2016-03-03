@@ -1,0 +1,12 @@
+Et n'oublie pas de nourrir Page.
+(ROOT
+  (SENT
+    (COORD (CC Et)
+      (VN (ADV n') (V oublie))
+      (ADV pas)
+      (VPinf (P de)
+        (VN (VINF nourrir))
+        (NP
+          (MWN (N Page)))))
+    (PUNC .)))
+

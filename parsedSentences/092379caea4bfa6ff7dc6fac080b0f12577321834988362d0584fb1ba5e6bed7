@@ -1,0 +1,8 @@
+Pourquoi est-ce que je m'enfuis ?
+(ROOT
+  (SENT (ADVWH Pourquoi)
+    (VN (V est) (CLS -ce))
+    (Ssub (CS que)
+      (VN (CLS je) (CLO m') (V enfuis)))
+    (PUNC ?)))
+

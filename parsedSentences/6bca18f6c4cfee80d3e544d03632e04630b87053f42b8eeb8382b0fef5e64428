@@ -1,0 +1,13 @@
+Ainsi je pourrais comprendre pourquoi c'est si important pour toi.
+(ROOT
+  (SENT (ADV Ainsi)
+    (VN (CLS je) (V pourrais))
+    (VPinf
+      (VN (VINF comprendre))
+      (Ssub (ADVWH pourquoi)
+        (VN (CLS c') (V est))
+        (AP (ADV si) (ADJ important))
+        (PP (P pour)
+          (NP (PRO toi)))))
+    (PUNC .)))
+

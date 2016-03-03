@@ -1,0 +1,8 @@
+Faut que je dorme.
+(ROOT
+  (SENT
+    (VN (V Faut))
+    (Ssub (CS que)
+      (VN (CLS je) (V dorme)))
+    (PUNC .)))
+

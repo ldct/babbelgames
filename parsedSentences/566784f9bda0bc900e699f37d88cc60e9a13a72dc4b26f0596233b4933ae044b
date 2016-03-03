@@ -1,0 +1,14 @@
+Justement, on va bientôt aller à New York !
+(ROOT
+  (SENT
+    (NP (NC Justement))
+    (PUNC ,)
+    (VN (CLS on) (V va))
+    (ADV bientôt)
+    (VPinf
+      (VN (VINF aller))
+      (PP (P à)
+        (NP
+          (MWN (ET New) (ET York)))))
+    (PUNC !)))
+

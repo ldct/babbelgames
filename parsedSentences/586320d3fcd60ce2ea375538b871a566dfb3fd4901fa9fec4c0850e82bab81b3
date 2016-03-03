@@ -1,0 +1,15 @@
+Je veux attendre d'avoir réparé la guitare avant de revoir Ryûsuke.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V veux))
+    (VPinf
+      (VN (VINF attendre))
+      (VPinf (P d')
+        (VN (VINF avoir) (VPP réparé))
+        (NP (DET la) (NC guitare))))
+    (VPinf
+      (MWP (P avant) (P de))
+      (VN (VINF revoir))
+      (NP (NPP Ryûsuke)))
+    (PUNC .)))
+

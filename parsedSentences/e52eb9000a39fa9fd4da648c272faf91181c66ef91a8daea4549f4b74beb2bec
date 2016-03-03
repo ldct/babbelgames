@@ -1,0 +1,7 @@
+J'ai déjà préparé ton voyage.
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai) (ADV déjà) (VPP préparé))
+    (NP (DET ton) (NC voyage))
+    (PUNC .)))
+

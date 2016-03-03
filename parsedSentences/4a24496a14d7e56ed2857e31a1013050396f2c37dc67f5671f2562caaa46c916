@@ -1,0 +1,14 @@
+En fait, ils étaient à la maison pour les deux femmes pirates connues,
+(ROOT
+  (SENT
+    (MWADV (P En) (N fait))
+    (PUNC ,)
+    (VN (CLS ils) (V étaient))
+    (PP (P à)
+      (NP (DET la) (NC maison)))
+    (PP (P pour)
+      (NP (DET les) (ADJ deux) (NC femmes)
+        (NP (NC pirates)
+          (AP (ADJ connues))))
+      (PUNC ,))))
+

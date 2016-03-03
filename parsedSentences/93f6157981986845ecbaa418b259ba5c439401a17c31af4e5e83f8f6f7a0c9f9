@@ -1,0 +1,9 @@
+C'est pas du respect.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (ADV pas)
+    (PP (P du)
+      (NP (NC respect)))
+    (PUNC .)))
+

@@ -1,0 +1,15 @@
+Non. C'était Anarchy in Heaven, que tu jouais ?
+(ROOT
+  (SENT (I Non) (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (CLS C') (V était))
+    (NP
+      (MWN (ET Anarchy) (ET in))
+      (AP (ADJ Heaven)))
+    (PUNC ,)
+    (Ssub (CS que)
+      (VN (CLS tu) (V jouais)))
+    (PUNC ?)))
+

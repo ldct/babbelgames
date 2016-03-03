@@ -1,0 +1,14 @@
+Jouez-en un peu, et dites-moi s'il y a un souci.
+(ROOT
+  (SENT
+    (VN (V Jouez))
+    (PUNC -)
+    (MWADV (P en) (DET un) (N peu))
+    (PUNC ,)
+    (COORD (CC et)
+      (VN (V dites) (CLS -moi))
+      (Ssub (CS s')
+        (VN (CLS il) (CLO y) (V a))
+        (NP (DET un) (NC souci))))
+    (PUNC .)))
+

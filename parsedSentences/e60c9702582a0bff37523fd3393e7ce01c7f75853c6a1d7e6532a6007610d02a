@@ -1,0 +1,7 @@
+On parle du loup...
+(ROOT
+  (SENT
+    (VN (CLS On) (V parle))
+    (NP (DET du) (NC loup))
+    (PUNC ...)))
+

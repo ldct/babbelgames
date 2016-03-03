@@ -1,0 +1,8 @@
+Et nous ne voulons pas intoxiquer cette réunion.
+(ROOT
+  (SENT
+    (COORD (CC Et)
+      (VN (CLS nous) (ADV ne) (V voulons) (ADV pas) (VPP intoxiquer))
+      (NP (DET cette) (NC réunion)))
+    (PUNC .)))
+

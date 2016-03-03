@@ -1,0 +1,9 @@
+Attends un peu, Tanaka.
+(ROOT
+  (SENT
+    (VN (V Attends))
+    (MWADV (DET un) (ADV peu))
+    (PUNC ,)
+    (NP (NPP Tanaka))
+    (PUNC .)))
+

@@ -1,0 +1,8 @@
+Elle a un son pourri.
+(ROOT
+  (SENT
+    (VN (CLS Elle) (V a))
+    (NP (DET un) (NC son)
+      (AP (ADJ pourri)))
+    (PUNC .)))
+

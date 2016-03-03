@@ -1,0 +1,10 @@
+Je m'en fiche si je ne suis pas dans la bonne phase.
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO m') (CLO en) (V fiche))
+    (Ssub (CS si)
+      (VN (CLS je) (ADV ne) (V suis) (ADV pas))
+      (PP (P dans)
+        (NP (DET la) (ADJ bonne) (NC phase))))
+    (PUNC .)))
+

@@ -1,0 +1,8 @@
+Ils avaient aussi le scorbut.
+(ROOT
+  (SENT
+    (VN (CLS Ils) (V avaient))
+    (ADV aussi)
+    (NP (DET le) (NC scorbut))
+    (PUNC .)))
+

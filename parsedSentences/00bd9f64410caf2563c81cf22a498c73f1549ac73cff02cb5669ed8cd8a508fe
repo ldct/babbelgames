@@ -1,0 +1,10 @@
+) (Il faut que je te parle.)
+(ROOT
+  (SENT
+    (NP (PUNC -RRB-))
+    (PUNC -LRB-)
+    (VN (CLS Il) (V faut))
+    (Ssub (CS que)
+      (VN (CLS je) (CLO te) (V parle) (VPP .)))
+    (PUNC -RRB-)))
+

@@ -1,0 +1,7 @@
+OK, Merci.
+(ROOT
+  (SENT
+    (NP (NPP OK) (PUNC ,)
+      (NP (NPP Merci)))
+    (PUNC .)))
+

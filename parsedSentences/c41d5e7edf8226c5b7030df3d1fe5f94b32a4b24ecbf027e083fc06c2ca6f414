@@ -1,0 +1,22 @@
+Nous sommes simplement deux personnes célibataires qui vont dîner, qui n'auront peut-être pas besoin de se lever tôt demain.
+(ROOT
+  (SENT
+    (VN (CLS Nous) (V sommes))
+    (ADV simplement)
+    (NP (DET deux) (NC personnes) (ADJ célibataires))
+    (Srel
+      (NP (PROREL qui))
+      (VN (V vont))
+      (NP (NC dîner)
+        (Srel (PUNC ,)
+          (NP (PROREL qui))
+          (VN (ADV n') (V auront))
+          (AdP
+            (MWADV (V peut) (PUNC -) (V être))
+            (ADV pas))
+          (NP (NC besoin)
+            (VPinf (P de)
+              (VN (CLR se) (VINF lever))
+              (AdP (ADV tôt) (ADV demain)))))))
+    (PUNC .)))
+

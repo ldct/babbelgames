@@ -1,0 +1,14 @@
+La rafale arriva pour annoncer qu'elle quitte "Mode".
+(ROOT
+  (SENT
+    (NP (DET La) (NC rafale))
+    (VN (V arriva))
+    (VPinf (P pour)
+      (VN (VINF annoncer))
+      (Ssub (CS qu')
+        (VN (CLS elle) (V quitte))
+        (PUNC ")
+        (NP (NPP Mode))
+        (PUNC ")))
+    (PUNC .)))
+

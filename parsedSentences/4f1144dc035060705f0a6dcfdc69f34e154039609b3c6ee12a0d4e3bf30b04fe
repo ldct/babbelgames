@@ -1,0 +1,13 @@
+Rie ! Merci de votre choix.
+(ROOT
+  (SENT
+    (NP (NC Rie))
+    (PUNC !)))
+
+(ROOT
+  (SENT
+    (VN (V Merci))
+    (PP (P de)
+      (NP (DET votre) (NC choix)))
+    (PUNC .)))
+

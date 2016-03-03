@@ -1,0 +1,11 @@
+Espérant que c'est pas le muscle pubien.
+(ROOT
+  (SENT
+    (VN (V Espérant))
+    (Ssub (CS que)
+      (VN (CLS c') (V est))
+      (ADV pas)
+      (NP (DET le) (NC muscle)
+        (AP (ADJ pubien))))
+    (PUNC .)))
+

@@ -1,0 +1,6 @@
+Je crois pas.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V crois))
+    (ADV pas) (PUNC .)))
+

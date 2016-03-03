@@ -1,0 +1,10 @@
+Tu m'as déçue, Tanaka, tu sais...
+(ROOT
+  (SENT
+    (VN (CLS Tu) (CLO m') (V as) (VPP déçue))
+    (PUNC ,)
+    (NP (NPP Tanaka))
+    (PUNC ,)
+    (VN (CLS tu) (V sais))
+    (PUNC ...)))
+

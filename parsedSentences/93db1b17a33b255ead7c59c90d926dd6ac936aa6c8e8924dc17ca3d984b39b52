@@ -1,0 +1,20 @@
+Je pensais qu'en fait vous aviez peur de perdre Daniel, peur qu'on vous prenne votre ami.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V pensais))
+    (ADV qu')
+    (Sint
+      (VN
+        (MWADV (P en) (N fait))
+        (CLS vous) (V aviez))
+      (VPinf
+        (MWP (N peur) (P de))
+        (VN (VINF perdre))
+        (NP (NPP Daniel)))
+      (PUNC ,)
+      (NP (NC peur))
+      (Ssub (CS qu')
+        (VN (CLS on) (CLO vous) (VS prenne))
+        (NP (DET votre) (NC ami))))
+    (PUNC .)))
+

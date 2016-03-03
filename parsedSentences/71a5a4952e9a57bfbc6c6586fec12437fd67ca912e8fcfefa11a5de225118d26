@@ -1,0 +1,12 @@
+Je reçois beaucoup d'énergies négatives de cette idée.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V reçois))
+    (ADV beaucoup)
+    (PP (P d')
+      (NP (NC énergies)
+        (AP (ADJ négatives))
+        (PP (P de)
+          (NP (DET cette) (NC idée)))))
+    (PUNC .)))
+

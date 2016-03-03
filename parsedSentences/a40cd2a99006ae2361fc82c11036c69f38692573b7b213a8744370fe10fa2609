@@ -1,0 +1,9 @@
+Je suis ici pour mon article.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V suis))
+    (ADV ici)
+    (PP (P pour)
+      (NP (DET mon) (NC article)))
+    (PUNC .)))
+

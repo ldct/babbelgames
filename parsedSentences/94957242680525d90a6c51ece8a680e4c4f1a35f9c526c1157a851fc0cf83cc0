@@ -1,0 +1,7 @@
+S'il te plaît.
+(ROOT
+  (SENT
+    (Ssub (CS S')
+      (VN (CLS il) (CLO te) (V plaît)))
+    (PUNC .)))
+

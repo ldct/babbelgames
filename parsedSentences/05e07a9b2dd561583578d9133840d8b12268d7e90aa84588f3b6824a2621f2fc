@@ -1,0 +1,11 @@
+Had a premonition l've been waitin' ever since
+(ROOT
+  (SENT
+    (NP (NPP Had))
+    (VN (V a) (VPP premonition))
+    (NP (DET l') (NC ve)
+      (AP (ADJ been)))
+    (AP (ADJ waitin))
+    (NP (DET ') (NC ever)
+      (AP (ADJ since)))))
+

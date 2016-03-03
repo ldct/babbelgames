@@ -1,0 +1,24 @@
+C'était "le haut siège" avec... Avec les ailes du Phénix sur nos dos, nous pouvons tout accomplir, Suzuki.
+(ROOT
+  (SENT
+    (VN (CLS C') (V était))
+    (PUNC ")
+    (NP (DET le) (ADJ haut) (NC siège))
+    (PUNC ")
+    (PP (P avec))
+    (PUNC ...)
+    (Sint
+      (PP (P Avec)
+        (NP (DET les) (NC ailes)
+          (PP (P du)
+            (NP (NPP Phénix)))
+          (PP (P sur)
+            (NP (DET nos) (NC dos)))))
+      (PUNC ,)
+      (VN (CLS nous) (V pouvons))
+      (VPinf
+        (VN (PRO tout) (VINF accomplir)))
+      (PUNC ,)
+      (NP (NPP Suzuki)))
+    (PUNC .)))
+

@@ -1,0 +1,7 @@
+A plus tard...
+(ROOT
+  (SENT
+    (PP (P A)
+      (AdP (ADV plus) (ADV tard)))
+    (PUNC ...)))
+

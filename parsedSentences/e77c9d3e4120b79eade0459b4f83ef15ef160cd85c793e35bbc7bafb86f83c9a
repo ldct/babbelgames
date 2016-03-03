@@ -1,0 +1,9 @@
+Répandre la cause de notre communauté.
+(ROOT
+  (SENT
+    (VN (V Répandre))
+    (NP (DET la) (NC cause)
+      (PP (P de)
+        (NP (DET notre) (NC communauté))))
+    (PUNC .)))
+

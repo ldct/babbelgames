@@ -1,0 +1,12 @@
+Je veux lui parler de l'interview de ce matin.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V veux))
+    (VPinf
+      (VN (CLO lui) (VINF parler))
+      (PP (P de)
+        (NP (DET l') (NC interview)
+          (PP (P de)
+            (NP (DET ce) (NC matin))))))
+    (PUNC .)))
+

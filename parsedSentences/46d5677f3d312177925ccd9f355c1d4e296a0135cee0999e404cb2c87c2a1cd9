@@ -1,0 +1,9 @@
+Allez, c'est le dernier...
+(ROOT
+  (SENT
+    (NP (NC Allez))
+    (PUNC ,)
+    (VN (CLS c') (V est))
+    (NP (DET le) (ADJ dernier))
+    (PUNC ...)))
+

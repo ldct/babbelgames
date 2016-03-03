@@ -1,0 +1,10 @@
+Je lui donnerai à manger, laisse.
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO lui) (V donnerai))
+    (VPinf (P à)
+      (VN (VINF manger)))
+    (Sint (PUNC ,)
+      (VN (V laisse)))
+    (PUNC .)))
+

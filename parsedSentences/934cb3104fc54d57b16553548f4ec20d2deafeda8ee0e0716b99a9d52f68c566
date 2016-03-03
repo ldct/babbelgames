@@ -1,0 +1,16 @@
+Il m'a donné l'accès à l'antre de la communauté du Phénix, une exclusivité "Mode".
+(ROOT
+  (SENT
+    (VN (CLS Il) (CLO m') (V a) (VPP donné))
+    (NP (DET l') (NC accès)
+      (PP (P à)
+        (NP (DET l') (NC antre)
+          (PP (P de)
+            (NP (DET la)
+              (MWN (N communauté) (P du) (N Phénix)))))))
+    (PUNC ,)
+    (NP (DET une) (NC exclusivité) (PUNC ")
+      (NP (NPP Mode))
+      (PUNC "))
+    (PUNC .)))
+

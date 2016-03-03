@@ -1,0 +1,11 @@
+Ça s'est bien passé, Koyuki ?
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (CLR s') (V est))
+    (ADV bien)
+    (AP (ADJ passé))
+    (PUNC ,)
+    (NP (NPP Koyuki))
+    (PUNC ?)))
+

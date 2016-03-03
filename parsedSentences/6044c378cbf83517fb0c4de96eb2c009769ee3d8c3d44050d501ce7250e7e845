@@ -1,0 +1,8 @@
+Oh, merci.
+(ROOT
+  (SENT
+    (VN (V Oh))
+    (PUNC ,)
+    (MWADV (N merci))
+    (PUNC .)))
+

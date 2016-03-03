@@ -1,0 +1,10 @@
+Dis donc Maho, tu manges beaucoup.
+(ROOT
+  (SENT
+    (NP (NC Dis))
+    (ADV donc)
+    (NP (NPP Maho))
+    (PUNC ,)
+    (VN (CLS tu) (V manges))
+    (ADV beaucoup) (PUNC .)))
+

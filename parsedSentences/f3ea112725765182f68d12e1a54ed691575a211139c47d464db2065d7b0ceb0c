@@ -1,0 +1,10 @@
+Ah, mais c'est "Ken-ken" !
+(ROOT
+  (SENT (I Ah) (PUNC ,)
+    (NP (NC mais))
+    (VN (CLS c') (V est))
+    (PUNC ")
+    (NP
+      (MWN (ET Ken) (PUNC -) (ET ken)))
+    (PUNC ") (PUNC !)))
+

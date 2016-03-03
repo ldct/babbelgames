@@ -1,0 +1,9 @@
+C'est un peu voyant...
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (MWADV (DET un) (ADV peu))
+    (VPpart
+      (VN (VPR voyant)))
+    (PUNC ...)))
+

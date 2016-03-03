@@ -1,0 +1,17 @@
+Crois-tu que je surveillais les toilettes à épier ces étranges mecs si je ne voulais pas comprendre ?
+(ROOT
+  (SENT
+    (VN (V Crois) (CLS -tu))
+    (Ssub (CS que)
+      (VN (CLS je) (V surveillais))
+      (NP (DET les) (NC toilettes))
+      (VPinf (P à)
+        (VN (VINF épier))
+        (NP (DET ces) (ADJ étranges) (NC mecs)))
+      (Ssub (CS si)
+        (VN (CLS je) (ADV ne) (V voulais))
+        (ADV pas)
+        (VPinf
+          (VN (VINF comprendre)))))
+    (PUNC ?)))
+

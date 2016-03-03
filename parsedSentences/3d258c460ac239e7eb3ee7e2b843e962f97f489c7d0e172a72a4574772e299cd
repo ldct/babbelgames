@@ -1,0 +1,8 @@
+Qui t'a fait ça ?
+(ROOT
+  (SENT
+    (NP (PROWH Qui))
+    (VN (CLS t') (V a) (VPP fait))
+    (NP (PRO ça))
+    (PUNC ?)))
+

@@ -1,0 +1,8 @@
+Il va te mordre.
+(ROOT
+  (SENT
+    (VN (CLS Il) (V va))
+    (VPinf
+      (VN (CLO te) (VINF mordre)))
+    (PUNC .)))
+

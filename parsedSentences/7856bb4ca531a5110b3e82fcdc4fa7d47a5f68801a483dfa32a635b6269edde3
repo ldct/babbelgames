@@ -1,0 +1,8 @@
+Merci de votre patience.
+(ROOT
+  (SENT
+    (VN (V Merci))
+    (PP (P de)
+      (NP (DET votre) (NC patience)))
+    (PUNC .)))
+

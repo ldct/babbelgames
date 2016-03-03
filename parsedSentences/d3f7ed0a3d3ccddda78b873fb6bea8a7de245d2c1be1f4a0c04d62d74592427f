@@ -1,0 +1,13 @@
+C'est vrai, on vient de m'appeler en salle des profs.
+(ROOT
+  (SENT
+    (MWADV (CL C') (V est) (ADJ vrai))
+    (PUNC ,)
+    (VN (CLS on) (V vient))
+    (VPinf (P de)
+      (VN (CLO m') (VINF appeler))
+      (PP (P en)
+        (NP (NC salle)
+          (PP (P des)
+            (NP (NC profs.))))))))
+

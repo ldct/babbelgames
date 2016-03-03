@@ -1,0 +1,26 @@
+Pour être honnête, je sens que Molly est avec moi à chaque étape de ma vie, me supportant, guidant mes décisions.
+(ROOT
+  (SENT
+    (VPinf (P Pour)
+      (VN (VINF être))
+      (AP (ADJ honnête)))
+    (PUNC ,)
+    (VN (CLS je) (V sens))
+    (Ssub (CS que)
+      (NP (NPP Molly))
+      (VN (V est))
+      (PP (P avec)
+        (NP (PRO moi)))
+      (PP (P à)
+        (NP (DET chaque) (NC étape)
+          (PP (P de)
+            (NP (DET ma) (NC vie)))))
+      (PUNC ,)
+      (VPinf
+        (VN (CLO me) (VINF supportant))))
+    (PUNC ,)
+    (VPinf
+      (VN (VINF guidant))
+      (NP (DET mes) (NC décisions)))
+    (PUNC .)))
+

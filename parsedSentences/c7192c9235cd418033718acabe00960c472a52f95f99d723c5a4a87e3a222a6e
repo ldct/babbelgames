@@ -1,0 +1,11 @@
+Je vais te faire chanter, moi !
+(ROOT
+  (SENT
+    (VN (CLS Je) (V vais))
+    (VPinf
+      (VN (CLO te) (VINF faire))
+      (NP (NC chanter))
+      (PUNC ,)
+      (NP (PRO moi)))
+    (PUNC !)))
+

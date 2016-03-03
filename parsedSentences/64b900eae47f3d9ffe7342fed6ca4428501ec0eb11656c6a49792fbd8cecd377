@@ -1,0 +1,9 @@
+Pas de publicité ici.
+(ROOT
+  (SENT
+    (AdP (ADV Pas)
+      (PP (P de)
+        (NP (NC publicité))
+        (ADV ici)))
+    (PUNC .)))
+

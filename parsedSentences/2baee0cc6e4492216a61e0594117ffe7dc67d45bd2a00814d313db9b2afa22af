@@ -1,0 +1,8 @@
+A plus tard, Koyuki !
+(ROOT
+  (SENT
+    (MWADV (P A) (ADV plus) (ADV tard))
+    (PUNC ,)
+    (VN (V Koyuki))
+    (PUNC !)))
+

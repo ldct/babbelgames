@@ -1,0 +1,8 @@
+Je répète, la réunion...
+(ROOT
+  (SENT
+    (VN (CLS Je) (V répète))
+    (PUNC ,)
+    (NP (DET la) (NC réunion))
+    (PUNC ...)))
+

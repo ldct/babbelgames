@@ -1,0 +1,6 @@
+Je te vois demain.
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO te) (V vois))
+    (ADV demain) (PUNC .)))
+

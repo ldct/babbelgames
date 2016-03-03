@@ -1,0 +1,7 @@
+C'est vrai ?
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (AP (ADJ vrai))
+    (PUNC ?)))
+

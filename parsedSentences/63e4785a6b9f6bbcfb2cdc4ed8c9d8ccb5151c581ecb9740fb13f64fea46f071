@@ -1,0 +1,8 @@
+Tu pars tôt demain matin.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V pars))
+    (AdP (ADV tôt) (ADV demain))
+    (NP (NC matin))
+    (PUNC .)))
+

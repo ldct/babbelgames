@@ -1,0 +1,8 @@
+T'as attrapé un rhume ?
+(ROOT
+  (SENT
+    (NP (NPP T'))
+    (VN (V as) (VPP attrapé))
+    (NP (DET un) (NC rhume))
+    (PUNC ?)))
+

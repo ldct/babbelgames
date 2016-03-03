@@ -1,0 +1,7 @@
+Quel idiot.
+(ROOT
+  (SENT
+    (NP (ADJWH Quel))
+    (VN (V idiot))
+    (PUNC .)))
+

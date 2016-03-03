@@ -1,0 +1,9 @@
+Marchez en cadence, bons enfants !
+(ROOT
+  (SENT
+    (VN (V Marchez)
+      (MWADV (P en) (N cadence)))
+    (PUNC ,)
+    (NP (ADJ bons) (NC enfants))
+    (PUNC !)))
+

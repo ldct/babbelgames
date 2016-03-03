@@ -1,0 +1,10 @@
+Je suis ici pour rencontrer Bennett Wallis.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V suis))
+    (ADV ici)
+    (VPinf (P pour)
+      (VN (VINF rencontrer))
+      (NP (DET Bennett) (NC Wallis)))
+    (PUNC .)))
+

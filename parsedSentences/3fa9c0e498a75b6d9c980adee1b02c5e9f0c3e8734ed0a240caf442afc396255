@@ -1,0 +1,9 @@
+l've never dreamed before l'm gonna knock the door
+(ROOT
+  (SENT
+    (NP (DET l') (NC ve)
+      (AP (ADJ never)))
+    (VN (V dreamed) (VPP before))
+    (NP (DET l') (NC m)
+      (MWN (ET gonna) (ET knock) (ET the) (ET door)))))
+

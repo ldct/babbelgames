@@ -1,0 +1,7 @@
+Il a appelé Bennet.
+(ROOT
+  (SENT
+    (VN (CLS Il) (V a) (VPP appelé))
+    (NP (NPP Bennet))
+    (PUNC .)))
+

@@ -1,0 +1,11 @@
+Avec cette nouvelle loi, l'industrie est très défavorisée.
+(ROOT
+  (SENT
+    (PP (P Avec)
+      (NP (DET cette) (ADJ nouvelle) (NC loi)))
+    (PUNC ,)
+    (NP (DET l') (NC industrie))
+    (VN (V est))
+    (AP (ADV très) (ADJ défavorisée))
+    (PUNC .)))
+

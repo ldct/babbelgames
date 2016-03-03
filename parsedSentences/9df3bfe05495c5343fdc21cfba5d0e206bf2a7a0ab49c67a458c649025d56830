@@ -1,0 +1,8 @@
+Allez, camarade !
+(ROOT
+  (SENT
+    (VN (V Allez))
+    (PUNC ,)
+    (NP (NC camarade))
+    (PUNC !)))
+

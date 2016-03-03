@@ -1,0 +1,15 @@
+Tu ne trouveras pas de nouveau travail en portant des chaussures de jardinage !
+(ROOT
+  (SENT
+    (VN (CLS Tu) (ADV ne) (V trouveras))
+    (ADV pas)
+    (PP (P de)
+      (NP (ADJ nouveau) (NC travail)))
+    (VPpart (P en)
+      (VN (VPR portant))
+      (PP (P des)
+        (NP (NC chaussures)
+          (PP (P de)
+            (NP (NC jardinage))))))
+    (PUNC !)))
+

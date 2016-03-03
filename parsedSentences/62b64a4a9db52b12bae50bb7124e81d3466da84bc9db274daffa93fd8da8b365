@@ -1,0 +1,9 @@
+On y va, Masaru.
+(ROOT
+  (SENT
+    (VN (CLS On) (CLO y) (V va))
+    (PUNC ,)
+    (VPinf
+      (VN (VINF Masaru)))
+    (PUNC .)))
+

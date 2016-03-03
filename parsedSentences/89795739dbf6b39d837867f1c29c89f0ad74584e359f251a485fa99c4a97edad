@@ -1,0 +1,11 @@
+Allez, vas-y vite.
+(ROOT
+  (SENT
+    (NP (NC Allez))
+    (PUNC ,)
+    (VN (V vas))
+    (PUNC -)
+    (AdP
+      (MWADV (CL y) (ADJ vite)))
+    (PUNC .)))
+

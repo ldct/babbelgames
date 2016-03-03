@@ -1,0 +1,6 @@
+Trop la classe !
+(ROOT
+  (SENT (ADV Trop)
+    (NP (DET la) (NC classe))
+    (PUNC !)))
+

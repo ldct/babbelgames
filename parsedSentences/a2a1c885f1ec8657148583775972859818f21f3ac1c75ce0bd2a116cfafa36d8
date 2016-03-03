@@ -1,0 +1,9 @@
+Mère, je t'en prie.
+(ROOT
+  (SENT
+    (VN (V Mère))
+    (PUNC ,)
+    (Sint
+      (VN (CLS je) (CLR t') (CLO en) (V prie)))
+    (PUNC .)))
+

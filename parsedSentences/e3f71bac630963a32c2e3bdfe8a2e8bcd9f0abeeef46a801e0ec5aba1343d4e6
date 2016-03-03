@@ -1,0 +1,9 @@
+Oui, on ira voir ça !
+(ROOT
+  (SENT (ADV Oui) (PUNC ,)
+    (VN (CLS on) (V ira))
+    (VPinf
+      (VN (VINF voir))
+      (NP (PRO ça)))
+    (PUNC !)))
+

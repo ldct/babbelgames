@@ -1,0 +1,11 @@
+Merci de nous laisser éclaircir le sujet.
+(ROOT
+  (SENT
+    (VN (V Merci))
+    (VPinf (P de)
+      (VN (CLO nous) (VINF laisser))
+      (VPinf
+        (VN (VINF éclaircir))
+        (NP (DET le) (NC sujet))))
+    (PUNC .)))
+

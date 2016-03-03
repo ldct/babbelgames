@@ -1,0 +1,9 @@
+Alors, comment il sort un son pareil ?
+(ROOT
+  (SENT (ADV Alors) (PUNC ,) (ADVWH comment)
+    (VN (CLS il) (V sort))
+    (AP
+      (MWADV (DET un) (DET son))
+      (ADJ pareil))
+    (PUNC ?)))
+

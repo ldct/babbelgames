@@ -1,0 +1,7 @@
+Je suis partante.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V suis))
+    (AP (ADJ partante))
+    (PUNC .)))
+

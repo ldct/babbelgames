@@ -1,0 +1,14 @@
+HAYAKAMA Instruments de musique Il n'y a plus de problème, je pense.
+(ROOT
+  (SENT
+    (NP
+      (MWN (DET HAYAKAMA) (N Instruments))
+      (PP (P de)
+        (NP (NC musique))))
+    (VN (CLS Il) (ADV n') (CLO y) (V a))
+    (NP (ADV plus) (P de) (NC problème))
+    (PUNC ,)
+    (Sint
+      (VN (CLS je) (V pense)))
+    (PUNC .)))
+

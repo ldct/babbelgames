@@ -1,0 +1,24 @@
+La barrière est ici ! Qu'est-ce qui compte ? Sans impureté, clean !
+(ROOT
+  (SENT
+    (NP (DET La) (NC barrière))
+    (VN (V est))
+    (ADV ici) (PUNC !)))
+
+(ROOT
+  (SENT
+    (NP (PROWH Qu'))
+    (VN (V est) (CLS -ce))
+    (Srel
+      (NP (PROREL qui))
+      (VN (V compte)))
+    (PUNC ?)))
+
+(ROOT
+  (SENT
+    (VPinf (P Sans)
+      (VN (VINF impureté))
+      (PUNC ,)
+      (NP (NC clean)))
+    (PUNC !)))
+

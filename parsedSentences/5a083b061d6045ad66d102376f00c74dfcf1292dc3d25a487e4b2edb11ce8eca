@@ -1,0 +1,8 @@
+If you really wanna fly You gotta let go
+(ROOT
+  (SENT
+    (NP (DET If) (NC you)
+      (MWN (ET really) (ET wanna) (ET fly) (ET You)))
+    (VN (V gotta))
+    (NP (DET let) (NC go))))
+

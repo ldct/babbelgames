@@ -1,0 +1,8 @@
+On n'a pas d'argent.
+(ROOT
+  (SENT
+    (VN (CLS On) (ADV n') (V a))
+    (ADV pas)
+    (NP (DET d') (NC argent))
+    (PUNC .)))
+

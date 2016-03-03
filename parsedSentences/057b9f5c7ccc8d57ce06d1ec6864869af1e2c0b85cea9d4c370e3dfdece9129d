@@ -1,0 +1,10 @@
+J'ai le droit d'avoir faim.
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai))
+    (NP (DET le) (NC droit)
+      (VPinf (P d')
+        (VN (VINF avoir))
+        (NP (NC faim))))
+    (PUNC .)))
+

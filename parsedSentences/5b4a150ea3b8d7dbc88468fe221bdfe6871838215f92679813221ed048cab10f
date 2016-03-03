@@ -1,0 +1,9 @@
+Allez, ça commence !
+(ROOT
+  (SENT
+    (AP (ADJ Allez))
+    (PUNC ,)
+    (NP (PRO ça))
+    (VN (V commence))
+    (PUNC !)))
+

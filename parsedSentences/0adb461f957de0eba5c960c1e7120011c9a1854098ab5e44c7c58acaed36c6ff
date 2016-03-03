@@ -1,0 +1,15 @@
+Vu que c'est l'article "Sans peur", j'avais pensé que nous pourrions
+(ROOT
+  (SENT
+    (VPpart (VPP Vu)
+      (Ssub (CS que)
+        (VN (CLS c') (V est))
+        (NP (DET l') (NC article) (PUNC ")
+          (Srel
+            (PP (P Sans)
+              (NP (NC peur)))
+            (PUNC ") (PUNC ,)
+            (VN (CLS j') (V avais) (VPP pensé))
+            (Ssub (CS que)
+              (VN (CLS nous) (V pourrions)))))))))
+

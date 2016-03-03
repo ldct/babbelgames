@@ -1,0 +1,7 @@
+Un fait drôle.
+(ROOT
+  (SENT
+    (NP (DET Un) (NC fait)
+      (AP (ADJ drôle)))
+    (PUNC .)))
+

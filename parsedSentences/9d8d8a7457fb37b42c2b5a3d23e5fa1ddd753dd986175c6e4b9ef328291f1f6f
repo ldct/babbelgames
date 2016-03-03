@@ -1,0 +1,8 @@
+Tout le monde pourrait.
+(ROOT
+  (SENT
+    (NP
+      (MWPRO (ADJ Tout) (DET le) (N monde)))
+    (VN (V pourrait))
+    (PUNC .)))
+

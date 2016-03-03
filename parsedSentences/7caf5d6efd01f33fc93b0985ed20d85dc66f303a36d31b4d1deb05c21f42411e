@@ -1,0 +1,9 @@
+La dernière fois, pourquoi tu t'es enfui ?
+(ROOT
+  (SENT
+    (NP (DET La) (ADJ dernière) (NC fois))
+    (PUNC ,) (ADVWH pourquoi)
+    (VN (CLS tu) (CLR t') (V es))
+    (AP (ADJ enfui))
+    (PUNC ?)))
+

@@ -1,0 +1,8 @@
+Merci de comprendre.
+(ROOT
+  (SENT
+    (VN (V Merci))
+    (VPinf (P de)
+      (VN (VINF comprendre)))
+    (PUNC .)))
+

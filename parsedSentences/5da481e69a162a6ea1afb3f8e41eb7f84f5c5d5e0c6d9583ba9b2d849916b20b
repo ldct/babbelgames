@@ -1,0 +1,17 @@
+Tout a commencé quand il a embauché cette fille, Natalie, en tant qu'assistante.
+(ROOT
+  (SENT
+    (NP (PRO Tout))
+    (VN (V a) (VPP commencé))
+    (Ssub (CS quand)
+      (VN (CLS il) (V a) (VPP embauché))
+      (NP (DET cette) (NC fille)))
+    (PUNC ,)
+    (NP (NPP Natalie))
+    (PUNC ,)
+    (PP
+      (MWP (P en) (ADV tant) (C qu'))
+      (NP
+        (MWN (N assistante))))
+    (PUNC .)))
+

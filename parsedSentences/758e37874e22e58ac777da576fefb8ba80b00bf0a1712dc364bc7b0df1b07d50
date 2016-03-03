@@ -1,0 +1,27 @@
+A plus tard. J'ai une livraison à faire, alors Koyuki, tu as intérêt à travailler dur puisque tu es en retard.
+(ROOT
+  (SENT
+    (MWADV (P A) (ADV plus) (ADV tard))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai))
+    (NP (DET une) (NC livraison))
+    (VPinf (P à)
+      (VN (VINF faire)))
+    (PUNC ,)
+    (Ssub (CS alors)
+      (NP (NPP Koyuki))
+      (PUNC ,)
+      (VN (CLS tu) (V as))
+      (NP (NC intérêt)
+        (VPinf (P à)
+          (VN (VINF travailler))
+          (AP (ADJ dur))
+          (Ssub (CS puisque)
+            (VN (CLS tu) (V es))
+            (PP (P en)
+              (NP (NC retard)))))))
+    (PUNC .)))
+

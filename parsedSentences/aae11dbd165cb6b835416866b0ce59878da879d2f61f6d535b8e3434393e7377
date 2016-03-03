@@ -1,0 +1,12 @@
+Les pirates n'ont-ils pas tué des gens ? Oui.
+(ROOT
+  (SENT
+    (NP (DET Les) (NC pirates))
+    (VN (ADV n') (V ont) (CLS -ils) (ADV pas)
+      (MWV (V tué)))
+    (NP (DET des) (NC gens))
+    (PUNC ?)))
+
+(ROOT
+  (SENT (I Oui) (PUNC .)))
+

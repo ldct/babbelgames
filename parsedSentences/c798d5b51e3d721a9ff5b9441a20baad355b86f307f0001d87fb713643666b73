@@ -1,0 +1,7 @@
+Tu portais des sabots.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V portais))
+    (NP (DET des) (NC sabots))
+    (PUNC .)))
+

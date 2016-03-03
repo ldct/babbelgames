@@ -1,0 +1,16 @@
+La réunion d'orientation des élèves de 3ème année a lieu au gymnase.
+(ROOT
+  (SENT
+    (NP (DET La) (NC réunion)
+      (PP (P d')
+        (NP (NC orientation)
+          (PP (P des)
+            (NP (NC élèves)
+              (PP (P de)
+                (NP (DET 3) (ADJ ème) (NC année))))))))
+    (VN
+      (MWV (V a) (N lieu)))
+    (PP (P au)
+      (NP (NC gymnase)))
+    (PUNC .)))
+

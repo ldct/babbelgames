@@ -1,0 +1,12 @@
+Je pense que nous devrions pas focaliser là-dessus.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V pense))
+    (Ssub (CS que)
+      (VN (CLS nous) (V devrions))
+      (ADV pas)
+      (VPinf
+        (VN (VINF focaliser))
+        (MWADV (ADV là) (PUNC -) (ADV dessus))))
+    (PUNC .)))
+

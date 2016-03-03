@@ -1,0 +1,11 @@
+Et tu peux t'asseoir à ma droite.
+(ROOT
+  (SENT
+    (COORD (CC Et)
+      (VN (CLS tu) (V peux))
+      (VPinf
+        (VN (CLR t') (VINF asseoir))
+        (PP (P à)
+          (NP (DET ma) (NC droite)))))
+    (PUNC .)))
+

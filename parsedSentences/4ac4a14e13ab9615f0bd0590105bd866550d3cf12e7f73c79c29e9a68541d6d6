@@ -1,0 +1,12 @@
+(Maho, t'es sûre que tu lui as expliqué ?
+(ROOT
+  (SENT
+    (NP (PUNC -LRB-))
+    (NP (NPP Maho))
+    (PUNC ,)
+    (VN (CLS t') (V es))
+    (AP (ADJ sûre))
+    (Ssub (CS que)
+      (VN (CLS tu) (CLO lui) (V as) (VPP expliqué)))
+    (PUNC ?)))
+

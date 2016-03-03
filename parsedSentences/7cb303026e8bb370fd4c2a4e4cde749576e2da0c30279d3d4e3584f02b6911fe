@@ -1,0 +1,11 @@
+Mademoiselle Suarez, vous allez vivre une extraordinaire opportunité.
+(ROOT
+  (SENT
+    (NP (NC Mademoiselle) (NPP Suarez))
+    (PUNC ,)
+    (VN (CLS vous) (V allez))
+    (VPinf
+      (VN (VINF vivre))
+      (NP (DET une) (ADJ extraordinaire) (NC opportunité)))
+    (PUNC .)))
+

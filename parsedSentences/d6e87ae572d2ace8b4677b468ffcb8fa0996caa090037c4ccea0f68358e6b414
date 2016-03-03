@@ -1,0 +1,23 @@
+Depuis que le Don Juan de "Mode" Connor Owens a verrouillé des millions, les bruits ont couru que Slater s'est prise dans son propre jeu.
+(ROOT
+  (SENT
+    (Ssub
+      (MWC (P Depuis) (C que))
+      (NP (DET le) (NC Don)
+        (NP (NPP Juan))
+        (PP (P de)
+          (NP (PUNC ") (NC Mode) (PUNC ")
+            (NP (NPP Connor) (NPP Owens)))))
+      (VN (V a))
+      (AP (ADJ verrouillé))
+      (NP (DET des) (NC millions)))
+    (PUNC ,)
+    (NP (DET les) (NC bruits))
+    (VN (V ont) (VPP couru))
+    (Ssub (CS que)
+      (NP (NPP Slater))
+      (VN (CLR s') (V est) (VPP prise))
+      (PP (P dans)
+        (NP (DET son) (ADJ propre) (NC jeu.))))
+    (PUNC .)))
+

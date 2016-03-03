@@ -1,0 +1,17 @@
+Faire bronzette, écrire un manifeste communiste, éviter la prison.
+(ROOT
+  (SENT
+    (VPinf
+      (VN (VINF Faire)))
+    (VN (V bronzette))
+    (PUNC ,)
+    (VPinf
+      (VN (VINF écrire))
+      (NP (DET un) (NC manifeste)
+        (AP (ADJ communiste))))
+    (PUNC ,)
+    (VPinf
+      (VN (VINF éviter))
+      (NP (DET la) (NC prison)))
+    (PUNC .)))
+

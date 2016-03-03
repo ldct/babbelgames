@@ -1,0 +1,7 @@
+Ce chien...
+(ROOT
+  (SENT
+    (NP (DET Ce)
+      (MWN (N chien)))
+    (PUNC ...)))
+

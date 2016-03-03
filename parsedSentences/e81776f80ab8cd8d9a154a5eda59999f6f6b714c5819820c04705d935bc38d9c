@@ -1,0 +1,13 @@
+La ville où a grandi Ryûsuke, elle est vraiment sympa !
+(ROOT
+  (SENT
+    (NP (DET La) (NC ville)
+      (Srel
+        (NP (PROREL où))
+        (VN (V a) (VPP grandi))
+        (NP (NPP Ryûsuke))))
+    (PUNC ,)
+    (VN (CLS elle) (V est))
+    (AP (ADV vraiment) (ADJ sympa))
+    (PUNC !)))
+

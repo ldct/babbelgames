@@ -1,0 +1,25 @@
+(Hier, je suis passée chercher le matériel que j'avais commandé.) (Et je suis tombée sur un truc.)
+(ROOT
+  (SENT
+    (NP (PUNC -LRB-))
+    (ADV Hier) (PUNC ,)
+    (VN (CLS je) (V suis) (VPP passée))
+    (VPinf
+      (VN (VINF chercher))
+      (NP (DET le) (NC matériel)
+        (Srel
+          (NP (PROREL que))
+          (VN (CLS j') (V avais) (VPP commandé))
+          (AP (ADJ .)))))
+    (PUNC -RRB-)))
+
+(ROOT
+  (SENT
+    (VN (VIMP -LRB-)
+      (COORD (CC Et)
+        (VN (CLS je) (V suis) (VPP tombée))
+        (PP (P sur)
+          (NP (DET un) (NC truc)
+            (AP (ADJ .))))))
+    (PUNC -RRB-)))
+

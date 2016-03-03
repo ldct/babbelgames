@@ -1,0 +1,25 @@
+J'aimerais que ce soit possible, mais c'est une pièce réservée aux membres de niveau 7, et à personne d'autre.
+(ROOT
+  (SENT
+    (VN (CLS J') (V aimerais))
+    (Ssub (CS que)
+      (VN (CLS ce) (VS soit))
+      (AP (ADJ possible))
+      (PUNC ,))
+    (COORD (CC mais)
+      (Sint
+        (VN (CLS c') (V est))
+        (NP (DET une) (NC pièce)
+          (VPpart (VPP réservée)
+            (PP (P aux)
+              (NP (NC membres)
+                (PP (P de)
+                  (NP (NC niveau) (ADJ 7))))
+              (PUNC ,)
+              (COORD (CC et)
+                (PP (P à)
+                  (NP (PRO personne)))))))
+        (PP (P d')
+          (NP (ADJ autre)))))
+    (PUNC .)))
+

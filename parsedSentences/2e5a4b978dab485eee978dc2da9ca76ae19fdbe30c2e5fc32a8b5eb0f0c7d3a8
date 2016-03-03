@@ -1,0 +1,8 @@
+Ou le devons-nous ?
+(ROOT
+  (SENT
+    (COORD (CC Ou)
+      (Sint
+        (VN (CLO le) (V devons) (CLS -nous))))
+    (PUNC ?)))
+

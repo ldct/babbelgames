@@ -1,0 +1,11 @@
+Faire du repérage dans les Bahamas.
+(ROOT
+  (SENT
+    (VPinf
+      (VN (VINF Faire))
+      (PP (P du)
+        (NP (NC repérage)))
+      (PP (P dans)
+        (NP (DET les) (NC Bahamas))))
+    (PUNC .)))
+

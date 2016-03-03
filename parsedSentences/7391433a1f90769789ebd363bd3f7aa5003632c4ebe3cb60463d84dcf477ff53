@@ -1,0 +1,8 @@
+Allez, levez-vous.
+(ROOT
+  (SENT
+    (NP (NC Allez))
+    (PUNC ,)
+    (VN (V levez) (CLS -vous))
+    (PUNC .)))
+

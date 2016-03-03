@@ -1,0 +1,19 @@
+Sérieusement, j'aimerais prendre une seconde pour parler de quelque chose dont je suis fier.
+(ROOT
+  (SENT
+    (NP (NC Sérieusement))
+    (PUNC ,)
+    (VN (CLS j') (V aimerais))
+    (VPinf
+      (VN (VINF prendre))
+      (NP (DET une) (NC seconde)))
+    (VPinf (P pour)
+      (VN (VINF parler))
+      (PP (P de)
+        (NP (ADJ quelque) (NC chose)
+          (Srel
+            (NP (PROREL dont))
+            (VN (CLS je) (V suis))
+            (AP (ADJ fier))))))
+    (PUNC .)))
+

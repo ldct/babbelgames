@@ -1,0 +1,11 @@
+Ces sessions d'assistance, la mise en phase.
+(ROOT
+  (SENT
+    (NP (DET Ces) (NC sessions)
+      (PP (P d')
+        (NP (NC assistance)))
+      (COORD (PUNC ,)
+        (NP (DET la)
+          (MWN (N mise) (P en) (N phase)))))
+    (PUNC .)))
+

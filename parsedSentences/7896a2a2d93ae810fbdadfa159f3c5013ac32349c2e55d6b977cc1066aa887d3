@@ -1,0 +1,9 @@
+Tu parles de chaussures confortables.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V parles))
+    (PP (P de)
+      (NP (NC chaussures)
+        (AP (ADJ confortables))))
+    (PUNC .)))
+

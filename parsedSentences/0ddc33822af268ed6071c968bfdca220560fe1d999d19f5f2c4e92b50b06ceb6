@@ -1,0 +1,17 @@
+Je vais mettre le co-éditeur en chef de "Mode" Daniel Meade sur le haut siège.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V vais))
+    (VPinf
+      (VN (VINF mettre))
+      (NP (DET le) (NC co) (PUNC -)
+        (NP (NC éditeur)
+          (PP (P en)
+            (NP
+              (MWN (N chef) (P de) (PUNC ") (N Mode)))))
+        (PUNC ")
+        (NP (NPP Daniel) (NPP Meade)))
+      (PP (P sur)
+        (NP (DET le) (ADJ haut) (NC siège))))
+    (PUNC .)))
+

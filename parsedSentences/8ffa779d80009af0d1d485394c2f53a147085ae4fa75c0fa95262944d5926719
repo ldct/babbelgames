@@ -1,0 +1,14 @@
+Tu quittes bientôt le collège. C'est vrai.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V quittes))
+    (ADV bientôt)
+    (NP (DET le) (NC collège))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (AP (ADJ vrai))
+    (PUNC .)))
+

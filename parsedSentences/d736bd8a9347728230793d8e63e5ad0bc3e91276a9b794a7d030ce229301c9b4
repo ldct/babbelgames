@@ -1,0 +1,16 @@
+Natalie, Daniel est dans les parages ? - Non.
+(ROOT
+  (SENT
+    (NP (NC Natalie))
+    (PUNC ,)
+    (NP (NPP Daniel))
+    (VN (V est))
+    (PP (P dans)
+      (NP (DET les) (NC parages)))
+    (PUNC ?)))
+
+(ROOT
+  (SENT
+    (VN (PUNC -))
+    (ADV Non) (PUNC .)))
+

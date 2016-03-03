@@ -1,0 +1,15 @@
+Ça épuise bien. Tu devrais essayer parfois.
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (V épuise))
+    (ADV bien) (PUNC .)))
+
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V devrais))
+    (VPinf
+      (VN (VINF essayer))
+      (ADV parfois))
+    (PUNC .)))
+

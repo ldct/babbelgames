@@ -1,0 +1,10 @@
+Koyuki, tu travailles ici depuis quand ?
+(ROOT
+  (SENT
+    (NP (NPP Koyuki))
+    (PUNC ,)
+    (VN (CLS tu) (V travailles))
+    (ADV ici)
+    (PP (P depuis) (ADVWH quand))
+    (PUNC ?)))
+

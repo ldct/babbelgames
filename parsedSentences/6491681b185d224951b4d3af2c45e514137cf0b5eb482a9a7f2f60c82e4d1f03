@@ -1,0 +1,9 @@
+Du rap, carrément !
+(ROOT
+  (SENT
+    (PP (P Du)
+      (NP (NC rap)))
+    (PUNC ,)
+    (VN (V carrément))
+    (PUNC !)))
+

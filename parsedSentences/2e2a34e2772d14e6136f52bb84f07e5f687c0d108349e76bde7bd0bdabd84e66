@@ -1,0 +1,8 @@
+M. Saitô, je vous en prie.
+(ROOT
+  (SENT
+    (NP (NC M.) (NPP Saitô))
+    (PUNC ,)
+    (VN (CLS je) (CLO vous) (CLO en) (V prie))
+    (PUNC .)))
+

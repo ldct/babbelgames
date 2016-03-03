@@ -1,0 +1,9 @@
+Qu'est-ce qu'il fait !
+(ROOT
+  (SENT
+    (NP (PROWH Qu'))
+    (VN (V est) (CLS -ce))
+    (Ssub (CS qu')
+      (VN (CLS il) (V fait)))
+    (PUNC !)))
+

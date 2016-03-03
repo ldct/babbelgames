@@ -1,0 +1,9 @@
+Euh, ce n'est rien.
+(ROOT
+  (SENT
+    (NP (NC Euh))
+    (PUNC ,)
+    (VN (CLS ce) (ADV n') (V est))
+    (NP (PRO rien))
+    (PUNC .)))
+

@@ -1,0 +1,7 @@
+Et voilà.
+(ROOT
+  (SENT
+    (COORD (CC Et)
+      (VN (V voilà)))
+    (PUNC .)))
+

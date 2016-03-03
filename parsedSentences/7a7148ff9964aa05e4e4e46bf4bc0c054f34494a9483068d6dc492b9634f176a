@@ -1,0 +1,19 @@
+J'en ai parlé à Betty et elle a dit qu'elle l'a oublié, donc j'ai le feu vert.
+(ROOT
+  (SENT
+    (VN (CLS J') (CLO en) (V ai) (VPP parlé))
+    (PP (P à)
+      (NP (NPP Betty)))
+    (COORD (CC et)
+      (Sint
+        (VN (CLS elle) (V a) (VPP dit))
+        (Ssub (CS qu')
+          (VN (CLS elle) (CLO l') (V a) (VPP oublié))
+          (PUNC ,))))
+    (COORD (CC donc)
+      (Sint
+        (VN (CLS j') (V ai))
+        (NP (DET le)
+          (MWN (N feu) (ADJ vert)))))
+    (PUNC .)))
+

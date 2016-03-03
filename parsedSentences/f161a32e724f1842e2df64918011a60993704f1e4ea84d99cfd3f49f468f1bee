@@ -1,0 +1,8 @@
+Ça s'appelle une secte.
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (CLR s') (V appelle))
+    (NP (DET une) (NC secte))
+    (PUNC .)))
+

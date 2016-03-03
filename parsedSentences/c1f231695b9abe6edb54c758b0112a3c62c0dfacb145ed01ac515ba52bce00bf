@@ -1,0 +1,9 @@
+J'ai besoin de lui parler.
+(ROOT
+  (SENT
+    (VN (CLS J')
+      (MWV (V ai) (N besoin)))
+    (VPinf (P de)
+      (VN (CLO lui) (VINF parler)))
+    (PUNC .)))
+

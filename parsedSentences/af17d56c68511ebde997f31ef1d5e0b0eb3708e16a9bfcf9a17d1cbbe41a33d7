@@ -1,0 +1,14 @@
+J'ai vu ça. Trop fort, hein ?
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai) (VPP vu))
+    (NP (PRO ça))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (AdP (ADV Trop) (ADV fort))
+    (PUNC ,)
+    (AP (ADJ hein))
+    (PUNC ?)))
+

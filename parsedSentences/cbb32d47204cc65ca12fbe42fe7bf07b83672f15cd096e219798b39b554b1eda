@@ -1,0 +1,9 @@
+Dis... On vient à votre prochain concert !
+(ROOT
+  (SENT
+    (NP (NC Dis) (PUNC ...))
+    (VN (CLS On) (V vient))
+    (PP (P à)
+      (NP (DET votre) (ADJ prochain) (NC concert)))
+    (PUNC !)))
+

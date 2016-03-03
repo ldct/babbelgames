@@ -1,0 +1,8 @@
+Ecoute-moi, Tanaka...
+(ROOT
+  (SENT
+    (VN (V Ecoute) (PRO -moi))
+    (PUNC ,)
+    (NP (NPP Tanaka))
+    (PUNC ...)))
+

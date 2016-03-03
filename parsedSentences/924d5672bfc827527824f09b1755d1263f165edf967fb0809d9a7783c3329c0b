@@ -1,0 +1,7 @@
+Ils ont réparé la guitare.
+(ROOT
+  (SENT
+    (VN (CLS Ils) (V ont) (VPP réparé))
+    (NP (DET la) (NC guitare))
+    (PUNC .)))
+

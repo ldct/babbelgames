@@ -1,0 +1,12 @@
+Je suis désolé pour Connor, mais as-tu perdu l'esprit ?
+(ROOT
+  (SENT
+    (VN (CLS Je) (V suis) (VPP désolé))
+    (PP (P pour)
+      (NP (NPP Connor) (PUNC ,)))
+    (COORD (CC mais)
+      (Sint
+        (VN (V as) (CLS -tu) (VPP perdu))
+        (NP (DET l') (NC esprit))))
+    (PUNC ?)))
+

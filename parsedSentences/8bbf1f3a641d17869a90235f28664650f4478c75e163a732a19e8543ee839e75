@@ -1,0 +1,8 @@
+One, two !
+(ROOT
+  (SENT
+    (VN (V One))
+    (PUNC ,)
+    (NP (NPP two))
+    (PUNC !)))
+

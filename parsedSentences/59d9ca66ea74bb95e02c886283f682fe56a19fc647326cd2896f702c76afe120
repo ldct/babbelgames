@@ -1,0 +1,9 @@
+Un dîner amical est sympa.
+(ROOT
+  (SENT
+    (NP (DET Un) (NC dîner)
+      (AP (ADJ amical)))
+    (VN (V est))
+    (AP (ADJ sympa))
+    (PUNC .)))
+

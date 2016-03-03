@@ -1,0 +1,25 @@
+Précédemment dans Ugly Betty {\pos(272,270)}J'aime ton nouveau look. {\pos(272,270)}J'aime ta coupe de cheveux.
+(ROOT
+  (SENT (ADV Précédemment)
+    (PP (P dans)
+      (NP
+        (MWN (ET Ugly) (ET Betty) (ET {) (ET \) (ET pos))
+        (PUNC -LRB-)
+        (NP (NPP 272,270))
+        (PUNC -RRB-)))
+    (NP (NPP }))
+    (VN (CLS J') (V aime))
+    (NP (DET ton) (ADJ nouveau) (NC look))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (NP (NPP {) (NPP \) (NPP pos) (PUNC -LRB-)
+      (NP (NPP 272,270))
+      (PUNC -RRB-) (NPP }))
+    (VN (CLS J') (V aime))
+    (NP (DET ta) (NC coupe)
+      (PP (P de)
+        (NP (NC cheveux))))
+    (PUNC .)))
+

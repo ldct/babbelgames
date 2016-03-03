@@ -1,0 +1,7 @@
+Nos avenirs sont liés.
+(ROOT
+  (SENT
+    (NP (DET Nos) (NC avenirs))
+    (VN (V sont) (VPP liés))
+    (PUNC .)))
+

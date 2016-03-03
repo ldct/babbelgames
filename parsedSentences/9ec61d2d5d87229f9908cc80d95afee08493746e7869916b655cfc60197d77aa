@@ -1,0 +1,10 @@
+Non, enfin... C'est privé, quoi.
+(ROOT
+  (SENT (ADV Non) (PUNC ,) (ADV enfin)
+    (NP (PUNC ...))
+    (VN (CLS C') (V est))
+    (AP (ADJ privé))
+    (PUNC ,)
+    (NP (PRO quoi))
+    (PUNC .)))
+

@@ -1,0 +1,9 @@
+Qu'en est-il de Betty ?
+(ROOT
+  (SENT
+    (NP (PROWH Qu'))
+    (VN (CLO en) (V est) (CLS -il))
+    (PP (P de)
+      (NP (NPP Betty)))
+    (PUNC ?)))
+

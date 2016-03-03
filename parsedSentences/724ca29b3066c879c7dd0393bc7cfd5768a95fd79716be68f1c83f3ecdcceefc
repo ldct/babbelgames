@@ -1,0 +1,7 @@
+Je vous prends une Ginger Ale.
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO vous) (V prends))
+    (NP (DET une) (NC Ginger) (NPP Ale))
+    (PUNC .)))
+

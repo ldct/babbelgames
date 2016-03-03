@@ -1,0 +1,13 @@
+Là, je prends une photo ! - Vas-y !
+(ROOT
+  (SENT (ADV Là) (PUNC ,)
+    (VN (CLS je) (V prends))
+    (NP (DET une) (NC photo))
+    (PUNC !)))
+
+(ROOT
+  (SENT
+    (NP (PUNC -))
+    (VN (V Vas) (PUNC -) (CLO y))
+    (PUNC !)))
+

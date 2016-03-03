@@ -1,0 +1,7 @@
+C'est vraiment drôle.
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (AP (ADV vraiment) (ADJ drôle))
+    (PUNC .)))
+

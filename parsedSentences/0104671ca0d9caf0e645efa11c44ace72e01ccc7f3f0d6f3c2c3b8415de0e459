@@ -1,0 +1,10 @@
+LIVE 8: "DIFFUSION A L'ECOLE"
+(ROOT
+  (SENT
+    (NP (NC LIVE) (ADJ 8))
+    (PUNC :) (PUNC ")
+    (VN (V DIFFUSION))
+    (PP (P A)
+      (NP (DET L') (NC ECOLE)))
+    (PUNC ")))
+

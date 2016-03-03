@@ -1,0 +1,14 @@
+On va nager un peu, ça te changera les idées !
+(ROOT
+  (SENT
+    (VN (CLS On) (V va))
+    (VPinf
+      (VN (VINF nager))
+      (MWADV (DET un) (ADV peu)))
+    (PUNC ,)
+    (NP (PRO ça))
+    (VPinf
+      (VN (CLO te) (VINF changera))
+      (NP (DET les) (NC idées)))
+    (PUNC !)))
+

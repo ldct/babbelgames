@@ -1,0 +1,10 @@
+T'as vu là-bas, la classe !
+(ROOT
+  (SENT
+    (NP (NPP T'))
+    (VN (V as) (VPP vu))
+    (MWADV (ADV là) (PUNC -) (ADJ bas))
+    (PUNC ,)
+    (NP (DET la) (NC classe))
+    (PUNC !)))
+

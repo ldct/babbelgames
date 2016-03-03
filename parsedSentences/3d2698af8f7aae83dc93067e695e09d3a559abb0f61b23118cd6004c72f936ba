@@ -1,0 +1,19 @@
+J'ai essayé de te parler toute la journée, mais Natalie et Bennett ne laissent personne t'approcher.
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai) (VPP essayé))
+    (VPinf (P de)
+      (VN (CLO te) (VINF parler))
+      (NP (ADJ toute) (DET la) (NC journée)))
+    (PUNC ,)
+    (COORD (CC mais)
+      (Sint
+        (NP (NPP Natalie)
+          (COORD (CC et)
+            (NP (NPP Bennett))))
+        (VN (ADV ne) (V laissent))
+        (NP (PRO personne))
+        (VPinf
+          (VN (CLR t') (VINF approcher)))))
+    (PUNC .)))
+

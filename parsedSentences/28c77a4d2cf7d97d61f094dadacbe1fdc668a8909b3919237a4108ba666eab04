@@ -1,0 +1,9 @@
+Elle a un son de merde.
+(ROOT
+  (SENT
+    (VN (CLS Elle) (V a))
+    (NP (DET un) (NC son)
+      (PP (P de)
+        (NP (NC merde))))
+    (PUNC .)))
+

@@ -1,0 +1,11 @@
+Excellent, je voudrais en savoir beaucoup plus.
+(ROOT
+  (SENT
+    (NP (ADJ Excellent))
+    (PUNC ,)
+    (VN (CLS je) (V voudrais))
+    (VPinf
+      (VN (CLO en) (VINF savoir))
+      (AdP (ADV beaucoup) (ADV plus)))
+    (PUNC .)))
+

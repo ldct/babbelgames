@@ -1,0 +1,10 @@
+Ne sois pas impatient, Koyuki.
+(ROOT
+  (SENT
+    (VN (ADV Ne) (V sois))
+    (ADV pas)
+    (AP (ADJ impatient))
+    (PUNC ,)
+    (NP (NPP Koyuki))
+    (PUNC .)))
+

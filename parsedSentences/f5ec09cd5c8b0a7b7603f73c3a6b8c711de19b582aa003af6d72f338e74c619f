@@ -1,0 +1,9 @@
+Yukio Tanaka, de la classe 2-4.
+(ROOT
+  (SENT
+    (NP (DET Yukio) (NC Tanaka) (PUNC ,)
+      (PP (P de)
+        (NP (DET la) (NC classe)
+          (AP (ADJ 2-4)))))
+    (PUNC .)))
+

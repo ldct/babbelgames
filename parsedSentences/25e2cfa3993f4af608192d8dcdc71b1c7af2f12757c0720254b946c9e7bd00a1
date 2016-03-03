@@ -1,0 +1,13 @@
+Les punks portent la guitare plutôt en bas, c'est ça...
+(ROOT
+  (SENT
+    (NP (DET Les) (NC punks))
+    (VN (V portent))
+    (AdP
+      (NP (DET la) (NC guitare))
+      (ADV plutôt) (P en) (ADV bas))
+    (Sint (PUNC ,)
+      (VN (CLS c') (V est))
+      (NP (PRO ça)))
+    (PUNC ...)))
+

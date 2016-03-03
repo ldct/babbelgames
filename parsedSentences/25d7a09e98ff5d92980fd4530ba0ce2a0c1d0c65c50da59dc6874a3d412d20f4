@@ -1,0 +1,10 @@
+Vous êtes attendu en salle des professeurs.
+(ROOT
+  (SENT
+    (VN (CLS Vous) (V êtes) (VPP attendu))
+    (PP (P en)
+      (NP (NC salle)
+        (PP (P des)
+          (NP (NC professeurs)))))
+    (PUNC .)))
+

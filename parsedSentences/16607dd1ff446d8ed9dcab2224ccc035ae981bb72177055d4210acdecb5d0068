@@ -1,0 +1,9 @@
+Fais gaffe au tétanos !
+(ROOT
+  (SENT
+    (NP (NC Fais))
+    (VN (V gaffe))
+    (PP (P au)
+      (NP (NC tétanos)))
+    (PUNC !)))
+

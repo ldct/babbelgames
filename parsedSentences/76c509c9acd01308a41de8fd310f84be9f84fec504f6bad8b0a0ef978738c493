@@ -1,0 +1,27 @@
+Il y a un nom pour définir ces personnes qui contrôlent votre vie, qui prennent toutes les décisions pour vous, qui vous éloignent des personnes que vous aimez.
+(ROOT
+  (SENT
+    (PP
+      (MWP (CL Il) (CL y) (V a))
+      (NP (DET un) (NC nom)
+        (VPinf (P pour)
+          (VN (VINF définir))
+          (NP (DET ces) (NC personnes)
+            (Srel
+              (NP (PROREL qui))
+              (VN (V contrôlent))
+              (NP (DET votre) (NC vie)))))))
+    (PUNC ,)
+    (NP (PROREL qui))
+    (VN (V prennent))
+    (NP (ADJ toutes) (DET les) (NC décisions))
+    (PP (P pour)
+      (NP (PRO vous)
+        (Srel (PUNC ,)
+          (NP (PROREL qui))
+          (VN (CLS vous) (V éloignent))
+          (NP (DET des) (NC personnes))
+          (Ssub (CS que)
+            (VN (CLS vous) (V aimez))))))
+    (PUNC .)))
+

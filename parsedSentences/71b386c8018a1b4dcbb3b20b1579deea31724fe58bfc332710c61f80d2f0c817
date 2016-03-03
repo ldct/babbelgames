@@ -1,0 +1,12 @@
+Je lui ai parlé au téléphone hier, et Ryûsuke te passe le bonjour.
+(ROOT
+  (SENT
+    (VN (CLS Je) (CLO lui) (V ai) (VPP parlé))
+    (MWADV (P au) (N téléphone))
+    (ADV hier) (PUNC ,)
+    (COORD (CC et)
+      (NP (NPP Ryûsuke))
+      (VN (CLO te) (V passe))
+      (NP (DET le) (NC bonjour)))
+    (PUNC .)))
+

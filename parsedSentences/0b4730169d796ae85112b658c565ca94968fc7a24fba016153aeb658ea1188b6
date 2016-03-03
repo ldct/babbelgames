@@ -1,0 +1,12 @@
+T'as pas l'air en forme, Koyuki.
+(ROOT
+  (SENT
+    (NP (NPP T'))
+    (VN (V as))
+    (ADV pas)
+    (NP (DET l')
+      (MWN (N air) (P en) (N forme))
+      (PUNC ,)
+      (NP (NPP Koyuki)))
+    (PUNC .)))
+

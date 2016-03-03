@@ -1,0 +1,15 @@
+Peut-être nous pouvons leur dire que tu étais sous traitement d'allergie.
+(ROOT
+  (SENT
+    (MWADV (V Peut) (PUNC -) (V être))
+    (VN (CLS nous) (V pouvons))
+    (VPinf
+      (VN (CLO leur) (VINF dire))
+      (Ssub (CS que)
+        (VN (CLS tu) (V étais))
+        (PP (P sous)
+          (NP (NC traitement)
+            (PP (P d')
+              (NP (NC allergie)))))))
+    (PUNC .)))
+

@@ -1,0 +1,8 @@
+Où était-il ce week-end ?
+(ROOT
+  (SENT (ADVWH Où)
+    (VN (V était) (CLS -il))
+    (NP (DET ce)
+      (MWN (ET week) (PUNC -) (ET end)))
+    (PUNC ?)))
+

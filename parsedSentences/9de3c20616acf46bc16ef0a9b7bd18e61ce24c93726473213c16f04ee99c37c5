@@ -1,0 +1,9 @@
+Elle est lugubre, cette guitare.
+(ROOT
+  (SENT
+    (VN (CLS Elle) (V est))
+    (AP (ADJ lugubre))
+    (PUNC ,)
+    (NP (DET cette) (NC guitare))
+    (PUNC .)))
+

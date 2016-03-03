@@ -1,0 +1,14 @@
+Koyuki, je réduis ta paye, comme tu pars plus tôt.
+(ROOT
+  (SENT
+    (NP (NPP Koyuki))
+    (PUNC ,)
+    (VN (CLS je) (V réduis) (VPP ta))
+    (Sint
+      (VN (V paye)))
+    (PUNC ,)
+    (Ssub (CS comme)
+      (VN (CLS tu) (V pars))
+      (AdP (ADV plus) (ADV tôt)))
+    (PUNC .)))
+

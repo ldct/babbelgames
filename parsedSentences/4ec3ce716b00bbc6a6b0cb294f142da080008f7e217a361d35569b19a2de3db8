@@ -1,0 +1,15 @@
+Calamars frits, champignons cuits, maquereaux, aubergines, fraisiers !
+(ROOT
+  (SENT
+    (NP (NC Calamars)
+      (AP (ADJ frits)))
+    (PUNC ,)
+    (VN (V champignons) (VPP cuits))
+    (PUNC ,)
+    (NP (NC maquereaux))
+    (PUNC ,)
+    (NP (NC aubergines))
+    (PUNC ,)
+    (NP (NC fraisiers))
+    (PUNC !)))
+

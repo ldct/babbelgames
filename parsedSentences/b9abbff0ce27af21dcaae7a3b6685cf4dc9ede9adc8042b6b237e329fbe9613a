@@ -1,0 +1,11 @@
+T'as vu le match hier ?
+(ROOT
+  (SENT
+    (NP (NPP T'))
+    (VN (V as) (VPP vu))
+    (AdP
+      (NP
+        (MWN (DET le) (N match)))
+      (ADV hier))
+    (PUNC ?)))
+

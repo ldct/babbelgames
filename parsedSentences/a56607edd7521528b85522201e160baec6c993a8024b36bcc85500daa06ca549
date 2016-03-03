@@ -1,0 +1,8 @@
+Ce sera en bus.
+(ROOT
+  (SENT
+    (VN (CLS Ce) (V sera))
+    (PP (P en)
+      (NP (NC bus)))
+    (PUNC .)))
+

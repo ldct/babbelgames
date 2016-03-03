@@ -1,0 +1,10 @@
+C'est donc ça, Beck...
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (ADV donc)
+    (NP (PRO ça))
+    (COORD (PUNC ,)
+      (NP (NPP Beck)))
+    (PUNC ...)))
+

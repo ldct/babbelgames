@@ -1,0 +1,8 @@
+My world comin' down
+(ROOT
+  (SENT
+    (NP (DET My)
+      (MWN (ET world) (ET comin))
+      (AP (ADJ ')
+        (COORD (ET down))))))
+

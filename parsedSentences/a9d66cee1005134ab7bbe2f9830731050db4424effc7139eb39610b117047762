@@ -1,0 +1,9 @@
+Le micro de devant est cassé ?
+(ROOT
+  (SENT
+    (NP (DET Le) (NC micro)
+      (PP (P de)
+        (NP (NC devant))))
+    (VN (V est) (VPP cassé))
+    (PUNC ?)))
+

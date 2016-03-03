@@ -1,0 +1,7 @@
+Que fais-tu ici ?
+(ROOT
+  (SENT
+    (NP (PROWH Que))
+    (VN (V fais) (CLS -tu))
+    (ADV ici) (PUNC ?)))
+

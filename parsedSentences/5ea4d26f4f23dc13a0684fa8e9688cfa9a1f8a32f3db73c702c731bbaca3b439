@@ -1,0 +1,14 @@
+Mais... Lui... Il a déjà... dépassé les gammes...
+(ROOT
+  (SENT
+    (COORD (CC Mais)
+      (PUNC ...)
+      (Sint
+        (NP (PRO Lui))
+        (PUNC ...)
+        (VN (CLS Il) (V a) (ADV déjà) (PUNC ...))
+        (VPinf
+          (VN (VPP dépassé))
+          (NP (DET les) (NC gammes)))))
+    (PUNC ...)))
+

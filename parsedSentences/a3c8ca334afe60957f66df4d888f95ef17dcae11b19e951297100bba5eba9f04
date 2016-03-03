@@ -1,0 +1,13 @@
+C'est compréhensible, ce que vous prêchez est plutôt...
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (AP (ADJ compréhensible))
+    (PUNC ,)
+    (NP (PRO ce)
+      (Srel
+        (NP (PROREL que))
+        (VN (CLS vous) (V prêchez))))
+    (VN (V est))
+    (ADV plutôt) (PUNC ...)))
+

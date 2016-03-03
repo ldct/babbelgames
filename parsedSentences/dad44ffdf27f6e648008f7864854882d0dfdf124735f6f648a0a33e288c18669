@@ -1,0 +1,27 @@
+Te surveiller, comme s'occuper de tes réunions et de t'éloigner de ta famille et de tout les gens que tu aimes ?
+(ROOT
+  (SENT
+    (VN (V Te))
+    (VPinf
+      (VN (VINF surveiller))
+      (PUNC ,)
+      (COORD (CC comme)
+        (VPinf
+          (VN (CLR s') (VINF occuper))
+          (PP (P de)
+            (NP (DET tes) (NC réunions))
+            (COORD (CC et)
+              (PP (P de)))))))
+    (VPinf
+      (VN (CLR t')))
+    (VPinf (VINF éloigner)
+      (PP (P de)
+        (NP (DET ta) (NC famille))
+        (COORD (CC et)
+          (PP (P de)
+            (NP (PRO tout)))))
+      (NP (DET les) (NC gens)
+        (Ssub (CS que)
+          (VN (CLS tu) (V aimes)))))
+    (PUNC ?)))
+

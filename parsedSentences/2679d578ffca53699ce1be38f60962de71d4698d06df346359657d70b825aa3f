@@ -1,0 +1,10 @@
+C'est... C'est vrai ?
+(ROOT
+  (SENT
+    (VN (CLS C') (V est))
+    (PUNC ...)
+    (Sint
+      (VN (CLS C') (V est))
+      (AP (ADJ vrai)))
+    (PUNC ?)))
+

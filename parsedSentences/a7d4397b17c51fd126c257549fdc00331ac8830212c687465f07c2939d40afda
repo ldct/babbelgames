@@ -1,0 +1,8 @@
+Hé, Tanaka !
+(ROOT
+  (SENT
+    (VN (V Hé))
+    (PUNC ,)
+    (NP (NPP Tanaka))
+    (PUNC !)))
+

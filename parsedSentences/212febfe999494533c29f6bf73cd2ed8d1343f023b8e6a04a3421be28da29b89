@@ -1,0 +1,7 @@
+Salut !
+(ROOT
+  (SENT
+    (NP
+      (MWN (N Salut)))
+    (PUNC !)))
+

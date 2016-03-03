@@ -1,0 +1,11 @@
+A propos, j'ai aussi invité Ryûsuke.
+(ROOT
+  (SENT
+    (PP (P A)
+      (NP (NC propos)))
+    (PUNC ,)
+    (VN (CLS j') (V ai))
+    (ADV aussi)
+    (NP (NC invité) (NPP Ryûsuke))
+    (PUNC .)))
+

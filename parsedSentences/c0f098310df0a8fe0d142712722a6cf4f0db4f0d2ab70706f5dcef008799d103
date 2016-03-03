@@ -1,0 +1,16 @@
+Rie-Rie ! - J'étais toute triste, moi !
+(ROOT
+  (SENT
+    (NP
+      (MWN (N Rie) (PUNC -) (N Rie)))
+    (PUNC !)))
+
+(ROOT
+  (SENT
+    (NP (PUNC -))
+    (VN (CLS J') (V étais))
+    (AP (ADV toute) (ADJ triste))
+    (PUNC ,)
+    (NP (PRO moi))
+    (PUNC !)))
+

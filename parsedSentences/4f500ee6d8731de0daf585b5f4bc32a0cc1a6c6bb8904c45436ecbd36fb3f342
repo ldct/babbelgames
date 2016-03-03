@@ -1,0 +1,12 @@
+Ou ressentez-vous sa peine après avoir traversé votre récente tragédie ?
+(ROOT
+  (SENT
+    (COORD (CC Ou)
+      (Sint
+        (VN (V ressentez) (CLS -vous))
+        (NP (DET sa) (NC peine))
+        (VPinf (P après)
+          (VN (VINF avoir) (VPP traversé))
+          (NP (DET votre) (ADJ récente) (NC tragédie)))))
+    (PUNC ?)))
+

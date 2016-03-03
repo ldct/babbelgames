@@ -1,0 +1,7 @@
+Tu as raison.
+(ROOT
+  (SENT
+    (VN (CLS Tu) (V as))
+    (NP (NC raison))
+    (PUNC .)))
+

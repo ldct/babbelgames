@@ -1,0 +1,6 @@
+Je savais pas...
+(ROOT
+  (SENT
+    (VN (CLS Je) (V savais) (ADV pas))
+    (PUNC ...)))
+

@@ -1,0 +1,18 @@
+J'ai supposé qu'en attendant que tu récupères, je pourrais te préparer un dîner.
+(ROOT
+  (SENT
+    (VN (CLS J') (V ai))
+    (VPinf
+      (VN (VPP supposé))
+      (Ssub (CS qu')
+        (VPpart (P en)
+          (VN (VPR attendant))
+          (Ssub (CS que)
+            (VN (CLS tu) (V récupères))))
+        (PUNC ,)
+        (VN (CLS je) (V pourrais))
+        (VPinf
+          (VN (CLO te) (VINF préparer))
+          (NP (DET un) (NC dîner)))))
+    (PUNC .)))
+

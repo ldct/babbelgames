@@ -1,0 +1,9 @@
+Gamme pentatonique en do majeur
+(ROOT
+  (SENT
+    (NP (NC Gamme)
+      (AP (ADJ pentatonique)))
+    (PP (P en)
+      (NP (NC do)
+        (AP (ADJ majeur))))))
+

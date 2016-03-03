@@ -1,0 +1,8 @@
+Des impacts de balle ?
+(ROOT
+  (SENT
+    (NP (DET Des) (NC impacts)
+      (PP (P de)
+        (NP (NC balle))))
+    (PUNC ?)))
+

@@ -1,0 +1,6 @@
+Allons-y.
+(ROOT
+  (SENT
+    (VN (V Allons) (PUNC -) (CLO y))
+    (PUNC .)))
+

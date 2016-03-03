@@ -1,0 +1,22 @@
+En vérité, l'Imprimerie Saitô est en difficulté. Trouver l'argent pour la réparer n'a pas été une mince affaire.
+(ROOT
+  (SENT
+    (MWADV (P En) (N vérité))
+    (PUNC ,)
+    (NP (DET l') (NC Imprimerie) (NPP Saitô))
+    (VN (V est))
+    (PP (P en)
+      (NP (NC difficulté)))
+    (PUNC .)))
+
+(ROOT
+  (SENT
+    (VPinf
+      (VN (VINF Trouver))
+      (NP (DET l') (NC argent)
+        (VPinf (P pour)
+          (VN (CLO la) (VINF réparer)))))
+    (VN (ADV n') (V a) (ADV pas) (VPP été))
+    (NP (DET une) (ADJ mince) (NC affaire))
+    (PUNC .)))
+

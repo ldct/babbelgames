@@ -1,0 +1,11 @@
+Étais-tu en sueur et en culotte ?
+(ROOT
+  (SENT
+    (VN (V Étais) (CLS -tu))
+    (PP (P en)
+      (NP (NC sueur))
+      (COORD (CC et)
+        (PP (P en)
+          (NP (NC culotte)))))
+    (PUNC ?)))
+

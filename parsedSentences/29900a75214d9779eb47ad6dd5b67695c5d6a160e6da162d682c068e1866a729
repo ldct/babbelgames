@@ -1,0 +1,13 @@
+Je pensais être la seule à avoir été écartée de sa vie.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V pensais))
+    (VPinf
+      (VN (VINF être))
+      (NP (DET la) (ADJ seule)
+        (VPinf (P à)
+          (VN (VINF avoir) (VPP été) (VPP écartée))
+          (PP (P de)
+            (NP (DET sa) (NC vie))))))
+    (PUNC .)))
+

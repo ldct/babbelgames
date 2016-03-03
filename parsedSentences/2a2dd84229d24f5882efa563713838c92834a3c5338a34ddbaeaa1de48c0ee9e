@@ -1,0 +1,12 @@
+On s'amusait, et Tanabe m'a fait un Drop Kick.
+(ROOT
+  (SENT
+    (VN (CLS On) (CLR s') (V amusait))
+    (PUNC ,)
+    (COORD (CC et)
+      (Sint
+        (NP (NPP Tanabe))
+        (VN (CLO m') (V a) (VPP fait))
+        (NP (DET un) (NC Drop) (NPP Kick))))
+    (PUNC .)))
+

@@ -1,0 +1,20 @@
+Je pensais que tu n'allais pas prendre le Hartley entier car cette peluche a encore des sentiments pour lui.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V pensais))
+    (Ssub (CS que)
+      (VN (CLS tu) (ADV n') (V allais))
+      (ADV pas)
+      (VPinf
+        (VN (VINF prendre))
+        (NP (DET le) (NC Hartley)
+          (AP (ADJ entier)))))
+    (COORD (CC car)
+      (Sint
+        (NP (DET cette) (NC peluche))
+        (VN (V a) (ADV encore))
+        (NP (DET des) (NC sentiments))
+        (PP (P pour)
+          (NP (PRO lui)))))
+    (PUNC .)))
+

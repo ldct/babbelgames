@@ -1,0 +1,10 @@
+Nous n'avons plus à dire adieu.
+(ROOT
+  (SENT
+    (VN (CLS Nous) (ADV n') (V avons))
+    (ADV plus)
+    (VPinf (P à)
+      (VN (VINF dire))
+      (NP (NC adieu)))
+    (PUNC .)))
+

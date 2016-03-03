@@ -1,0 +1,6 @@
+Je suis désolé.
+(ROOT
+  (SENT
+    (VN (CLS Je) (V suis) (VPP désolé))
+    (PUNC .)))
+

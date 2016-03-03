@@ -1,0 +1,13 @@
+Soyez prêts pour ce que vous allez voir.
+(ROOT
+  (SENT
+    (VN (V Soyez))
+    (AP (ADJ prêts)
+      (PP (P pour)
+        (NP (PRO ce)
+          (Ssub (CS que)
+            (VN (CLS vous) (V allez))
+            (VPinf
+              (VN (VINF voir)))))))
+    (PUNC .)))
+

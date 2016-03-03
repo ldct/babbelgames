@@ -1,0 +1,8 @@
+Daniel, il reste ?
+(ROOT
+  (SENT
+    (NP (NPP Daniel))
+    (PUNC ,)
+    (VN (CLS il) (V reste))
+    (PUNC ?)))
+

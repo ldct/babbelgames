@@ -1,0 +1,12 @@
+You're gonna say l'm lying l'm gonna get the chance
+(ROOT
+  (SENT
+    (NP (DET You're) (NC gonna)
+      (AP (ADJ say))
+      (Srel
+        (NP (DET l') (NC m))
+        (VN (V lying))
+        (NP (DET l') (NC m))))
+    (VN (V gonna) (VPP get))
+    (NP (ET the) (NC chance))))
+

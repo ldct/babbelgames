@@ -1,0 +1,8 @@
+Anne Bonny et Mary Read.
+(ROOT
+  (SENT
+    (NP (NPP Anne) (NPP Bonny)
+      (COORD (CC et)
+        (NP (NPP Mary) (NPP Read))))
+    (PUNC .)))
+

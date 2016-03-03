@@ -1,0 +1,8 @@
+(Mais oui ! )
+(ROOT
+  (SENT
+    (NP (PUNC -LRB-))
+    (ADV Mais)
+    (NP (NC oui) (PUNC !))
+    (PUNC -RRB-)))
+

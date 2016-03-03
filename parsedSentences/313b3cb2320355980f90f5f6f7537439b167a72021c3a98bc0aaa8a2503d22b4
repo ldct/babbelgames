@@ -1,0 +1,14 @@
+Il est vraiment trop bête Saute de scène ou meurs, pas le choix
+(ROOT
+  (SENT
+    (COORD
+      (VN (CLS Il) (V est) (ADV vraiment))
+      (NP (ADV trop)
+        (MWN (N bête) (ADJ Saute))
+        (PP (P de)
+          (NP (NC scène)
+            (COORD (CC ou)
+              (NP (NC meurs))
+              (PUNC ,) (ADV pas)
+              (NP (DET le) (NC choix)))))))))
+

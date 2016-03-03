@@ -1,0 +1,19 @@
+Mind blower, une douche de sueur Monde nouveau, je cours dans ma vie
+(ROOT
+  (SENT
+    (VN (V Mind))
+    (VPinf
+      (VN (VINF blower))
+      (PUNC ,)
+      (NP (DET une) (NC douche))
+      (Ssub
+        (PP (P de)
+          (NP (NC sueur)))
+        (NP
+          (MWN (N Monde) (ADJ nouveau)))
+        (PUNC ,)
+        (VN (CLS je))
+        (PP
+          (MWP (N cours) (P dans))
+          (NP (DET ma) (NC vie)))))))
+

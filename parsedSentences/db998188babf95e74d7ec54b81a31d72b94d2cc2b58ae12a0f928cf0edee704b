@@ -1,0 +1,10 @@
+Ça sera une belle occasion pour la communauté.
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (V sera))
+    (NP (DET une) (ADJ belle) (NC occasion))
+    (PP (P pour)
+      (NP (DET la) (NC communauté)))
+    (PUNC .)))
+

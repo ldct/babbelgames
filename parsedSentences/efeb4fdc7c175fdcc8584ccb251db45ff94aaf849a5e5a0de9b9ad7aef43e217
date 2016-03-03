@@ -1,0 +1,12 @@
+Into the world of perfect free You ain't no lonely !
+(ROOT
+  (SENT
+    (COORD
+      (NP (NC Into)
+        (NP
+          (MWN (ET the) (ET world) (ET of) (ET perfect))
+          (ET free) (NPP You)))
+      (NP
+        (MWN (ET ain't) (ET no) (ET lonely))))
+    (PUNC !)))
+

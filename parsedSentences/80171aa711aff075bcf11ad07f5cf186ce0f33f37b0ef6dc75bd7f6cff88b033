@@ -1,0 +1,11 @@
+Tanaka, passe-moi ta guitare une seconde.
+(ROOT
+  (SENT
+    (NP (NC Tanaka))
+    (PUNC ,)
+    (VN (V passe))
+    (Sint
+      (VN (CLS -moi) (V ta) (VPP guitare))
+      (NP (DET une) (ADJ seconde)))
+    (PUNC .)))
+

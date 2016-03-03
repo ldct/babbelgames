@@ -1,0 +1,8 @@
+On avancera à notre propre manière.
+(ROOT
+  (SENT
+    (VN (CLS On) (V avancera))
+    (PP (P à)
+      (NP (DET notre) (ADJ propre) (NC manière)))
+    (PUNC .)))
+

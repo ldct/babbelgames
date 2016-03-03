@@ -1,0 +1,10 @@
+Je vais être triste... Vraiment ?
+(ROOT
+  (SENT
+    (VN (CLS Je) (V vais))
+    (VPinf
+      (VN (VINF être))
+      (AP (ADJ triste) (PUNC ...))
+      (NP (NC Vraiment)))
+    (PUNC ?)))
+

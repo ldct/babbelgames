@@ -1,0 +1,14 @@
+Ça ne fait que deux mois que tu pratiques la guitare.
+(ROOT
+  (SENT
+    (NP (PRO Ça))
+    (VN (ADV ne) (V fait))
+    (ADV que)
+    (NP (DET deux) (NC mois))
+    (Ssub (CS que)
+      (VN (CLS tu))
+      (PP
+        (NP (NC pratiques)))
+      (VN (CLO la) (V guitare)))
+    (PUNC .)))
+

@@ -1,0 +1,6 @@
+Pauvre bébé !
+(ROOT
+  (SENT
+    (NP (ADJ Pauvre) (NC bébé))
+    (PUNC !)))
+

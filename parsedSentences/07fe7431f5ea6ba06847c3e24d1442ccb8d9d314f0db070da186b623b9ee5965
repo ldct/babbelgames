@@ -1,0 +1,6 @@
+Encore du boulot ?
+(ROOT
+  (SENT (ADV Encore)
+    (NP (DET du) (NC boulot))
+    (PUNC ?)))
+
