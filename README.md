@@ -1,6 +1,12 @@
 # frex-backend
 backend for frex (lessons, user management)
 
+## install
+
+wget http://nlp.stanford.edu/software/stanford-parser-full-2015-12-09.zip
+# unzip
+rsync -avzPe "ssh -i ./xuanji-OSX.pem" ./opus-OS/en-fr/fr ubuntu@54.201.205.125:/home/ubuntu/fr
+
 ## deployment
 
 mix deps.get
