@@ -37,11 +37,18 @@ defmodule FrexServer do
   end
 
   get "/index.html" do
+    contents = File.read!("static/index.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, "<html>hi</html>") # todo replace    
+    |> send_resp(200, contents)    
   end
 
+  get "/bundle.js" do
+    contents = File.read!("static/bundle.js")
+    conn
+    |> put_resp_content_type("application/javascript; charset=UTF-8")
+    |> send_resp(200, contents)    
+  end
 
   get "subtitle-noparse/random.json" do
     fr = File.stream!("opus-OS/en-fr/fr")
@@ -66,10 +73,17 @@ defmodule FrexServer do
     
     fr = File.stream!("opus-OS/en-fr/fr")
     en = File.stream!("opus-OS/en-fr/en")
+    fp = File.stream!("pcfg-done/fr.aa.stp")
     n = randomIndex()
 
     frSentence = fr |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
     enSentence = en |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
+    {:ok, ["ROOT", frParsed]}  = fp 
+    |> Enum.at(n) 
+    |> String.replace("PUNC \"", "PUNC DOUBLEQUOTE") 
+    |> SymbolicExpression.Parser.parse
+    
+    frParsed |> IO.inspect
 
     frContext = fr |> Enum.slice(n-3, 6)
     enContext = en |> Enum.slice(n-3, 6)
@@ -83,8 +97,8 @@ defmodule FrexServer do
           'original': frContext,
           'translated': enContext
         },
-        'constituents': frSentence |> Nlp.extractChunkedConstituents,
-        'parsed': frSentence |> Nlp.parseSentence,
+        'constituents': frParsed |> Nlp.extractChunkedConstituentsTree,
+        # 'parsed': frParsed,
         '_n': n,
         # 'awrScore': frSentence |> Nlp.averageWordRankScore,
         # 'hwrScore': frSentence |> Nlp.highestWordRankScore,

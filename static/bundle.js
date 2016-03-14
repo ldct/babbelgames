@@ -9,12 +9,35 @@ var App = React.createClass({
     return React.createElement(
       'div',
       null,
-      'hi there'
+      React.createElement(
+        'div',
+        null,
+        'Translate this sentence: ',
+        this.props.unscrambleActivityData.translated
+      ),
+      React.createElement(
+        'div',
+        null,
+        this.props.unscrambleActivityData.constituents.map(function (constituent) {
+          return React.createElement(
+            'span',
+            { style: {
+                backgroundColor: 'pink',
+                margin: 10
+              } },
+            constituent
+          );
+        })
+      )
     );
   }
 });
 
-ReactDOM.render(React.createElement(App, null), document.getElementById('container'));
+fetch('/subtitle/random.json').then(function (response) {
+  return response.json();
+}).then(function (res) {
+  ReactDOM.render(React.createElement(App, { unscrambleActivityData: res }), document.getElementById('container'));
+});
 
 },{"react":159,"react-dom":30}],2:[function(require,module,exports){
 (function (process){
