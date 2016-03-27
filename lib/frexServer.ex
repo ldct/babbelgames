@@ -31,13 +31,44 @@ defmodule FrexServer do
 
   end
 
+  get "/sentenceMatchingGame/random.json" do
+    :random.seed(:os.timestamp)
+
+    entries = Srt.pairSrt("friends/en/s01e01.srt", "friends/fr/s01e01.srt")
+
+    idx = randomIndex(entries)
+
+    randomSlice = entries
+    |> Enum.slice(idx, 5)
+    |> Enum.map(fn {a, b} -> [a, b] end)
+    |> IO.inspect
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, Poison.encode!(
+      randomSlice,
+      pretty: true
+    ))
+  end
+
+  def randomIndex(arr) do
+    :rand.uniform * (length(arr) - 1) |> round
+  end
 
   def randomIndex do
     :rand.uniform * 100000 |> round
   end
 
+
   get "/index.html" do
     contents = File.read!("static/index.html")
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)    
+  end
+
+  get "/matchingGame.html" do
+    contents = File.read!("static/matchingGame.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
     |> send_resp(200, contents)    
@@ -48,6 +79,13 @@ defmodule FrexServer do
     conn
     |> put_resp_content_type("application/javascript; charset=UTF-8")
     |> send_resp(200, contents)    
+  end
+
+  get "/matchingBundle.js" do
+    contents = File.read!("static/matchingBundle.js")
+    conn
+    |> put_resp_content_type("application/javascript; charset=UTF-8")
+    |> send_resp(200, contents)
   end
 
   get "subtitle-noparse/random.json" do
