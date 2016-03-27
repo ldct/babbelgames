@@ -14,7 +14,7 @@ defmodule Frex.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:httpotion, :logger, :porcelain],
+    [applications: [:httpotion, :logger, :porcelain, :timex],
      mod: {FrexApp, []}
     ]
   end
@@ -35,7 +35,8 @@ defmodule Frex.Mixfile do
       {:poison, "~> 2.0"},
       {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.2"},
       {:httpotion, "~> 2.1.0"},
-      {:porcelain, "~> 2.0"}
+      {:porcelain, "~> 2.0"},
+      {:timex, "~> 2.0.0"}
     ]
   end
 end
