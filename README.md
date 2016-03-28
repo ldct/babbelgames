@@ -15,6 +15,8 @@ mkdir opus-OS
 
 node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] main.jsx -o static/bundle.js
 
+node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] matchingGame.jsx -o static/matchingBundle.js
+
 ## deployment
 
 mix deps.get
