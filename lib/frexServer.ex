@@ -74,6 +74,20 @@ defmodule FrexServer do
     |> send_resp(200, contents)    
   end
 
+  get "/matchingGameOrdered.html" do
+    contents = File.read!("static/matchingGameOrdered.html")
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)    
+  end
+
+  get "/matchingOrderedBundle.js" do
+    contents = File.read!("static/matchingOrderedBundle.js")
+    conn
+    |> put_resp_content_type("application/javascript; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
   get "/bundle.js" do
     contents = File.read!("static/bundle.js")
     conn
