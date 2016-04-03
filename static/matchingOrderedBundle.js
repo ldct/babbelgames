@@ -14,7 +14,7 @@ function shuffle(a) {
     a[i - 1] = a[j];
     a[j] = x;
   }
-}
+};
 
 var Tile = React.createClass({
   displayName: 'Tile',
@@ -46,12 +46,45 @@ var App = React.createClass({
   render: function () {
     var tiles = [];
 
-    console.log(this.props.matchingActivityData);
+    var frTilesData = this.props.matchingActivityData.map(function (pair, i) {
+      return {
+        'text': pair[1],
+        'lang': 'fr',
+        'key': i
+      };
+    });
+
+    var enTilesData = this.props.matchingActivityData.map(function (pair, i) {
+      return {
+        'text': pair[0],
+        'lang': 'en',
+        'key': i
+      };
+    });
+
+    shuffle(enTilesData);
 
     return React.createElement(
-      'h1',
+      'div',
       null,
-      'hi'
+      React.createElement(
+        'div',
+        null,
+        frTilesData.map(function (frTileData) {
+          return React.createElement(Tile, {
+            text: frTileData.text,
+            lang: 'fr' });
+        })
+      ),
+      React.createElement(
+        'div',
+        null,
+        enTilesData.map(function (enTileData) {
+          return React.createElement(Tile, {
+            text: enTileData.text,
+            lang: 'en' });
+        })
+      )
     );
   }
 });

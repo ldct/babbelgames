@@ -5,7 +5,7 @@ var ReactDOM = require('react-dom');
  * Shuffles array in place.
  * @param {Array} a items The array containing the items.
  */
-function shuffle(a) {
+var shuffle = function (a) {
   var j, x, i;
   for (i = a.length; i; i -= 1) {
     j = Math.floor(Math.random() * i);
@@ -31,15 +31,50 @@ var Tile = React.createClass({
       self.props.handleClick(self.props.matchKey, self.props.lang);
     }}>{this.props.text}</div>
   }
-})
+});
 
 var App = React.createClass({
   render: function () {
     var tiles = [];
 
-    console.log(this.props.matchingActivityData);
+    var frTilesData = this.props.matchingActivityData.map(function (pair, i) {
+      return {
+        'text': pair[1],
+        'lang': 'fr',
+        'key': i
+      };
+    });
 
-    return <h1>hi</h1>
+    var enScrambledTilesData = this.props.matchingActivityData.map(function (pair, i) {
+      return {
+        'text': pair[0],
+        'lang': 'en',
+        'key': i
+      };
+    });
+
+    shuffle(enScrambledTilesData);
+
+    return <div>
+      <div>{
+        frTilesData.map(function (frTileData) {
+          return <Tile 
+            text={frTileData.text}
+            lang="fr" />
+        })
+      }</div>
+      <div>{
+        enScrambledTilesData.map(function (enTileData) {
+          return <Tile 
+            text={enTileData.text}
+            lang="en" />
+        })
+      }</div>
+
+
+    </div>
+
+
   }
 });
 
