@@ -66,6 +66,9 @@ var OrderedMatchingGame = React.createClass({
       'solved': []
     };
   },
+  componentWillReceiveProps: function () {
+    this.setState(this.getInitialState());
+  },
   render: function () {
 
     var self = this;
@@ -97,6 +100,7 @@ var OrderedMatchingGame = React.createClass({
             selected: self.state.selectedTile && self.state.selectedTile.matchKey === frTileData.matchKey && self.state.selectedTile.lang === frTileData.lang,
             handleClick: function (matchKey, lang) {
               if (self.state.selectedTile === null) {
+                /* select a tile */
                 self.setState({
                   'selectedTile': {
                     'matchKey': matchKey,
@@ -104,10 +108,15 @@ var OrderedMatchingGame = React.createClass({
                   }
                 });
               } else {
+                /* attempt a match */
                 if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
                   console.log('match!', self.state.solved.concat(matchKey));
+                  var newSolved = self.state.solved.concat(matchKey);
+                  if (newSolved.length === 5) {
+                    self.props.onAllMatched();
+                  }
                   self.setState({
-                    'solved': self.state.solved.concat(matchKey)
+                    'solved': newSolved
                   });
                 } else {
                   console.log('no match!');
@@ -175,8 +184,8 @@ var OrderedMatchingGame = React.createClass({
   }
 });
 
-var App = React.createClass({
-  displayName: 'App',
+var Slab = React.createClass({
+  displayName: 'Slab',
 
   render: function () {
     var tiles = [];
@@ -201,11 +210,32 @@ var App = React.createClass({
 
     return React.createElement(OrderedMatchingGame, {
       frTilesData: frTilesData,
-      enScrambledTilesData: enScrambledTilesData });
+      enScrambledTilesData: enScrambledTilesData,
+      onAllMatched: this.props.onAllMatched });
   }
 });
 
-fetch('/sentenceMatchingGame/random.json').then(function (response) {
+var App = React.createClass({
+  displayName: 'App',
+
+  getInitialState: function () {
+    return {
+      startIdx: 0
+    };
+  },
+  render: function () {
+    var self = this;
+    return React.createElement(Slab, {
+      matchingActivityData: this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5),
+      onAllMatched: function () {
+        self.setState({
+          startIdx: self.state.startIdx + 5
+        });
+      } });
+  }
+});
+
+fetch('/sentenceMatchingGame/all.json').then(function (response) {
   return response.json();
 }).then(function (res) {
   ReactDOM.render(React.createElement(App, { matchingActivityData: res }), document.getElementById('container'));
