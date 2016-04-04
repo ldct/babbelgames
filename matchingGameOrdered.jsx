@@ -33,6 +33,128 @@ var Tile = React.createClass({
   }
 });
 
+var BlankTile = React.createClass({
+  render: function () {
+    var self = this;
+    return <div style={{
+      backgroundColor: this.props.lang === 'en' ? 'pink' : 'lightblue',
+      width: '8em',
+      height: '6em',
+      display: 'inline-block',
+      verticalAlign: 'top',
+      visibility: 'hidden',
+      margin: '2px'
+    }} />
+  }
+});
+
+var OrderedMatchingGame = React.createClass({
+  getInitialState: function () {
+    return {
+      'selectedTile': null,
+      'solved': []
+    }
+  },
+  render: function () {
+
+    var self = this;
+    
+    var enMatchedTilesData = []; // todo : populate and render
+
+    var enScrambledTilesData = JSON.parse(JSON.stringify(self.props.enScrambledTilesData));
+    var enSolvedTilesData = {};
+    enScrambledTilesData.filter(function (enTileData) {
+      return self.state.solved.indexOf(enTileData.matchKey) !== -1;
+    }).forEach(function (enTileData) {
+      enSolvedTilesData[enTileData.matchKey] = enTileData;
+    });
+
+    console.log(enSolvedTilesData);
+
+    return <div>
+      <div>{ /* fixed french */
+        this.props.frTilesData.map(function (frTileData) {
+          return <Tile 
+            text={frTileData.text}
+            lang="fr" 
+            matchKey={frTileData.matchKey}
+            selected={self.state.selectedTile && self.state.selectedTile.matchKey === frTileData.matchKey && self.state.selectedTile.lang === frTileData.lang}
+            handleClick={function (matchKey, lang) {
+              if (self.state.selectedTile === null) {
+                self.setState({
+                  'selectedTile': {
+                    'matchKey': matchKey,
+                    'lang': lang
+                  }
+                })
+              } else {
+                if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
+                  console.log('match!', self.state.solved.concat(matchKey));
+                  self.setState({
+                    'solved': self.state.solved.concat(matchKey)
+                  })
+                } else {
+                  console.log('no match!');
+                }
+                self.setState({
+                  'selectedTile': null
+                });
+              }
+            }}/>
+        })
+      }</div>
+
+      <div>{ /* unscrambled english */
+        this.props.frTilesData.map(function (frTileData) {
+          var matchKey = frTileData.matchKey;
+          if (enSolvedTilesData[matchKey] === undefined) {
+            return <BlankTile lang='fr' />
+          } else {
+            return <Tile
+              text={enSolvedTilesData[matchKey].text}
+              lang='en' />
+          }
+        })
+      }</div>
+
+      <div>{ /* scrambled english */
+        this.props.enScrambledTilesData.map(function (enTileData) {
+          if (self.state.solved.indexOf(enTileData.matchKey) !== -1) {
+            return <BlankTile lang='en' />
+          }
+          return <Tile 
+            text={enTileData.text}
+            lang="en"
+            matchKey={enTileData.matchKey}
+            selected={self.state.selectedTile && self.state.selectedTile.matchKey === enTileData.matchKey && self.state.selectedTile.lang === enTileData.lang}
+            handleClick={function (matchKey, lang) {
+              if (self.state.selectedTile === null) {
+                self.setState({
+                  'selectedTile': {
+                    'matchKey': matchKey,
+                    'lang': lang
+                  }
+                })
+              } else {
+                if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
+                  console.log('match!', self.state.solved.concat(matchKey));
+                  self.setState({
+                    'solved': self.state.solved.concat(matchKey)
+                  })
+                } else {
+                  console.log('no match!');
+                }
+                self.setState({
+                  'selectedTile': null
+                });
+              }
+            }} />
+        })
+      }</div>
+    </div>
+  }
+});
+
 var App = React.createClass({
   render: function () {
     var tiles = [];
@@ -41,7 +163,7 @@ var App = React.createClass({
       return {
         'text': pair[1],
         'lang': 'fr',
-        'key': i
+        'matchKey': i
       };
     });
 
@@ -49,31 +171,15 @@ var App = React.createClass({
       return {
         'text': pair[0],
         'lang': 'en',
-        'key': i
+        'matchKey': i
       };
     });
 
     shuffle(enScrambledTilesData);
 
-    return <div>
-      <div>{
-        frTilesData.map(function (frTileData) {
-          return <Tile 
-            text={frTileData.text}
-            lang="fr" />
-        })
-      }</div>
-      <div>{
-        enScrambledTilesData.map(function (enTileData) {
-          return <Tile 
-            text={enTileData.text}
-            lang="en" />
-        })
-      }</div>
-
-
-    </div>
-
+    return <OrderedMatchingGame
+      frTilesData={frTilesData}
+      enScrambledTilesData={enScrambledTilesData} />
 
   }
 });

@@ -6,7 +6,7 @@ var ReactDOM = require('react-dom');
  * Shuffles array in place.
  * @param {Array} a items The array containing the items.
  */
-function shuffle(a) {
+var shuffle = function (a) {
   var j, x, i;
   for (i = a.length; i; i -= 1) {
     j = Math.floor(Math.random() * i);
@@ -40,6 +40,141 @@ var Tile = React.createClass({
   }
 });
 
+var BlankTile = React.createClass({
+  displayName: 'BlankTile',
+
+  render: function () {
+    var self = this;
+    return React.createElement('div', { style: {
+        backgroundColor: this.props.lang === 'en' ? 'pink' : 'lightblue',
+        width: '8em',
+        height: '6em',
+        display: 'inline-block',
+        verticalAlign: 'top',
+        visibility: 'hidden',
+        margin: '2px'
+      } });
+  }
+});
+
+var OrderedMatchingGame = React.createClass({
+  displayName: 'OrderedMatchingGame',
+
+  getInitialState: function () {
+    return {
+      'selectedTile': null,
+      'solved': []
+    };
+  },
+  render: function () {
+
+    var self = this;
+
+    var enMatchedTilesData = []; // todo : populate and render
+
+    var enScrambledTilesData = JSON.parse(JSON.stringify(self.props.enScrambledTilesData));
+    var enSolvedTilesData = {};
+    enScrambledTilesData.filter(function (enTileData) {
+      return self.state.solved.indexOf(enTileData.matchKey) !== -1;
+    }).forEach(function (enTileData) {
+      enSolvedTilesData[enTileData.matchKey] = enTileData;
+    });
+
+    console.log(enSolvedTilesData);
+
+    return React.createElement(
+      'div',
+      null,
+      React.createElement(
+        'div',
+        null,
+        /* fixed french */
+        this.props.frTilesData.map(function (frTileData) {
+          return React.createElement(Tile, {
+            text: frTileData.text,
+            lang: 'fr',
+            matchKey: frTileData.matchKey,
+            selected: self.state.selectedTile && self.state.selectedTile.matchKey === frTileData.matchKey && self.state.selectedTile.lang === frTileData.lang,
+            handleClick: function (matchKey, lang) {
+              if (self.state.selectedTile === null) {
+                self.setState({
+                  'selectedTile': {
+                    'matchKey': matchKey,
+                    'lang': lang
+                  }
+                });
+              } else {
+                if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
+                  console.log('match!', self.state.solved.concat(matchKey));
+                  self.setState({
+                    'solved': self.state.solved.concat(matchKey)
+                  });
+                } else {
+                  console.log('no match!');
+                }
+                self.setState({
+                  'selectedTile': null
+                });
+              }
+            } });
+        })
+      ),
+      React.createElement(
+        'div',
+        null,
+        /* unscrambled english */
+        this.props.frTilesData.map(function (frTileData) {
+          var matchKey = frTileData.matchKey;
+          if (enSolvedTilesData[matchKey] === undefined) {
+            return React.createElement(BlankTile, { lang: 'fr' });
+          } else {
+            return React.createElement(Tile, {
+              text: enSolvedTilesData[matchKey].text,
+              lang: 'en' });
+          }
+        })
+      ),
+      React.createElement(
+        'div',
+        null,
+        /* scrambled english */
+        this.props.enScrambledTilesData.map(function (enTileData) {
+          if (self.state.solved.indexOf(enTileData.matchKey) !== -1) {
+            return React.createElement(BlankTile, { lang: 'en' });
+          }
+          return React.createElement(Tile, {
+            text: enTileData.text,
+            lang: 'en',
+            matchKey: enTileData.matchKey,
+            selected: self.state.selectedTile && self.state.selectedTile.matchKey === enTileData.matchKey && self.state.selectedTile.lang === enTileData.lang,
+            handleClick: function (matchKey, lang) {
+              if (self.state.selectedTile === null) {
+                self.setState({
+                  'selectedTile': {
+                    'matchKey': matchKey,
+                    'lang': lang
+                  }
+                });
+              } else {
+                if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
+                  console.log('match!', self.state.solved.concat(matchKey));
+                  self.setState({
+                    'solved': self.state.solved.concat(matchKey)
+                  });
+                } else {
+                  console.log('no match!');
+                }
+                self.setState({
+                  'selectedTile': null
+                });
+              }
+            } });
+        })
+      )
+    );
+  }
+});
+
 var App = React.createClass({
   displayName: 'App',
 
@@ -50,42 +185,23 @@ var App = React.createClass({
       return {
         'text': pair[1],
         'lang': 'fr',
-        'key': i
+        'matchKey': i
       };
     });
 
-    var enTilesData = this.props.matchingActivityData.map(function (pair, i) {
+    var enScrambledTilesData = this.props.matchingActivityData.map(function (pair, i) {
       return {
         'text': pair[0],
         'lang': 'en',
-        'key': i
+        'matchKey': i
       };
     });
 
-    shuffle(enTilesData);
+    shuffle(enScrambledTilesData);
 
-    return React.createElement(
-      'div',
-      null,
-      React.createElement(
-        'div',
-        null,
-        frTilesData.map(function (frTileData) {
-          return React.createElement(Tile, {
-            text: frTileData.text,
-            lang: 'fr' });
-        })
-      ),
-      React.createElement(
-        'div',
-        null,
-        enTilesData.map(function (enTileData) {
-          return React.createElement(Tile, {
-            text: enTileData.text,
-            lang: 'en' });
-        })
-      )
-    );
+    return React.createElement(OrderedMatchingGame, {
+      frTilesData: frTilesData,
+      enScrambledTilesData: enScrambledTilesData });
   }
 });
 
