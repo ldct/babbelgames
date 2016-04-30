@@ -215,6 +215,18 @@ var Slab = React.createClass({
   }
 });
 
+var TranslationsReference = React.createClass({
+  displayName: 'TranslationsReference',
+
+  render: function () {
+    return React.createElement(
+      'h1',
+      null,
+      'Translations Reference'
+    );
+  }
+});
+
 var App = React.createClass({
   displayName: 'App',
 
@@ -225,13 +237,18 @@ var App = React.createClass({
   },
   render: function () {
     var self = this;
-    return React.createElement(Slab, {
-      matchingActivityData: this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5),
-      onAllMatched: function () {
-        self.setState({
-          startIdx: self.state.startIdx + 5
-        });
-      } });
+    return React.createElement(
+      'div',
+      null,
+      React.createElement(Slab, {
+        matchingActivityData: this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5),
+        onAllMatched: function () {
+          self.setState({
+            startIdx: self.state.startIdx + 5
+          });
+        } }),
+      React.createElement(TranslationsReference, null)
+    );
   }
 });
 

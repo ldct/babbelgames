@@ -192,6 +192,12 @@ var Slab = React.createClass({
   }
 });
 
+var TranslationsReference = React.createClass({
+  render: function () {
+    return <h1>Translations Reference</h1>
+  }
+});
+
 var App = React.createClass({
   getInitialState: function () {
     return {
@@ -200,13 +206,16 @@ var App = React.createClass({
   },
   render: function () {
     var self = this;
-    return <Slab
-      matchingActivityData={this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5)}
-      onAllMatched={function () {
-        self.setState({
-          startIdx: self.state.startIdx + 5
-        });
-      }} />
+    return <div>
+      <Slab
+        matchingActivityData={this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5)}
+        onAllMatched={function () {
+          self.setState({
+            startIdx: self.state.startIdx + 5
+          });
+        }} />
+        <TranslationsReference />
+      </div>
   }
 });
 

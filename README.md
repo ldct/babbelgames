@@ -17,6 +17,8 @@ node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] main.jsx 
 
 node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] matchingGame.jsx -o static/matchingBundle.js
 
+node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] matchingGameOrdered.jsx -o static/matchingOrderedBundle.js
+
 ## deployment
 
 ```
