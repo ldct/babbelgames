@@ -1,6 +1,3 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-
 /**
  * Shuffles array in place.
  * @param {Array} a items The array containing the items.
@@ -194,7 +191,7 @@ var Slab = React.createClass({
 
 var TranslationsReference = React.createClass({
   render: function () {
-    return <h1>Translations Reference</h1>
+    return <h1>Translations Reference 2</h1>
   }
 });
 
@@ -222,6 +219,7 @@ var App = React.createClass({
 fetch('/sentenceMatchingGame/all.json').then(function (response) {
   return response.json();
 }).then(function (res) {
+  console.log(res);
   ReactDOM.render(
     <App matchingActivityData={res} />,
     document.getElementById('container')
