@@ -19,9 +19,11 @@ node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] matchingG
 
 ## deployment
 
+```
 mix deps.get
 iex -S mix
-{:ok, _} = Plug.Adapters.Cowboy.http Frex, [], port: 4000
+# {:ok, _} = Plug.Adapters.Cowboy.http Frex, [], port: 4000
+```
 
 ## stats
 
