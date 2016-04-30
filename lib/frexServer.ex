@@ -19,7 +19,7 @@ defmodule FrexServer do
     ))
   end
 
-  get "/sentence/random.json" do    
+  get "/sentence/random.json" do
     :random.seed(:os.timestamp)
 
     res = VikidiaSentenceCache.get()
@@ -78,21 +78,21 @@ defmodule FrexServer do
     contents = File.read!("static/index.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, contents)    
+    |> send_resp(200, contents)
   end
 
   get "/matchingGame.html" do
     contents = File.read!("static/matchingGame.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, contents)    
+    |> send_resp(200, contents)
   end
 
   get "/matchingGameOrdered.html" do
     contents = File.read!("static/matchingGameOrdered.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, contents)    
+    |> send_resp(200, contents)
   end
 
   get "/matchingOrderedBundle.js" do
@@ -106,7 +106,7 @@ defmodule FrexServer do
     contents = File.read!("static/bundle.js")
     conn
     |> put_resp_content_type("application/javascript; charset=UTF-8")
-    |> send_resp(200, contents)    
+    |> send_resp(200, contents)
   end
 
   get "/matchingBundle.js" do
@@ -135,8 +135,8 @@ defmodule FrexServer do
     ))
   end
 
-  get "subtitle/random.json" do    
-    
+  get "subtitle/random.json" do
+
     fr = File.stream!("opus-OS/en-fr/fr")
     en = File.stream!("opus-OS/en-fr/en")
     fp = File.stream!("pcfg-done/fr.aa.stp")
@@ -144,11 +144,11 @@ defmodule FrexServer do
 
     frSentence = fr |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
     enSentence = en |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
-    {:ok, ["ROOT", frParsed]}  = fp 
-    |> Enum.at(n) 
-    |> String.replace("PUNC \"", "PUNC DOUBLEQUOTE") 
+    {:ok, ["ROOT", frParsed]}  = fp
+    |> Enum.at(n)
+    |> String.replace("PUNC \"", "PUNC DOUBLEQUOTE")
     |> SymbolicExpression.Parser.parse
-    
+
     frParsed |> IO.inspect
 
     frContext = fr |> Enum.slice(n-3, 6)
@@ -186,7 +186,7 @@ defmodule FrexServer do
     |> Enum.sort_by(&String.length/1)
     |> Enum.slice(start..stop)
     |> Poison.encode!(pretty: true)
-    
+
     conn
     |> put_resp_content_type("application/json")
     |> send_resp(200, res)
@@ -206,7 +206,7 @@ defmodule FrexServer do
   get "/_progress" do
     list_translated = File.ls!("vikidia/translated")
 
-    l = list_translated 
+    l = list_translated
     |> length
     |> Integer.to_string
 
@@ -218,7 +218,7 @@ defmodule FrexServer do
   end
 
   def getShortSentence(max_length) do
-    
+
     filename = File.ls!("vikidia/translated")
     |> Enum.random
 
@@ -270,7 +270,7 @@ defmodule FrexServer do
       "source" => "fr",
       "key" => api_key,
       "q" => sentence
-    }) 
+    })
     body = Poison.decode! ((HTTPotion.get url).body)
 
     IO.inspect body

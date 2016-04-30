@@ -61,7 +61,7 @@ var OrderedMatchingGame = React.createClass({
   render: function () {
 
     var self = this;
-    
+
     var enMatchedTilesData = []; // todo : populate and render
 
     var enScrambledTilesData = JSON.parse(JSON.stringify(self.props.enScrambledTilesData));
@@ -77,9 +77,9 @@ var OrderedMatchingGame = React.createClass({
     return <div>
       <div>{ /* fixed french */
         this.props.frTilesData.map(function (frTileData) {
-          return <Tile 
+          return <Tile
             text={frTileData.text}
-            lang="fr" 
+            lang="fr"
             matchKey={frTileData.matchKey}
             selected={self.state.selectedTile && self.state.selectedTile.matchKey === frTileData.matchKey && self.state.selectedTile.lang === frTileData.lang}
             handleClick={function (matchKey, lang) {
@@ -129,7 +129,7 @@ var OrderedMatchingGame = React.createClass({
           if (self.state.solved.indexOf(enTileData.matchKey) !== -1) {
             return <BlankTile lang='en' />
           }
-          return <Tile 
+          return <Tile
             text={enTileData.text}
             lang="en"
             matchKey={enTileData.matchKey}
@@ -186,7 +186,7 @@ var Slab = React.createClass({
 
     return <OrderedMatchingGame
       frTilesData={frTilesData}
-      enScrambledTilesData={enScrambledTilesData} 
+      enScrambledTilesData={enScrambledTilesData}
       onAllMatched={this.props.onAllMatched} />
 
   }
@@ -200,8 +200,8 @@ var App = React.createClass({
   },
   render: function () {
     var self = this;
-    return <Slab 
-      matchingActivityData={this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5)} 
+    return <Slab
+      matchingActivityData={this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5)}
       onAllMatched={function () {
         self.setState({
           startIdx: self.state.startIdx + 5
