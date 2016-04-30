@@ -238,6 +238,39 @@ defmodule FrexServer do
 
   end
 
+  def translateFrenchWord(word) do
+    api_key = File.read! "GOOGLE_TRANSLATE_API_KEY"
+
+    url = "https://www.googleapis.com/language/translate/v2?" <> URI.encode_query(%{
+      "source" => "fr",
+      "target" => "en",
+      "key" => api_key,
+      "q" => word
+    })
+
+    (HTTPotion.get url).body
+    |> Poison.decode!
+    |> Map.fetch!("data")
+    |> Map.fetch!("translations")
+    |> List.first
+    |> Map.fetch!("translatedText")
+
+  end
+
+  get "translate/:words" do
+
+
+    translatedWords = words
+    |> String.split(",")
+    |> Enum.map(fn w -> {w, translateFrenchWord(w)} end)
+    |> Enum.into(%{})
+
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, Poison.encode!(translatedWords))
+  end
+
   get "/sentence/_random.json" do
     api_key = File.read! "GOOGLE_TRANSLATE_API_KEY"
 
