@@ -12,6 +12,16 @@ var shuffle = function (a) {
   }
 }
 
+var getQueryParameterByName = function (name) {
+  var url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
 var Tile = React.createClass({
   render: function () {
     var self = this;
@@ -96,11 +106,6 @@ var OrderedMatchingGame = React.createClass({
       if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
         var newSolved = self.state.solved.concat(matchKey);
         this.props.onNumMatchedChanged(newSolved.length);
-        if (newSolved.length === 5) {
-          self.props.onAllMatched();
-        } else {
-          console.log(newSolved.length);
-        }
         self.setState({
           'solved': newSolved
         });
@@ -190,31 +195,15 @@ var Slab = React.createClass({
   render: function () {
     var tiles = [];
 
-    var frTilesData = this.props.matchingActivityData.map(function (pair, i) {
-      return {
-        'text': pair[1],
-        'lang': 'fr',
-        'matchKey': i
-      };
-    });
-
-    var enScrambledTilesData = this.props.matchingActivityData.map(function (pair, i) {
-      return {
-        'text': pair[0],
-        'lang': 'en',
-        'matchKey': i
-      };
-    });
-
-    shuffle(enScrambledTilesData);
+    var frTilesData = this.props.scrambledChunksOfActivityPairs[this.props.startIdx].frTilesData;
+    var enScrambledTilesData = this.props.scrambledChunksOfActivityPairs[this.props.startIdx].enScrambledTilesData;
 
     return <div>
       <OrderedMatchingGame
         key={this.props.startIdx}
         frTilesData={frTilesData}
         enScrambledTilesData={enScrambledTilesData}
-        onNumMatchedChanged={this.props.onNumMatchedChanged}
-        onAllMatched={this.props.onAllMatched} />
+        onNumMatchedChanged={this.props.onNumMatchedChanged} />
     </div>
   }
 });
@@ -246,42 +235,34 @@ var App = React.createClass({
       numMatched: 0,
     };
   },
-  handleAllMatched: function () {
+  handleNumMatchedChanged: function (numMatched) {
     var self = this;
-    self.setState({
-      startIdx: self.state.startIdx + 5
-    });
-  },
-  handleNumMatchedChanged: function () {
-    this.setState({
-      numMatched: this.state.numMatched + 1,
-    });
+    if (numMatched === 5) {
+      this.setState({
+        startIdx: self.state.startIdx + 1,
+        numMatched: 0,
+      });
+    } else {
+      this.setState({
+        numMatched: numMatched,
+      });
+    }
   },
   render: function () {
     var self = this;
     return <div>
       <ProgressBar
-        done={this.state.startIdx + this.state.numMatched}
+        done={this.state.startIdx * 5 + this.state.numMatched}
         total={this.props.matchingActivityData.length} />
       <Slab
         startIdx={this.state.startIdx}
+        scrambledChunksOfActivityPairs={this.props.scrambledChunksOfActivityPairs}
         matchingActivityData={this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5)}
-        onNumMatchedChanged={this.handleNumMatchedChanged}
-        onAllMatched={this.handleAllMatched} />
+        onNumMatchedChanged={this.handleNumMatchedChanged} />
         <TranslationsReference />
       </div>
   }
 });
-
-var getQueryParameterByName = function (name) {
-  var url = window.location.href;
-  name = name.replace(/[\[\]]/g, "\\$&");
-  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-      results = regex.exec(url);
-  if (!results) return null;
-  if (!results[2]) return '';
-  return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
 
 fetch('/sentenceMatchingGame/friends.s01e01.srt.json').then(function (response) {
   return response.json();
@@ -289,8 +270,39 @@ fetch('/sentenceMatchingGame/friends.s01e01.srt.json').then(function (response) 
 
   var start = parseInt(getQueryParameterByName('start'), 10) || 0;
 
+  var activityPairs = res.slice(start); // [en, fr] pairs
+  var chunksOfActivityPairs = _.chunk(activityPairs, 5);
+
+  var scrambledChunksOfActivityPairs = chunksOfActivityPairs.map(function (chunk) {
+
+    var frTilesData = chunk.map(function (pair, i) {
+      return {
+        'text': pair[1],
+        'lang': 'fr',
+        'matchKey': i
+      };
+    });
+
+    var enScrambledTilesData = chunk.map(function (pair, i) {
+      return {
+        'text': pair[0],
+        'lang': 'en',
+        'matchKey': i
+      };
+    });
+
+    shuffle(enScrambledTilesData);
+
+    return {
+      'frTilesData': frTilesData,
+      'enScrambledTilesData': enScrambledTilesData,
+    }
+
+  });
+
   ReactDOM.render(
     <App
+      scrambledChunksOfActivityPairs={scrambledChunksOfActivityPairs}
       matchingActivityData={res}
       initialStartIdx={start} />,
     document.getElementById('container')
