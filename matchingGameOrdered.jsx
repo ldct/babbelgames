@@ -95,6 +95,7 @@ var OrderedMatchingGame = React.createClass({
     } else { /* attempt a match */
       if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
         var newSolved = self.state.solved.concat(matchKey);
+        this.props.onNumMatchedChanged(newSolved.length);
         if (newSolved.length === 5) {
           self.props.onAllMatched();
         } else {
@@ -170,7 +171,7 @@ var OrderedMatchingGame = React.createClass({
       }}>{ /* scrambled english */
         this.props.enScrambledTilesData.map(function (enTileData) {
           if (self.state.solved.indexOf(enTileData.matchKey) !== -1) {
-            return <BlankTile lang='en' />
+            return <BlankTile key={enTileData.matchKey} lang='en' />
           }
           return <Tile
             text={enTileData.text}
@@ -207,12 +208,14 @@ var Slab = React.createClass({
 
     shuffle(enScrambledTilesData);
 
-    return <OrderedMatchingGame
-      key={this.props.startIdx}
-      frTilesData={frTilesData}
-      enScrambledTilesData={enScrambledTilesData}
-      onAllMatched={this.props.onAllMatched} />
-
+    return <div>
+      <OrderedMatchingGame
+        key={this.props.startIdx}
+        frTilesData={frTilesData}
+        enScrambledTilesData={enScrambledTilesData}
+        onNumMatchedChanged={this.props.onNumMatchedChanged}
+        onAllMatched={this.props.onAllMatched} />
+    </div>
   }
 });
 
@@ -223,34 +226,73 @@ var TranslationsReference = React.createClass({
   }
 });
 
+var ProgressBar = React.createClass({
+  render: function () {
+    const pct = 100 * this.props.done / this.props.total;
+    return <div>
+      <div style={{
+        border: '1px solid black',
+        width: pct + '%'
+      }} />
+      <pre>{this.props.done + '/' + this.props.total}</pre>
+    </div>
+  }
+})
+
 var App = React.createClass({
   getInitialState: function () {
     return {
-      startIdx: 0
+      startIdx: this.props.initialStartIdx,
+      numMatched: 0,
     };
+  },
+  handleAllMatched: function () {
+    var self = this;
+    self.setState({
+      startIdx: self.state.startIdx + 5
+    });
+  },
+  handleNumMatchedChanged: function () {
+    this.setState({
+      numMatched: this.state.numMatched + 1,
+    });
   },
   render: function () {
     var self = this;
-    return <div style={{marginTop: 80}}>
+    return <div>
+      <ProgressBar
+        done={this.state.startIdx + this.state.numMatched}
+        total={this.props.matchingActivityData.length} />
       <Slab
         startIdx={this.state.startIdx}
         matchingActivityData={this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5)}
-        onAllMatched={function () {
-          console.log('all matched');
-          self.setState({
-            startIdx: self.state.startIdx + 5
-          });
-        }} />
+        onNumMatchedChanged={this.handleNumMatchedChanged}
+        onAllMatched={this.handleAllMatched} />
         <TranslationsReference />
       </div>
   }
 });
 
-fetch('/sentenceMatchingGame/all.json').then(function (response) {
+var getQueryParameterByName = function (name) {
+  var url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+fetch('/sentenceMatchingGame/friends.s01e01.srt.json').then(function (response) {
   return response.json();
 }).then(function (res) {
+
+  var start = parseInt(getQueryParameterByName('start'), 10) || 0;
+
   ReactDOM.render(
-    <App matchingActivityData={res} />,
+    <App
+      matchingActivityData={res}
+      initialStartIdx={start} />,
     document.getElementById('container')
   );
 });

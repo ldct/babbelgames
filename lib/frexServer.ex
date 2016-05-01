@@ -51,7 +51,7 @@ defmodule FrexServer do
     ))
   end
 
-  get "/sentenceMatchingGame/all.json" do
+  get "/sentenceMatchingGame/friends.s01e01.srt.json" do
 
     entries = Srt.pairSrt("friends/en/s01e01.srt", "friends/fr/s01e01.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
