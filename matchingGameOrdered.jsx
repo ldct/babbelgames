@@ -191,23 +191,6 @@ var OrderedMatchingGame = React.createClass({
   }
 });
 
-var Slab = React.createClass({
-  render: function () {
-    var tiles = [];
-
-    var frTilesData = this.props.scrambledChunksOfActivityPairs[this.props.startIdx].frTilesData;
-    var enScrambledTilesData = this.props.scrambledChunksOfActivityPairs[this.props.startIdx].enScrambledTilesData;
-
-    return <div>
-      <OrderedMatchingGame
-        key={this.props.startIdx}
-        frTilesData={frTilesData}
-        enScrambledTilesData={enScrambledTilesData}
-        onNumMatchedChanged={this.props.onNumMatchedChanged} />
-    </div>
-  }
-});
-
 var TranslationsReference = React.createClass({
   render: function () {
     return null;
@@ -250,16 +233,21 @@ var App = React.createClass({
   },
   render: function () {
     var self = this;
+
+    var frTilesData = this.props.scrambledChunksOfActivityPairs[this.state.startIdx].frTilesData;
+    var enScrambledTilesData = this.props.scrambledChunksOfActivityPairs[this.state.startIdx].enScrambledTilesData;
+
+
     return <div>
       <ProgressBar
         done={this.state.startIdx * 5 + this.state.numMatched}
-        total={this.props.matchingActivityData.length} />
-      <Slab
-        startIdx={this.state.startIdx}
-        scrambledChunksOfActivityPairs={this.props.scrambledChunksOfActivityPairs}
-        matchingActivityData={this.props.matchingActivityData.slice(this.state.startIdx, this.state.startIdx + 5)}
+        total={this.props.numPairs} />
+      <OrderedMatchingGame
+        key={this.state.startIdx}
+        frTilesData={frTilesData}
+        enScrambledTilesData={enScrambledTilesData}
         onNumMatchedChanged={this.handleNumMatchedChanged} />
-        <TranslationsReference />
+      <TranslationsReference />
       </div>
   }
 });
@@ -303,7 +291,7 @@ fetch('/sentenceMatchingGame/friends.s01e01.srt.json').then(function (response) 
   ReactDOM.render(
     <App
       scrambledChunksOfActivityPairs={scrambledChunksOfActivityPairs}
-      matchingActivityData={res}
+      numPairs={res.length}
       initialStartIdx={start} />,
     document.getElementById('container')
   );
