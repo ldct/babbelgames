@@ -26,6 +26,7 @@ defmodule Srt do
 
         l1
         |> Enum.map(fn e -> pairEntry(e, l2) end)
+        |> IO.inspect
         |> Enum.filter(fn {_, _, score} -> score > 0.5 end)
         |> Enum.map(fn {a, b, _} -> {a, b} end)
         # :ok
@@ -33,7 +34,7 @@ defmodule Srt do
 
     def pairEntry(entry, l2) do
         {l2Entry, score} = mostOverlappedEntry(entry, l2)
-        { 
+        {
             entry |> Map.fetch!(:lines),
             l2Entry |> Map.fetch!(:lines),
             score
@@ -75,7 +76,7 @@ defmodule Srt do
         arr = entry
         |> String.split("\r\n")
 
-        time = arr 
+        time = arr
         |> Enum.at(1)
         |> String.split(" --> ")
 

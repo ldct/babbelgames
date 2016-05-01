@@ -252,7 +252,9 @@ var App = React.createClass({
   }
 });
 
-fetch('/sentenceMatchingGame/friends.s01e01.srt.json').then(function (response) {
+var dataSource = getQueryParameterByName('src') || 'friends.s01e01.srt.json';
+
+fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
   return response.json();
 }).then(function (res) {
 
