@@ -100,10 +100,23 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
+  get "/main.html" do
+    contents = File.read!("static/main.html")
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
   get "/matchingGameOrdered.html" do
     contents = File.read!("static/matchingGameOrdered.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
+  get "/img/:filename" do
+    contents = File.read!("static/img/" <> filename)
+    conn
     |> send_resp(200, contents)
   end
 
