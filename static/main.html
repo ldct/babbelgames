@@ -14,52 +14,97 @@ var EpisodeTile = React.createClass({
     console.log(this.props.imgPrefix);
   },
   render: function () {
-    return <a href={"/matchingGameOrdered.html?src=" + this.props.src + '.srt.json'}>
+
+    var isSelected = !this.props.isPoster && this.props.srcOfMousedOverTile === this.props.src;
+
+    var self = this;
+    var tile = <div
+      onMouseEnter={function () {
+        self.props.onMouseEnter(self.props.src);
+      }}
+      style={{
+        display: 'inline-block',
+        width: 182,
+        height: 268,
+        color: 'black',
+        margin: 1,
+        position: 'relative',
+      }}
+      onClick={this.handleClick} >
+      <img
+        style={{
+          opacity: this.props.isPoster ? 1 : (isSelected ? 0.2 : 0.7),
+          position: 'absolute',
+          top: 0, left: 0,
+        }}
+        src={'/img/' + this.props.src + '.jpg'} />
       <div
         style={{
-          display: 'inline-block',
-          width: 182,
-          height: 268,
-          backgroundImage: 'url(/img/' + this.props.src + '.jpg)',
-          backgroundSize: 'contain',
-          opacity: this.props.poster ? 1 : 0.7,
-          margin: 1,
-        }}
-        onClick={this.handleClick} >
+          visibility: isSelected ? 'visible' : 'hidden',
+          position: 'absolute',
+          top: 0, left: 0,
+          width: '100%', height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>
+        <div>
+        {self.props.src}
+        </div>
       </div>
-    </a>
+    </div>
+
+    if (this.props.isPoster) {
+      return tile;
+    } else {
+      return <a href={"/matchingGameOrdered.html?src=" + this.props.src + '.srt.json'}>
+        {tile}
+      </a>
+    }
+
   }
 });
 
 var App = React.createClass({
+  getInitialState: function () {
+    return {
+      srcOfMousedOverTile: null,
+    }
+  },
+  handleMouseOverTile: function (src) {
+    this.setState({
+      srcOfMousedOverTile: src,
+    });
+  },
   render: function () {
+    var mo = this.handleMouseOverTile;
     return <div style={{
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
       flexWrap: 'wrap',
     }}>
-      <EpisodeTile src="friends.poster" poster={true} />
-      <EpisodeTile src="friends.s01e01" />
-      <EpisodeTile src="friends.s01e02" />
-      <EpisodeTile src="friends.s01e03" />
-      <EpisodeTile src="silicon.valley.poster" poster={true} />
-      <EpisodeTile src="silicon.valley.s01e01" />
-      <EpisodeTile src="silicon.valley.s01e02" />
-      <EpisodeTile src="silicon.valley.s01e03" />
-      <EpisodeTile src="suits.poster" poster={true} />
-      <EpisodeTile src="suits.s01e01" />
-      <EpisodeTile src="suits.s01e02" />
-      <EpisodeTile src="suits.s01e03" />
-      <EpisodeTile src="parks.and.recreation.poster" poster={true} />
-      <EpisodeTile src="parks.and.recreation.s01e01" />
-      <EpisodeTile src="parks.and.recreation.s01e02" />
-      <EpisodeTile src="parks.and.recreation.s01e03" />
-      <EpisodeTile src="parks.and.recreation.s01e04" />
-      <EpisodeTile src="himym.poster" poster={true} />
-      <EpisodeTile src="himym.s01e01" />
-      <EpisodeTile src="himym.s01e02" />
-      <EpisodeTile src="himym.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.poster" isPoster={true} />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley.poster" isPoster={true} />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley.s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley.s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits.poster" isPoster={true} />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits.s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits.s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.poster" isPoster={true} />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.s01e04" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym.poster" isPoster={true} />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym.s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym.s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym.s01e03" />
     </div>
   }
 });
