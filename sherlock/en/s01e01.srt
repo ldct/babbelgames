@@ -1,6189 +1,5769 @@
-﻿c1
-00:01:30,240 --> 00:01:32,239
-WOMAN: How's your blog going?
+1
+00:01:28,040 --> 00:01:30,240
+How's your blog going?
 
 2
-00:01:32,320 --> 00:01:36,519
-Yeah, good. Very good.
+00:01:31,800 --> 00:01:35,599
+Yeah, good, very good.
 
 3
-00:01:36,600 --> 00:01:38,199
+00:01:35,600 --> 00:01:37,279
 You haven't written a word, have you?
 
 4
-00:01:38,280 --> 00:01:41,079
+00:01:37,280 --> 00:01:40,119
 You just wrote
-"still has trust issues".
+"Still has trust issues".
 
 5
-00:01:41,160 --> 00:01:43,199
+00:01:40,120 --> 00:01:42,160
 And you read my writing upside down.
 
 6
-00:01:45,040 --> 00:01:47,759
+00:01:44,120 --> 00:01:46,799
 You see what I mean?
 
 7
-00:01:47,840 --> 00:01:52,679
+00:01:46,800 --> 00:01:50,720
 John, you're a soldier,
 
 8
-00:01:52,760 --> 00:01:56,239
+00:01:51,760 --> 00:01:55,359
 and it's going to take you
-a while to adjust to civilian life,
+a while to adjust to civilian life.
 
 9
-00:01:56,320 --> 00:02:01,199
-and writing a blog about everything that
-happens to you will honestly help you.
+00:01:55,360 --> 00:02:00,200
+And writing a blog about everything
+that happens to you will honestly help you.
 
 10
-00:02:02,840 --> 00:02:04,839
+00:02:01,840 --> 00:02:03,680
 Nothing happens to me.
 
 11
-00:02:42,160 --> 00:02:44,079
-MAN: What do you mean,
-there's no ruddy car?
+00:02:05,590 --> 00:02:09,840
+<font color="#7fff00">Sherlock 1x1</font>
+<font color="#ffff00">A Study in Pink</font>
+<font color="#ffff00">Original Air Date on July 25, 2010</font>
 
 12
-00:02:44,160 --> 00:02:45,559
-He went to Waterloo, I'm sorry.
+00:02:41,200 --> 00:02:44,679
+<i>- What do you mean there's no ruddy car?</i>
+- He went to Waterloo, I'm sorry.
 
 13
-00:02:45,640 --> 00:02:48,359
-- Get a cab!
+00:02:44,680 --> 00:02:47,360
+<i>- Get a cab.</i>
 - I never get cabs!
 
 14
-00:02:50,280 --> 00:02:52,119
+00:02:49,280 --> 00:02:51,199
 - I love you.
 - When?
 
 15
-00:02:52,200 --> 00:02:54,359
+00:02:51,200 --> 00:02:53,400
 Get a cab!
 
 16
-00:03:13,880 --> 00:03:15,879
-WOMAN: My husband...
+00:03:12,880 --> 00:03:14,999
+My husband
 
 17
-00:03:15,960 --> 00:03:20,159
+00:03:15,000 --> 00:03:19,199
 was a happy man
 who lived life to the full.
 
 18
-00:03:20,240 --> 00:03:24,439
+00:03:19,200 --> 00:03:23,519
 He loved his family and his work,
 
 19
-00:03:24,520 --> 00:03:28,959
-and that he should have taken
-his own life in this way
+00:03:23,520 --> 00:03:28,039
+and that he should have
+taken his own life in this way
 
 20
-00:03:29,040 --> 00:03:30,999
+00:03:28,040 --> 00:03:30,079
 is a mystery
 
 21
-00:03:31,080 --> 00:03:34,399
+00:03:30,080 --> 00:03:33,400
 and a shock to all who knew him.
 
 22
-00:03:46,440 --> 00:03:49,159
-Yes, yes! Taxi! (WHISTLES)
+00:03:46,117 --> 00:03:48,200
+Taxi, taxi!
 
 23
-00:03:53,120 --> 00:03:55,079
-- I'll be back in two minutes, mate.
+00:03:52,160 --> 00:03:54,159
+- I'll be just two minutes, mate.
 - What?
 
 24
-00:03:55,160 --> 00:03:58,079
+00:03:54,160 --> 00:03:57,199
 - I'm just going home to get my umbrella.
 - You can share mine.
 
 25
-00:03:58,160 --> 00:03:59,639
+00:03:57,200 --> 00:03:58,640
 Two minutes, all right?
 
 26
-00:04:34,680 --> 00:04:36,359
+00:04:33,680 --> 00:04:35,439
 She still dancing?
 
 27
-00:04:36,440 --> 00:04:38,159
+00:04:35,440 --> 00:04:37,239
 Yeah, if you can call it that.
 
 28
-00:04:38,240 --> 00:04:41,279
+00:04:37,240 --> 00:04:40,319
 - Did you get the car keys off her?
 - Got them out of her bag.
 
 29
-00:04:42,360 --> 00:04:43,959
+00:04:40,320 --> 00:04:42,960
 Where is she?
 
 30
-00:04:58,960 --> 00:05:02,599
+00:04:57,960 --> 00:05:00,279
 The body of Beth Davenport,
 Junior Minister for Transport,
 
 31
-00:05:02,680 --> 00:05:05,839
+00:05:00,280 --> 00:05:04,919
 was found late last night
 on a building site in Greater London.
 
 32
-00:05:05,920 --> 00:05:09,479
-Preliminary investigations suggest
-that this was suicide.
+00:05:04,920 --> 00:05:08,559
+Preliminary investigations
+suggest that this was suicide.
 
 33
-00:05:09,560 --> 00:05:13,399
+00:05:08,560 --> 00:05:12,519
 We can confirm that this apparent
-suicide closely resembles those
+suicide closely resembles those of
 
 34
-00:05:13,480 --> 00:05:16,199
-of SirJeffrey Patterson
+00:05:12,520 --> 00:05:15,279
+Sir Jeffrey Patterson
 and James Phillimore.
 
 35
-00:05:16,280 --> 00:05:19,839
+00:05:15,280 --> 00:05:18,919
 In the light of this, these incidents
 are now being treated as linked.
 
 36
-00:05:19,920 --> 00:05:21,399
-The investigation is ongoing,
+00:05:18,920 --> 00:05:23,919
+The investigation is ongoing but Detective
+Inspector Lestrade will take questions now.
 
 37
-00:05:21,480 --> 00:05:24,879
-but Detective Inspector Lestrade
-will take questions now.
-
-38
-00:05:24,960 --> 00:05:27,199
+00:05:23,920 --> 00:05:26,279
 Detective Inspector,
 how can suicides be linked?
 
-39
-00:05:27,280 --> 00:05:30,359
+38
+00:05:26,280 --> 00:05:29,399
 Well, they all took the same poison.
 
-40
-00:05:30,440 --> 00:05:33,479
+39
+00:05:29,400 --> 00:05:32,599
 They were all found in places
 they had no reason to be.
 
-41
-00:05:33,560 --> 00:05:34,999
-None of them had shown
-
-42
-00:05:35,080 --> 00:05:36,679
-- any prior indication.
+40
+00:05:32,600 --> 00:05:35,759
+- None of them had shown any prior indication.
 - But you can't have serial suicides.
 
-43
-00:05:36,760 --> 00:05:38,359
+41
+00:05:35,760 --> 00:05:37,439
 Well, apparently you can.
 
-44
-00:05:38,440 --> 00:05:41,399
+42
+00:05:37,440 --> 00:05:40,479
 These three people,
 there's nothing that links them?
 
+43
+00:05:40,480 --> 00:05:42,999
+There's no link we've found yet but...
+
+44
+00:05:43,000 --> 00:05:45,240
+We're looking for it.
+There has to be one.
+
 45
-00:05:41,480 --> 00:05:43,919
-There's no link we've found yet,
+00:05:52,000 --> 00:05:55,559
+- If you've all got texts, please ignore them.
+- It just says "Wrong".
 
 46
-00:05:44,000 --> 00:05:46,759
-but we're looking for it -
-there has to be one.
+00:05:55,560 --> 00:05:57,959
+Well, just ignore that.
+If there are no more questions,
 
 47
-00:05:46,840 --> 00:05:48,959
-(MOBILES BEEP)
-
-48
-00:05:52,960 --> 00:05:54,839
-If you've all got texts,
-
-49
-00:05:54,920 --> 00:05:56,479
-- please ignore them.
-- It just says "wrong".
-
-50
-00:05:56,560 --> 00:05:58,119
-Well, just ignore that.
-
-51
-00:05:58,200 --> 00:05:59,879
-If there are no more questions
-for Detective Inspector Lestrade,
-
-52
-00:05:59,960 --> 00:06:01,519
+00:05:57,960 --> 00:06:00,599
 I'm going to bring
 this session to an end.
 
-53
-00:06:01,600 --> 00:06:04,199
+48
+00:06:00,600 --> 00:06:03,279
 If they're suicides,
 what are you investigating?
 
+49
+00:06:03,280 --> 00:06:08,599
+As I say, these suicides
+are clearly linked.
+
+50
+00:06:08,600 --> 00:06:13,280
+It's an unusual situation, we've
+got our best people investigating.
+
+51
+00:06:16,040 --> 00:06:18,159
+Says "Wrong" again.
+
+52
+00:06:18,160 --> 00:06:22,359
+One more question. Is there any
+chance that these are murders?
+
+53
+00:06:22,360 --> 00:06:25,119
+And if they are, is this
+the work of a serial killer?
+
 54
-00:06:04,280 --> 00:06:09,479
-As I say,
-these suicides are clearly linked.
-
-55
-00:06:09,560 --> 00:06:14,279
-It's an unusual situation.
-We've got our best people investigating.
-
-56
-00:06:14,360 --> 00:06:16,959
-(MOBILES BEEP)
-
-57
-00:06:17,040 --> 00:06:20,399
-- Says "wrong" again.
-- One more question.
-
-58
-00:06:20,480 --> 00:06:23,239
-Is there any chance
-that these are murders?
-
-59
-00:06:23,320 --> 00:06:26,879
-And if they are,
-is this the work of a serial killer?
-
-60
-00:06:26,960 --> 00:06:30,879
-I know that you like writing about these,
+00:06:25,120 --> 00:06:29,959
+I know that you like writing about these
 but these do appear to be suicides.
 
-61
-00:06:30,960 --> 00:06:34,879
-We know the difference.
-The poison was clearly self-administered.
+55
+00:06:29,960 --> 00:06:33,999
+We know the difference. The poison
+was clearly self-administered.
 
-62
-00:06:34,960 --> 00:06:37,999
+56
+00:06:34,000 --> 00:06:37,039
 Yes, but if they are murders,
 how do people keep themselves safe?
 
-63
-00:06:38,080 --> 00:06:40,559
+57
+00:06:37,040 --> 00:06:39,599
 Well, don't commit suicide.
 
-64
-00:06:40,640 --> 00:06:41,839
-(WHISPERS) DailyMail.
+58
+00:06:39,600 --> 00:06:40,959
+Daily Mail!
 
-65
-00:06:41,920 --> 00:06:45,439
-Obviously,
-this is a frightening time for people,
+59
+00:06:40,960 --> 00:06:48,839
+Obviously, this is a frightening time for people but all
+anyone has to do is exercise reasonable precautions.
 
-66
-00:06:45,520 --> 00:06:49,759
-but all anyone has to do
-is exercise reasonable precautions.
+60
+00:06:48,840 --> 00:06:51,719
+We are all as safe as we want to be.
 
-67
-00:06:49,840 --> 00:06:52,719
-- We are all as safe as we want to be.
-- (MOBILES BEEP)
-
-68
-00:07:00,200 --> 00:07:01,679
+61
+00:06:59,200 --> 00:07:00,680
 Thank you.
 
-69
-00:07:05,360 --> 00:07:08,719
+62
+00:07:04,400 --> 00:07:07,799
 You've got to stop him doing that.
 He's making us look like idiots.
 
-70
-00:07:08,800 --> 00:07:11,399
-If you can tell me how he does it,
-I'll stop him.
+63
+00:07:07,800 --> 00:07:10,360
+If you can tell me
+how he does it, I'll stop him.
 
-71
-00:07:22,880 --> 00:07:24,359
+64
+00:07:21,880 --> 00:07:23,439
 John!
 
-72
-00:07:24,440 --> 00:07:25,719
+65
+00:07:23,440 --> 00:07:25,080
 John Watson!
 
-73
-00:07:27,000 --> 00:07:30,039
-Stamford, Mike Stamford.
-We were at Barts together.
+66
+00:07:26,040 --> 00:07:30,839
+- Stamford, Mike Stamford. We were at Barts together.
+- Yes, sorry, yes, Mike, hello.
 
-74
-00:07:30,120 --> 00:07:31,759
-Yes, sorry, yes, Mike, hello.
-
-75
-00:07:31,840 --> 00:07:34,239
-- Yeah, I know, I got fat.
+67
+00:07:30,840 --> 00:07:33,319
+- Yes, I know, I got fat.
 - No, no.
 
-76
-00:07:34,320 --> 00:07:37,079
+68
+00:07:33,320 --> 00:07:36,119
 I heard you were abroad somewhere
 getting shot at. What happened?
 
-77
-00:07:38,520 --> 00:07:40,999
+69
+00:07:36,120 --> 00:07:38,600
 I got shot.
 
-78
-00:07:45,120 --> 00:07:47,519
+70
+00:07:44,080 --> 00:07:46,599
 Are you still at Barts, then?
 
-79
-00:07:47,600 --> 00:07:50,799
-Teaching now, yeah. Bright young things
-like we used to be.
+71
+00:07:46,600 --> 00:07:49,879
+Teaching now, yeah, bright
+young things like we used to be.
 
-80
-00:07:50,880 --> 00:07:52,839
+72
+00:07:49,880 --> 00:07:51,959
 God, I hate them.
 
-81
-00:07:52,920 --> 00:07:55,559
-What about you? Just staying in town
-till you get yourself sorted?
+73
+00:07:51,960 --> 00:07:54,679
+What about you, just staying in
+town till you get yourself sorted?
 
-82
-00:07:55,640 --> 00:07:57,319
+74
+00:07:54,680 --> 00:07:56,439
 I can't afford London
 on an Army pension.
 
-83
-00:07:57,400 --> 00:08:00,919
-You couldn't bear to be anywhere else.
-That's not the John Watson I know.
+75
+00:07:56,452 --> 00:07:57,955
+And you couldn't bear
+to be anywhere else.
 
-84
-00:08:01,000 --> 00:08:02,679
-Yeah, I'm notthe John Watson...
+76
+00:07:57,978 --> 00:08:01,160
+- That's not the John Watson I know.
+- I'm not the John Watson.
 
-85
-00:08:07,440 --> 00:08:09,479
+77
+00:08:06,440 --> 00:08:08,559
 Couldn't Harry help?
 
-86
-00:08:09,560 --> 00:08:11,559
-Yeah, like that's going to happen (!)
+78
+00:08:08,560 --> 00:08:10,639
+Yeah, like that's going to happen!
 
-87
-00:08:11,640 --> 00:08:14,599
+79
+00:08:10,640 --> 00:08:13,679
 I don't know,
 get a flatshare or something?
 
-88
-00:08:14,680 --> 00:08:17,479
-Come on, who'd want me for a flatmate?
+80
+00:08:13,680 --> 00:08:15,360
+Come on.
+Who'd want me for a flatmate?
 
-89
-00:08:17,560 --> 00:08:18,759
-(LAUGHS)
-
-90
-00:08:18,840 --> 00:08:20,399
+81
+00:08:17,800 --> 00:08:19,479
 What?
 
-91
-00:08:20,480 --> 00:08:23,799
+82
+00:08:19,480 --> 00:08:22,919
 You're the second person
 to say that to me today.
 
-92
-00:08:23,880 --> 00:08:25,279
+83
+00:08:22,920 --> 00:08:24,280
 Who was the first?
 
-93
-00:08:27,600 --> 00:08:29,759
+84
+00:08:26,560 --> 00:08:28,839
 How fresh?
 
-94
-00:08:29,840 --> 00:08:32,639
+85
+00:08:28,840 --> 00:08:31,719
 Just in. 67, natural causes.
 
-95
-00:08:32,720 --> 00:08:35,839
+86
+00:08:31,720 --> 00:08:34,879
 Used to work here.
 I knew him, he was nice.
 
-96
-00:08:37,040 --> 00:08:37,999
+87
+00:08:34,880 --> 00:08:37,119
 Fine.
 
-97
-00:08:38,080 --> 00:08:40,279
+88
+00:08:37,120 --> 00:08:39,280
 We'll start with the riding crop.
 
-98
-00:08:50,720 --> 00:08:53,879
+89
+00:08:49,720 --> 00:08:53,080
 So, bad day, was it?
 
-99
-00:08:53,960 --> 00:08:56,919
-I need to know what bruises form
-in the next 20 minutes.
+90
+00:08:54,400 --> 00:08:58,199
+I need to know what bruises form in the next
+twenty minutes. A man's alibi depends on it. Text me.
 
-100
-00:08:57,000 --> 00:08:59,079
-A man's alibi depends on it. Text me.
-
-101
-00:08:59,160 --> 00:09:02,439
+91
+00:08:58,200 --> 00:09:01,519
 Listen, I was wondering.
 Maybe later, when you're finished...
 
-102
-00:09:02,520 --> 00:09:04,559
+92
+00:09:01,520 --> 00:09:03,599
 You're wearing lipstick.
 You weren't wearing lipstick before.
 
-103
-00:09:04,640 --> 00:09:08,439
-I, er... I refreshed it a bit.
+93
+00:09:03,600 --> 00:09:07,559
+I refreshed it a bit.
 
-104
-00:09:08,520 --> 00:09:10,999
+94
+00:09:07,560 --> 00:09:10,079
 Sorry, you were saying?
 
-105
-00:09:11,080 --> 00:09:13,799
+95
+00:09:10,080 --> 00:09:12,879
 I was wondering
-if you'd like to have coffee.
+if you'd like to have coffee?
 
-106
-00:09:13,880 --> 00:09:16,599
+96
+00:09:12,880 --> 00:09:15,600
 Black, two sugars, please.
 I'll be upstairs.
 
-107
-00:09:18,480 --> 00:09:20,119
-OK.
+97
+00:09:17,480 --> 00:09:19,160
+Okay...
 
-108
-00:09:23,320 --> 00:09:25,319
-(KNOCK ON DOOR)
-
-109
-00:09:32,160 --> 00:09:35,159
+98
+00:09:31,160 --> 00:09:34,279
 - Bit different from my day.
 - You've no idea!
 
-110
-00:09:35,240 --> 00:09:37,399
+99
+00:09:34,280 --> 00:09:36,479
 Mike, can I borrow your phone?
 There's no signal on mine.
 
-111
-00:09:37,480 --> 00:09:40,279
+100
+00:09:36,480 --> 00:09:39,359
 - And what's wrong with the landline?
 - I prefer to text.
 
-112
-00:09:40,360 --> 00:09:43,559
+101
+00:09:39,360 --> 00:09:42,520
 Sorry, it's in my coat.
 
-113
-00:09:44,760 --> 00:09:47,279
-Er, here...use mine.
+102
+00:09:43,720 --> 00:09:46,280
+Here, use mine.
 
-114
-00:09:47,360 --> 00:09:49,679
+103
+00:09:46,360 --> 00:09:48,799
 Oh, thank you.
 
-115
-00:09:49,760 --> 00:09:52,919
+104
+00:09:48,800 --> 00:09:51,920
 This is an old friend of mine,
 John Watson.
 
-116
-00:09:56,000 --> 00:09:58,319
+105
+00:09:55,000 --> 00:09:57,320
 Afghanistan or Iraq?
 
-117
-00:10:00,840 --> 00:10:03,519
+106
+00:09:59,840 --> 00:10:02,520
 - Sorry?
 - Which was it, in Afghanistan or Iraq?
 
-118
-00:10:06,160 --> 00:10:08,759
-Afghanistan. Sorry, how did you...?
+107
+00:10:05,200 --> 00:10:07,839
+Afghanistan, sorry,
+how did you know?
 
-119
-00:10:08,840 --> 00:10:10,879
-Ah, Molly, coffee, thank you.
+108
+00:10:07,840 --> 00:10:09,959
+Ah, Molly! Coffee, thank you.
 
-120
-00:10:10,960 --> 00:10:12,439
+109
+00:10:09,960 --> 00:10:11,519
 What happened to the lipstick?
 
-121
-00:10:12,520 --> 00:10:14,239
+110
+00:10:11,520 --> 00:10:13,359
 It wasn't working for me.
 
-122
-00:10:14,320 --> 00:10:16,759
-Really? I thought it was
-a big improvement.
-
-123
-00:10:16,840 --> 00:10:18,479
+111
+00:10:13,360 --> 00:10:17,559
+Really? It was a big improvement.
 Your mouth's too small now.
 
-124
-00:10:18,560 --> 00:10:20,119
-OK.
+112
+00:10:17,560 --> 00:10:19,120
+Okay.
 
-125
-00:10:21,240 --> 00:10:22,759
+113
+00:10:20,240 --> 00:10:21,760
 How do you feel about the violin?
 
-126
-00:10:25,960 --> 00:10:28,399
+114
+00:10:24,960 --> 00:10:27,519
 I'm sorry, what?
 
-127
-00:10:28,480 --> 00:10:29,799
-I play the violin when I'm thinking
+115
+00:10:27,520 --> 00:10:31,479
+I play the violin when I'm thinking and sometimes
+I don't talk for days on end. Would that bother you?
 
-128
-00:10:29,880 --> 00:10:32,439
-and sometimes I don't talk
-for days on end. Would that bother you?
-
-129
-00:10:32,520 --> 00:10:34,719
+116
+00:10:31,480 --> 00:10:33,680
 Potential flatmates should know
 the worst about each other.
 
-130
-00:10:37,280 --> 00:10:39,399
+117
+00:10:36,280 --> 00:10:38,479
 - You told him about me?
 - Not a word.
 
-131
-00:10:39,480 --> 00:10:41,239
+118
+00:10:38,480 --> 00:10:40,359
 Who said anything about flatmates?
 
-132
-00:10:41,320 --> 00:10:45,599
-I did. Told Mike this morning I must be
+119
+00:10:40,360 --> 00:10:44,679
+I did. Told Mike this morning that I must be
 a difficult man to find a flatmate for.
 
-133
-00:10:45,680 --> 00:10:47,639
-Now here he is, just after lunch,
+120
+00:10:44,680 --> 00:10:47,919
+Now here he is just after lunch with
+an old friend clearly just home from
 
-134
-00:10:47,720 --> 00:10:50,359
-with an old friend clearly just home
-from military service in Afghanistan.
+121
+00:10:47,920 --> 00:10:50,759
+military service in Afghanistan.
+Wasn't a difficult leap.
 
-135
-00:10:50,440 --> 00:10:54,119
-- Wasn't a difficult leap.
-- How did you know about Afghanistan?
+122
+00:10:50,760 --> 00:10:53,199
+How did you know about Afghanistan?
 
-136
-00:10:54,200 --> 00:10:56,359
+123
+00:10:53,200 --> 00:10:55,439
 Got my eye on a nice little place
 in central London.
 
-137
-00:10:56,440 --> 00:10:58,039
-We ought to be able to afford it.
+124
+00:10:55,440 --> 00:10:57,119
+Together we ought to be able to afford it.
 
-138
-00:10:58,120 --> 00:11:00,079
-We'll meet there tomorrow evening,
-seven o'clock.
+125
+00:10:57,120 --> 00:10:59,199
+We'll meet there tomorrow
+evening, seven o'clock.
 
-139
-00:11:00,160 --> 00:11:04,319
+126
+00:10:59,200 --> 00:11:03,119
 Sorry, got to dash. I think I left
 my riding crop in the mortuary.
 
-140
-00:11:04,400 --> 00:11:05,599
+127
+00:11:03,120 --> 00:11:04,679
 Is that it?
 
-141
-00:11:05,680 --> 00:11:07,519
+128
+00:11:04,680 --> 00:11:06,639
 Is that what?
 
-142
-00:11:07,600 --> 00:11:11,279
-We've only just met
-and we're going to go and look at a flat?
+129
+00:11:06,640 --> 00:11:10,359
+We've only just met and we're
+going to go and look at a flat?
 
-143
-00:11:11,360 --> 00:11:12,599
+130
+00:11:10,360 --> 00:11:12,120
 Problem?
 
-144
-00:11:15,160 --> 00:11:17,119
-We don't know a thing about each other.
+131
+00:11:14,160 --> 00:11:16,199
+We don't know
+a thing about each other.
 
-145
-00:11:17,200 --> 00:11:19,519
-I don't know where we're meeting.
+132
+00:11:16,200 --> 00:11:19,719
+I don't know where we're meeting,
 I don't even know your name.
 
-146
-00:11:19,600 --> 00:11:21,879
-I know you're an Army doctor
+133
+00:11:19,720 --> 00:11:22,759
+I know you're an Army doctor and you've
+been invalided home from Afghanistan.
 
-147
-00:11:21,960 --> 00:11:23,639
-and you've been invalided home
-from Afghanistan.
+134
+00:11:22,760 --> 00:11:25,879
+You've got a brother worried about you
+but you won't go to him for help because you don't
 
-148
-00:11:23,720 --> 00:11:26,359
-You've got a brother worried about you,
-but you won't go to him for help
+135
+00:11:25,880 --> 00:11:30,519
+approve of him, possibly because he's an alcoholic,
+more likely because he recently walked out on his wife.
 
-149
-00:11:26,440 --> 00:11:28,999
-because you don't approve of him,
-possibly because he's an alcoholic,
+136
+00:11:30,520 --> 00:11:35,079
+And I know that your therapist thinks your
+limp's psychosomatic. Quite correctly, I'm afraid.
 
-150
-00:11:29,080 --> 00:11:31,399
-more likely because
-he recently walked out on his wife.
+137
+00:11:35,080 --> 00:11:37,560
+That's enough to be going
+on with, don't you think?
 
-151
-00:11:31,480 --> 00:11:33,759
-And I know your therapist thinks
-your limp's psychosomatic,
+138
+00:11:41,160 --> 00:11:45,759
+The name's Sherlock Holmes,
+and the address is 221B Baker Street.
 
-152
-00:11:33,840 --> 00:11:35,999
-quite correctly, I'm afraid.
+139
+00:11:45,760 --> 00:11:47,280
+Afternoon.
 
-153
-00:11:36,080 --> 00:11:38,559
-That's enough to be going on with,
-don't you think?
+140
+00:11:50,520 --> 00:11:52,960
+Yeah, he's always like that.
 
-154
-00:11:42,120 --> 00:11:46,999
-The name's Sherlock Holmes, and the
-address is 22 1 B Baker Street. Afternoon.
-
-155
-00:11:51,520 --> 00:11:53,959
-He's always like that.
-
-156
-00:12:58,800 --> 00:13:00,119
+141
+00:12:57,800 --> 00:12:59,199
 Hello.
 
-157
-00:13:00,200 --> 00:13:03,239
-- Ah, Mr Holmes.
+142
+00:12:59,200 --> 00:13:02,240
+- Ah... Mr. Holmes.
 - Sherlock, please.
 
-158
-00:13:04,240 --> 00:13:06,479
+143
+00:13:03,280 --> 00:13:05,599
 Well, this is a prime spot.
 Must be expensive.
 
-159
-00:13:06,560 --> 00:13:09,479
-Mrs Hudson, the landlady -
+144
+00:13:05,600 --> 00:13:08,599
+Mrs. Hudson, the landlady...
 she's given me a special deal.
 
-160
-00:13:09,560 --> 00:13:11,759
-Owes me a favour. A few years back,
+145
+00:13:08,600 --> 00:13:13,359
+Owes me a favour. A few years back, her husband
+got himself sentenced to death in Florida.
 
-161
-00:13:11,840 --> 00:13:15,559
-her husband got himself sentenced to death
-in Florida. I was able to help out.
+146
+00:13:13,360 --> 00:13:17,279
+- I was able to help out.
+- Sorry... You stopped her husband being executed?
 
-162
-00:13:15,640 --> 00:13:18,199
-Sorry, you stopped her husband
-being executed?
-
-163
-00:13:18,280 --> 00:13:19,799
+147
+00:13:17,280 --> 00:13:18,840
 Oh, no, I ensured it.
 
-164
-00:13:21,360 --> 00:13:23,359
+148
+00:13:20,360 --> 00:13:22,479
 Sherlock!
 
-165
-00:13:23,440 --> 00:13:24,959
-Mrs Hudson, DrJohn Watson.
+149
+00:13:22,480 --> 00:13:24,039
+Mrs. Hudson, Dr. John Watson.
 
-166
-00:13:25,040 --> 00:13:26,919
+150
+00:13:24,061 --> 00:13:25,857
 - Hello. Come in.
 - Thank you.
 
-167
-00:13:27,000 --> 00:13:28,039
+151
+00:13:25,881 --> 00:13:27,040
 Shall we...?
 
-168
-00:13:54,120 --> 00:13:55,679
+152
+00:13:53,120 --> 00:13:54,720
 Well, this could be very nice.
 
-169
-00:13:57,400 --> 00:13:58,999
+153
+00:13:56,400 --> 00:13:58,079
 Very nice indeed.
 
-170
-00:13:59,080 --> 00:14:00,439
+154
+00:13:58,080 --> 00:14:00,439
 Yes.
 
-171
-00:14:00,520 --> 00:14:03,839
-Yes, I think so, my thoughts precisely.
+155
+00:14:00,440 --> 00:14:02,959
+Yes, I think so,
+my thoughts precisely.
 
-172
-00:14:03,920 --> 00:14:06,839
+156
+00:14:02,960 --> 00:14:08,839
 - So I went straight ahead and moved in.
-- Soon as we get this rubbish cleaned up.
+- Soon as we get all this rubbish cleaned out...
 
-173
-00:14:06,920 --> 00:14:08,359
-Oh.
+157
+00:14:08,840 --> 00:14:14,039
+- Oh. So this is all...
+- Well, obviously I can erm... straighten things up a bit.
 
-174
-00:14:09,840 --> 00:14:11,079
-So this is all...
-
-175
-00:14:11,160 --> 00:14:14,959
-Well, obviously
-I can straighten things up a bit.
-
-176
-00:14:15,040 --> 00:14:18,039
+158
+00:14:14,040 --> 00:14:17,119
 - That's a skull.
 - Friend of mine.
 
-177
-00:14:18,120 --> 00:14:19,679
+159
+00:14:17,120 --> 00:14:18,759
 When I say friend...
 
-178
-00:14:19,760 --> 00:14:22,719
-What do you think, then, Dr Watson?
+160
+00:14:18,760 --> 00:14:21,839
+What do you think, then, Dr. Watson?
 
-179
-00:14:22,800 --> 00:14:26,799
+161
+00:14:21,840 --> 00:14:25,839
 There's another bedroom upstairs,
 if you'll be needing two bedrooms.
 
-180
-00:14:26,880 --> 00:14:28,719
+162
+00:14:25,840 --> 00:14:27,839
 Of course we'll be needing two.
 
-181
-00:14:28,800 --> 00:14:31,199
-Oh, don't worry,
-there's all sorts round here.
+163
+00:14:27,840 --> 00:14:33,680
+Oh, don't worry, there's all sorts round here.
+Mrs. Turner next door's got married ones.
 
-182
-00:14:31,280 --> 00:14:33,599
-Mrs Turner next door's got married ones.
+164
+00:14:35,040 --> 00:14:39,520
+Oh... Sherlock!
+The mess you've made.
 
-183
-00:14:36,040 --> 00:14:40,519
-Oh...Sherlock! The mess you've made.
+165
+00:14:45,960 --> 00:14:47,720
+I looked you up on
+the internet last night.
 
-184
-00:14:46,920 --> 00:14:48,719
-I looked you up
-on the internet last night.
+166
+00:14:50,240 --> 00:14:54,199
+- Anything interesting?
+- Found your website. The Science of Deduction.
 
-185
-00:14:51,240 --> 00:14:52,279
-Anything interesting?
-
-186
-00:14:52,360 --> 00:14:55,119
-Found your website.
-The Science Of Deduction.
-
-187
-00:14:55,200 --> 00:14:56,559
+167
+00:14:54,200 --> 00:14:55,520
 What did you think?
 
-188
-00:14:59,040 --> 00:15:01,599
-You said you could identify
-a software designer by his tie
+168
+00:14:58,080 --> 00:15:02,439
+You said you could identify a software designer
+by his tie and an airline pilot by his left thumb?
 
-189
-00:15:01,680 --> 00:15:03,399
-and an airline pilot by his left thumb?
-
-190
-00:15:03,480 --> 00:15:04,639
+169
+00:15:02,440 --> 00:15:03,719
 Yes.
 
-191
-00:15:04,720 --> 00:15:07,279
+170
+00:15:03,720 --> 00:15:06,359
 And I can read your military career
 in your face and your leg,
 
-192
-00:15:07,360 --> 00:15:10,359
+171
+00:15:06,360 --> 00:15:09,439
 and your brother's drinking habits
-in your mobile phone.
+on your mobile phone.
 
-193
-00:15:10,440 --> 00:15:11,559
+172
+00:15:09,440 --> 00:15:10,560
 How?
 
-194
-00:15:11,640 --> 00:15:14,959
-What about these suicides, then, Sherlock?
-
-195
-00:15:15,040 --> 00:15:17,559
+173
+00:15:12,400 --> 00:15:16,639
+What about these suicides then, Sherlock?
 I thought that'd be right up your street.
 
-196
-00:15:17,640 --> 00:15:20,079
-Three exactly the same.
+174
+00:15:16,640 --> 00:15:19,159
+Three, exactly the same.
 
-197
-00:15:20,160 --> 00:15:21,399
+175
+00:15:19,160 --> 00:15:20,400
 Four.
 
-198
-00:15:23,080 --> 00:15:25,199
+176
+00:15:22,067 --> 00:15:23,441
 There's been a fourth.
-And there's something different
 
-199
-00:15:25,280 --> 00:15:26,959
-- this time.
+177
+00:15:23,453 --> 00:15:25,960
+- And there's something different this time.
 - A fourth?
 
-200
-00:15:29,360 --> 00:15:32,519
+178
+00:15:28,360 --> 00:15:31,639
 - Where?
 - Brixton, Lauriston Gardens.
 
-201
-00:15:32,600 --> 00:15:35,359
-What's new about this one?
-You wouldn't have come to me otherwise.
+179
+00:15:31,640 --> 00:15:34,479
+What's new about this one? You wouldn't have
+come to me if there wasn't something different.
 
-202
-00:15:35,440 --> 00:15:38,039
-You know how they never leave notes?
+180
+00:15:34,480 --> 00:15:36,136
+- You know how they never leave notes?
+- Yeah.
+
+181
+00:15:36,160 --> 00:15:37,146
 This one did.
 
-203
-00:15:38,120 --> 00:15:41,159
-- Will you come?
-- Who's on forensics?
-
-204
-00:15:41,240 --> 00:15:44,599
-- Anderson.
-- He doesn't work well with me.
-
-205
-00:15:44,680 --> 00:15:47,199
-- Well, he won't be your assistant.
-- I need an assistant.
-
-206
-00:15:47,280 --> 00:15:48,239
+182
+00:15:37,160 --> 00:15:39,119
 Will you come?
 
-207
-00:15:48,320 --> 00:15:49,919
-Not in a police car, I'll be right behind.
+183
+00:15:39,120 --> 00:15:41,000
+- Who's on forensics?
+- Anderson.
 
-208
-00:15:50,000 --> 00:15:51,719
+184
+00:15:42,000 --> 00:15:43,679
+He doesn't work well with me.
+
+185
+00:15:43,680 --> 00:15:46,319
+- Well, he won't be your assistant.
+- I <i>need</i> an assistant.
+
+186
+00:15:46,320 --> 00:15:48,920
+- Will you come?
+- Not in a police car, I'll be right behind.
+
+187
+00:15:49,960 --> 00:15:51,720
 Thank you.
 
-209
-00:16:00,360 --> 00:16:02,359
+188
+00:15:59,320 --> 00:16:01,320
 Brilliant! Yes!
 
-210
-00:16:03,400 --> 00:16:05,519
-Four serial suicides and now a note.
+189
+00:16:02,360 --> 00:16:04,599
+Four serial suicides, and now a note.
 
-211
-00:16:05,600 --> 00:16:09,639
-Oh, it's Christmas. Mrs Hudson,
+190
+00:16:04,600 --> 00:16:08,759
+Oh, it's Christmas. Mrs. Hudson,
 I'll be late. Might need some food.
 
-212
-00:16:09,720 --> 00:16:12,439
+191
+00:16:08,760 --> 00:16:11,519
 I'm your landlady, dear,
 not your housekeeper.
 
-213
-00:16:12,520 --> 00:16:16,039
-Something cold will do. John,
-have a cup of tea, make yourself at home.
+192
+00:16:11,520 --> 00:16:15,119
+Something cold will do. John, have
+a cup of tea, make yourself at home.
 
-214
-00:16:16,120 --> 00:16:17,799
+193
+00:16:15,120 --> 00:16:16,879
 Don't wait up!
 
-215
-00:16:17,880 --> 00:16:20,279
+194
+00:16:16,880 --> 00:16:19,399
 Look at him, dashing about...
 
-216
-00:16:20,360 --> 00:16:22,759
+195
+00:16:19,400 --> 00:16:26,439
 My husband was just the same.
+But you're more the sitting-down type, I can tell.
 
-217
-00:16:22,840 --> 00:16:26,479
-But you're more
-the sitting-down type, I can tell.
-
-218
-00:16:26,560 --> 00:16:29,519
+196
+00:16:26,440 --> 00:16:28,599
 I'll make you that cuppa,
 you rest your leg.
 
-219
-00:16:29,600 --> 00:16:32,119
-Damn my leg! Sorry, I'm so sorry.
+197
+00:16:28,600 --> 00:16:31,199
+Damn my leg! Sorry, I'm so sorry...
 
-220
-00:16:32,200 --> 00:16:35,039
-It's just sometimes this bloody thing...
+198
+00:16:31,200 --> 00:16:34,119
+It's just sometimes
+this bloody thing...
 
-221
-00:16:35,120 --> 00:16:37,839
+199
+00:16:34,120 --> 00:16:36,959
 I understand, dear, I've got a hip.
 
-222
-00:16:37,920 --> 00:16:39,519
-Cup of tea'd be lovely. Thank you.
+200
+00:16:36,960 --> 00:16:40,959
+- Cup of tea'd be lovely. Thank you.
+- Just this once, dear, I'm not your housekeeper.
 
-223
-00:16:39,600 --> 00:16:41,919
-Just this once, dear,
-I'm not your housekeeper.
+201
+00:16:40,960 --> 00:16:44,720
+- Couple of biscuits too, if you've got 'em.
+- Not your housekeeper!
 
-224
-00:16:42,000 --> 00:16:44,599
-Couple of biscuits too,
-if you've got 'em.
-
-225
-00:16:44,680 --> 00:16:46,799
-Not your housekeeper!
-
-226
-00:16:49,280 --> 00:16:50,879
+202
+00:16:48,240 --> 00:16:49,880
 You're a doctor.
 
-227
-00:16:51,880 --> 00:16:53,599
-In fact, you're an Army doctor.
+203
+00:16:50,880 --> 00:16:52,600
+In fact you're an Army doctor.
 
-228
-00:16:54,840 --> 00:16:56,879
+204
+00:16:53,840 --> 00:16:55,959
 Yes.
 
-229
-00:16:56,960 --> 00:16:58,439
+205
+00:16:55,960 --> 00:16:57,440
 Any good?
 
-230
-00:16:59,440 --> 00:17:00,479
+206
+00:16:58,400 --> 00:16:59,480
 Very good.
 
-231
-00:17:01,480 --> 00:17:04,239
+207
+00:17:00,520 --> 00:17:03,279
 Seen a lot of injuries, then.
 Violent deaths.
 
-232
-00:17:04,320 --> 00:17:06,239
+208
+00:17:03,280 --> 00:17:05,319
 Well, yes.
 
-233
-00:17:06,320 --> 00:17:07,839
+209
+00:17:05,320 --> 00:17:06,919
 Bit of trouble too, I bet?
 
-234
-00:17:07,920 --> 00:17:12,159
+210
+00:17:06,920 --> 00:17:11,200
 Of course. Yes.
 Enough for a lifetime, far too much.
 
-235
-00:17:12,240 --> 00:17:16,199
+211
+00:17:12,200 --> 00:17:15,200
 - Want to see some more?
 - Oh, God, yes.
 
-236
-00:17:19,440 --> 00:17:22,239
-Sorry, Mrs Hudson, I'll skip the tea.
-Off out.
-
-237
-00:17:22,320 --> 00:17:26,239
+212
+00:17:18,440 --> 00:17:22,040
+- Sorry Mrs. Hudson, I'll skip the tea. Off out.
 - Both of you?
-- Impossible suicides? Four of them?
 
-238
-00:17:26,320 --> 00:17:29,439
-No point sitting at home when
-there's finally something fun going on!
+213
+00:17:23,000 --> 00:17:25,359
+Impossible suicides? Four of them?
 
-239
-00:17:29,520 --> 00:17:32,799
+214
+00:17:25,360 --> 00:17:28,519
+No point sitting at home when there's
+finally something fun going on!
+
+215
+00:17:28,520 --> 00:17:31,919
 - Look at you, all happy. It's not decent.
 - Who cares about decent?
 
-240
-00:17:32,880 --> 00:17:35,279
-The game, Mrs Hudson, is on!
+216
+00:17:31,920 --> 00:17:34,320
+The game, Mrs. Hudson, is on!
 
-241
-00:17:41,040 --> 00:17:42,439
+217
+00:17:40,040 --> 00:17:41,440
 Taxi!
 
-242
-00:18:18,720 --> 00:18:21,719
-- OK, you've got questions...
-- Yeah, where are we going?
+218
+00:18:18,120 --> 00:18:19,719
+Okay, you've got questions...
 
-243
-00:18:22,760 --> 00:18:25,119
+219
+00:18:19,720 --> 00:18:21,759
+Yeah, where are we going?
+
+220
+00:18:21,760 --> 00:18:24,199
 Crime scene. Next?
 
-244
-00:18:25,200 --> 00:18:27,279
-- Who are you? What do you do?
+221
+00:18:24,200 --> 00:18:26,359
+- Who are you, what do you do?
 - What do you think?
 
-245
-00:18:27,360 --> 00:18:30,839
-- I'd say...private detective.
-- But...?
+222
+00:18:26,360 --> 00:18:29,959
+- I'd say... private detective.
+- But?
 
-246
-00:18:30,920 --> 00:18:32,839
+223
+00:18:29,960 --> 00:18:31,880
 But the police don't go
 to private detectives.
 
-247
-00:18:32,920 --> 00:18:37,479
-I'm a consulting detective.
-Only one in the world. I invented the job.
+224
+00:18:32,880 --> 00:18:36,599
+I'm a consulting detective. Only
+one in the world, I invented the job.
 
-248
-00:18:37,560 --> 00:18:38,919
-What does that mean?
+225
+00:18:36,600 --> 00:18:39,421
+- What does that mean?
+- Means when the police are out of their depth,
 
-249
-00:18:39,000 --> 00:18:41,759
-It means when the police are
-out of their depth, which is always,
-
-250
-00:18:41,840 --> 00:18:44,639
-- they consult me.
+226
+00:18:39,443 --> 00:18:42,977
+- which is always, they consult me.
 - The police don't consult amateurs.
 
-251
-00:18:47,320 --> 00:18:50,599
-When I met you for the first time
-yesterday, I said Afghanistan or Iraq.
+227
+00:18:46,360 --> 00:18:50,719
+When I met you for the first time yesterday,
+I said Afghanistan or Iraq. You looked surprised.
 
-252
-00:18:50,680 --> 00:18:52,599
-- You looked surprised.
-- Yes, how did you know?
+228
+00:18:50,720 --> 00:18:53,799
+- Yes, how <i>did</i> you know?
+- I didn't know, I saw.
 
-253
-00:18:52,680 --> 00:18:54,679
-I didn't know, I saw.
+229
+00:18:53,800 --> 00:18:56,719
+Your haircut, the way
+you hold yourself says military.
 
-254
-00:18:54,760 --> 00:18:58,399
-Your haircut, the way you hold yourself
-says military. But your conversation...
+230
+00:18:56,720 --> 00:18:59,199
+- But your conversation as you entered...
+- Bit different from my day.
 
-255
-00:18:58,480 --> 00:19:00,079
-Bit different from my day.
+231
+00:18:59,200 --> 00:19:02,120
+...said trained at Barts.
+So Army doctor, obvious.
 
-256
-00:19:00,160 --> 00:19:02,759
-...said trained at Barts -
-so Army doctor, obvious.
-
-257
-00:19:04,160 --> 00:19:05,759
+232
+00:19:03,160 --> 00:19:04,879
 Your face is tanned...
 
-258
-00:19:05,840 --> 00:19:09,159
-but no tan above the wrists.
-You've been abroad, but not sunbathing.
+233
+00:19:04,880 --> 00:19:08,279
+but no tan above the wrists. You've
+been abroad, but not sunbathing.
 
-259
-00:19:09,240 --> 00:19:12,399
-Your limp's bad when you walk, but you
-don't ask for a chair when you stand,
+234
+00:19:08,280 --> 00:19:12,359
+Your limp's really bad when you walk,
+but you don't ask for a chair when you stand,
 
-260
-00:19:12,480 --> 00:19:15,279
-like you've forgotten about it,
-so it's at least partly psychosomatic.
+235
+00:19:12,360 --> 00:19:14,359
+like you'd forgotten about it.
+So it's at least partly psychosomatic.
 
-261
-00:19:15,360 --> 00:19:18,439
+236
+00:19:14,360 --> 00:19:17,519
 That says the original circumstances
-of the injury were traumatic.
+of the injury were traumatic...
 
-262
-00:19:18,520 --> 00:19:23,359
-Wounded in action, then. Wounded
-in action, suntan - Afghanistan or Iraq.
+237
+00:19:17,520 --> 00:19:22,439
+Wounded in action then. Wounded in
+action, suntan... Afghanistan or Iraq.
 
-263
-00:19:23,440 --> 00:19:25,039
+238
+00:19:22,440 --> 00:19:24,159
 You said I had a therapist.
 
-264
-00:19:25,120 --> 00:19:28,159
+239
+00:19:24,160 --> 00:19:27,279
 You've got a psychosomatic limp,
 of course you've got a therapist.
 
-265
-00:19:28,240 --> 00:19:30,079
-Then there's your brother. Your phone.
+240
+00:19:27,280 --> 00:19:29,159
+Then there's your brother.
+Your phone.
 
-266
-00:19:30,160 --> 00:19:32,839
+241
+00:19:29,160 --> 00:19:31,199
 It's expensive,
 e-mail enabled, MP3 player.
 
-267
-00:19:32,920 --> 00:19:35,319
-You're looking for a flatshare.
-You wouldn't buy this - it's a gift.
+242
+00:19:31,200 --> 00:19:34,439
+And you're looking for a flatshare.
+You wouldn't buy this. It's a gift, then.
 
-268
-00:19:35,400 --> 00:19:37,599
+243
+00:19:34,440 --> 00:19:36,679
 Scratches.
-Not one, many over time -
+Not one, many over time...
 
-269
-00:19:37,680 --> 00:19:39,519
+244
+00:19:36,680 --> 00:19:38,639
 it's been in the same pocket
 as keys and coins.
 
-270
-00:19:39,600 --> 00:19:41,759
+245
+00:19:38,640 --> 00:19:40,839
 You wouldn't treat
 your one luxury item like this,
 
-271
-00:19:41,840 --> 00:19:44,919
+246
+00:19:40,840 --> 00:19:43,959
 so it's had a previous owner.
 Next bit's easy. You know it already.
 
-272
-00:19:45,000 --> 00:19:46,399
+247
+00:19:43,960 --> 00:19:45,519
 The engraving?
 
-273
-00:19:46,480 --> 00:19:49,439
-Harry Watson. Clearly a family member
-who's given you his old phone.
+248
+00:19:45,520 --> 00:19:48,559
+Harry Watson. Clearly a family
+member who's given you his old phone.
 
-274
-00:19:49,520 --> 00:19:51,679
+249
+00:19:48,560 --> 00:19:50,799
 Not your father,
 this is a young man's gadget.
 
-275
-00:19:51,760 --> 00:19:54,719
-Could be a cousin, but you're a war hero
-who can't find a place to live.
+250
+00:19:50,800 --> 00:19:53,839
+Could be a cousin, but you're a war
+hero who can't find a place to live...
 
-276
-00:19:54,800 --> 00:19:57,599
+251
+00:19:53,840 --> 00:19:57,799
 Unlikely you've got an extended family,
-not one you're close to.
+not one you're close to. So brother it is.
 
-277
-00:19:57,680 --> 00:19:58,719
-So brother it is.
-
-278
-00:19:58,800 --> 00:20:01,639
+252
+00:19:57,800 --> 00:20:00,719
 Now, who's Clara? Three kisses
 says it's a romantic attachment.
 
-279
-00:20:01,720 --> 00:20:05,039
+253
+00:20:00,720 --> 00:20:04,119
 The expense of the phone
 says wife, not girlfriend.
 
-280
-00:20:05,120 --> 00:20:07,639
+254
+00:20:04,120 --> 00:20:06,679
 Must have given it to him recently,
-the model's only six months old.
+this model's only six months old.
 
-281
-00:20:07,720 --> 00:20:10,199
-Marriage in trouble, then -
+255
+00:20:06,680 --> 00:20:09,359
+Marriage in trouble then...
 six months on he's given it away.
 
-282
-00:20:10,280 --> 00:20:12,559
-If she'd left him,
+256
+00:20:09,360 --> 00:20:11,639
+If she'd left <i>him</i>,
 he would have kept it. Sentiment.
 
-283
-00:20:12,640 --> 00:20:14,399
-No, he wanted rid of it. He left her.
+257
+00:20:11,640 --> 00:20:13,519
+No, he wanted rid of it. He left <i>her</i>.
 
-284
-00:20:14,480 --> 00:20:16,799
-He gave the phone to you,
-so he wants you to stay in touch.
+258
+00:20:13,520 --> 00:20:15,959
+He gave the phone to you, that says
+he wants you to stay in touch.
 
-285
-00:20:16,880 --> 00:20:19,999
+259
+00:20:15,960 --> 00:20:20,119
 You're looking for cheap accommodation,
-but not going to your brother for help.
+but you're not going to your brother for help...
 
-286
-00:20:20,080 --> 00:20:22,359
-That says you've got problems with him.
+260
+00:20:20,120 --> 00:20:24,719
+that says you've got problems with him.
+Maybe you liked his wife, or don't like his drinking.
 
-287
-00:20:22,440 --> 00:20:25,599
-Maybe you liked his wife
-or don't like his drinking.
-
-288
-00:20:25,680 --> 00:20:28,719
+261
+00:20:24,720 --> 00:20:27,799
 How can you possibly know
 about the drinking?
 
-289
-00:20:28,800 --> 00:20:30,799
+262
+00:20:27,800 --> 00:20:29,919
 Shot in the dark. Good one, though.
 
-290
-00:20:30,880 --> 00:20:33,079
-Power connection -
-tiny little scuff marks round the edge.
+263
+00:20:29,920 --> 00:20:32,199
+Power connection...
+Tiny little scuff marks round it.
 
-291
-00:20:33,160 --> 00:20:35,599
-Every night he plugs it in
-to charge, but his hands are shaking.
+264
+00:20:32,200 --> 00:20:34,719
+Every night he plugs it in to charge
+but his hands are shaking.
 
-292
-00:20:35,680 --> 00:20:37,639
-You never see those marks
-on a sober man's phone,
-
-293
-00:20:37,720 --> 00:20:39,999
+265
+00:20:34,720 --> 00:20:37,978
+You never see those marks on a sober man's phone,
 never see a drunk's without them.
-There you go, you were right.
 
-294
-00:20:40,080 --> 00:20:42,079
-I was right? Right about what?
+266
+00:20:37,990 --> 00:20:41,159
+- There you go, see? You were right.
+- I was right? Right about what?
 
-295
-00:20:42,160 --> 00:20:44,399
+267
+00:20:41,160 --> 00:20:43,440
 The police don't consult amateurs.
 
-296
-00:20:47,040 --> 00:20:49,879
-That...was amazing.
+268
+00:20:46,080 --> 00:20:48,920
+That... was amazing.
 
-297
-00:20:53,200 --> 00:20:54,799
+269
+00:20:52,240 --> 00:20:56,279
 - Do you think so?
-- Of course it was.
+- Of course it was. It was extraordinary, quite extraordinary.
 
-298
-00:20:54,880 --> 00:20:57,159
-It was extraordinary,
-quite extraordinary.
-
-299
-00:20:57,240 --> 00:21:00,079
+270
+00:20:56,280 --> 00:20:59,159
 - That's not what people normally say.
 - What do people normally say?
 
-300
-00:21:00,160 --> 00:21:01,599
-Piss off!
+271
+00:20:59,160 --> 00:21:00,640
+"Piss off!"
 
-301
-00:21:13,400 --> 00:21:15,119
+272
+00:21:12,400 --> 00:21:14,120
 Did I get anything wrong?
 
-302
-00:21:16,120 --> 00:21:18,879
-Harry and me don't get on, never have.
+273
+00:21:15,160 --> 00:21:18,039
+Harry and me don't get on,
+never have,
 
-303
-00:21:18,960 --> 00:21:22,079
+274
+00:21:18,040 --> 00:21:21,199
 Clara and Harry split up
 three months ago
 
-304
-00:21:22,160 --> 00:21:24,159
-and they're getting a divorce.
+275
+00:21:21,200 --> 00:21:23,279
+and they're getting a divorce,
 
-305
-00:21:24,240 --> 00:21:26,119
-And Harry is a drinker.
+276
+00:21:23,280 --> 00:21:24,759
+and Harry is a drinker.
 
-306
-00:21:26,200 --> 00:21:28,719
+277
+00:21:24,760 --> 00:21:27,519
 Spot on, then. I didn't expect
 to be right about everything.
 
-307
-00:21:28,800 --> 00:21:30,319
+278
+00:21:27,520 --> 00:21:29,480
 Harry's short for Harriet.
 
-308
-00:21:31,400 --> 00:21:32,559
-Harry's your sister.
+279
+00:21:30,600 --> 00:21:33,778
+- Harry's your sister.
+- Look, what exactly am I supposed to be doing here?
 
-309
-00:21:32,640 --> 00:21:34,479
-What exactly am I supposed
-to be doing here?
-
-310
-00:21:34,560 --> 00:21:37,039
+280
+00:21:33,789 --> 00:21:36,138
 - Sister!
 - No, seriously, what am I doing here?
 
-311
-00:21:37,120 --> 00:21:38,559
+281
+00:21:36,161 --> 00:21:37,699
 There's always something.
 
-312
-00:21:38,640 --> 00:21:39,759
-Hello, freak!
+282
+00:21:37,720 --> 00:21:41,319
+- Hello, freak!
+- I'm here to see Detective Inspector Lestrade.
 
-313
-00:21:39,840 --> 00:21:42,239
-I'm here to see
-Detective Inspector Lestrade.
+283
+00:21:41,320 --> 00:21:42,839
+Why?
 
-314
-00:21:42,320 --> 00:21:44,919
-- Why?
-- I was invited.
+284
+00:21:42,840 --> 00:21:44,039
+I was invited.
 
-315
-00:21:45,000 --> 00:21:46,919
+285
+00:21:44,040 --> 00:21:46,039
 - Why?
 - I think he wants me to take a look.
 
-316
-00:21:47,000 --> 00:21:50,479
-- You know what I think, don't you?
+286
+00:21:46,040 --> 00:21:49,559
+- Well, you know what I think, don't you?
 - Always, Sally.
 
-317
-00:21:50,560 --> 00:21:53,519
-I even know
-you didn't make it home last night.
+287
+00:21:49,560 --> 00:21:52,639
+I even know you didn't
+make it home last night.
 
-318
-00:21:53,600 --> 00:21:56,359
-- Er...who's this?
-- Colleague of mine, Dr Watson.
+288
+00:21:52,640 --> 00:21:55,479
+- I don't... Who's this?
+- Colleague of mine, Dr. Watson.
 
-319
-00:21:56,440 --> 00:21:58,199
-Dr Watson, Sergeant Sally Donovan.
+289
+00:21:55,480 --> 00:21:57,279
+Dr. Watson, Sergeant Sally Donovan.
 
-320
-00:21:58,280 --> 00:21:59,759
+290
+00:21:57,280 --> 00:21:58,839
 Old friend.
 
-321
-00:21:59,840 --> 00:22:03,439
-A colleague?
-How do you get a colleague?
+291
+00:21:58,840 --> 00:22:02,519
+A colleague.
+How do <i>you</i> get a colleague?
 
-322
-00:22:03,520 --> 00:22:04,719
+292
+00:22:02,520 --> 00:22:03,839
 Did he follow you home?
 
-323
-00:22:04,800 --> 00:22:07,399
-- Would it be better if I just waited...?
+293
+00:22:03,840 --> 00:22:06,400
+- Would it be better if I just waited...
 - No.
 
-324
-00:22:08,400 --> 00:22:10,479
+294
+00:22:07,360 --> 00:22:09,520
 Freak's here. Bringing him in.
 
-325
-00:22:19,120 --> 00:22:22,079
+295
+00:22:18,120 --> 00:22:21,159
 Ah, Anderson. Here we are again.
 
-326
-00:22:22,160 --> 00:22:25,999
+296
+00:22:21,160 --> 00:22:25,079
 It's a crime scene. I don't want it
 contaminated. Are we clear on that?
 
-327
-00:22:26,080 --> 00:22:28,119
+297
+00:22:25,080 --> 00:22:27,199
 Quite clear.
 
-328
-00:22:28,200 --> 00:22:29,919
+298
+00:22:27,200 --> 00:22:29,079
 And is your wife away for long?
 
-329
-00:22:30,000 --> 00:22:32,679
-Oh, don't pretend you worked that out.
-Somebody told you that.
+299
+00:22:29,080 --> 00:22:31,759
+Oh, don't pretend you worked
+that out. Somebody told you that.
 
-330
-00:22:32,760 --> 00:22:34,119
+300
+00:22:31,760 --> 00:22:33,159
 Your deodorant told me that.
 
-331
-00:22:34,200 --> 00:22:36,679
-- My deodorant?
+301
+00:22:33,160 --> 00:22:34,279
+My deodorant?
+
+302
+00:22:34,280 --> 00:22:38,079
 - It's for men.
+- Well, of course it's for men... I'm wearing it.
 
-332
-00:22:36,760 --> 00:22:38,999
-Well, of course it's for men -
-I'm wearing it.
-
-333
-00:22:39,080 --> 00:22:40,239
+303
+00:22:38,080 --> 00:22:39,320
 So's Sergeant Donovan.
 
-334
-00:22:40,320 --> 00:22:41,959
-(HOLMES SNIFFS)
-
-335
-00:22:42,040 --> 00:22:44,599
-Ooh...I think it just vaporised.
+304
+00:22:41,080 --> 00:22:43,719
+Ooh... I think it just vaporised.
 May I go in?
 
-336
-00:22:44,680 --> 00:22:46,119
+305
+00:22:43,720 --> 00:22:45,239
 Whatever you're trying to imply...
 
-337
-00:22:46,200 --> 00:22:50,239
-I'm not implying anything. I'm sure
-Sally came round for a nice little chat
+306
+00:22:45,240 --> 00:22:51,079
+I'm not implying anything. I'm sure Sally came
+round for a nice little chat, and just happened to stay over.
 
-338
-00:22:50,320 --> 00:22:51,919
-and just happened to stay over.
-
-339
-00:22:52,000 --> 00:22:57,159
+307
+00:22:51,080 --> 00:22:54,760
 And I assume she scrubbed your floors,
 going by the state of her knees.
 
-340
-00:23:06,760 --> 00:23:08,439
+308
+00:23:05,800 --> 00:23:07,519
 You'll need to wear one of these.
 
-341
-00:23:08,520 --> 00:23:09,879
+309
+00:23:07,520 --> 00:23:08,959
 Who's this?
 
-342
-00:23:09,960 --> 00:23:11,439
+310
+00:23:08,960 --> 00:23:10,519
 He's with me.
 
-343
-00:23:11,520 --> 00:23:14,159
+311
+00:23:10,520 --> 00:23:13,160
 - But who is he?
 - I said he's with me.
 
-344
-00:23:16,400 --> 00:23:18,399
+312
+00:23:15,400 --> 00:23:17,440
 Aren't you going to put one on?
 
-345
-00:23:21,280 --> 00:23:24,159
+313
+00:23:20,280 --> 00:23:23,160
 - So where are we?
 - Upstairs.
 
-346
-00:23:31,240 --> 00:23:33,639
+314
+00:23:30,200 --> 00:23:32,759
 I can give you two minutes.
 
-347
-00:23:33,720 --> 00:23:35,959
+315
+00:23:32,760 --> 00:23:35,079
 May need longer.
 
-348
-00:23:36,040 --> 00:23:38,679
-Her name's Jennifer Wilson,
-according to her credit cards.
+316
+00:23:35,080 --> 00:23:37,759
+Her name's Jennifer Wilson
+according to her credit cards,
 
-349
-00:23:38,760 --> 00:23:41,359
-We're running them now
+317
+00:23:37,760 --> 00:23:40,439
+we're running them now
 for contact details.
 
-350
-00:23:41,440 --> 00:23:43,119
+318
+00:23:40,440 --> 00:23:42,199
 Hasn't been here long.
 
-351
-00:23:43,200 --> 00:23:44,799
+319
+00:23:42,200 --> 00:23:43,800
 Some kids found her.
 
-352
-00:24:17,680 --> 00:24:18,639
+320
+00:24:16,720 --> 00:24:19,199
 Shut up.
 
-353
-00:24:18,720 --> 00:24:22,679
+321
+00:24:19,200 --> 00:24:21,680
 - I didn't say anything.
 - You were thinking. It's annoying.
 
-354
-00:25:35,200 --> 00:25:37,039
+322
+00:25:34,200 --> 00:25:36,159
 Got anything?
 
-355
-00:25:37,120 --> 00:25:39,079
+323
+00:25:36,160 --> 00:25:38,159
 Not much.
 
-356
-00:25:39,160 --> 00:25:43,759
+324
+00:25:38,160 --> 00:25:40,359
 She's German.
+
+325
+00:25:40,360 --> 00:25:43,919
 Rache. It's German for revenge.
+She could be trying to tell us something...
 
-357
-00:25:43,840 --> 00:25:46,799
-- She could be trying to tell us...
-- Yes, thank you for your input.
+326
+00:25:43,920 --> 00:25:45,879
+Yes, thank you for your input.
 
-358
-00:25:46,880 --> 00:25:49,239
+327
+00:25:45,880 --> 00:25:49,159
 - So she's German?
-- Of course she's not.
+- Of course she's not. She's from out of town though.
 
-359
-00:25:49,320 --> 00:25:51,759
-She's from out of town, though.
-Intended to stay in London for one night
+328
+00:25:49,160 --> 00:25:50,879
+Intended to stay in London
+for one night
 
-360
-00:25:51,840 --> 00:25:54,919
-before returning home to Cardiff -
-so far, so obvious.
+329
+00:25:50,880 --> 00:25:54,039
+before returning home to Cardiff.
+So far, so obvious.
 
-361
-00:25:55,000 --> 00:25:56,959
-- Sorry, obvious?
-- What about the message, though?
+330
+00:25:54,040 --> 00:25:56,079
+Sorry... Obvious?
+What about the message though?
 
-362
-00:25:57,040 --> 00:25:58,479
-Dr Watson, what do you think?
+331
+00:25:56,080 --> 00:25:57,559
+Dr. Watson, what do you think?
 
-363
-00:25:58,560 --> 00:26:00,839
+332
+00:25:57,560 --> 00:25:59,919
 - Of the message?
 - Of the body. You're a medical man.
 
-364
-00:26:00,920 --> 00:26:03,559
-- We have a whole team outside.
-- They won't work with me.
+333
+00:25:59,920 --> 00:26:01,519
+We have a whole team right outside.
 
-365
-00:26:03,640 --> 00:26:05,559
-I'm breaking every rule
-letting you in here...
+334
+00:26:01,520 --> 00:26:04,599
+They won't work with me. I'm breaking
+every rule letting <i>you</i> in here...
 
-366
-00:26:05,640 --> 00:26:07,999
-Yes, because you need me.
+335
+00:26:04,600 --> 00:26:07,000
+Yes... because you need me.
 
-367
-00:26:08,080 --> 00:26:10,279
+336
+00:26:08,040 --> 00:26:10,359
 Yes, I do.
 
-368
-00:26:11,480 --> 00:26:12,559
+337
+00:26:10,360 --> 00:26:11,639
 God help me.
 
-369
-00:26:12,640 --> 00:26:14,359
-- Dr Watson!
+338
+00:26:11,640 --> 00:26:13,400
+- Dr. Watson!
 - Hm?
 
-370
-00:26:15,960 --> 00:26:18,119
+339
+00:26:14,960 --> 00:26:17,160
 Oh, do as he says. Help yourself.
 
-371
-00:26:20,400 --> 00:26:23,999
-LESTRADE: Anderson, keep everyone out
+340
+00:26:19,440 --> 00:26:23,040
+Anderson, keep everyone out
 for a couple of minutes...
 
-372
-00:26:25,280 --> 00:26:27,239
+341
+00:26:24,280 --> 00:26:26,359
 - Well?
 - What am I doing here?
 
-373
-00:26:27,320 --> 00:26:29,839
+342
+00:26:26,360 --> 00:26:29,194
 - Helping me make a point.
-- I'm supposed to help you pay the rent.
+- I'm supposed to be helping you pay the rent.
 
-374
-00:26:29,920 --> 00:26:33,279
+343
+00:26:29,205 --> 00:26:32,399
 - This is more fun.
 - Fun? There's a woman lying dead.
 
-375
-00:26:33,360 --> 00:26:36,919
+344
+00:26:32,400 --> 00:26:35,920
 Perfectly sound analysis,
-but I was hoping you'd go deeper.
+but I <i>was</i> hoping you'd go deeper.
 
-376
-00:26:55,360 --> 00:26:57,079
+345
+00:26:54,360 --> 00:26:56,199
 Yeah...
 
-377
-00:26:57,160 --> 00:27:00,679
-Asphyxiation...probably.
+346
+00:26:56,200 --> 00:26:59,799
+Asphyxiation, probably.
 Passed out, choked on her own vomit.
 
-378
-00:27:00,760 --> 00:27:02,399
+347
+00:26:59,800 --> 00:27:01,519
 Can't smell any alcohol on her.
 
-379
-00:27:02,480 --> 00:27:04,639
+348
+00:27:01,520 --> 00:27:03,719
 It could have been a seizure.
 Possibly drugs.
 
-380
-00:27:04,720 --> 00:27:06,559
+349
+00:27:03,720 --> 00:27:05,639
 You know what it was,
 you've read the papers.
 
-381
-00:27:06,640 --> 00:27:08,759
+350
+00:27:05,640 --> 00:27:07,879
 Well, she's one of the suicides.
 The fourth...?
 
-382
-00:27:08,840 --> 00:27:11,759
-Sherlock, two minutes, I said.
-I need anything you've got.
+351
+00:27:07,880 --> 00:27:10,879
+Sherlock, two minutes, I said,
+I need anything you got.
 
-383
-00:27:11,840 --> 00:27:15,399
-Victim is in her late 30s.
-Professional person, going by her clothes.
+352
+00:27:10,880 --> 00:27:14,479
+Victim is in her late thirties.
+Professional person, going by her clothes...
 
-384
-00:27:15,480 --> 00:27:18,599
+353
+00:27:14,480 --> 00:27:17,759
 I'm guessing the media, going by
 the frankly alarming shade of pink.
 
-385
-00:27:18,680 --> 00:27:20,679
-Travelled from Cardiff today,
-intending to stay in London
+354
+00:27:17,760 --> 00:27:22,079
+Travelled from Cardiff today intending to stay
+in London one night from the size of her suitcase.
 
-386
-00:27:20,760 --> 00:27:22,999
-for one night
-from the size of her suitcase.
-
-387
-00:27:23,080 --> 00:27:24,079
+355
+00:27:22,080 --> 00:27:24,901
 - Suitcase?
-- Yes.
+- Yes. She's been married at least ten years,
 
-388
-00:27:24,160 --> 00:27:26,559
-She's been married
-at least ten years, but not happily.
+356
+00:27:24,912 --> 00:27:28,479
+but not happily. She's had a string of lovers but
+none of them knew she was married.
 
-389
-00:27:26,640 --> 00:27:29,439
-She's had a string of lovers,
-but none of them knew she was married.
-
-390
-00:27:29,520 --> 00:27:31,639
+357
+00:27:28,480 --> 00:27:30,759
 Oh, for God's sake,
 if you're just making this up...
 
-391
-00:27:31,720 --> 00:27:34,199
+358
+00:27:30,760 --> 00:27:33,319
 Her wedding ring.
 Ten years old at least.
 
-392
-00:27:34,280 --> 00:27:37,119
-The rest of her jewellery
-has been regularly cleaned,
+359
+00:27:33,320 --> 00:27:36,981
+The rest of her jewellery has been
+regularly cleaned, but not her wedding ring.
 
-393
-00:27:37,200 --> 00:27:39,439
-but not her wedding ring.
-State of her marriage right there.
+360
+00:27:36,992 --> 00:27:40,280
+State of her marriage, right there.
+The inside is shinier than the outside.
 
-394
-00:27:39,520 --> 00:27:41,839
-The inside is shinier than the outside,
-so it's regularly removed.
-
-395
-00:27:41,920 --> 00:27:44,039
+361
+00:27:40,304 --> 00:27:43,119
 The only polishing it gets
 is when she works it off her finger.
 
-396
-00:27:44,120 --> 00:27:47,039
-It's not for work, look at her nails.
-She doesn't work with her hands,
+362
+00:27:43,120 --> 00:27:48,519
+It's not for work, look at her nails. She doesn't work
+with her hands, so who <i>does</i> she remove her rings for?
 
-397
-00:27:47,120 --> 00:27:49,439
-so what or who does she remove
-her rings for?
+363
+00:27:48,520 --> 00:27:52,239
+Clearly not <i>one</i> lover, she'd never sustain
+the fiction of being single for that amount of time
 
-398
-00:27:49,520 --> 00:27:53,119
-Not one lover, she'd never sustain
-the fiction of being single for that long,
+364
+00:27:52,240 --> 00:27:54,200
+- so more likely a string of them.
+- Brilliant.
 
-399
-00:27:53,200 --> 00:27:55,879
-- so more likely a string of them. Simple.
-- That's brilliant.
-
-400
-00:27:55,960 --> 00:27:57,519
+365
+00:27:54,960 --> 00:27:56,639
 - Sorry.
 - Cardiff?
 
-401
-00:27:57,600 --> 00:28:00,839
+366
+00:27:56,640 --> 00:27:59,880
 - It's obvious, isn't it?
 - It's not obvious to me.
 
-402
-00:28:01,880 --> 00:28:04,959
-Dear God, what is it like in your funny
-little brains? It must be so boring.
+367
+00:28:00,880 --> 00:28:05,159
+Dear God, what is it like in your funny little brains,
+it must be so boring. Her coat...
 
-403
-00:28:05,040 --> 00:28:08,799
-Her coat - it's slightly damp, she's been
-in heavy rain in the last few hours -
+368
+00:28:05,160 --> 00:28:07,879
+it's slightly damp, she's been
+in heavy rain the last few hours...
 
-404
-00:28:08,880 --> 00:28:10,479
-no rain anywhere in London in that time.
+369
+00:28:07,880 --> 00:28:09,599
+no rain anywhere in London
+in that time.
 
-405
-00:28:10,560 --> 00:28:14,159
+370
+00:28:09,600 --> 00:28:13,239
 Under her coat collar is damp too.
 She's turned it up against the wind.
 
-406
-00:28:14,240 --> 00:28:16,679
-She's got an umbrella in her pocket,
+371
+00:28:13,240 --> 00:28:15,799
+She's got an umbrella in her pocket
 but it's dry and unused.
 
-407
-00:28:16,760 --> 00:28:19,239
-Not just wind, strong wind -
+372
+00:28:15,800 --> 00:28:18,359
+Not just wind, strong wind...
 too strong to use her umbrella.
 
-408
-00:28:19,320 --> 00:28:22,159
-We know from her suitcase
-that she was intending to stay overnight,
+373
+00:28:18,360 --> 00:28:21,279
+We know from her suitcase that
+she was intending to stay overnight
 
-409
-00:28:22,240 --> 00:28:24,759
-but she can't have travelled
-more than two or three hours,
+374
+00:28:21,280 --> 00:28:25,639
+but she can't have travelled more than two
+or three hours because her coat still hasn't dried.
 
-410
-00:28:24,840 --> 00:28:26,479
-because her coat still hasn't dried.
+375
+00:28:25,640 --> 00:28:29,799
+So... where has there been heavy rain and
+strong wind within the radius of that travel time?
 
-411
-00:28:26,560 --> 00:28:29,519
-So, where has there been heavy rain
-and strong wind
-
-412
-00:28:29,600 --> 00:28:31,999
-within the radius of that travel time?
+376
+00:28:29,800 --> 00:28:31,119
 Cardiff.
 
-413
-00:28:32,080 --> 00:28:34,319
-- That's fantastic.
+377
+00:28:31,120 --> 00:28:33,439
+- Fantastic.
 - Do you know you do that out loud?
 
-414
-00:28:34,400 --> 00:28:36,919
+378
+00:28:33,440 --> 00:28:36,079
 - Sorry, I'll shut up.
-- No, it's...fine.
+- No, it's... fine.
 
-415
-00:28:37,000 --> 00:28:39,959
+379
+00:28:36,080 --> 00:28:39,119
 - Why do you keep saying suitcase?
 - Yes, where is it?
 
-416
-00:28:40,040 --> 00:28:43,559
+380
+00:28:39,120 --> 00:28:44,159
 She must have had a phone or an organiser.
-Find out who Rachel is.
+Find out who Rachel is. She was writing Rachel?
 
-417
-00:28:43,640 --> 00:28:44,999
-She was writing Rachel?
+381
+00:28:44,160 --> 00:28:48,839
+No, she was leaving an angry note in German!
+Of course she was writing Rachel, no other word it can be.
 
-418
-00:28:45,080 --> 00:28:47,399
-No, she was leaving an angry note
-in German!
+382
+00:28:48,840 --> 00:28:52,759
+- Why did she wait until she was dying to write it?
+- How do you know she had a suitcase?
 
-419
-00:28:47,480 --> 00:28:49,679
-Of course she was writing Rachel,
-no other word it can be.
-
-420
-00:28:49,760 --> 00:28:52,119
-But why did she wait until she was dying
-to write it?
-
-421
-00:28:52,200 --> 00:28:53,599
-How do you know she had a suitcase?
-
-422
-00:28:53,680 --> 00:28:56,639
+383
+00:28:52,760 --> 00:28:55,799
 Tiny splash marks on her right heel
 and calf not present on the left.
 
-423
-00:28:56,720 --> 00:28:59,399
+384
+00:28:55,800 --> 00:29:00,359
 She was dragging a wheeled suitcase
-behind her with her right hand.
+behind her with her right hand,
+by that splash pattern.
 
-424
-00:28:59,480 --> 00:29:01,239
-Don't get that splash pattern
-any other way.
-
-425
-00:29:01,320 --> 00:29:03,359
+385
+00:29:00,360 --> 00:29:02,519
 Smallish case, going by the spread.
 
-426
-00:29:03,440 --> 00:29:05,159
+386
+00:29:02,520 --> 00:29:04,279
 Case that size,
-woman this clothes-conscious -
+woman this clothes-conscious...
 
-427
-00:29:05,240 --> 00:29:08,079
+387
+00:29:04,280 --> 00:29:07,239
 could only be an overnight bag
 so we know she was staying one night.
 
-428
-00:29:08,160 --> 00:29:09,599
-Where is it?
-What have you done with it?
+388
+00:29:07,240 --> 00:29:08,679
+Where is it,
+what have you done with it?
 
-429
-00:29:09,680 --> 00:29:11,479
+389
+00:29:08,680 --> 00:29:10,520
 There wasn't a case.
 
-430
-00:29:14,040 --> 00:29:16,119
+390
+00:29:13,080 --> 00:29:16,519
 - Say that again.
-- There wasn't a case.
+- There wasn't a case. There was never any suitcase.
 
-431
-00:29:16,200 --> 00:29:17,359
-There was never any suitcase.
-
-432
-00:29:17,440 --> 00:29:21,839
+391
+00:29:16,520 --> 00:29:20,999
 Suitcase! Did anyone find a suitcase?
 Was there a suitcase in this house?
 
-433
-00:29:21,920 --> 00:29:23,439
-Sherlock, there was no case!
+392
+00:29:21,000 --> 00:29:22,599
+Sir, there was no case!
 
-434
-00:29:23,520 --> 00:29:26,199
+393
+00:29:22,600 --> 00:29:25,359
 But they take the poison themselves,
-they swallow the pills.
+swallow the pills.
 
-435
-00:29:26,280 --> 00:29:28,479
-There are clear signs,
-even you lot couldn't miss them.
+394
+00:29:25,360 --> 00:29:28,920
+- There are clear signs, even you lot couldn't miss them.
+- Right, thanks. And...?
 
-436
-00:29:28,560 --> 00:29:29,839
-Right, thanks. And...?
-
-437
-00:29:29,920 --> 00:29:32,719
+395
+00:29:29,920 --> 00:29:32,039
 It's murder, all of them.
 I don't know how.
 
-438
-00:29:32,800 --> 00:29:35,239
+396
+00:29:32,040 --> 00:29:34,399
 But they're not suicides,
 they're serial killings.
 
-439
-00:29:35,320 --> 00:29:36,799
-We've got a serial killer. Love those.
+397
+00:29:34,400 --> 00:29:37,759
+We've got a serial killer, love those.
+There's always something to look forward to.
 
-440
-00:29:36,880 --> 00:29:38,679
-There's always something
-to look forward to.
-
-441
-00:29:38,760 --> 00:29:40,719
+398
+00:29:37,760 --> 00:29:41,799
 - Why are you saying that?
-- Her case!
+- Her case! Come on, where is her case?
 
-442
-00:29:40,800 --> 00:29:42,679
-Come on, where is her case?
+399
+00:29:41,800 --> 00:29:45,759
+Did she eat it? Someone else
+was here, and they took her case.
 
-443
-00:29:42,760 --> 00:29:46,639
-Did she eat it(?) Someone else was here
-and they took her case.
-
-444
-00:29:46,720 --> 00:29:49,759
+400
+00:29:45,760 --> 00:29:48,879
 So the killer must have driven here.
 Forgot the case was in the car.
 
-445
-00:29:49,840 --> 00:29:51,919
+401
+00:29:48,880 --> 00:29:51,079
 She could have checked into a hotel,
 left it there.
 
-446
-00:29:52,000 --> 00:29:54,199
-No, she never got to the hotel.
-Look at her hair.
+402
+00:29:51,080 --> 00:29:55,159
+No, look at her hair. She colour-coordinates
+her lipstick and her shoes.
 
-447
-00:29:54,280 --> 00:29:56,559
-She colour-coordinates
-her lipstick and shoes.
-
-448
-00:29:56,640 --> 00:29:59,799
+403
+00:29:55,160 --> 00:29:58,919
 She'd never have left any hotel
 with her hair still looking...
 
-449
-00:29:59,880 --> 00:30:01,359
+404
+00:29:58,920 --> 00:30:00,400
 Oh...
 
-450
-00:30:02,360 --> 00:30:03,719
+405
+00:30:01,440 --> 00:30:02,839
 Oh!
 
-451
-00:30:03,800 --> 00:30:05,279
+406
+00:30:02,840 --> 00:30:04,479
 Sherlock? What is it, what?
 
-452
-00:30:05,360 --> 00:30:09,079
-Serial killers, always hard. You have
-to wait for them to make a mistake.
+407
+00:30:04,480 --> 00:30:08,199
+Serial killers, always hard.
+You have to wait for them to make a mistake.
 
-453
-00:30:09,160 --> 00:30:11,159
+408
+00:30:08,200 --> 00:30:11,359
 - We can't just wait!
-- Oh, we're done waiting.
+- Oh, we're done waiting. Look at her, really look!
 
-454
-00:30:11,240 --> 00:30:14,519
-Look at her, really look! Houston,
-we have a mistake. Get on to Cardiff.
+409
+00:30:11,360 --> 00:30:13,639
+Houston, we have a mistake.
+Get on to Cardiff.
 
-455
-00:30:14,600 --> 00:30:17,639
+410
+00:30:13,640 --> 00:30:16,759
 Find out who Jennifer Wilson's
 family and friends were. Find Rachel!
 
-456
-00:30:17,720 --> 00:30:19,599
-Of course, yeah - but what mistake?!
+411
+00:30:16,760 --> 00:30:18,640
+Of course, yeah... but what mistake?!
 
-457
-00:30:21,080 --> 00:30:22,759
+412
+00:30:20,120 --> 00:30:21,760
 Pink!
 
-458
-00:30:24,320 --> 00:30:26,559
-ANDERSON: Let's get on with it...
+413
+00:30:23,360 --> 00:30:25,600
+Let's get on with it...
 
-459
-00:31:04,080 --> 00:31:05,599
+414
+00:31:03,120 --> 00:31:04,719
 - He's gone.
 - Who, Sherlock Holmes?
 
-460
-00:31:05,680 --> 00:31:07,879
+415
+00:31:04,720 --> 00:31:06,999
 Yeah, he just took off.
 He does that.
 
-461
-00:31:07,960 --> 00:31:10,079
+416
+00:31:07,000 --> 00:31:09,080
 - Is he coming back?
 - Didn't look like it.
 
-462
-00:31:11,080 --> 00:31:12,999
+417
+00:31:10,120 --> 00:31:12,040
 Right.
 
-463
-00:31:14,000 --> 00:31:15,679
+418
+00:31:13,040 --> 00:31:14,760
 Right...
 
-464
-00:31:16,680 --> 00:31:19,599
-Yes. Sorry, where am I?
+419
+00:31:15,720 --> 00:31:17,720
+Yes.
+Sorry, where am I?
 
-465
-00:31:19,680 --> 00:31:21,239
+420
+00:31:18,720 --> 00:31:20,320
 Brixton.
 
-466
-00:31:21,320 --> 00:31:24,119
+421
+00:31:21,320 --> 00:31:23,199
 Do you know where I could get a cab?
 
-467
-00:31:24,200 --> 00:31:26,319
-It's just, er...
+422
+00:31:23,200 --> 00:31:25,439
+It's just er...
 
-468
-00:31:26,400 --> 00:31:27,959
-well...
+423
+00:31:25,440 --> 00:31:27,079
+Well...
 
-469
-00:31:28,040 --> 00:31:29,679
-my leg.
+424
+00:31:27,080 --> 00:31:28,759
+My leg.
 
-470
-00:31:29,760 --> 00:31:31,599
+425
+00:31:28,760 --> 00:31:30,600
 Er...
 
-471
-00:31:32,600 --> 00:31:34,599
-...try the main road.
+426
+00:31:31,600 --> 00:31:33,719
+Try the main road.
 
-472
-00:31:34,680 --> 00:31:35,799
+427
+00:31:33,720 --> 00:31:34,879
 Thanks.
 
-473
-00:31:35,880 --> 00:31:38,319
+428
+00:31:34,880 --> 00:31:37,439
 But you're not his friend.
 
-474
-00:31:38,400 --> 00:31:40,399
-He doesn't have friends.
+429
+00:31:37,440 --> 00:31:39,400
+He doesn't <i>have</i> friends.
 
-475
-00:31:41,720 --> 00:31:43,479
+430
+00:31:40,760 --> 00:31:42,559
 So who are you?
 
-476
-00:31:43,560 --> 00:31:46,319
-I'm...I'm nobody. I just met him.
+431
+00:31:42,560 --> 00:31:45,439
+I'm... I'm nobody. I just met him.
 
-477
-00:31:46,400 --> 00:31:48,399
-OK, bit of advice, then.
+432
+00:31:45,440 --> 00:31:47,439
+Okay, bit of advice then.
 Stay away from that guy.
 
-478
-00:31:48,480 --> 00:31:50,399
+433
+00:31:47,440 --> 00:31:49,440
 Why?
 
-479
-00:31:52,320 --> 00:31:53,519
+434
+00:31:51,360 --> 00:31:52,560
 You know why he's here?
 
-480
-00:31:55,880 --> 00:31:57,759
+435
+00:31:54,920 --> 00:31:56,839
 He's not paid or anything.
 
-481
-00:31:57,840 --> 00:32:00,119
+436
+00:31:56,840 --> 00:31:59,160
 He likes it. He gets off on it.
 
-482
-00:32:01,120 --> 00:32:04,359
+437
+00:32:00,160 --> 00:32:04,599
 The weirder the crime, the more
 he gets off. And you know what...?
 
-483
-00:32:05,560 --> 00:32:07,559
+438
+00:32:04,600 --> 00:32:06,759
 One day just showing up
 won't be enough.
 
-484
-00:32:07,640 --> 00:32:10,919
-One day we'll be standing round a body,
+439
+00:32:06,760 --> 00:32:10,039
+One day we'll be standing round a body
 and he'll be the one that put it there.
 
-485
-00:32:11,000 --> 00:32:14,039
+440
+00:32:10,040 --> 00:32:13,119
 - Why would he do that?
 - Because he's a psychopath.
 
-486
-00:32:14,120 --> 00:32:15,639
+441
+00:32:13,120 --> 00:32:14,680
 Psychopaths get bored.
 
-487
-00:32:16,640 --> 00:32:18,599
-- LESTRADE: Donovan!
+442
+00:32:15,720 --> 00:32:17,640
+- Donovan!
 - Coming.
 
-488
-00:32:22,440 --> 00:32:25,079
+443
+00:32:21,480 --> 00:32:24,120
 Stay away from Sherlock Holmes.
 
-489
-00:32:39,800 --> 00:32:46,919
-x
-
-490
-00:32:51,640 --> 00:32:53,199
-
-
-491
-00:32:55,160 --> 00:32:57,639
+444
+00:32:54,240 --> 00:32:56,720
 Taxi! Taxi...
 
-492
-00:32:59,360 --> 00:33:00,879
-
-
-493
-00:33:06,280 --> 00:33:07,359
-
-
-494
-00:33:17,160 --> 00:33:21,159
-
-
-495
-00:33:22,160 --> 00:33:24,359
-
-
-496
-00:33:32,680 --> 00:33:34,239
+445
+00:33:31,680 --> 00:33:33,359
 Hello?
 
-497
-00:33:34,320 --> 00:33:37,759
-MAN: There is a security camera
-on the building to your left.
+446
+00:33:33,360 --> 00:33:36,879
+<i>There is a security camera
+on the building to your left.</i>
 
-498
-00:33:37,840 --> 00:33:39,319
-Do you see it?
+447
+00:33:36,880 --> 00:33:38,360
+<i>Do you see it?</i>
 
-499
-00:33:43,000 --> 00:33:44,759
+448
+00:33:42,040 --> 00:33:43,800
 Who's this?
 
-500
-00:33:45,760 --> 00:33:47,039
+449
+00:33:44,760 --> 00:33:46,119
 Who's speaking?
 
-501
-00:33:47,120 --> 00:33:50,039
-Do you see the camera, Dr Watson?
+450
+00:33:46,120 --> 00:33:49,080
+<i>Do you see the camera,
+Dr. Watson?</i>
 
-502
-00:33:51,760 --> 00:33:53,359
+451
+00:33:50,760 --> 00:33:52,400
 - Yeah, I see it.
-- Watch...
+<i>- Watch...</i>
 
-503
-00:33:58,600 --> 00:34:02,239
-There is another camera on the building
-opposite you. Do you see it?
+452
+00:33:57,680 --> 00:34:01,319
+<i>There is another camera on the
+building opposite you. Do you see it?</i>
 
-504
-00:34:02,320 --> 00:34:03,359
+453
+00:34:01,320 --> 00:34:02,400
 Mm-hm.
 
-505
-00:34:05,480 --> 00:34:09,519
-And finally, at the top
-of the building on your right.
+454
+00:34:04,520 --> 00:34:08,599
+<i>And finally, at the top of
+the building on your right.</i>
 
-506
-00:34:09,600 --> 00:34:11,159
-(CAMERA WHIRRS)
-
-507
-00:34:16,840 --> 00:34:18,039
+455
+00:34:15,840 --> 00:34:17,159
 How are you doing this?
 
-508
-00:34:18,120 --> 00:34:21,199
-Get into the car, Dr Watson.
+456
+00:34:17,160 --> 00:34:20,319
+<i>Get into the car, Dr. Watson.</i>
 
-509
-00:34:21,280 --> 00:34:23,399
-I would make some sort of threat,
+457
+00:34:20,320 --> 00:34:25,840
+<i>I would make some sort of threat,
+but I'm sure your situation is quite clear to you.</i>
 
-510
-00:34:23,480 --> 00:34:26,799
-but I'm sure your situation
-is quite clear to you.
-
-511
-00:34:43,240 --> 00:34:45,839
+458
+00:34:42,280 --> 00:34:44,840
 - Hello.
 - Hi.
 
-512
-00:34:50,920 --> 00:34:52,999
+459
+00:34:49,920 --> 00:34:52,119
 What's your name, then?
 
-513
-00:34:53,080 --> 00:34:54,799
-Er...Anthea.
+460
+00:34:52,120 --> 00:34:53,840
+Er... Anthea.
 
-514
-00:34:56,080 --> 00:34:58,639
+461
+00:34:54,840 --> 00:34:57,680
 - Is that your real name?
 - No.
 
-515
-00:35:02,800 --> 00:35:04,199
+462
+00:35:01,840 --> 00:35:03,279
 I'm John.
 
-516
-00:35:04,280 --> 00:35:05,919
+463
+00:35:03,280 --> 00:35:04,960
 Yes. I know.
 
-517
-00:35:09,680 --> 00:35:12,319
-Any point in asking...where I'm going?
+464
+00:35:08,760 --> 00:35:11,360
+Any point in asking...
+where I'm going?
 
-518
-00:35:15,200 --> 00:35:17,199
+465
+00:35:14,200 --> 00:35:16,239
 None at all...
 
-519
-00:35:17,280 --> 00:35:18,479
+466
+00:35:16,240 --> 00:35:17,520
 John.
 
-520
-00:35:19,760 --> 00:35:21,199
-OK.
+467
+00:35:18,760 --> 00:35:20,240
+Okay.
 
-521
-00:35:40,560 --> 00:35:41,999
+468
+00:35:39,600 --> 00:35:41,040
 Have a seat, John.
 
-522
-00:35:46,800 --> 00:35:48,399
+469
+00:35:45,840 --> 00:35:47,440
 You know, I've got a phone.
 
-523
-00:35:49,800 --> 00:35:52,359
+470
+00:35:48,840 --> 00:35:51,479
 I mean, very clever and all that,
 
-524
-00:35:52,440 --> 00:35:54,439
+471
+00:35:51,480 --> 00:35:53,559
 but, er...
 
-525
-00:35:54,520 --> 00:35:56,199
+472
+00:35:53,560 --> 00:35:55,240
 you could just phone me.
 
-526
-00:35:57,200 --> 00:35:58,679
+473
+00:35:56,240 --> 00:35:57,680
 On my phone.
 
-527
-00:36:01,320 --> 00:36:04,079
-When one is avoiding the attention
-of Sherlock Holmes,
+474
+00:36:00,360 --> 00:36:05,479
+When one is avoiding the attention of Sherlock Holmes,
+one learns to be discreet, hence this place.
 
-528
-00:36:04,160 --> 00:36:06,359
-one learns to be discreet,
-hence this place.
-
-529
-00:36:06,440 --> 00:36:09,359
+475
+00:36:05,480 --> 00:36:08,280
 Your leg must be hurting you.
 Sit down.
 
-530
-00:36:09,440 --> 00:36:11,719
+476
+00:36:08,480 --> 00:36:10,760
 I don't want to sit down.
 
-531
-00:36:12,720 --> 00:36:14,119
+477
+00:36:11,760 --> 00:36:13,199
 You don't seem very afraid.
 
-532
-00:36:14,200 --> 00:36:15,759
+478
+00:36:13,200 --> 00:36:14,879
 You don't seem very frightening.
 
-533
-00:36:15,840 --> 00:36:18,399
+479
+00:36:14,880 --> 00:36:17,519
 Yes...
 
-534
-00:36:18,480 --> 00:36:21,319
+480
+00:36:17,520 --> 00:36:20,479
 The bravery of the soldier.
 
-535
-00:36:21,400 --> 00:36:25,919
-Bravery is by far the kindest word
-for stupidity, don't you think?
+481
+00:36:20,480 --> 00:36:24,039
+Bravery is by far the kindest
+word for stupidity, don't you think?
 
-536
-00:36:26,000 --> 00:36:28,519
+482
+00:36:24,040 --> 00:36:26,520
 What is your connection
 to Sherlock Holmes?
 
-537
-00:36:28,600 --> 00:36:33,999
-I don't have one. I barely know him.
-I met him...yesterday.
+483
+00:36:27,640 --> 00:36:33,159
+I don't have one. I barely know him,
+I met him... yesterday.
 
-538
-00:36:34,080 --> 00:36:36,319
-Mmm, and since yesterday,
-you've moved in with him
+484
+00:36:33,160 --> 00:36:37,479
+Mmm, and since yesterday you've moved in
+with him and now you're solving crimes together.
 
-539
-00:36:36,400 --> 00:36:38,319
-and now you're solving crimes together.
-
-540
-00:36:38,400 --> 00:36:41,599
+485
+00:36:37,480 --> 00:36:40,759
 Might we expect a happy announcement
 by the end of the week?
 
-541
-00:36:41,680 --> 00:36:44,159
+486
+00:36:40,760 --> 00:36:43,279
 - Who are you?
 - An interested party.
 
-542
-00:36:44,240 --> 00:36:46,079
+487
+00:36:43,280 --> 00:36:45,239
 Interested in Sherlock? Why?
 
-543
-00:36:46,160 --> 00:36:48,199
+488
+00:36:45,240 --> 00:36:47,319
 I'm guessing you're not friends.
 
-544
-00:36:48,280 --> 00:36:51,639
+489
+00:36:47,320 --> 00:36:50,720
 You've met him. How many friends
 do you imagine he has?
 
-545
-00:36:51,720 --> 00:36:56,239
-I am the closest thing to a friend that
-Sherlock Holmes is capable of having.
+490
+00:36:51,800 --> 00:36:55,547
+I am the closest thing to a friend
+that Sherlock Holmes is capable of having.
 
-546
-00:36:56,320 --> 00:36:58,239
+491
+00:36:55,570 --> 00:36:57,707
 - And what's that?
 - An enemy.
 
-547
-00:36:58,320 --> 00:37:00,759
+492
+00:36:57,719 --> 00:36:59,919
 - An enemy?
-- In his mind, certainly.
+- In <i>his</i> mind, certainly.
 
-548
-00:37:00,840 --> 00:37:04,439
+493
+00:36:59,920 --> 00:37:03,559
 If you were to ask him,
 he'd probably say his arch-enemy.
 
-549
-00:37:04,520 --> 00:37:06,319
+494
+00:37:03,560 --> 00:37:05,439
 He does love to be dramatic.
 
-550
-00:37:06,400 --> 00:37:08,719
+495
+00:37:05,440 --> 00:37:07,760
 Well, thank God
-you're above all that(!)
+<i>you're</i> above all that.
 
-551
-00:37:10,200 --> 00:37:11,439
-
-
-552
-00:37:14,840 --> 00:37:16,999
+496
+00:37:13,880 --> 00:37:16,040
 I hope I'm not distracting you.
 
-553
-00:37:18,000 --> 00:37:19,319
+497
+00:37:17,000 --> 00:37:18,439
 Not distracting me at all.
 
-554
-00:37:19,400 --> 00:37:22,439
-Do you plan to continue your association
-with Sherlock Holmes?
+498
+00:37:18,440 --> 00:37:21,559
+Do you plan to continue your
+association with Sherlock Holmes?
 
-555
-00:37:22,520 --> 00:37:23,719
+499
+00:37:21,560 --> 00:37:22,839
 I could be wrong...
 
-556
-00:37:23,800 --> 00:37:26,239
-but I think
-that's none of your business.
+500
+00:37:22,840 --> 00:37:25,359
+but I think that's
+none of your business.
 
-557
-00:37:26,320 --> 00:37:28,999
+501
+00:37:25,360 --> 00:37:28,080
 - It could be.
 - It really couldn't.
 
-558
-00:37:30,200 --> 00:37:31,959
-If you do move into, um...
+502
+00:37:29,200 --> 00:37:31,000
+If you <i>do</i> move into, erm...
 
-559
-00:37:34,400 --> 00:37:38,879
-...22 1 B Baker Street,
+503
+00:37:33,440 --> 00:37:38,039
+221B Baker Street,
 
-560
-00:37:38,960 --> 00:37:42,319
-I'd be happy to pay you
-a meaningful sum of money
+504
+00:37:38,040 --> 00:37:39,279
+I'd be happy to
 
-561
-00:37:42,400 --> 00:37:44,919
+505
+00:37:39,280 --> 00:37:43,999
+pay you a meaningful sum of money
 on a regular basis to ease your way.
 
-562
-00:37:45,000 --> 00:37:47,879
-- Why?
-- Because you're not a wealthy man.
+506
+00:37:44,000 --> 00:37:45,319
+Why?
 
-563
-00:37:47,960 --> 00:37:49,519
+507
+00:37:45,320 --> 00:37:46,959
+Because you're not a wealthy man.
+
+508
+00:37:46,960 --> 00:37:48,560
 In exchange for what?
 
-564
-00:37:50,520 --> 00:37:52,159
+509
+00:37:49,560 --> 00:37:51,279
 Information.
 
-565
-00:37:52,240 --> 00:37:55,639
-Nothing indiscreet.
-Nothing you'd feel...uncomfortable with.
+510
+00:37:51,280 --> 00:37:54,759
+Nothing indiscreet. Nothing
+you'd feel... uncomfortable with.
 
-566
-00:37:55,720 --> 00:37:58,479
+511
+00:37:54,760 --> 00:37:57,520
 - Just tell me what he's up to.
 - Why?
 
-567
-00:37:59,280 --> 00:38:02,919
+512
+00:37:58,320 --> 00:38:01,999
 I worry about him. Constantly.
 
-568
-00:38:03,000 --> 00:38:04,519
+513
+00:38:02,000 --> 00:38:03,679
 That's nice of you.
 
-569
-00:38:04,600 --> 00:38:09,039
+514
+00:38:03,680 --> 00:38:08,119
 But I would prefer for various reasons
-that my concern go unmentioned.
+that my concern go unmentioned,
 
-570
-00:38:09,120 --> 00:38:13,239
-We have what you might call a...
+515
+00:38:08,120 --> 00:38:12,359
+we have what you might call a...
 difficult relationship.
 
-571
-00:38:13,320 --> 00:38:14,599
-
-
-572
-00:38:19,280 --> 00:38:22,079
+516
+00:38:18,680 --> 00:38:21,199
 - No.
 - But I haven't mentioned a figure.
 
-573
-00:38:22,160 --> 00:38:25,799
-- Don't bother.
-- You're very loyal very quickly.
+517
+00:38:21,200 --> 00:38:22,919
+Don't bother.
 
-574
-00:38:25,880 --> 00:38:28,719
-No, I'm not, I'm just not interested.
+518
+00:38:22,920 --> 00:38:24,959
+You're very loyal <i>very</i> quickly.
 
-575
-00:38:32,960 --> 00:38:35,599
-"Trust issues", it says here.
+519
+00:38:24,960 --> 00:38:27,760
+No, I'm not,
+I'm just not interested.
 
-576
-00:38:39,160 --> 00:38:40,399
+520
+00:38:32,080 --> 00:38:34,640
+"Trust issues"... it says here.
+
+521
+00:38:38,160 --> 00:38:39,519
 What's that?
 
-577
-00:38:40,480 --> 00:38:44,399
-Could it be that you've decided to trust
-Sherlock Holmes of all people?
+522
+00:38:39,520 --> 00:38:43,519
+Could it be that you've decided to
+trust Sherlock Holmes of all people?
 
-578
-00:38:44,480 --> 00:38:45,759
-Who says I trust him?
+523
+00:38:43,520 --> 00:38:46,479
+- Who says I trust him?
+- You don't seem the kind to make friends easily.
 
-579
-00:38:45,840 --> 00:38:47,399
-You don't seem the kind
-to make friends easily.
+524
+00:38:46,480 --> 00:38:48,280
+Are we done?
 
-580
-00:38:47,480 --> 00:38:51,279
-- Are we done?
-- You tell me.
+525
+00:38:49,200 --> 00:38:50,320
+You tell me.
 
-581
-00:38:58,440 --> 00:39:01,439
-I imagine people have already warned you
-to stay away from him,
+526
+00:38:57,480 --> 00:39:00,559
+I imagine people have already
+warned you to stay away from him,
 
-582
-00:39:01,520 --> 00:39:04,719
+527
+00:39:00,560 --> 00:39:03,760
 but I can see from your left hand
 that's not going to happen.
 
-583
-00:39:07,640 --> 00:39:10,319
+528
+00:39:06,640 --> 00:39:09,360
 - My what?
 - Show me.
 
-584
-00:39:21,160 --> 00:39:22,239
+529
+00:39:20,200 --> 00:39:21,280
 Don't...
 
-585
-00:39:30,760 --> 00:39:32,679
+530
+00:39:29,760 --> 00:39:31,799
 - Remarkable.
 - What is?
 
-586
-00:39:32,760 --> 00:39:35,199
-Most people blunder round this city
+531
+00:39:31,800 --> 00:39:38,479
+Most people... blunder round this city,
+and all they see are streets and shops and cars.
 
-587
-00:39:35,280 --> 00:39:39,319
-and all they see
-are streets and shops and cars.
+532
+00:39:38,480 --> 00:39:41,319
+When you walk with Sherlock
+Holmes, you see the battlefield.
 
-588
-00:39:39,400 --> 00:39:42,239
-When you walk with Sherlock Holmes,
-you see the battlefield.
+533
+00:39:41,320 --> 00:39:43,719
+You've seen it already. Haven't you?
 
-589
-00:39:42,320 --> 00:39:44,599
-You've seen it already, haven't you?
-
-590
-00:39:44,680 --> 00:39:46,759
+534
+00:39:43,720 --> 00:39:45,879
 What's wrong with my hand?
 
-591
-00:39:46,840 --> 00:39:50,399
+535
+00:39:45,880 --> 00:39:49,479
 You have an intermittent tremor
 in your left hand.
 
-592
-00:39:50,480 --> 00:39:53,479
-Your therapist thinks
-it's post-traumatic stress disorder.
+536
+00:39:49,480 --> 00:39:52,559
+Your therapist thinks it's
+post-traumatic stress disorder.
 
-593
-00:39:53,560 --> 00:39:56,359
-She thinks you're haunted by memories
-of your military service.
+537
+00:39:52,560 --> 00:39:55,479
+She thinks you're haunted by
+memories of your military service.
 
-594
-00:39:56,440 --> 00:39:57,999
+538
+00:39:55,480 --> 00:39:57,000
 Who the hell are you?
 
-595
-00:39:59,280 --> 00:40:01,079
+539
+00:39:58,320 --> 00:40:02,279
 - How do you know that?
-- Fire her.
+- Fire her. She's got it the wrong way round.
 
-596
-00:40:01,160 --> 00:40:03,199
-She's got it the wrong way round.
-
-597
-00:40:03,280 --> 00:40:06,919
-You're under stress right now,
+540
+00:40:02,280 --> 00:40:05,960
+You're under stress right now
 and your hand is perfectly steady.
 
-598
-00:40:08,720 --> 00:40:11,599
+541
+00:40:07,720 --> 00:40:10,640
 You're not haunted by the war,
-Dr Watson...
+Dr. Watson...
 
-599
-00:40:12,800 --> 00:40:14,079
+542
+00:40:11,840 --> 00:40:13,120
 You miss it.
 
-600
-00:40:16,680 --> 00:40:18,559
+543
+00:40:15,680 --> 00:40:17,600
 Welcome back.
 
-601
-00:40:23,200 --> 00:40:24,399
+544
+00:40:23,480 --> 00:40:26,480
+Time to choose a side, Dr. Watson.
 
-
-602
-00:40:24,480 --> 00:40:27,479
-Time to choose a side, Dr Watson.
-
-603
-00:40:37,080 --> 00:40:39,279
+545
+00:40:36,120 --> 00:40:38,320
 I'm to take you home.
 
-604
-00:40:48,840 --> 00:40:50,119
+546
+00:40:47,840 --> 00:40:49,199
 Address?
 
-605
-00:40:50,200 --> 00:40:52,239
+547
+00:40:49,200 --> 00:40:51,359
 Er, Baker Street.
 
-606
-00:40:52,320 --> 00:40:55,039
+548
+00:40:51,360 --> 00:40:54,080
 221B Baker Street.
 
-607
-00:40:56,040 --> 00:40:58,599
-But I need to stop off somewhere first.
+549
+00:40:55,040 --> 00:40:57,600
+But I need to stop off
+somewhere first.
 
-608
-00:41:25,600 --> 00:41:29,959
+550
+00:41:24,680 --> 00:41:29,079
 Listen, your boss. Any chance you could
 not tell him this is where I went?
 
-609
-00:41:30,040 --> 00:41:32,519
+551
+00:41:29,080 --> 00:41:31,639
 - Sure.
 - You've told him already, haven't you?
 
-610
-00:41:32,600 --> 00:41:34,079
+552
+00:41:31,640 --> 00:41:33,080
 Yeah.
 
-611
-00:41:37,760 --> 00:41:41,519
-Hey, um...
+553
+00:41:36,840 --> 00:41:40,639
+Hey erm...
 do you ever get any free time?
 
-612
-00:41:41,600 --> 00:41:43,879
+554
+00:41:40,640 --> 00:41:42,920
 Oh, yeah. Lots.
 
-613
-00:41:49,600 --> 00:41:51,639
-- Bye.
-- OK.
+555
+00:41:48,640 --> 00:41:50,720
+- Bye...
+- Okay.
 
-614
-00:42:13,480 --> 00:42:15,919
+556
+00:42:18,360 --> 00:42:19,560
+What are you doing?
 
+557
+00:42:20,520 --> 00:42:22,160
+Nicotine patch.
 
-615
-00:42:19,360 --> 00:42:22,079
-- What are you doing?
-- Nicotine patch.
-
-616
-00:42:23,880 --> 00:42:25,439
+558
+00:42:22,920 --> 00:42:24,599
 Helps me think.
 
-617
-00:42:25,520 --> 00:42:29,279
-Impossible to sustain a smoking habit
-in London these days.
+559
+00:42:24,600 --> 00:42:28,359
+Impossible to sustain a smoking
+habit in London these days.
 
-618
-00:42:29,360 --> 00:42:30,959
+560
+00:42:28,360 --> 00:42:30,119
 Bad news for brain work.
 
-619
-00:42:31,040 --> 00:42:34,039
+561
+00:42:30,120 --> 00:42:33,159
 - It's good news for breathing.
-- Oh, breathing! Breathing's boring.
+- Oh... Breathing! Breathing's boring.
 
-620
-00:42:34,120 --> 00:42:35,839
-Is that...three patches?
+562
+00:42:33,160 --> 00:42:34,959
+Is that... three patches?
 
-621
-00:42:35,920 --> 00:42:37,719
+563
+00:42:34,960 --> 00:42:36,760
 It's a three-patch problem.
 
-622
-00:42:41,840 --> 00:42:43,039
+564
+00:42:40,840 --> 00:42:42,120
 Well...?
 
-623
-00:42:45,520 --> 00:42:48,039
+565
+00:42:44,560 --> 00:42:47,080
 You asked me to come,
 I'm assuming it's important.
 
-624
-00:42:49,040 --> 00:42:51,119
-Oh, yeah, of course.
+566
+00:42:48,080 --> 00:42:50,240
+Oh... yeah, of course.
 Can I borrow your phone?
 
-625
-00:42:51,200 --> 00:42:53,039
-My phone?
+567
+00:42:51,200 --> 00:42:53,059
+- My phone?
+- Don't want to use mine.
 
-626
-00:42:53,120 --> 00:42:55,959
-Always a chance that my number will be
-recognised. It's on the website.
+568
+00:42:53,083 --> 00:42:55,096
+Always a chance my number will
+be recognised. It's on the website.
 
-627
-00:42:56,040 --> 00:42:57,959
-Mrs Hudson's got a phone.
+569
+00:42:55,120 --> 00:42:57,079
+- Mrs. Hudson's got a phone.
+- Yeah, she's downstairs.
 
-628
-00:42:58,040 --> 00:42:59,759
-She's downstairs.
-I shouted, but she didn't hear.
-
-629
-00:42:59,840 --> 00:43:02,919
+570
+00:42:57,080 --> 00:43:00,199
+- I tried shouting but she didn't hear.
 - I was the other side of London...
-- There was no hurry.
 
-630
-00:43:05,640 --> 00:43:07,359
+571
+00:43:00,200 --> 00:43:02,000
+There was no hurry.
+
+572
+00:43:04,640 --> 00:43:06,440
 Here...
 
-631
-00:43:12,040 --> 00:43:14,199
-So what's this about - the case?
+573
+00:43:11,080 --> 00:43:13,319
+So what's this about... the case?
 
-632
-00:43:14,280 --> 00:43:16,719
+574
+00:43:13,320 --> 00:43:15,527
 - Her case...
-- Hercase?
+- <i>Her</i> case?
 
-633
-00:43:16,800 --> 00:43:18,639
+575
+00:43:15,539 --> 00:43:17,735
 Her suitcase, yes, obviously.
 
-634
-00:43:18,720 --> 00:43:22,079
+576
+00:43:17,760 --> 00:43:21,239
 The murderer took her suitcase,
 first big mistake.
 
-635
-00:43:22,160 --> 00:43:23,759
-OK, he took her case. So?
+577
+00:43:21,240 --> 00:43:22,879
+Okay, he took her case. So?
 
-636
-00:43:23,840 --> 00:43:26,999
+578
+00:43:22,880 --> 00:43:26,080
 It's no use, there's no other way.
 We'll have to risk it.
 
-637
-00:43:27,080 --> 00:43:30,519
+579
+00:43:27,200 --> 00:43:29,600
 On my desk there's a number.
 I want you to send a text.
 
-638
-00:43:32,760 --> 00:43:35,439
+580
+00:43:31,800 --> 00:43:34,559
 You've brought me here...
 to send a text.
 
-639
-00:43:35,520 --> 00:43:37,039
+581
+00:43:34,560 --> 00:43:36,080
 Text, yes. The number on my desk.
 
-640
-00:43:49,120 --> 00:43:51,759
+582
+00:43:48,160 --> 00:43:50,879
 - What's wrong?
 - Just met a friend of yours.
 
-641
-00:43:51,840 --> 00:43:53,759
+583
+00:43:50,880 --> 00:43:52,839
 - A friend?
 - An enemy.
 
-642
-00:43:53,840 --> 00:43:55,279
+584
+00:43:52,840 --> 00:43:54,320
 Oh. Which one?
 
-643
-00:43:56,920 --> 00:44:00,519
-Well, your arch-enemy, according to him.
-Do people have arch-enemies?
+585
+00:43:55,960 --> 00:43:59,520
+Well, your arch-enemy, according to
+him. Do people have arch-enemies?
 
-644
-00:44:02,320 --> 00:44:04,199
+586
+00:44:01,320 --> 00:44:03,240
 Did he offer you money to spy on me?
 
-645
-00:44:05,200 --> 00:44:06,919
+587
+00:44:04,240 --> 00:44:06,119
 - Yes.
 - Did you take it?
 
-646
-00:44:07,000 --> 00:44:10,039
+588
+00:44:06,120 --> 00:44:07,831
 - No.
 - Pity, we could have split the fee.
 
-647
-00:44:10,120 --> 00:44:12,399
-- Think it through next time.
-- Who is he?
+589
+00:44:07,855 --> 00:44:09,123
+Think it through next time.
 
-648
-00:44:12,480 --> 00:44:15,319
-The most dangerous man you've ever met
-and not my problem right now.
+590
+00:44:10,555 --> 00:44:11,225
+Who is he?
 
-649
-00:44:15,400 --> 00:44:17,039
+591
+00:44:11,236 --> 00:44:14,439
+The most dangerous man you've ever
+met, and not my problem right now.
+
+592
+00:44:14,440 --> 00:44:16,080
 On my desk, the number!
 
-650
-00:44:23,880 --> 00:44:26,199
+593
+00:44:22,920 --> 00:44:25,319
 Jennifer Wilson. That was...
 
-651
-00:44:26,280 --> 00:44:28,359
+594
+00:44:25,320 --> 00:44:27,519
 Hang on. Wasn't that the dead woman?
 
-652
-00:44:28,440 --> 00:44:31,279
+595
+00:44:27,520 --> 00:44:30,399
 Yes. That's not important.
 Just enter the number.
 
-653
-00:44:31,360 --> 00:44:32,759
+596
+00:44:30,400 --> 00:44:32,011
 - Are you doing it?
 - Yes.
 
-654
-00:44:32,840 --> 00:44:36,159
-- Have you done it?
-- Yeah, hang on!
+597
+00:44:32,012 --> 00:44:32,822
+Have you done it?
 
-655
-00:44:36,240 --> 00:44:38,759
+598
+00:44:32,840 --> 00:44:35,279
+Yeah, hang on!
+
+599
+00:44:35,280 --> 00:44:37,919
 These words exactly.
 
-656
-00:44:38,840 --> 00:44:42,239
+600
+00:44:37,920 --> 00:44:41,359
 "What happened at Lauriston Gardens?
 
-657
-00:44:42,320 --> 00:44:44,039
+601
+00:44:41,360 --> 00:44:43,159
 "I must have blacked out.
 
-658
-00:44:44,120 --> 00:44:47,639
+602
+00:44:43,160 --> 00:44:46,279
 "22 Northumberland Street,
-please come."
 
-659
-00:44:47,720 --> 00:44:51,119
+603
+00:44:46,280 --> 00:44:47,839
+- please come."
 - You blacked out?
-- What? No... No!
 
-660
-00:44:52,120 --> 00:44:54,879
+604
+00:44:47,840 --> 00:44:50,160
+What? No... No!
+
+605
+00:44:51,120 --> 00:44:53,920
 Type and send it. Quickly.
 
-661
-00:44:58,640 --> 00:45:00,879
+606
+00:44:57,600 --> 00:44:59,999
 - Have you sent it?
 - What's the address?
 
-662
-00:45:00,960 --> 00:45:03,319
+607
+00:45:00,000 --> 00:45:02,360
 22 Northumberland Street. Hurry up!
 
-663
-00:45:10,640 --> 00:45:11,879
+608
+00:45:09,640 --> 00:45:10,920
 That's...
 
-664
-00:45:12,880 --> 00:45:15,799
+609
+00:45:11,960 --> 00:45:14,879
 That's the pink lady's case,
 that's Jennifer Wilson's case.
 
-665
-00:45:15,880 --> 00:45:17,159
+610
+00:45:14,880 --> 00:45:16,240
 Yes, obviously.
 
-666
-00:45:19,920 --> 00:45:22,839
-Oh, perhaps I should mention -
-I didn't kill her.
-
-667
-00:45:22,920 --> 00:45:24,519
+611
+00:45:18,960 --> 00:45:22,959
+- Oh, perhaps I should mention I didn't kill her.
 - I never said you did.
-- Why not?
 
-668
-00:45:24,600 --> 00:45:27,959
-Given that text and the fact I have her
-case, it's a perfectly logical assumption.
+612
+00:45:22,960 --> 00:45:27,079
+Why not? Given that text and the fact
+I have her case it's a perfectly logical assumption.
 
-669
-00:45:28,040 --> 00:45:30,319
+613
+00:45:27,080 --> 00:45:29,360
 Do people usually assume
 you're the murderer?
 
-670
-00:45:31,600 --> 00:45:32,959
+614
+00:45:30,640 --> 00:45:32,000
 Now and then, yes.
 
-671
-00:45:34,360 --> 00:45:35,559
-OK...
+615
+00:45:33,360 --> 00:45:34,560
+Okay...
 
-672
-00:45:37,600 --> 00:45:39,679
+616
+00:45:36,640 --> 00:45:38,799
 - How did you get this?
 - By looking.
 
-673
-00:45:39,760 --> 00:45:40,719
-Where?
+617
+00:45:38,800 --> 00:45:41,639
+- Where?
+- The killer must have driven her to Lauriston Gardens.
 
-674
-00:45:40,800 --> 00:45:42,519
-The killer must have driven her
-to Lauriston Gardens.
+618
+00:45:41,640 --> 00:45:44,519
+He could only keep her case
+by accident if it was in the car.
 
-675
-00:45:42,600 --> 00:45:45,399
-He could only keep her case by accident
-if it was in a car.
-
-676
-00:45:45,480 --> 00:45:48,159
+619
+00:45:44,520 --> 00:45:47,319
 Nobody could be seen with this case
-without drawing attention -
+without drawing attention,
 
-677
-00:45:48,240 --> 00:45:51,119
+620
+00:45:47,320 --> 00:45:50,239
 particularly a man,
 which is statistically more likely.
 
-678
-00:45:51,200 --> 00:45:53,679
+621
+00:45:50,240 --> 00:45:52,839
 So obviously he'd feel compelled
 to get rid of it.
 
-679
-00:45:53,760 --> 00:45:56,839
+622
+00:45:52,840 --> 00:45:55,959
 Wouldn't have taken him more than
 five minutes to realise his mistake.
 
-680
-00:45:56,920 --> 00:45:59,439
-I checked every backstreet
-wide enough for a car
+623
+00:45:55,960 --> 00:46:00,639
+I checked every backstreet wide enough for a car
+five minutes from Lauriston Gardens,
 
-681
-00:45:59,520 --> 00:46:01,519
-five minutes from Lauriston Gardens
+624
+00:46:00,640 --> 00:46:05,199
+and anywhere you could dispose of a
+bulky object without being observed.
 
-682
-00:46:01,600 --> 00:46:06,039
-and anywhere you could dispose of
-a bulky object without being observed.
-
-683
-00:46:06,120 --> 00:46:09,479
+625
+00:46:05,200 --> 00:46:08,480
 Took me less than an hour
 to find the right skip.
 
-684
-00:46:10,680 --> 00:46:13,559
+626
+00:46:09,720 --> 00:46:12,679
 Pink. You got all that because
 you realised the case would be pink?
 
-685
-00:46:13,640 --> 00:46:15,919
+627
+00:46:12,680 --> 00:46:14,999
 - It had to be pink, obviously.
-- Why didn't I think of that(?)
+- Why didn't I think of that?
 
-686
-00:46:16,000 --> 00:46:17,439
+628
+00:46:15,000 --> 00:46:16,599
 Because you're an idiot.
 
-687
-00:46:17,520 --> 00:46:20,199
-No, no, don't look like that.
+629
+00:46:16,600 --> 00:46:19,279
+No, no, no, don't look like that.
 Practically everyone is.
 
-688
-00:46:20,280 --> 00:46:22,879
+630
+00:46:19,280 --> 00:46:21,999
 Now, look. Do you see what's missing?
 
-689
-00:46:22,960 --> 00:46:24,159
+631
+00:46:22,000 --> 00:46:23,200
 From the case? How could I?
 
-690
-00:46:25,160 --> 00:46:26,799
+632
+00:46:24,160 --> 00:46:25,959
 Her phone. Where's her mobile phone?
 
-691
-00:46:26,880 --> 00:46:29,359
+633
+00:46:25,960 --> 00:46:28,479
 There was no phone on the body,
 there's no phone in the case.
 
-692
-00:46:29,440 --> 00:46:30,919
+634
+00:46:28,480 --> 00:46:29,999
 We know she had one.
 You just texted it.
 
-693
-00:46:31,000 --> 00:46:32,199
+635
+00:46:30,000 --> 00:46:31,319
 Maybe she left it at home.
 
-694
-00:46:32,280 --> 00:46:35,359
-She has a string of lovers
-and she's careful about it.
-
-695
-00:46:35,440 --> 00:46:37,479
+636
+00:46:31,320 --> 00:46:36,559
+She has a string of lovers and she's careful about it.
 She never leaves her phone at home.
 
-696
-00:46:37,560 --> 00:46:39,159
+637
+00:46:36,560 --> 00:46:38,200
 Er...
 
-697
-00:46:40,160 --> 00:46:41,919
+638
+00:46:39,160 --> 00:46:40,960
 Why did I just send that text?
 
-698
-00:46:42,720 --> 00:46:45,239
+639
+00:46:41,760 --> 00:46:44,359
 Well, the question is
-where is her phone now?
+where is her phone <i>now</i>?
 
-699
-00:46:45,320 --> 00:46:47,919
+640
+00:46:44,360 --> 00:46:46,960
 - She could have lost it.
-- Yes, or?
+- Yes, or...?
 
-700
-00:46:49,400 --> 00:46:51,839
+641
+00:46:48,480 --> 00:46:50,880
 The murderer... You think
 the murderer has the phone?
 
-701
-00:46:52,840 --> 00:46:55,479
-Maybe she...left it
-when she left her case.
-
-702
-00:46:55,560 --> 00:46:58,079
+642
+00:46:51,880 --> 00:46:57,160
+Maybe she... left it when she left her case.
 Maybe he took it from her for some reason.
 
-703
-00:46:58,160 --> 00:47:02,479
-Either way, the balance of probability
-is the murderer has her phone.
+643
+00:46:58,200 --> 00:47:01,599
+Either way, the balance of probability is
+the murderer has her phone.
 
-704
-00:47:02,560 --> 00:47:05,639
-Sorry...what are we doing?
-Did I just text a murderer?
-
-705
-00:47:05,720 --> 00:47:07,039
+644
+00:47:01,600 --> 00:47:06,159
+Sorry...what are we doing? Did I just text a murderer?
 What good will that do?
 
-706
-00:47:07,120 --> 00:47:08,399
-
-
-707
-00:47:09,880 --> 00:47:12,079
+645
+00:47:08,920 --> 00:47:11,239
 A few hours after his last victim,
 
-708
-00:47:12,160 --> 00:47:15,599
+646
+00:47:11,240 --> 00:47:14,640
 and now he receives a text
 that can only be from her.
 
-709
-00:47:17,160 --> 00:47:19,359
-If somebody had just found that phone,
+647
+00:47:16,240 --> 00:47:21,639
+If somebody had just found that phone
+they'd ignore a text like that, but the murderer...
 
-710
-00:47:19,440 --> 00:47:22,559
-they'd ignore a text like that,
-but the murderer...
-
-711
-00:47:22,640 --> 00:47:24,319
+648
+00:47:21,640 --> 00:47:23,320
 would panic.
 
-712
-00:47:26,440 --> 00:47:29,399
+649
+00:47:25,440 --> 00:47:28,519
 - Have you talked to the police?
 - Four people are dead, there isn't time.
 
-713
-00:47:29,480 --> 00:47:31,119
-So why are you talking to me?
+650
+00:47:28,520 --> 00:47:30,239
+So why are you talking to <i>me</i>?
 
-714
-00:47:31,200 --> 00:47:32,959
-Mrs Hudson took my skull.
+651
+00:47:30,240 --> 00:47:32,000
+Mrs. Hudson took my skull.
 
-715
-00:47:34,040 --> 00:47:36,039
+652
+00:47:33,080 --> 00:47:35,159
 So I'm basically filling in
 for your skull?
 
-716
-00:47:36,120 --> 00:47:38,319
+653
+00:47:35,160 --> 00:47:37,439
 Relax, you're doing fine.
 
-717
-00:47:38,400 --> 00:47:39,839
+654
+00:47:37,442 --> 00:47:38,511
 - Well?
 - Well, what?
 
-718
-00:47:39,920 --> 00:47:42,559
-Well...you could just sit there
-and...watch telly.
+655
+00:47:38,534 --> 00:47:41,719
+Well... You could
+just sit there and... watch telly.
 
-719
-00:47:42,640 --> 00:47:43,999
-You want me to come with you?
+656
+00:47:41,720 --> 00:47:44,505
+- What, you want me to come with you?
+- I like company when I go out,
 
-720
-00:47:44,080 --> 00:47:47,239
-I like company when I go out
+657
+00:47:44,529 --> 00:47:46,384
 and I think better when I talk aloud.
 
-721
-00:47:47,320 --> 00:47:49,719
-The skull just attracts attention, so...
+658
+00:47:46,400 --> 00:47:48,799
+The skull just
+attracts attention, so...
 
-722
-00:47:49,800 --> 00:47:52,159
+659
+00:47:48,800 --> 00:47:51,239
 - Problem?
 - Yeah, Sergeant Donovan.
 
-723
-00:47:52,240 --> 00:47:53,999
+660
+00:47:51,240 --> 00:47:53,079
 What about her?
 
-724
-00:47:54,080 --> 00:47:57,399
-She said you get off on this,
-you enjoy it.
+661
+00:47:53,080 --> 00:47:54,159
+She said...
 
-725
-00:47:58,400 --> 00:48:01,959
+662
+00:47:54,160 --> 00:47:56,400
+you get off on this. You enjoy it.
+
+663
+00:47:57,480 --> 00:48:01,000
 And I said "dangerous",
 and here you are.
 
-726
-00:48:05,720 --> 00:48:07,079
+664
+00:48:04,720 --> 00:48:06,120
 Damn it!
 
-727
-00:48:15,240 --> 00:48:16,759
-Where are we going?
+665
+00:48:15,080 --> 00:48:18,519
+- Where are we going?
+- Northumberland Street's a five-minute walk from here.
 
-728
-00:48:16,840 --> 00:48:19,359
-Northumberland Street's
-a five-minute walk from here.
+666
+00:48:18,520 --> 00:48:22,079
+- You think he's stupid enough to go there?
+- No... I think he's brilliant enough.
 
-729
-00:48:19,440 --> 00:48:21,279
-You think he's stupid enough
-to go there?
+667
+00:48:22,080 --> 00:48:25,039
+I love the brilliant ones. They're
+all so desperate to get caught.
 
-730
-00:48:21,360 --> 00:48:22,919
-No, I think he's brilliant enough.
-
-731
-00:48:23,000 --> 00:48:25,959
-I love the brilliant ones.
-They're all so desperate to get caught.
-
-732
-00:48:26,040 --> 00:48:28,199
+668
+00:48:25,040 --> 00:48:27,279
 - Why?
 - Appreciation!
 
-733
-00:48:28,280 --> 00:48:30,839
+669
+00:48:27,280 --> 00:48:29,959
 Applause! At long last the spotlight.
 
-734
-00:48:30,920 --> 00:48:32,879
-That's the frailty of genius, John,
-
-735
-00:48:32,960 --> 00:48:34,519
-- it needs an audience.
+670
+00:48:29,960 --> 00:48:33,679
+- That's the frailty of genius, John, it needs an audience.
 - Yeah.
 
-736
-00:48:34,600 --> 00:48:38,879
+671
+00:48:33,680 --> 00:48:37,999
 This is his hunting ground.
 Right here in the heart of the city.
 
-737
-00:48:38,960 --> 00:48:42,239
+672
+00:48:38,000 --> 00:48:41,359
 Now that we know his victims were
 abducted, that changes everything.
 
-738
-00:48:42,320 --> 00:48:45,159
+673
+00:48:41,360 --> 00:48:44,319
 Because all of his victims
 disappeared from busy streets,
 
-739
-00:48:45,240 --> 00:48:47,319
+674
+00:48:44,320 --> 00:48:46,360
 crowded places,
 but nobody saw them go.
 
-740
-00:48:47,400 --> 00:48:51,559
+675
+00:48:47,960 --> 00:48:50,679
 Think! Who do we trust,
 even though we don't know them?
 
-741
-00:48:51,640 --> 00:48:54,919
+676
+00:48:50,680 --> 00:48:54,039
 Who passes unnoticed
 wherever they go?
 
-742
-00:48:55,000 --> 00:48:57,279
+677
+00:48:54,040 --> 00:48:56,359
 Who hunts in the middle of a crowd?
 
-743
-00:48:57,360 --> 00:48:59,359
+678
+00:48:56,360 --> 00:48:58,479
 Don't know. Who?
 
-744
-00:48:59,440 --> 00:49:01,359
+679
+00:48:58,480 --> 00:49:00,440
 Haven't the faintest. Hungry?
 
-745
-00:49:05,240 --> 00:49:06,639
+680
+00:49:04,280 --> 00:49:05,680
 Thank you, Billy.
 
-746
-00:49:11,040 --> 00:49:12,719
+681
+00:49:10,080 --> 00:49:11,839
 22 Northumberland Street.
 
-747
-00:49:12,800 --> 00:49:14,959
+682
+00:49:11,840 --> 00:49:14,119
 Keep your eyes on it.
 
-748
-00:49:15,040 --> 00:49:17,999
-He's not just going to ring the doorbell.
-He'd need to be mad.
+683
+00:49:14,120 --> 00:49:17,079
+He's not just going to ring
+the doorbell. He'd need to be mad.
 
-749
-00:49:18,080 --> 00:49:20,519
-He has killed four people.
+684
+00:49:17,080 --> 00:49:19,599
+He <i>has</i> killed four people.
 
-750
-00:49:20,600 --> 00:49:22,079
-OK.
+685
+00:49:19,600 --> 00:49:21,120
+Okay.
 
-751
-00:49:23,680 --> 00:49:25,159
+686
+00:49:22,720 --> 00:49:24,319
 Sherlock!
 
-752
-00:49:25,240 --> 00:49:27,719
+687
+00:49:24,320 --> 00:49:26,879
 Anything on the menu,
 whatever you want, free.
 
-753
-00:49:27,800 --> 00:49:30,039
+688
+00:49:26,880 --> 00:49:29,159
 On the house, for you
 and for your date.
 
-754
-00:49:30,120 --> 00:49:31,799
+689
+00:49:29,160 --> 00:49:30,879
 - Do you want to eat?
 - I'm not his date.
 
-755
-00:49:31,880 --> 00:49:33,999
+690
+00:49:30,880 --> 00:49:33,079
 This man got me off a murder charge.
 
-756
-00:49:34,080 --> 00:49:37,159
-This is Angelo. Three years ago,
-I proved to Lestrade,
+691
+00:49:33,080 --> 00:49:38,599
+This is Angelo. Three years ago I proved to Lestrade
+at the time of a particularly vicious triple murder
 
-757
-00:49:37,240 --> 00:49:39,479
-at the time
-of a particularly vicious triple murder,
+692
+00:49:38,600 --> 00:49:40,679
+that Angelo was elsewhere,
+house-breaking.
 
-758
-00:49:39,560 --> 00:49:41,559
-that Angelo was in a different
-part of town, house-breaking.
-
-759
-00:49:41,640 --> 00:49:43,599
+693
+00:49:40,680 --> 00:49:44,399
 - He cleared my name.
-- I cleared it a bit.
+- I cleared it a bit. Anything happening opposite?
 
-760
-00:49:43,680 --> 00:49:45,239
-Anything happening opposite?
-
-761
-00:49:45,320 --> 00:49:46,479
+694
+00:49:44,400 --> 00:49:45,599
 Nothing.
 
-762
-00:49:46,560 --> 00:49:48,279
-But for this man, I'd have gone to prison.
-
-763
-00:49:48,360 --> 00:49:50,999
+695
+00:49:45,600 --> 00:49:48,399
+- But for this man, I'd have gone to prison.
 - You did go to prison.
-- I'll get a candle for the table.
 
-764
-00:49:51,080 --> 00:49:53,599
-- It's more romantic.
-- I'm not his date!
+696
+00:49:48,400 --> 00:49:51,119
+I'll get a candle for the table.
+It's more romantic.
 
-765
-00:49:55,560 --> 00:49:58,479
+697
+00:49:51,120 --> 00:49:52,640
+I'm not his date!
+
+698
+00:49:54,560 --> 00:49:57,520
 You may as well eat.
 We might have a long wait.
 
-766
-00:49:59,520 --> 00:50:00,999
+699
+00:49:58,560 --> 00:50:00,040
 Thanks.
 
-767
-00:50:08,200 --> 00:50:10,119
+700
+00:50:07,240 --> 00:50:09,160
 People don't have arch-enemies.
 
-768
-00:50:11,120 --> 00:50:13,119
+701
+00:50:10,200 --> 00:50:12,160
 - I'm sorry?
 - In real life.
 
-769
-00:50:14,120 --> 00:50:16,479
+702
+00:50:13,200 --> 00:50:15,559
 There are no arch-enemies
 in real life. Doesn't happen.
 
-770
-00:50:16,560 --> 00:50:18,839
+703
+00:50:15,560 --> 00:50:17,919
 Doesn't it? Sounds a bit dull.
 
-771
-00:50:18,920 --> 00:50:20,839
+704
+00:50:17,920 --> 00:50:19,919
 So who did I meet?
 
-772
-00:50:20,920 --> 00:50:24,719
+705
+00:50:19,920 --> 00:50:23,760
 What do real people have, then,
 in their..."real lives"?
 
-773
-00:50:25,720 --> 00:50:27,079
+706
+00:50:24,760 --> 00:50:26,239
 Friends?
 
-774
-00:50:27,160 --> 00:50:31,359
+707
+00:50:26,240 --> 00:50:30,479
 People they know, people they like,
 people they don't like...
 
-775
-00:50:31,440 --> 00:50:35,279
+708
+00:50:30,480 --> 00:50:34,359
 - Girlfriends, boyfriends.
-- Yes, well, as I was saying, dull.
+- Yes, well, as I was saying... Dull.
 
-776
-00:50:35,360 --> 00:50:37,839
-You don't have a girlfriend, then?
+709
+00:50:34,360 --> 00:50:36,959
+You don't have a girlfriend, then.
 
-777
-00:50:37,920 --> 00:50:39,919
+710
+00:50:36,960 --> 00:50:39,039
 Girlfriend? No, not really my area.
 
-778
-00:50:40,000 --> 00:50:41,439
+711
+00:50:39,040 --> 00:50:40,480
 Mm.
 
-779
-00:50:42,440 --> 00:50:44,039
+712
+00:50:41,440 --> 00:50:43,080
 Oh, right.
 
-780
-00:50:45,040 --> 00:50:47,559
-Do you have a boyfriend?
+713
+00:50:44,080 --> 00:50:46,679
+Do you have a... boyfriend?
 Which is fine, by the way.
 
-781
-00:50:47,640 --> 00:50:49,759
+714
+00:50:46,680 --> 00:50:48,760
 I know it's fine.
 
-782
-00:50:50,880 --> 00:50:52,479
-- So you've got a boyfriend, then.
+715
+00:50:49,920 --> 00:50:51,599
+- So you've got a boyfriend then.
 - No.
 
-783
-00:50:52,560 --> 00:50:55,359
-Right. OK.
+716
+00:50:51,600 --> 00:50:53,440
+Right. Okay.
 
-784
-00:50:56,880 --> 00:51:00,239
+717
+00:50:55,880 --> 00:50:57,640
 You're unattached. Like me.
 
-785
-00:51:00,320 --> 00:51:02,359
+718
+00:50:58,640 --> 00:51:01,400
 Fine. Good.
 
-786
-00:51:09,520 --> 00:51:12,119
-John, um...I think you should know
+719
+00:51:08,560 --> 00:51:10,279
+John, erm...
 
-787
-00:51:12,200 --> 00:51:14,719
-I consider myself married to my work
-and while I'm flattered,
+720
+00:51:10,280 --> 00:51:13,039
+I think you should know that
+I consider myself married to my work,
 
-788
-00:51:14,800 --> 00:51:20,079
-- I'm really not looking for any...
-- No, I'm...not asking. No.
+721
+00:51:13,040 --> 00:51:16,084
+and while I'm flattered by your interest,
+I'm really not looking for any...
 
-789
-00:51:21,080 --> 00:51:24,039
+722
+00:51:16,108 --> 00:51:19,120
+No. I'm... not asking. No.
+
+723
+00:51:20,040 --> 00:51:23,080
 I'm just saying, it's all fine.
 
-790
-00:51:26,320 --> 00:51:27,439
+724
+00:51:24,120 --> 00:51:26,520
 Good.
 
-791
-00:51:29,160 --> 00:51:30,359
+725
+00:51:28,200 --> 00:51:29,400
 Thank you.
 
-792
-00:51:31,960 --> 00:51:35,359
+726
+00:51:31,040 --> 00:51:34,519
 Look across the street.
 Taxi. It's stopped.
 
-793
-00:51:35,440 --> 00:51:37,399
-Nobody getting in
+727
+00:51:34,520 --> 00:51:36,440
+Nobody getting in,
 and nobody getting out.
 
-794
-00:51:38,400 --> 00:51:41,599
-Why a taxi? Oh, that's clever.
+728
+00:51:37,440 --> 00:51:38,760
+Why a taxi?
 
-795
-00:51:41,680 --> 00:51:44,919
-- Is it clever? Why is it clever?
+729
+00:51:39,760 --> 00:51:42,480
+- Oh, that's clever. Is it clever? Why is it clever?
 - That's him.
 
-796
-00:51:45,000 --> 00:51:46,519
-- Don't stare.
+730
+00:51:43,400 --> 00:51:44,639
+Don't stare.
+
+731
+00:51:44,640 --> 00:51:46,680
 - You're staring.
+- We can't both stare.
 
-797
-00:51:46,600 --> 00:51:48,639
-We can't both stare.
-
-798
-00:52:09,360 --> 00:52:11,039
-
-
-799
-00:52:12,120 --> 00:52:13,639
+732
+00:52:11,160 --> 00:52:12,640
 Sorry...
 
-800
-00:52:14,680 --> 00:52:16,359
-- I've got the cab number.
-- Good for you.
+733
+00:52:13,720 --> 00:52:15,400
+I've got the cab number.
+Good for you.
 
-801
-00:52:17,960 --> 00:52:20,119
+734
+00:52:16,400 --> 00:52:19,239
 Right turn, one way, roadworks,
 traffic lights, bus lane,
 
-802
-00:52:20,200 --> 00:52:22,599
+735
+00:52:19,240 --> 00:52:21,640
 pedestrian crossing, left turn only,
 traffic lights.
 
-803
-00:52:27,920 --> 00:52:28,999
-- Oi!
+736
+00:52:26,834 --> 00:52:28,044
+- Hey!
 - Sorry.
 
-804
-00:52:32,920 --> 00:52:34,159
-
-
-805
-00:52:39,240 --> 00:52:40,599
+737
+00:52:38,240 --> 00:52:39,680
 Come on, John...
 
-806
-00:52:59,360 --> 00:53:01,519
+738
+00:52:58,360 --> 00:53:00,600
 Come on, John. We're losing him!
 
-807
-00:53:30,560 --> 00:53:32,079
+739
+00:53:29,600 --> 00:53:31,120
 This way.
 
-808
-00:53:33,080 --> 00:53:36,079
-- No, this way!
-- Sorry...
+740
+00:53:32,120 --> 00:53:33,319
+No, <i>this</i> way!
 
-809
-00:54:01,440 --> 00:54:03,919
+741
+00:53:33,320 --> 00:53:35,120
+Sorry...
+
+742
+00:54:00,520 --> 00:54:02,960
 Police! Open her up.
 
-810
-00:54:05,800 --> 00:54:08,119
+743
+00:54:04,880 --> 00:54:07,239
 No...
 
-811
-00:54:08,200 --> 00:54:10,399
-Teeth, tan. What, Californian?
+744
+00:54:07,240 --> 00:54:09,440
+Teeth, tan. What... Californian...?
 
-812
-00:54:11,440 --> 00:54:14,119
+745
+00:54:10,480 --> 00:54:13,239
 LA, Santa Monica. Just arrived.
 
-813
-00:54:14,200 --> 00:54:16,119
+746
+00:54:13,240 --> 00:54:15,160
 - How could you possibly know that?
 - The luggage.
 
-814
-00:54:18,320 --> 00:54:19,439
-First trip to London, right?
+747
+00:54:17,360 --> 00:54:19,599
+Probably your first trip
+to London, right?
 
-815
-00:54:19,520 --> 00:54:22,919
+748
+00:54:19,600 --> 00:54:22,039
 Going by your final destination
 and the cabbie's route.
 
-816
-00:54:23,000 --> 00:54:24,959
-Sorry, are you guys the police?
+749
+00:54:22,040 --> 00:54:24,079
+Sorry... Are you guys the police?
 
-817
-00:54:25,040 --> 00:54:27,319
+750
+00:54:24,080 --> 00:54:26,439
 Yeah. Everything all right?
 
-818
-00:54:27,400 --> 00:54:29,279
+751
+00:54:26,440 --> 00:54:28,320
 Yeah.
 
-819
-00:54:30,760 --> 00:54:32,319
+752
+00:54:29,800 --> 00:54:31,400
 Welcome to London.
 
-820
-00:54:34,280 --> 00:54:36,439
-Er, any problems, just let us know.
+753
+00:54:33,320 --> 00:54:35,480
+Er, any problems... Just let us know.
 
-821
-00:54:40,640 --> 00:54:42,959
-Basically just a cab
-that happened to slow down.
-
-822
-00:54:43,040 --> 00:54:44,519
+754
+00:54:39,720 --> 00:54:42,719
+- Basically just a cab that happened to slow down.
 - Basically.
+
+755
+00:54:42,720 --> 00:54:44,759
 - Not the murderer.
-
-823
-00:54:44,600 --> 00:54:47,639
 - Not the murderer, no.
-- Wrong country, good alibi.
 
-824
-00:54:47,720 --> 00:54:49,919
+756
+00:54:44,760 --> 00:54:46,799
+Wrong country, good alibi.
+
+757
+00:54:46,800 --> 00:54:48,960
 - As they go.
 - Hey, where did you get this?
 
-825
-00:54:51,080 --> 00:54:53,079
+758
+00:54:50,120 --> 00:54:52,199
 - Detective Inspector Lestrade?
 - Yeah.
 
-826
-00:54:53,160 --> 00:54:54,959
+759
+00:54:52,200 --> 00:54:54,079
 I pickpocket him when he's annoying.
 
-827
-00:54:55,040 --> 00:54:57,519
+760
+00:54:54,080 --> 00:54:56,600
 You can keep that one,
 I've got plenty at the flat.
 
-828
-00:54:59,520 --> 00:55:03,239
+761
+00:54:59,600 --> 00:55:02,359
 - What?
-- Nothing, just..."Welcome to London."
+- Nothing, just... "Welcome to London".
 
-829
-00:55:03,320 --> 00:55:05,399
-
-
-830
-00:55:07,040 --> 00:55:09,879
+762
+00:55:06,120 --> 00:55:08,960
 - Got your breath back?
 - Ready when you are.
 
-831
-00:55:19,120 --> 00:55:20,719
+763
+00:55:14,960 --> 00:55:17,120
+Okay...
+
+764
+00:55:18,160 --> 00:55:19,879
 That was ridiculous.
 
-832
-00:55:20,800 --> 00:55:24,239
-That was the most ridiculous thing...
-I've ever done.
+765
+00:55:19,880 --> 00:55:23,399
+That was the most
+ridiculous thing... I've ever done.
 
-833
-00:55:24,320 --> 00:55:27,719
-- And you invaded Afghanistan.
+766
+00:55:23,400 --> 00:55:26,760
+And you invaded Afghanistan.
 
-834
-00:55:28,920 --> 00:55:32,239
+767
+00:55:27,920 --> 00:55:29,679
 That wasn't just me.
-Why aren't we back at the restaurant?
 
-835
-00:55:32,320 --> 00:55:34,439
+768
+00:55:29,680 --> 00:55:31,319
+Why aren't we back
+at the restaurant?
+
+769
+00:55:31,320 --> 00:55:33,559
 They can keep an eye out.
 
-836
-00:55:34,520 --> 00:55:36,479
+770
+00:55:33,560 --> 00:55:35,559
 It was a long shot anyway.
 
-837
-00:55:36,560 --> 00:55:38,479
+771
+00:55:35,560 --> 00:55:37,480
 So what were we doing there?
 
-838
-00:55:41,600 --> 00:55:42,999
+772
+00:55:40,640 --> 00:55:42,040
 Oh, just passing the time.
 
-839
-00:55:44,000 --> 00:55:45,679
+773
+00:55:43,080 --> 00:55:44,799
 And proving a point.
 
-840
-00:55:45,760 --> 00:55:47,239
+774
+00:55:44,800 --> 00:55:46,359
 - What point?
 - You.
 
-841
-00:55:47,320 --> 00:55:51,279
-Mrs Hudson! Dr Watson
-will take the room upstairs.
+775
+00:55:46,360 --> 00:55:50,399
+Mrs. Hudson! Dr. Watson
+<i>will</i> take the room upstairs.
 
-842
-00:55:51,360 --> 00:55:52,759
+776
+00:55:50,400 --> 00:55:51,879
 Says who?
 
-843
-00:55:52,840 --> 00:55:54,399
+777
+00:55:51,880 --> 00:55:53,479
 Says the man at the door.
 
-844
-00:55:54,480 --> 00:55:55,759
-
-
-845
-00:56:05,240 --> 00:56:09,319
+778
+00:56:04,280 --> 00:56:08,360
 Sherlock texted me.
 He said you forgot this.
 
-846
-00:56:10,320 --> 00:56:11,759
+779
+00:56:09,320 --> 00:56:10,800
 Ah...
 
-847
-00:56:13,040 --> 00:56:14,439
+780
+00:56:12,080 --> 00:56:13,559
 Er, thank you.
 
-848
-00:56:14,520 --> 00:56:15,679
+781
+00:56:13,560 --> 00:56:14,760
 Thank you.
 
-849
-00:56:16,840 --> 00:56:18,679
+782
+00:56:15,880 --> 00:56:17,799
 Sherlock, what have you done?
 
-850
-00:56:18,760 --> 00:56:20,919
-- Mrs Hudson?
+783
+00:56:17,800 --> 00:56:19,920
+- Mrs. Hudson?
 - Upstairs.
 
-851
-00:56:26,840 --> 00:56:28,079
-What are you doing?
+784
+00:56:25,920 --> 00:56:28,879
+- What are you doing?
+- Well, I knew you'd find the case, I'm not stupid.
 
-852
-00:56:28,160 --> 00:56:29,759
-I knew you'd find the case,
-I'm not stupid.
+785
+00:56:28,880 --> 00:56:31,590
+- You can't just break into my flat.
+- You can't withhold evidence...
 
-853
-00:56:29,840 --> 00:56:31,239
-You can't just break into my flat.
+786
+00:56:31,613 --> 00:56:33,057
+And I didn't break in.
 
-854
-00:56:31,320 --> 00:56:33,999
-You can't withhold evidence -
-and I didn't break in.
+787
+00:56:33,080 --> 00:56:35,439
+Well, what do you call this then?
 
-855
-00:56:34,080 --> 00:56:35,319
-What do you call this, then?
+788
+00:56:35,440 --> 00:56:39,119
+- It's a drugs bust.
+- Seriously? This guy, a junkie?
 
-856
-00:56:35,400 --> 00:56:37,439
-It's a drugs bust.
-
-857
-00:56:37,520 --> 00:56:39,999
-Seriously? This guy - a junkie?
-
-858
-00:56:40,080 --> 00:56:41,999
+789
+00:56:39,120 --> 00:56:41,199
 - Have you met him?
 - John...
 
-859
-00:56:42,080 --> 00:56:43,599
-You could search this flat all day,
+790
+00:56:41,200 --> 00:56:45,439
+You could search this flat all day, you wouldn't
+find anything you could call recreational.
 
-860
-00:56:43,680 --> 00:56:46,319
-you wouldn't find anything
-you could call recreational.
-
-861
-00:56:46,400 --> 00:56:48,679
+791
+00:56:45,440 --> 00:56:47,680
 - John, you probably want to shut up now.
 - But come on...
 
-862
-00:56:50,600 --> 00:56:51,919
+792
+00:56:49,640 --> 00:56:51,359
 - No...
 - What?
 
-863
-00:56:52,000 --> 00:56:54,079
+793
+00:56:51,360 --> 00:56:54,399
 - You?
-- Shut up!
+- Shut up! I'm not your sniffer dog.
 
-864
-00:56:54,160 --> 00:56:57,599
-- I'm not your sniffer dog.
-- No, Anderson's my sniffer dog.
+794
+00:56:54,400 --> 00:56:56,640
+No, Anderson's my sniffer dog.
 
-865
-00:56:58,920 --> 00:57:01,279
-Anderson, what are you doing here
-on a drugs bust?
+795
+00:56:58,040 --> 00:57:00,439
+Anderson, what are <i>you</i> doing
+here on a drugs bust?
 
-866
-00:57:01,360 --> 00:57:03,839
+796
+00:57:00,440 --> 00:57:02,240
 - Oh, I volunteered.
 - They all did.
 
-867
-00:57:03,920 --> 00:57:06,119
-They're not strictly speaking
-on the drug squad, but they're very keen.
+797
+00:57:02,264 --> 00:57:05,223
+They're not strictly speaking <i>on</i> the
+drug squad, but they're very keen.
 
-868
-00:57:06,200 --> 00:57:08,079
+798
+00:57:05,240 --> 00:57:07,199
 - Are these human eyes?
 - Put those back!
 
-869
-00:57:08,160 --> 00:57:10,519
+799
+00:57:07,200 --> 00:57:09,639
 - They were in the microwave.
 - It's an experiment.
 
-870
-00:57:10,600 --> 00:57:11,959
+800
+00:57:09,640 --> 00:57:11,079
 Keep looking, guys.
 
-871
-00:57:12,040 --> 00:57:14,239
-Or you could help us properly,
+801
+00:57:11,080 --> 00:57:13,359
+Or you could help us properly
 and I'll stand them down.
 
-872
-00:57:14,320 --> 00:57:16,399
+802
+00:57:13,360 --> 00:57:15,559
 - This is childish.
 - Well, I'm dealing with a child.
 
-873
-00:57:16,480 --> 00:57:20,439
-Sherlock, this is ourcase. I'm letting
-you in, but you do not go off on your own.
+803
+00:57:15,560 --> 00:57:19,599
+Sherlock, this is our case. I'm letting you in,
+but you do not go off on your own.
 
-874
-00:57:20,520 --> 00:57:22,359
-Clear?
+804
+00:57:19,600 --> 00:57:23,679
+- Clear?
+- So you set up a pretend drugs bust to bully me?
 
-875
-00:57:22,440 --> 00:57:24,559
-So you set up a pretend drugs bust
-to bully me?
+805
+00:57:23,680 --> 00:57:27,079
+- It stops being pretend if we find anything.
+- I am clean!
 
-876
-00:57:24,640 --> 00:57:26,279
-It stops being pretend
-if we find anything.
+806
+00:57:27,080 --> 00:57:28,919
+Is your flat...? All of it?
 
-877
-00:57:26,360 --> 00:57:27,959
-I am clean!
+807
+00:57:28,920 --> 00:57:31,559
+Don't even smoke.
 
-878
-00:57:28,040 --> 00:57:32,439
-- Is your flat? All of it?
-- I don't even smoke.
-
-879
-00:57:32,520 --> 00:57:34,719
+808
+00:57:31,560 --> 00:57:33,760
 Neither do I.
 
-880
-00:57:36,120 --> 00:57:37,919
+809
+00:57:35,160 --> 00:57:36,920
 So let's work together.
 
-881
-00:57:38,920 --> 00:57:40,519
+810
+00:57:37,960 --> 00:57:39,679
 - We've found Rachel.
 - Who is she?
 
-882
-00:57:40,600 --> 00:57:42,159
+811
+00:57:39,680 --> 00:57:41,319
 Jennifer Wilson's only daughter.
 
-883
-00:57:42,240 --> 00:57:44,119
+812
+00:57:41,320 --> 00:57:43,279
 Her daughter?
 
-884
-00:57:44,200 --> 00:57:46,679
+813
+00:57:43,280 --> 00:57:45,839
 Why would she write
 her daughter's name? Why?
 
-885
-00:57:46,760 --> 00:57:49,039
+814
+00:57:45,840 --> 00:57:48,279
 Never mind that, we found the case.
 
-886
-00:57:49,120 --> 00:57:51,319
-According to someone,
-the murderer has the case,
+815
+00:57:48,280 --> 00:57:53,079
+According to <i>someone</i> the murderer has the case,
+and we found it in the hands of our favourite psychopath.
 
-887
-00:57:51,400 --> 00:57:53,919
-and we found it in the hands
-of our favourite psychopath.
+816
+00:57:53,080 --> 00:57:56,279
+I'm a high-functioning sociopath.
+Do your research.
 
-888
-00:57:54,000 --> 00:57:57,119
-Not a psychopath, I'm a high-functioning
-sociopath. Do your research.
-
-889
-00:57:57,200 --> 00:57:59,799
+817
+00:57:56,280 --> 00:57:58,959
 You need to bring Rachel in
-to question her. I need to question her.
+and I need to question her.
 
-890
-00:57:59,880 --> 00:58:01,199
-She's dead.
+818
+00:57:58,960 --> 00:58:01,135
+- She's dead.
+- Excellent. How, when and why?
 
-891
-00:58:01,280 --> 00:58:03,759
-Excellent. How, when and why?
-Is there a connection? There has to be.
+819
+00:58:01,147 --> 00:58:02,943
+Is there a connection?
+There has to be.
 
-892
-00:58:03,840 --> 00:58:06,239
-Well, I doubt it,
-since she's been dead for 1 4 years.
+820
+00:58:02,960 --> 00:58:07,119
+I doubt it, since she's been dead fourteen years.
+Technically she was never alive.
 
-893
-00:58:06,320 --> 00:58:07,919
-Technically, she was never alive.
-
-894
-00:58:08,000 --> 00:58:13,079
+821
+00:58:07,120 --> 00:58:12,239
 Rachel was Jennifer Wilson's
-still born daughter, 1 4 years ago.
+stillborn daughter, fourteen years ago.
 
-895
-00:58:13,160 --> 00:58:14,519
-Oh, that's...
+822
+00:58:12,240 --> 00:58:13,600
+No, that's...
 
-896
-00:58:15,520 --> 00:58:17,359
-...that's not right. How...
+823
+00:58:14,600 --> 00:58:16,479
+That's not right. How...
 
-897
-00:58:17,440 --> 00:58:19,199
+824
+00:58:16,480 --> 00:58:18,399
 Why would she do that? Why?
 
-898
-00:58:19,280 --> 00:58:21,559
-Why would she think of her daughter
-in her last moments?
+825
+00:58:18,400 --> 00:58:22,559
+Why would she think of her daughter in her
+last moments? Yup, sociopath, I'm seeing it now.
 
-899
-00:58:21,640 --> 00:58:23,439
-Yep - sociopath, I'm seeing it now.
-
-900
-00:58:23,520 --> 00:58:25,399
+826
+00:58:22,560 --> 00:58:24,599
 She didn't think about her daughter.
 
-901
-00:58:25,480 --> 00:58:29,159
+827
+00:58:24,600 --> 00:58:28,319
 She scratched her name on the floor
 with her fingernails. She was dying.
 
-902
-00:58:29,240 --> 00:58:31,039
+828
+00:58:28,320 --> 00:58:30,120
 It took effort, it would have hurt.
 
-903
-00:58:32,040 --> 00:58:35,039
-You said that the victims
-all took the poison themselves,
+829
+00:58:31,160 --> 00:58:35,639
+You said that the victims all took the poison
+themselves, that he <i>makes</i> them take it...
 
-904
-00:58:35,120 --> 00:58:36,479
-that he makes them take it.
+830
+00:58:35,640 --> 00:58:40,719
+Well, maybe he...I don't know, talks to them.
+Maybe he used the death of her daughter somehow.
 
-905
-00:58:36,560 --> 00:58:38,959
-Well, maybe he...I don't know,
-talks to them.
-
-906
-00:58:39,040 --> 00:58:41,559
-Maybe he used the death
-of her daughter somehow.
-
-907
-00:58:41,640 --> 00:58:44,959
-But that was ages ago.
+831
+00:58:40,720 --> 00:58:44,040
+Yeah, but that was ages ago.
 Why would she still be upset?
 
-908
-00:58:48,000 --> 00:58:49,079
+832
+00:58:47,200 --> 00:58:49,199
 Not good?
 
-909
-00:58:50,120 --> 00:58:51,159
+833
+00:58:49,200 --> 00:58:50,319
 Bit not good, yeah.
 
-910
-00:58:51,240 --> 00:58:53,199
-If you were dying,
-if you'd been murdered,
+834
+00:58:50,320 --> 00:58:54,679
+If you were dying... if you'd been murdered,
+in your very last few seconds what would you say?
 
-911
-00:58:53,280 --> 00:58:55,479
-in your very last few seconds,
-what would you say?
-
-912
-00:58:55,560 --> 00:58:58,399
+835
+00:58:54,680 --> 00:58:57,559
 - "Please, God, let me live."
 - Use your imagination!
 
-913
-00:58:58,480 --> 00:58:59,999
+836
+00:58:57,560 --> 00:58:59,080
 I don't have to.
 
-914
-00:59:01,280 --> 00:59:02,959
-Yeah, but if you were clever,
-really clever.
+837
+00:59:00,400 --> 00:59:04,599
+Yeah, but if you were clever... Jennifer Wilson
+running all those lovers, she <i>was</i> clever.
 
-915
-00:59:03,040 --> 00:59:05,399
-Jennifer Wilson running
-all those lovers - she was clever.
-
-916
-00:59:05,480 --> 00:59:07,239
+838
+00:59:04,600 --> 00:59:06,439
 She's trying to tell us something.
 
-917
-00:59:07,320 --> 00:59:09,919
+839
+00:59:06,440 --> 00:59:09,119
 Isn't the doorbell working?
 Your taxi's here, Sherlock.
 
-918
-00:59:10,000 --> 00:59:13,159
+840
+00:59:09,120 --> 00:59:12,401
 - I didn't order a taxi. Go away.
 - Oh, dear. They're making such a mess.
 
-919
-00:59:13,240 --> 00:59:16,119
+841
+00:59:12,412 --> 00:59:15,359
 - What are they looking for?
-- It's a drugs bust, Mrs Hudson.
+- It's a drugs bust, Mrs. Hudson.
 
-920
-00:59:16,200 --> 00:59:18,959
+842
+00:59:15,360 --> 00:59:18,479
 But they're just for my hip.
 They're herbal soothers...
 
-921
-00:59:19,040 --> 00:59:21,559
-Shut up, everybody!
-Don't move, don't speak, don't breathe.
+843
+00:59:18,480 --> 00:59:21,599
+Shut up, everybody! Don't speak,
+don't breathe. I'm trying to think.
 
-922
-00:59:21,640 --> 00:59:24,679
-I'm trying to think. Anderson,
-face the other way. You're putting me off.
+844
+00:59:21,600 --> 00:59:23,879
+Anderson, face the other way.
+You're putting me off.
 
-923
-00:59:24,760 --> 00:59:27,279
-- What? My face is(?)
+845
+00:59:23,880 --> 00:59:26,439
+- What? My <i>face</i> is...?
 - Everybody quiet and still.
 
-924
-00:59:27,360 --> 00:59:29,559
+846
+00:59:26,440 --> 00:59:28,719
 - Anderson, turn your back.
 - Oh, for God's sake!
 
-925
-00:59:29,640 --> 00:59:31,239
+847
+00:59:28,720 --> 00:59:30,399
 Your back, now, please!
 
-926
-00:59:31,320 --> 00:59:33,279
+848
+00:59:30,400 --> 00:59:32,399
 - Come on, think. Quick!
 - What about your taxi?
 
-927
-00:59:33,360 --> 00:59:34,559
-Mrs Hudson!
+849
+00:59:32,400 --> 00:59:33,640
+Mrs. Hudson!
 
-928
-00:59:37,280 --> 00:59:38,959
+850
+00:59:36,360 --> 00:59:38,079
 Oh...
 
-929
-00:59:39,040 --> 00:59:41,159
+851
+00:59:38,080 --> 00:59:40,319
 Ah!
 
-930
-00:59:41,240 --> 00:59:44,719
+852
+00:59:40,320 --> 00:59:43,879
 She was clever. Clever, yes!
 
-931
-00:59:44,800 --> 00:59:49,159
-She's cleverer than you lot
-and she's dead. Do you see? Do you get it?
+853
+00:59:43,880 --> 00:59:48,319
+She's cleverer than you lot and she's
+dead. Do you see, do you get it?
 
-932
-00:59:49,240 --> 00:59:52,719
-She didn't lose her phone,
-she never lost it. She planted it on him.
+854
+00:59:48,320 --> 00:59:51,919
+She didn't lose her phone, she
+never lost it. She <i>planted</i> it on him.
 
-933
-00:59:52,800 --> 00:59:55,759
-When she got out of the car,
-she knew that she was going to her death.
+855
+00:59:51,920 --> 00:59:54,959
+When she got out of the car, she
+knew that she was going to her death.
 
-934
-00:59:55,840 --> 00:59:58,839
-She left the phone
-in order to lead us to her killer.
+856
+00:59:54,960 --> 00:59:58,558
+She left the phone in order to
+lead us to her killer.
 
-935
-00:59:58,920 --> 01:00:02,799
+857
+00:59:58,582 --> 01:00:01,959
 - But how?
 - What do you mean, how?
 
-936
-01:00:02,880 --> 01:00:04,519
+858
+01:00:01,960 --> 01:00:03,560
 Rachel!
 
-937
-01:00:05,840 --> 01:00:07,399
+859
+01:00:04,920 --> 01:00:06,480
 Don't you see? Rachel!
 
-938
-01:00:09,960 --> 01:00:11,399
+860
+01:00:09,040 --> 01:00:10,599
 Oh...
 
-939
-01:00:11,480 --> 01:00:13,119
+861
+01:00:10,600 --> 01:00:12,279
 Look at you lot.
 You're all so vacant.
 
-940
-01:00:13,200 --> 01:00:15,919
+862
+01:00:12,280 --> 01:00:15,079
 Is it nice not being me?
 It must be so relaxing.
 
-941
-01:00:16,000 --> 01:00:17,919
-- Rachel is not a name.
-- Then what is it?
+863
+01:00:15,080 --> 01:00:16,239
+Rachel is not a name.
 
-942
-01:00:18,000 --> 01:00:19,999
-John, on the luggage, there's a label.
+864
+01:00:16,240 --> 01:00:19,119
+Then what is it? John...
+On the luggage, there's a label.
 
-943
-01:00:20,080 --> 01:00:22,119
+865
+01:00:19,120 --> 01:00:21,200
 E-mail address.
 
-944
-01:00:23,400 --> 01:00:26,839
-Er, jenny.pink@mephone.org.uk.
+866
+01:00:22,520 --> 01:00:26,079
+Er, jennie.pink@mephone.org.uk.
 
-945
-01:00:26,920 --> 01:00:30,359
+867
+01:00:26,080 --> 01:00:29,729
 She didn't have a laptop, which means
 she did her business on her phone.
 
-946
-01:00:30,440 --> 01:00:32,199
-So it's a smartphone, it's e-mail enabled.
+868
+01:00:29,752 --> 01:00:32,999
+A smartphone, it's e-mail enabled.
+So there was a website for her account.
 
-947
-01:00:32,280 --> 01:00:33,839
-So there was a website
-for her account.
+869
+01:00:33,000 --> 01:00:36,159
+The username is her e-mail address...
+And all together, the password is?
 
-948
-01:00:33,920 --> 01:00:36,959
-The username is her e-mail address,
-and all together now, the password is...?
-
-949
-01:00:37,040 --> 01:00:40,239
+870
+01:00:36,160 --> 01:00:39,439
 - Rachel.
 - So we can read her e-mails. So what?
 
-950
-01:00:40,320 --> 01:00:43,239
+871
+01:00:39,440 --> 01:00:42,439
 Anderson, don't talk out loud.
 You lower the IQ of the whole street.
 
-951
-01:00:43,320 --> 01:00:46,039
+872
+01:00:42,440 --> 01:00:45,239
 We can do much more than that.
 It's a smartphone, it's got GPS.
 
-952
-01:00:46,120 --> 01:00:49,159
-Which means if you lose it,
-you can locate it online.
+873
+01:00:45,240 --> 01:00:50,039
+Which means if you lose it you can locate it online.
+She's leading us directly to the man who killed her.
 
-953
-01:00:49,240 --> 01:00:50,879
-She's leading us
-to the man who killed her.
-
-954
-01:00:50,960 --> 01:00:52,959
+874
+01:00:50,040 --> 01:00:52,159
 - Unless he got rid of it.
 - We know he didn't.
 
-955
-01:00:53,040 --> 01:00:57,479
+875
+01:00:52,160 --> 01:00:56,679
 - Come on, come on. Quickly!
 - Sherlock, dear. This taxi driver...
 
-956
-01:00:57,560 --> 01:01:00,239
-Mrs Hudson, isn't it time
+876
+01:00:56,680 --> 01:00:59,360
+Mrs. Hudson, isn't it time
 for your evening soother?
 
-957
-01:01:01,120 --> 01:01:04,279
-Get vehicles, get a helicopter.
-This phone battery won't last for ever.
+877
+01:01:00,200 --> 01:01:03,439
+Get vehicles, get a helicopter. This
+phone battery won't last for ever.
 
-958
-01:01:04,360 --> 01:01:05,759
+878
+01:01:03,440 --> 01:01:06,599
 We'll just have a map reference,
-not a name.
+not a name. It's a start!
 
-959
-01:01:05,840 --> 01:01:07,399
-HOLMES: It's a start!
+879
+01:01:06,600 --> 01:01:09,119
+- Sherlock...
+- Narrows it down from just anyone in London.
 
-960
-01:01:07,480 --> 01:01:08,559
-Sherlock...
-
-961
-01:01:08,640 --> 01:01:10,319
-Narrows it down
-from just anyone in London.
-
-962
-01:01:10,400 --> 01:01:12,439
-- It's the first proper lead we've had.
+880
+01:01:09,120 --> 01:01:11,599
+- It's the first proper lead that we've had.
 - Sherlock...
 
-963
-01:01:12,520 --> 01:01:14,919
+881
+01:01:11,600 --> 01:01:14,039
 Where is it? Quickly, where?
 
-964
-01:01:15,000 --> 01:01:17,959
-Here. It's...in 22 1 Baker Street.
+882
+01:01:14,040 --> 01:01:17,040
+Here. It's... in 221 Baker Street.
 
-965
-01:01:19,680 --> 01:01:21,719
+883
+01:01:18,760 --> 01:01:20,879
 How can it be here?
 
-966
-01:01:21,800 --> 01:01:23,039
+884
+01:01:20,880 --> 01:01:22,279
 How?
 
-967
-01:01:23,120 --> 01:01:26,639
-Maybe it was in the case
-when you brought it back
+885
+01:01:22,280 --> 01:01:25,799
+Maybe it was in the case when you
+brought it back and it... fell out somewhere.
 
-968
-01:01:26,720 --> 01:01:29,239
-- and it fell out somewhere.
-- And I didn't notice it?
+886
+01:01:25,800 --> 01:01:29,399
+What, and I didn't notice it?
+Me? I didn't notice?
 
-969
-01:01:29,320 --> 01:01:30,399
-I didn't notice?
-
-970
-01:01:30,480 --> 01:01:32,199
-WATSON: Anyway, we texted him,
+887
+01:01:29,400 --> 01:01:31,199
+Anyway, we texted him
 and he called back.
 
-971
-01:01:32,280 --> 01:01:36,279
-Guys, we're also looking for a mobile
-somewhere here, belonged to the victim.
+888
+01:01:31,200 --> 01:01:34,239
+Guys, we're also looking
+for a mobile somewhere here,
 
-972
-01:01:36,360 --> 01:01:39,359
-Who do we trust,
-even if we don't know them?
+889
+01:01:34,240 --> 01:01:37,360
+belonged to the victim...
+Who do we trust, even if we don't know them?
 
-973
-01:01:48,120 --> 01:01:50,999
-Who passes unnoticed wherever they go?
+890
+01:01:47,240 --> 01:01:50,120
+Who passes unnoticed
+wherever they go?
 
-974
-01:01:55,440 --> 01:01:58,039
+891
+01:01:54,520 --> 01:01:57,120
 Who hunts in the middle of a crowd?
 
-975
-01:02:27,560 --> 01:02:28,839
-
-
-976
-01:02:36,160 --> 01:02:38,959
-- Sherlock, are you OK?
+892
+01:02:35,200 --> 01:02:38,119
+- Sherlock, you okay?
 - What...?
 
-977
-01:02:39,040 --> 01:02:41,199
+893
+01:02:38,120 --> 01:02:40,359
 Yeah, yeah... I'm fine.
 
-978
-01:02:41,280 --> 01:02:43,159
+894
+01:02:40,360 --> 01:02:42,319
 So, how can the phone be here?
 
-979
-01:02:43,240 --> 01:02:44,399
+895
+01:02:42,320 --> 01:02:43,559
 Don't know.
 
-980
-01:02:44,480 --> 01:02:46,519
+896
+01:02:43,560 --> 01:02:45,639
 - I'll try it again.
 - Good idea.
 
-981
-01:02:46,600 --> 01:02:48,119
+897
+01:02:45,640 --> 01:02:47,319
 Where are you going?
 
-982
-01:02:48,200 --> 01:02:50,639
+898
+01:02:47,320 --> 01:02:50,799
 Fresh air, just popping outside
 for a moment. Won't be long.
 
-983
-01:02:50,720 --> 01:02:53,839
-- Are you sure you're all right?
+899
+01:02:50,800 --> 01:02:52,920
+- You sure you're all right?
 - I'm fine.
 
-984
-01:03:04,000 --> 01:03:05,719
+900
+01:03:03,040 --> 01:03:04,800
 Taxi for Sherlock Holmes.
 
-985
-01:03:08,880 --> 01:03:11,119
+901
+01:03:07,920 --> 01:03:10,279
 I didn't order a taxi.
 
-986
-01:03:11,200 --> 01:03:13,319
+902
+01:03:10,280 --> 01:03:12,400
 Doesn't mean you don't need one.
 
-987
-01:03:14,320 --> 01:03:16,239
+903
+01:03:13,400 --> 01:03:15,280
 You're the cabbie.
 
-988
-01:03:17,240 --> 01:03:20,119
+904
+01:03:16,280 --> 01:03:19,200
 The one who stopped outside
 Northumberland Street.
 
-989
-01:03:25,000 --> 01:03:27,239
+905
+01:03:24,080 --> 01:03:26,439
 It was you. Not your passenger.
 
-990
-01:03:27,320 --> 01:03:30,439
+906
+01:03:26,440 --> 01:03:29,599
 See?
 No-one ever thinks about the cabbie.
 
-991
-01:03:30,520 --> 01:03:32,439
+907
+01:03:29,600 --> 01:03:31,599
 It's like you're invisible.
 
-992
-01:03:32,520 --> 01:03:34,319
-Just the back of a head.
+908
+01:03:31,600 --> 01:03:33,400
+Just the back of an 'ead.
 
-993
-01:03:35,320 --> 01:03:37,999
-Proper advantage for a serial killer.
+909
+01:03:34,400 --> 01:03:37,080
+Proper advantage
+for a serial killer.
 
-994
-01:03:40,160 --> 01:03:42,279
+910
+01:03:39,200 --> 01:03:41,400
 - Is this a confession?
 - Oh, yeah.
 
-995
-01:03:43,280 --> 01:03:45,519
+911
+01:03:42,360 --> 01:03:44,679
 I'll tell you what else...
 
-996
-01:03:45,600 --> 01:03:47,679
+912
+01:03:44,680 --> 01:03:46,720
 If you call the coppers now,
 I won't run.
 
-997
-01:03:48,680 --> 01:03:52,359
-I'll sit quiet,
-and they can take me down, I promise.
+913
+01:03:47,760 --> 01:03:51,519
+I'll sit quiet and they can
+take me down, I promise.
 
-998
-01:03:52,440 --> 01:03:53,679
+914
+01:03:51,520 --> 01:03:52,839
 Why?
 
-999
-01:03:53,760 --> 01:03:56,719
-- Cause you're not going to do that.
+915
+01:03:52,840 --> 01:03:55,800
+- Cos you're not going to do that.
 - Am I not?
 
-1000
-01:03:58,320 --> 01:04:01,479
+916
+01:03:57,440 --> 01:04:00,639
 I didn't kill those four people,
-Mr Holmes.
+Mr. Holmes.
 
-1001
-01:04:01,560 --> 01:04:03,639
+917
+01:04:00,640 --> 01:04:02,799
 I spoke to 'em...
 
-1002
-01:04:03,720 --> 01:04:05,799
+918
+01:04:02,800 --> 01:04:04,880
 and they killed themselves.
 
-1003
-01:04:07,280 --> 01:04:10,519
+919
+01:04:06,360 --> 01:04:09,600
 If you get the coppers now,
 I'll promise you one thing.
 
-1004
-01:04:12,080 --> 01:04:14,239
+920
+01:04:11,160 --> 01:04:13,320
 I will never tell you what I said.
 
-1005
-01:04:19,920 --> 01:04:22,999
-No-one else will die, though,
-and I believe they call that a result.
+921
+01:04:19,040 --> 01:04:22,120
+No-one else will die, though, and
+I believe they call that a result.
 
-1006
-01:04:23,080 --> 01:04:27,039
+922
+01:04:22,960 --> 01:04:26,120
 And you won't ever understand
 how those people died.
 
-1007
-01:04:28,040 --> 01:04:30,439
-What kind of result do you care about?
+923
+01:04:27,120 --> 01:04:29,480
+What kind of result
+do you care about?
 
-1008
-01:04:46,080 --> 01:04:48,119
+924
+01:04:45,200 --> 01:04:47,240
 If I wanted to understand...
 
-1009
-01:04:49,680 --> 01:04:51,959
-- ...what would I do?
+925
+01:04:48,760 --> 01:04:51,119
+- What would I do?
 - Let me take you for a ride.
 
-1010
-01:04:52,040 --> 01:04:55,799
+926
+01:04:51,120 --> 01:04:54,880
 - So you can kill me too?
-- I don't want to kill you, Mr Holmes.
+- I don't want to kill you, Mr. Holmes.
 
-1011
-01:04:57,360 --> 01:04:58,999
-I'm going to talk to you...
+927
+01:04:56,440 --> 01:04:58,040
+I'm going to talk to ya...
 
-1012
-01:05:00,720 --> 01:05:03,599
-...and then you're going to kill yourself.
+928
+01:04:59,840 --> 01:05:02,680
+And then you're
+going to kill yourself.
 
-1013
-01:05:13,440 --> 01:05:15,919
-
-
-1014
-01:05:16,920 --> 01:05:18,319
-
-
-1015
-01:05:20,680 --> 01:05:21,879
+929
+01:05:20,080 --> 01:05:23,679
 He just got in a cab...
+It's Sherlock. He just drove off in a cab.
 
-1016
-01:05:21,960 --> 01:05:24,519
-It's Sherlock.
-He just drove off in a cab.
-
-1017
-01:05:24,600 --> 01:05:26,119
+930
+01:05:23,680 --> 01:05:25,279
 I told you, he does that.
 
-1018
-01:05:26,200 --> 01:05:27,639
+931
+01:05:25,280 --> 01:05:26,799
 He bloody left again.
 
-1019
-01:05:27,720 --> 01:05:29,319
+932
+01:05:26,800 --> 01:05:28,519
 We're wasting our time!
 
-1020
-01:05:29,400 --> 01:05:31,839
+933
+01:05:28,520 --> 01:05:30,920
 I'm...calling the phone,
 it's ringing out.
 
-1021
-01:05:32,840 --> 01:05:34,719
-
-
-1022
-01:05:37,960 --> 01:05:39,559
-
-
-1023
-01:05:43,760 --> 01:05:45,479
+934
+01:05:42,840 --> 01:05:44,639
 And if it's ringing, it's not here.
 
-1024
-01:05:45,560 --> 01:05:49,319
+935
+01:05:44,640 --> 01:05:48,559
 - I'll try the search again.
 - Does it matter? Does any of it?
 
-1025
-01:05:49,400 --> 01:05:52,479
-He's just a lunatic
-and he'll always let you down.
+936
+01:05:48,560 --> 01:05:54,360
+He's just a lunatic, and he'll always let you down.
+And you're wasting your time. All our time.
 
-1026
-01:05:52,560 --> 01:05:55,239
-And you're wasting your time.
-All our time.
+937
+01:06:00,760 --> 01:06:02,839
+Okay, everybody...
 
-1027
-01:06:01,640 --> 01:06:03,679
-OK, everybody...
+938
+01:06:02,840 --> 01:06:04,360
+Done here.
 
-1028
-01:06:03,760 --> 01:06:05,239
-done here.
-
-1029
-01:06:07,680 --> 01:06:09,319
+939
+01:06:06,760 --> 01:06:08,479
 How did you find me?
 
-1030
-01:06:09,400 --> 01:06:11,199
-Oh, I recognised you.
+940
+01:06:08,480 --> 01:06:10,320
+Oh, I recognised ya.
 
-1031
-01:06:13,000 --> 01:06:14,799
+941
+01:06:12,120 --> 01:06:13,880
 Soon as I saw you chasing my cab.
 
-1032
-01:06:15,800 --> 01:06:17,879
+942
+01:06:14,880 --> 01:06:17,000
 Sherlock Holmes!
 
-1033
-01:06:19,120 --> 01:06:20,359
+943
+01:06:18,200 --> 01:06:19,480
 I was warned about you.
 
-1034
-01:06:21,480 --> 01:06:25,199
-I've been on your website too.
+944
+01:06:20,560 --> 01:06:24,359
+I've been on your website, too.
 Brilliant stuff! Loved it.
 
-1035
-01:06:25,280 --> 01:06:27,479
-Who warned you about me?
+945
+01:06:24,360 --> 01:06:28,000
+- Who warned you about me?
+- Just someone out there who's noticed.
 
-1036
-01:06:27,560 --> 01:06:29,959
-Just someone out there who's noticed.
-
-1037
-01:06:31,000 --> 01:06:32,079
+946
+01:06:29,840 --> 01:06:31,200
 Who?
 
-1038
-01:06:39,720 --> 01:06:40,879
+947
+01:06:38,800 --> 01:06:40,039
 Who would notice me?
 
-1039
-01:06:40,960 --> 01:06:44,039
-- You're too modest, Mr Holmes.
+948
+01:06:40,040 --> 01:06:43,239
+- You're too modest, Mr. Holmes.
 - I'm really not.
 
-1040
-01:06:44,120 --> 01:06:46,399
+949
+01:06:43,240 --> 01:06:45,520
 Got yourself a fan.
 
-1041
-01:06:47,440 --> 01:06:49,079
+950
+01:06:46,520 --> 01:06:48,199
 Tell me more.
 
-1042
-01:06:49,160 --> 01:06:50,799
+951
+01:06:48,200 --> 01:06:49,880
 That's all you're going to know.
 
-1043
-01:06:52,360 --> 01:06:53,919
-In this lifetime.
+952
+01:06:51,440 --> 01:06:53,000
+In <i>this</i> lifetime.
 
-1044
-01:06:54,920 --> 01:06:57,359
+953
+01:06:54,040 --> 01:06:56,519
 Why did he do that?
 Why did he have to leave?
 
-1045
-01:06:57,440 --> 01:06:59,679
+954
+01:06:56,520 --> 01:06:58,879
 You know him better than I do.
 
-1046
-01:06:59,760 --> 01:07:02,999
-I've known him for five years
-and, no, I don't.
+955
+01:06:58,880 --> 01:07:02,120
+I've known him for five years,
+and no, I don't.
 
-1047
-01:07:04,600 --> 01:07:06,159
+956
+01:07:03,680 --> 01:07:05,240
 So why do you put up with him?
 
-1048
-01:07:07,160 --> 01:07:09,119
+957
+01:07:06,240 --> 01:07:08,200
 Because I'm desperate, that's why.
 
-1049
-01:07:11,320 --> 01:07:13,759
+958
+01:07:10,400 --> 01:07:12,919
 And because Sherlock Holmes
-is a great man,
+is a great man...
 
-1050
-01:07:13,840 --> 01:07:17,479
+959
+01:07:12,920 --> 01:07:16,679
 and I think one day,
 if we're very, very lucky,
 
-1051
-01:07:17,560 --> 01:07:19,759
+960
+01:07:16,680 --> 01:07:18,880
 he might even be a good one.
 
-1052
-01:07:40,480 --> 01:07:42,159
+961
+01:07:39,520 --> 01:07:41,240
 Where are we?
 
-1053
-01:07:43,160 --> 01:07:46,399
+962
+01:07:42,240 --> 01:07:45,599
 You know every street in London.
 You know exactly where we are.
 
-1054
-01:07:46,480 --> 01:07:49,439
+963
+01:07:45,600 --> 01:07:48,599
 Roland-Kerr
 Further Education College.
 
-1055
-01:07:49,520 --> 01:07:52,399
+964
+01:07:48,600 --> 01:07:51,559
 - Why here?
 - It's open.
 
-1056
-01:07:52,480 --> 01:07:55,759
+965
+01:07:51,560 --> 01:07:53,439
 Cleaners are in.
-One thing about being a cabbie -
 
-1057
-01:07:55,840 --> 01:07:58,479
-you always know
-a nice quiet spot for a murder.
+966
+01:07:53,440 --> 01:07:57,639
+One thing about being a cabbie...
+You always know a nice quiet spot for a murder.
 
-1058
-01:07:58,560 --> 01:08:01,599
+967
+01:07:57,640 --> 01:08:00,720
 I'm surprised more of us
 don't branch out.
 
-1059
-01:08:02,600 --> 01:08:04,599
-And you just walk your victims in? How?
+968
+01:08:01,680 --> 01:08:03,680
+- And you just walk your victims in?
+- How?
 
-1060
-01:08:06,120 --> 01:08:08,119
+969
+01:08:05,200 --> 01:08:07,319
 Oh... Dull.
 
-1061
-01:08:08,200 --> 01:08:09,799
+970
+01:08:07,320 --> 01:08:08,880
 Don't worry. It gets better.
 
-1062
-01:08:10,800 --> 01:08:13,639
-You can't make people
-take their own lives at gunpoint.
+971
+01:08:09,920 --> 01:08:14,239
+- You can't make people take their own lives at gunpoint.
+- I don't.
 
-1063
-01:08:13,720 --> 01:08:15,079
-I don't.
-
-1064
-01:08:15,160 --> 01:08:17,839
+972
+01:08:14,240 --> 01:08:17,039
 It's much better than that.
 
-1065
-01:08:17,920 --> 01:08:20,999
+973
+01:08:17,040 --> 01:08:20,120
 Don't need this with you.
-Cause you'll follow me.
+Cos you'll follow me.
 
-1066
-01:08:44,840 --> 01:08:46,479
-
-1067
-01:08:47,520 --> 01:08:48,759
-
-1068
-01:09:12,760 --> 01:09:14,919
+974
+01:09:11,880 --> 01:09:14,040
 Well, what do you think?
 
-1069
-01:09:16,400 --> 01:09:19,999
-It's up to you. You're the one
+975
+01:09:15,480 --> 01:09:17,239
+It's up to you.
+
+976
+01:09:17,240 --> 01:09:19,080
+You're the one
 who's going to die here.
 
-1070
-01:09:22,160 --> 01:09:23,639
-No, I'm not.
+977
+01:09:21,120 --> 01:09:24,040
+- No, I'm not.
+- That's what they all say.
 
-1071
-01:09:23,720 --> 01:09:24,959
-That's what they all say.
-
-1072
-01:09:27,200 --> 01:09:28,719
+978
+01:09:26,200 --> 01:09:27,760
 Shall we talk?
 
-1073
-01:09:43,440 --> 01:09:45,039
+979
+01:09:42,400 --> 01:09:44,040
 Bit risky, wasn't it?
 
-1074
-01:09:46,040 --> 01:09:48,959
-Took me away under the eye
-of about half a dozen policemen.
+980
+01:09:45,040 --> 01:09:48,079
+Took me away under the eye of
+about half a dozen policemen.
 
-1075
-01:09:49,040 --> 01:09:51,279
+981
+01:09:48,080 --> 01:09:50,399
 They're not that stupid.
 
-1076
-01:09:51,360 --> 01:09:53,519
-And Mrs Hudson will remember you.
+982
+01:09:50,400 --> 01:09:52,599
+And Mrs. Hudson will remember you.
 
-1077
-01:09:53,600 --> 01:09:56,439
+983
+01:09:52,600 --> 01:09:55,559
 You call that a risk? Nah...
 
-1078
-01:09:56,520 --> 01:09:58,599
-This...is a risk.
+984
+01:09:55,560 --> 01:09:57,600
+<i>This</i> is a risk.
 
-1079
-01:10:06,080 --> 01:10:08,839
+985
+01:10:05,120 --> 01:10:07,959
 Oh, I like this bit.
 
-1080
-01:10:08,920 --> 01:10:10,759
-Cause you don't get it yet, do you?
+986
+01:10:07,960 --> 01:10:09,800
+Cos you don't get it yet, do ya?
 
-1081
-01:10:12,680 --> 01:10:14,759
+987
+01:10:11,720 --> 01:10:13,840
 But you're about to.
 
-1082
-01:10:15,760 --> 01:10:17,439
+988
+01:10:14,800 --> 01:10:16,520
 I just have to do this...
 
-1083
-01:10:23,040 --> 01:10:25,279
-Weren't expecting that, were you?
+989
+01:10:22,080 --> 01:10:24,320
+Weren't expecting that, were ya?
 
-1084
-01:10:26,280 --> 01:10:27,879
-Oh, you're gonna love this.
+990
+01:10:25,320 --> 01:10:27,039
+Oh, you're going to love this.
 
-1085
-01:10:27,960 --> 01:10:31,679
+991
+01:10:27,040 --> 01:10:30,720
 - Love what?
-- Sherlock Holmes...look at you!
+- Sherlock Holmes! Look at you!
 
-1086
-01:10:33,080 --> 01:10:38,119
-Here in the flesh. That website of yours,
-your fan told me about it.
+992
+01:10:32,200 --> 01:10:37,239
+Here in the flesh. That website
+of yours, your fan told me about it.
 
-1087
-01:10:38,200 --> 01:10:39,799
+993
+01:10:37,240 --> 01:10:38,919
 My fan?
 
-1088
-01:10:39,880 --> 01:10:42,399
+994
+01:10:38,920 --> 01:10:41,519
 You are brilliant.
 
-1089
-01:10:42,480 --> 01:10:44,879
+995
+01:10:41,520 --> 01:10:43,920
 You are a proper genius.
 
-1090
-01:10:44,960 --> 01:10:48,759
-The Science Of Deduction. Now, that...
+996
+01:10:44,760 --> 01:10:47,919
+The Science of Deduction.
+Now, that...
 
-1091
-01:10:48,840 --> 01:10:50,959
+997
+01:10:47,920 --> 01:10:50,000
 is proper thinking.
 
-1092
-01:10:52,520 --> 01:10:55,159
+998
+01:10:51,560 --> 01:10:54,200
 Between you and me sitting here,
 why can't people think?
 
-1093
-01:10:57,040 --> 01:10:59,119
+999
+01:10:56,120 --> 01:10:58,160
 Don't it make you mad?
 
-1094
-01:11:00,120 --> 01:11:02,879
+1000
+01:10:59,160 --> 01:11:01,920
 Why can't people just think?
 
-1095
-01:11:06,400 --> 01:11:10,239
+1001
+01:11:05,480 --> 01:11:09,319
 Oh, I see...
 So you're a proper genius too.
 
-1096
-01:11:10,320 --> 01:11:12,439
+1002
+01:11:09,320 --> 01:11:11,520
 Don't look it, do I?
 
-1097
-01:11:13,440 --> 01:11:15,519
+1003
+01:11:12,480 --> 01:11:14,600
 Funny little man driving a cab.
 
-1098
-01:11:16,520 --> 01:11:18,719
+1004
+01:11:15,600 --> 01:11:17,839
 But you'll know better in a minute.
 
-1099
-01:11:18,800 --> 01:11:21,799
-Chances are
-it'll be the last thing you everknow.
+1005
+01:11:17,840 --> 01:11:20,840
+Chances are it'll be
+the last thing you <i>ever</i> know.
 
-1100
-01:11:23,880 --> 01:11:27,079
-OK, two bottles. Explain.
+1006
+01:11:22,920 --> 01:11:24,320
+Okay, two bottles. Explain.
 
-1101
-01:11:27,160 --> 01:11:29,399
+1007
+01:11:26,200 --> 01:11:28,519
 There's a good bottle
 and a bad bottle.
 
-1102
-01:11:29,480 --> 01:11:31,999
-You take the pill
-from the good bottle, you live.
+1008
+01:11:28,520 --> 01:11:31,119
+You take the pill from
+the good bottle, you live.
 
-1103
-01:11:32,080 --> 01:11:36,119
-You take the pill
-from the bad bottle...you die.
+1009
+01:11:31,120 --> 01:11:35,279
+You take the pill from
+the bad bottle... you die.
 
-1104
-01:11:36,200 --> 01:11:38,759
+1010
+01:11:35,280 --> 01:11:37,919
 - Both bottles are of course identical.
 - In every way.
 
-1105
-01:11:38,840 --> 01:11:40,879
+1011
+01:11:37,920 --> 01:11:39,916
 - And you know which is which.
 - Of course I know.
 
-1106
-01:11:40,960 --> 01:11:42,799
-- But I don't.
-- Wouldn't be a game
+1012
+01:11:39,927 --> 01:11:40,855
+But I don't.
 
-1107
-01:11:42,880 --> 01:11:44,599
-if you knew -
-you're the one who chooses.
+1013
+01:11:40,880 --> 01:11:43,719
+Wouldn't be a game if you knew.
+You're the one who chooses.
 
-1108
-01:11:44,680 --> 01:11:48,639
+1014
+01:11:43,720 --> 01:11:47,720
 Why should I? I've got nothing
 to go on. What's in it for me?
 
-1109
-01:11:48,720 --> 01:11:51,439
+1015
+01:11:48,520 --> 01:11:50,520
 I haven't told you the best bit yet.
 
-1110
-01:11:52,480 --> 01:11:54,599
-Whatever bottle you choose,
+1016
+01:11:51,480 --> 01:11:53,719
+Whatever bottle <i>you</i> choose,
 
-1111
-01:11:54,680 --> 01:11:56,319
+1017
+01:11:53,720 --> 01:11:55,400
 I take the pill from the other one.
 
-1112
-01:11:57,360 --> 01:11:58,759
+1018
+01:11:56,360 --> 01:11:57,839
 And then together...
 
-1113
-01:11:58,840 --> 01:12:01,319
+1019
+01:11:57,840 --> 01:12:00,320
 we take our medicine.
 
-1114
-01:12:03,520 --> 01:12:06,359
+1020
+01:12:02,520 --> 01:12:05,400
 I won't cheat. It's your choice.
 
-1115
-01:12:07,680 --> 01:12:09,719
+1021
+01:12:06,720 --> 01:12:08,800
 I'll take whatever pill you don't.
 
-1116
-01:12:12,600 --> 01:12:14,999
-Didn't expect that, did you,
-Mr Holmes?
+1022
+01:12:11,680 --> 01:12:14,119
+Didn't expect that,
+did you, Mr. Holmes?
 
-1117
-01:12:15,080 --> 01:12:17,519
+1023
+01:12:14,120 --> 01:12:16,679
 This is what you did
-to the rest of them,
+to the rest of them...
 
-1118
-01:12:17,600 --> 01:12:20,039
+1024
+01:12:16,680 --> 01:12:19,080
 - you gave them a choice?
 - And now I'm giving you one.
 
-1119
-01:12:21,680 --> 01:12:23,519
+1025
+01:12:20,720 --> 01:12:22,639
 You take your time.
 
-1120
-01:12:23,600 --> 01:12:25,439
+1026
+01:12:22,640 --> 01:12:24,520
 Get yourself together.
 
-1121
-01:12:26,440 --> 01:12:29,359
+1027
+01:12:25,480 --> 01:12:28,479
 - I want your best game.
 - It's not a game, it's chance.
 
-1122
-01:12:29,440 --> 01:12:32,119
+1028
+01:12:28,480 --> 01:12:31,200
 I've played four times. I'm alive.
 
-1123
-01:12:33,120 --> 01:12:36,039
-It's not chance, Mr Holmes - it's chess.
+1029
+01:12:32,240 --> 01:12:35,080
+It's not chance, Mr. Holmes,
+it's chess.
 
-1124
-01:12:37,600 --> 01:12:40,239
+1030
+01:12:36,640 --> 01:12:38,679
 It's a game of chess,
-with one move...
 
-1125
-01:12:41,320 --> 01:12:43,319
-...and one survivor.
+1031
+01:12:38,680 --> 01:12:42,360
+with one move... and one survivor.
 
-1126
-01:12:44,520 --> 01:12:47,079
-And this...this...
+1032
+01:12:43,560 --> 01:12:46,199
+And this... this...
 
-1127
-01:12:47,160 --> 01:12:48,919
+1033
+01:12:46,200 --> 01:12:47,960
 is the move.
 
-1128
-01:12:57,360 --> 01:13:00,479
+1034
+01:12:56,400 --> 01:12:59,599
 Did I just give you the good bottle
 or the bad bottle?
 
-1129
-01:13:00,560 --> 01:13:02,799
+1035
+01:12:59,600 --> 01:13:01,840
 You can choose either one.
 
-1130
-01:13:05,800 --> 01:13:09,239
-No, Detective Inspector Lestrade -
+1036
+01:13:04,880 --> 01:13:08,359
+No, Detective Inspector Lestrade,
 I need to speak to him.
 
-1131
-01:13:09,320 --> 01:13:10,999
+1037
+01:13:08,360 --> 01:13:10,119
 It's important. It's an emergency.
 
-1132
-01:13:11,080 --> 01:13:13,319
+1038
+01:13:10,120 --> 01:13:12,400
 Er, left here, please. Left here...
 
-1133
-01:13:25,200 --> 01:13:27,359
-You ready yet, Mr Holmes?
+1039
+01:13:24,240 --> 01:13:26,479
+You ready yet, Mr. Holmes?
 
-1134
-01:13:27,440 --> 01:13:31,119
+1040
+01:13:26,480 --> 01:13:30,279
 - Ready to play?
 - Play what? It's a 50:50 chance.
 
-1135
-01:13:31,200 --> 01:13:33,839
-You're not playing the numbers -
-you're playing me.
+1041
+01:13:30,280 --> 01:13:32,920
+You're not playing the numbers,
+you're playing <i>me</i>.
 
-1136
-01:13:36,560 --> 01:13:38,879
+1042
+01:13:35,600 --> 01:13:37,999
 Did I just give you the good pill
 or the bad pill?
 
-1137
-01:13:38,960 --> 01:13:40,999
-Is it a bluff
+1043
+01:13:38,000 --> 01:13:40,119
+Is it a bluff,
 
-1138
-01:13:41,080 --> 01:13:43,039
+1044
+01:13:40,120 --> 01:13:42,199
 or a double bluff?
 
-1139
-01:13:43,120 --> 01:13:45,199
+1045
+01:13:42,200 --> 01:13:44,319
 - Or a triple bluff?
 - It's still just chance.
 
-1140
-01:13:45,280 --> 01:13:47,199
+1046
+01:13:44,320 --> 01:13:46,319
 Four people, in a row?
 It's not chance.
 
-1141
-01:13:47,280 --> 01:13:48,959
+1047
+01:13:46,320 --> 01:13:48,000
 - Luck.
 - It's genius!
 
-1142
-01:13:50,640 --> 01:13:53,039
+1048
+01:13:49,680 --> 01:13:52,199
 I know how people think.
 
-1143
-01:13:53,120 --> 01:13:55,119
+1049
+01:13:52,200 --> 01:13:54,160
 I know how people think I think.
 
-1144
-01:13:56,120 --> 01:13:58,559
+1050
+01:13:55,200 --> 01:13:57,600
 I can see it all
 like a map inside my head.
 
-1145
-01:13:59,640 --> 01:14:02,799
+1051
+01:13:58,680 --> 01:14:01,919
 Everyone's so stupid, even you.
 
-1146
-01:14:02,880 --> 01:14:04,519
+1052
+01:14:01,920 --> 01:14:03,600
 Or maybe God just loves me.
 
-1147
-01:14:08,000 --> 01:14:10,759
+1053
+01:14:07,040 --> 01:14:09,800
 Either way,
 you're wasted as a cabbie.
 
-1148
-01:14:19,480 --> 01:14:20,999
+1054
+01:14:18,560 --> 01:14:20,040
 So...
 
-1149
-01:14:22,000 --> 01:14:25,959
-...you risked your life four times
-just to kill strangers - why?
+1055
+01:14:21,080 --> 01:14:25,119
+You risked your life four times
+just to kill strangers? Why?
 
-1150
-01:14:26,040 --> 01:14:27,559
+1056
+01:14:25,120 --> 01:14:26,679
 Time to play.
 
-1151
-01:14:27,640 --> 01:14:31,359
-Oh, I am playing. This is my turn.
+1057
+01:14:26,680 --> 01:14:29,199
+Oh, I am playing.
 
-1152
-01:14:31,440 --> 01:14:36,759
-There's shaving foam behind your
-left ear. Nobody's pointed it out to you.
+1058
+01:14:29,200 --> 01:14:30,400
+This is my turn.
 
-1153
-01:14:36,840 --> 01:14:40,239
+1059
+01:14:31,440 --> 01:14:35,919
+There's shaving foam behind your left
+ear. Nobody's pointed it out to you.
+
+1060
+01:14:35,920 --> 01:14:39,297
 Traces of where it's happened before,
-so obviously you live on your own -
+so obviously you live on your own.
 
-1154
-01:14:40,320 --> 01:14:41,559
-there's no-one to tell you.
+1061
+01:14:39,321 --> 01:14:40,659
+There's no one to tell you.
 
-1155
-01:14:41,640 --> 01:14:44,479
+1062
+01:14:40,680 --> 01:14:43,599
 But there's a photograph of children.
-The children's mother's been cut out.
+Their mother's been cut out.
 
-1156
-01:14:44,560 --> 01:14:46,199
+1063
+01:14:43,600 --> 01:14:45,319
 If she'd died, she'd still be there.
 
-1157
-01:14:46,280 --> 01:14:48,159
+1064
+01:14:45,320 --> 01:14:47,279
 The photograph's old,
 but the frame's new.
 
-1158
-01:14:48,240 --> 01:14:50,599
+1065
+01:14:47,280 --> 01:14:49,679
 You think of your children,
 but you don't get to see them.
 
-1159
-01:14:50,680 --> 01:14:52,879
+1066
+01:14:49,680 --> 01:14:51,999
 Estranged father.
 
-1160
-01:14:52,960 --> 01:14:54,759
+1067
+01:14:52,000 --> 01:14:53,919
 She took the kids,
 
-1161
-01:14:54,840 --> 01:14:58,319
-but you still love them,
+1068
+01:14:53,920 --> 01:14:57,360
+but you still love them
 and it still hurts.
 
-1162
-01:14:59,360 --> 01:15:00,639
+1069
+01:14:58,400 --> 01:14:59,640
 Ah, but there's more.
 
-1163
-01:15:02,480 --> 01:15:04,519
+1070
+01:15:01,520 --> 01:15:03,679
 Your clothes. Recently laundered,
 
-1164
-01:15:04,600 --> 01:15:07,319
+1071
+01:15:03,680 --> 01:15:06,400
 but everything you're wearing
-is at least...three years old?
+is at least... three years old?
 
-1165
-01:15:07,400 --> 01:15:11,239
+1072
+01:15:07,200 --> 01:15:10,320
 Keeping up appearances,
 but not planning ahead.
 
-1166
-01:15:12,240 --> 01:15:16,239
+1073
+01:15:11,280 --> 01:15:15,320
 And here you are on a kamikaze
 murder spree. What's that about?
 
-1167
-01:15:20,560 --> 01:15:22,479
+1074
+01:15:19,600 --> 01:15:21,639
 Ah...
 
-1168
-01:15:22,560 --> 01:15:24,719
-three years ago.
+1075
+01:15:21,640 --> 01:15:23,839
+Three years ago.
 Is that when they told you?
 
-1169
-01:15:24,800 --> 01:15:27,079
+1076
+01:15:23,840 --> 01:15:26,199
 Told me what?
 
-1170
-01:15:27,160 --> 01:15:29,199
+1077
+01:15:26,200 --> 01:15:28,279
 - That you're a dead man walking.
 - So are you.
 
-1171
-01:15:29,280 --> 01:15:31,839
-You don't have long, though. Am I right?
+1078
+01:15:28,280 --> 01:15:29,919
+You don't have long, though.
 
-1172
-01:15:33,960 --> 01:15:36,399
+1079
+01:15:29,920 --> 01:15:32,040
+Am I right?
+
+1080
+01:15:33,000 --> 01:15:35,400
 Aneurism. Right in 'ere.
 
-1173
-01:15:39,000 --> 01:15:42,119
+1081
+01:15:38,040 --> 01:15:41,279
 Any breath could be my last.
 
-1174
-01:15:42,200 --> 01:15:45,639
+1082
+01:15:41,280 --> 01:15:44,759
 And because you're dying,
 you've just murdered four people.
 
-1175
-01:15:45,720 --> 01:15:47,599
+1083
+01:15:44,760 --> 01:15:46,640
 I've outlived four people.
 
-1176
-01:15:49,480 --> 01:15:52,039
+1084
+01:15:48,560 --> 01:15:51,040
 That's the most fun you can have
 with an aneurism.
 
-1177
-01:15:53,080 --> 01:15:56,599
+1085
+01:15:52,080 --> 01:15:55,759
 No... No, there's something else.
 
-1178
-01:15:56,680 --> 01:16:00,639
-You didn't just kill four people because
-you're bitter. Bitterness is a paralytic.
+1086
+01:15:55,760 --> 01:15:59,759
+You didn't just kill four people
+because you're bitter. Bitterness is a paralytic.
 
-1179
-01:16:00,720 --> 01:16:04,679
+1087
+01:15:59,760 --> 01:16:03,760
 Love is a much more vicious motivator.
 
-1180
-01:16:06,280 --> 01:16:09,279
+1088
+01:16:05,280 --> 01:16:08,399
 Somehow, this is about your children.
 
-1181
-01:16:09,360 --> 01:16:10,719
+1089
+01:16:08,400 --> 01:16:09,800
 Oh...
 
-1182
-01:16:12,760 --> 01:16:15,239
-- You are good, in't ya?
+1090
+01:16:11,800 --> 01:16:14,280
+- You <i>are</i> good, ain't ya?
 - But how?
 
-1183
-01:16:16,720 --> 01:16:19,479
-When I die, they won't get much,
+1091
+01:16:15,760 --> 01:16:18,520
+When I die they won't get much,
 my kids.
 
-1184
-01:16:21,680 --> 01:16:23,719
+1092
+01:16:20,680 --> 01:16:22,879
 Not a lot of money in driving cabs.
 
-1185
-01:16:23,800 --> 01:16:26,119
+1093
+01:16:22,880 --> 01:16:25,239
 - Or serial killing.
 - You'd be surprised.
 
-1186
-01:16:26,200 --> 01:16:27,799
+1094
+01:16:25,240 --> 01:16:26,880
 Surprise me.
 
-1187
-01:16:30,280 --> 01:16:33,479
-- I have a sponsor.
+1095
+01:16:29,280 --> 01:16:31,639
+I have a sponsor.
+
+1096
+01:16:31,640 --> 01:16:35,919
 - You have a what?
+- For every life I take, money goes to my kids.
 
-1188
-01:16:33,560 --> 01:16:36,759
-For every life I take,
-money goes to my kids.
-
-1189
-01:16:36,840 --> 01:16:40,879
+1097
+01:16:35,920 --> 01:16:39,360
 The more I kill...
 the better off they'll be.
 
-1190
-01:16:41,920 --> 01:16:44,359
+1098
+01:16:40,960 --> 01:16:43,439
 You see? It's nicer than you think.
 
-1191
-01:16:44,440 --> 01:16:46,279
+1099
+01:16:43,440 --> 01:16:45,399
 Who'd sponsor a serial killer?
 
-1192
-01:16:46,360 --> 01:16:48,999
+1100
+01:16:45,400 --> 01:16:48,040
 Who'd be a fan of Sherlock Holmes?
 
-1193
-01:16:52,680 --> 01:16:55,319
+1101
+01:16:51,760 --> 01:16:54,439
 You're not the only one
 to enjoy a good murder.
 
-1194
-01:16:55,400 --> 01:16:59,519
-There's others out there just like you,
-except you're just a man.
+1102
+01:16:54,440 --> 01:16:58,600
+There's others out there just
+like you, except you're just a man.
 
-1195
-01:17:00,920 --> 01:17:03,159
+1103
+01:16:59,960 --> 01:17:02,200
 And they're so much more than that.
 
-1196
-01:17:05,040 --> 01:17:06,599
+1104
+01:17:04,080 --> 01:17:05,759
 What do you mean...
 
-1197
-01:17:06,680 --> 01:17:08,759
+1105
+01:17:05,760 --> 01:17:07,800
 more than a man?
 
-1198
-01:17:08,840 --> 01:17:11,799
-An organisation...what?
+1106
+01:17:08,840 --> 01:17:10,919
+An organisation...? What?
 
-1199
-01:17:11,880 --> 01:17:15,999
-There's a name that no-one says.
+1107
+01:17:10,920 --> 01:17:15,159
+There's a name, that no-one says.
 
-1200
-01:17:16,080 --> 01:17:17,879
+1108
+01:17:15,160 --> 01:17:16,960
 And I'm not going to say it either.
 
-1201
-01:17:19,440 --> 01:17:21,679
+1109
+01:17:18,480 --> 01:17:20,760
 Now, enough chatter.
 
-1202
-01:17:23,760 --> 01:17:25,439
+1110
+01:17:22,800 --> 01:17:24,480
 Time to choose.
 
-1203
-01:17:30,240 --> 01:17:37,799
+1111
+01:17:29,280 --> 01:17:30,760
+Sherlock?!
+
+1112
+01:17:34,920 --> 01:17:36,919
 Sherlock!
 
-1204
-01:17:37,880 --> 01:17:41,319
+1113
+01:17:36,920 --> 01:17:40,360
 What if I don't choose either?
 I could just walk out of here.
 
-1205
-01:17:44,440 --> 01:17:47,239
+1114
+01:17:43,480 --> 01:17:46,359
 You can take a 50:50 chance,
 
-1206
-01:17:47,320 --> 01:17:50,279
+1115
+01:17:46,360 --> 01:17:49,320
 or I can shoot you in the head.
 
-1207
-01:17:51,640 --> 01:17:53,199
+1116
+01:17:50,680 --> 01:17:52,319
 Funnily enough,
 
-1208
-01:17:53,280 --> 01:17:55,199
+1117
+01:17:52,320 --> 01:17:54,319
 no-one's ever gone for that option.
 
-1209
-01:17:55,280 --> 01:17:57,359
+1118
+01:17:54,320 --> 01:17:56,360
 I'll have the gun, please.
 
-1210
-01:17:58,640 --> 01:17:59,999
+1119
+01:17:57,680 --> 01:17:59,040
 Are you sure?
 
-1211
-01:18:01,040 --> 01:18:03,679
+1120
+01:18:00,040 --> 01:18:02,839
 Definitely. The gun.
 
-1212
-01:18:03,760 --> 01:18:05,839
-You don't want to phone a friend (?)
+1121
+01:18:02,840 --> 01:18:04,880
+You don't want to phone a friend?
 
-1213
-01:18:06,920 --> 01:18:09,199
+1122
+01:18:05,960 --> 01:18:08,240
 The gun.
 
-1214
-01:18:14,000 --> 01:18:15,879
+1123
+01:18:13,000 --> 01:18:14,920
 I know a real gun when I see one.
 
-1215
-01:18:17,760 --> 01:18:20,039
+1124
+01:18:16,800 --> 01:18:19,120
 - None of the others did.
 - Clearly.
 
-1216
-01:18:21,080 --> 01:18:24,439
+1125
+01:18:20,120 --> 01:18:23,559
 Well, this has been very interesting.
 
-1217
-01:18:24,520 --> 01:18:27,039
+1126
+01:18:23,560 --> 01:18:26,040
 I look forward to the court case.
 
-1218
-01:18:30,560 --> 01:18:32,839
+1127
+01:18:29,640 --> 01:18:31,920
 Just before you go,
 did you figure it out?
 
-1219
-01:18:34,440 --> 01:18:36,359
+1128
+01:18:33,480 --> 01:18:35,479
 Which one's the good bottle?
 
-1220
-01:18:36,440 --> 01:18:38,599
+1129
+01:18:35,480 --> 01:18:37,640
 Course. Child's play.
 
-1221
-01:18:39,600 --> 01:18:40,879
+1130
+01:18:38,640 --> 01:18:39,920
 Well, which one, then?
 
-1222
-01:18:42,080 --> 01:18:43,759
+1131
+01:18:41,080 --> 01:18:42,879
 Which one would you have picked?
 
-1223
-01:18:43,840 --> 01:18:46,959
+1132
+01:18:42,880 --> 01:18:46,000
 Just so I know whether
 I could have beaten you.
 
-1224
-01:18:48,120 --> 01:18:49,959
+1133
+01:18:47,160 --> 01:18:49,079
 Come on!
 
-1225
-01:18:50,040 --> 01:18:51,839
+1134
+01:18:49,080 --> 01:18:50,880
 Play the game.
 
-1226
-01:19:05,560 --> 01:19:06,759
+1135
+01:19:04,600 --> 01:19:05,840
 Oh!
 
-1227
-01:19:07,800 --> 01:19:10,159
+1136
+01:19:06,800 --> 01:19:09,240
 Interesting.
 
-1228
-01:19:18,040 --> 01:19:19,959
+1137
+01:19:17,080 --> 01:19:19,040
 So what do you think?
 
-1229
-01:19:21,000 --> 01:19:23,079
+1138
+01:19:20,000 --> 01:19:22,080
 Shall we?
 
-1230
-01:19:25,040 --> 01:19:28,079
-Really...what do you think?
+1139
+01:19:24,120 --> 01:19:25,920
+Really... What do you think?
 
-1231
-01:19:29,280 --> 01:19:30,719
+1140
+01:19:28,320 --> 01:19:29,760
 Can you beat me?
 
-1232
-01:19:32,840 --> 01:19:35,919
+1141
+01:19:31,880 --> 01:19:34,040
 Are you clever enough...
 
-1233
-01:19:36,000 --> 01:19:37,839
+1142
+01:19:35,040 --> 01:19:36,920
 to bet your life?
 
-1234
-01:19:49,960 --> 01:19:51,159
-Sherlock!
+1143
+01:19:49,000 --> 01:19:50,240
+<i>Sherlock!</i>
 
-1235
-01:19:53,000 --> 01:19:55,479
+1144
+01:19:52,040 --> 01:19:54,560
 I bet you get bored, don't you?
 
-1236
-01:19:56,680 --> 01:19:58,359
+1145
+01:19:55,720 --> 01:19:57,479
 I know you do.
 
-1237
-01:19:58,440 --> 01:20:02,159
+1146
+01:19:57,480 --> 01:20:01,200
 A man like you. So clever.
 
-1238
-01:20:03,160 --> 01:20:07,559
+1147
+01:20:02,200 --> 01:20:06,600
 But what's the point of being clever
 if you can't prove it?
 
-1239
-01:20:08,560 --> 01:20:10,359
+1148
+01:20:07,600 --> 01:20:09,400
 Still the addict.
 
-1240
-01:20:12,000 --> 01:20:15,719
-But this...this is what
+1149
+01:20:11,040 --> 01:20:14,720
+But this... this is what
 you're really addicted to.
 
-1241
-01:20:17,720 --> 01:20:19,039
+1150
+01:20:16,720 --> 01:20:18,120
 You'll do anything...
 
-1242
-01:20:20,520 --> 01:20:24,279
-...anything at all,
+1151
+01:20:19,560 --> 01:20:23,320
+anything at all,
 to stop being bored.
 
-1243
-01:20:26,280 --> 01:20:28,039
+1152
+01:20:25,280 --> 01:20:27,080
 You're not bored now, are ya?
 
-1244
-01:20:29,040 --> 01:20:30,279
+1153
+01:20:28,080 --> 01:20:29,399
 Isn't it good?
 
-1245
-01:20:30,360 --> 01:20:31,519
-
-
-1246
-01:20:42,360 --> 01:20:44,319
-
-
-1247
-01:20:45,520 --> 01:20:47,079
+1154
+01:20:44,560 --> 01:20:46,159
 Was I right?
 
-1248
-01:20:47,160 --> 01:20:48,839
+1155
+01:20:46,160 --> 01:20:47,999
 I was, wasn't I?
 
-1249
-01:20:48,920 --> 01:20:50,319
-Did I get it right?
+1156
+01:20:48,000 --> 01:20:49,400
+Did I get it right?!
 
-1250
-01:20:54,080 --> 01:20:57,079
-OK...tell me this.
+1157
+01:20:53,080 --> 01:20:56,120
+Okay... Tell me this.
 
-1251
-01:20:58,360 --> 01:21:00,799
+1158
+01:20:57,360 --> 01:20:59,959
 Your sponsor. Who was it?
 
-1252
-01:21:00,880 --> 01:21:02,879
+1159
+01:20:59,960 --> 01:21:02,039
 The one who told you about me,
 my fan.
 
-1253
-01:21:02,960 --> 01:21:04,759
+1160
+01:21:02,040 --> 01:21:03,879
 I want a name.
 
-1254
-01:21:04,840 --> 01:21:06,279
+1161
+01:21:03,880 --> 01:21:05,399
 No...
 
-1255
-01:21:06,360 --> 01:21:09,439
+1162
+01:21:05,400 --> 01:21:08,519
 You're dying,
 but there's still time to hurt you.
 
-1256
-01:21:09,520 --> 01:21:12,119
-Give me...a name.
+1163
+01:21:08,520 --> 01:21:11,160
+Give me... a name.
 
-1257
-01:21:12,520 --> 01:21:13,799
+1164
+01:21:13,800 --> 01:21:16,640
+A name!
+Now.
 
-
-1258
-01:21:14,800 --> 01:21:17,639
-A name! Now!
-
-1259
-01:21:19,560 --> 01:21:20,799
+1165
+01:21:18,640 --> 01:21:19,919
 The name!
 
-1260
-01:21:20,880 --> 01:21:24,559
+1166
+01:21:19,920 --> 01:21:23,600
 Moriarty!
 
-1261
-01:21:35,920 --> 01:21:38,399
-
-
-1262
-01:21:38,800 --> 01:21:40,399
-
-
-1263
-01:21:45,600 --> 01:21:49,079
+1167
+01:21:44,680 --> 01:21:48,239
 Why have I got this blanket?
 They keep putting this blanket on me.
 
-1264
-01:21:49,160 --> 01:21:50,799
-- Yeah, it's for shock.
-- I'm not in shock.
+1168
+01:21:48,240 --> 01:21:49,959
+Yeah, it's for shock.
+I'm not in shock.
 
-1265
-01:21:50,880 --> 01:21:53,599
+1169
+01:21:49,960 --> 01:21:52,640
 Yeah, but some of the guys
 want to take photographs.
 
-1266
-01:21:55,400 --> 01:21:56,879
-So, the shooter - no sign?
+1170
+01:21:54,440 --> 01:21:56,039
+So, the shooter. No sign?
 
-1267
-01:21:56,960 --> 01:21:58,399
-Cleared off before we got here.
-
-1268
-01:21:58,480 --> 01:22:01,039
-But a guy like that
+1171
+01:21:56,040 --> 01:22:00,159
+Cleared off before we got here. But a guy like that
 would have had enemies, I suppose.
 
-1269
-01:22:01,120 --> 01:22:04,239
-One of them could have been
-following him, but...
+1172
+01:22:00,160 --> 01:22:03,359
+One of them could have
+been following him, but...
 
-1270
-01:22:04,320 --> 01:22:06,319
+1173
+01:22:03,360 --> 01:22:05,439
 we've got nothing to go on.
 
-1271
-01:22:06,400 --> 01:22:07,959
+1174
+01:22:05,440 --> 01:22:07,040
 Oh, I wouldn't say that.
 
-1272
-01:22:09,600 --> 01:22:11,039
-OK. Give me.
+1175
+01:22:08,640 --> 01:22:10,199
+Okay. Give me.
 
-1273
-01:22:11,120 --> 01:22:14,039
+1176
+01:22:10,200 --> 01:22:13,199
 The bullet they just dug
 out of the wall's from a handgun.
 
-1274
-01:22:14,120 --> 01:22:16,159
+1177
+01:22:13,200 --> 01:22:15,937
 A kill shot over that distance,
-from that kind of a weapon,
-
-1275
-01:22:16,240 --> 01:22:18,599
 that's a crack shot.
-But not just a marksman, a fighter.
 
-1276
-01:22:18,680 --> 01:22:22,239
-His hands couldn't have shaken at all,
+1178
+01:22:15,949 --> 01:22:17,745
+But not just a marksman,
+a fighter.
+
+1179
+01:22:17,760 --> 01:22:21,399
+His hands couldn't have shaken at all
 so clearly he's acclimatised to violence.
 
-1277
-01:22:22,320 --> 01:22:26,119
+1180
+01:22:21,400 --> 01:22:25,279
 He didn't fire until I was in immediate
-danger, though, so strong moral principle.
+danger though, so strong moral principle.
 
-1278
-01:22:26,200 --> 01:22:30,239
-You're looking for a man probably
-with a history of military service and...
+1181
+01:22:25,280 --> 01:22:29,359
+You're looking for a man probably with
+a history of military service, and...
 
-1279
-01:22:30,320 --> 01:22:31,599
+1182
+01:22:29,360 --> 01:22:30,640
 nerves of steel...
 
-1280
-01:22:38,280 --> 01:22:39,839
-Actually, do you know what? Ignore me.
+1183
+01:22:37,360 --> 01:22:40,679
+- Actually, do you know what? Ignore me.
+- Sorry? Ignore all of that.
 
-1281
-01:22:39,920 --> 01:22:41,559
-- Sorry?
-- Ignore all of that.
+1184
+01:22:40,680 --> 01:22:43,399
+It's just the er... the shock talking.
 
-1282
-01:22:41,640 --> 01:22:44,999
-- It's just the, er...the shock talking.
+1185
+01:22:43,400 --> 01:22:46,279
 - Where are you going?
+- I just need to... talk about the rent.
 
-1283
-01:22:45,080 --> 01:22:47,079
-I just need to...talk about
-the...the rent.
-
-1284
-01:22:47,160 --> 01:22:48,679
+1186
+01:22:46,280 --> 01:22:49,679
 - I've still got questions.
-- Oh, what now?!
+- What now? I'm in shock. Look, I've got a blanket.
 
-1285
-01:22:48,760 --> 01:22:50,519
-I'm in shock - look, I've got a blanket.
-
-1286
-01:22:50,600 --> 01:22:51,799
+1187
+01:22:49,680 --> 01:22:54,920
 - Sherlock!
-- And...
+- And, I just caught you a serial killer... More or less.
 
-1287
-01:22:51,880 --> 01:22:55,839
-I just caught you a serial killer...
-more or less.
+1188
+01:22:57,600 --> 01:23:00,920
+Okay. We'll pull you in tomorrow,
+off you go.
 
-1288
-01:22:58,520 --> 01:23:01,879
-OK. We'll pull you in tomorrow.
-Off you go.
+1189
+01:23:08,600 --> 01:23:12,199
+Erm... Sergeant Donovan has...
+just been explaining everything.
 
-1289
-01:23:09,520 --> 01:23:15,959
-Erm...Sergeant Donovan's...just been
-explaining...everything. Two pills...
+1190
+01:23:12,200 --> 01:23:14,240
+The two pills...
 
-1290
-01:23:16,040 --> 01:23:18,199
-Dreadful business, isn't it? Dreadful.
+1191
+01:23:15,240 --> 01:23:17,240
+- Dreadful business, isn't it?
+- Dreadful.
 
-1291
-01:23:19,200 --> 01:23:20,399
+1192
+01:23:18,280 --> 01:23:19,440
 Good shot.
 
-1292
-01:23:21,600 --> 01:23:23,679
-Yes. Yes, must have been.
-Through that window.
+1193
+01:23:20,680 --> 01:23:23,720
+- Yes, must have been. Through that window.
+- Well, you'd know.
 
-1293
-01:23:23,760 --> 01:23:26,639
-Well, you'd know.
-
-1294
-01:23:26,720 --> 01:23:29,039
+1194
+01:23:26,120 --> 01:23:28,199
 Need to get the powder burns
 out of your fingers.
 
-1295
-01:23:29,120 --> 01:23:33,199
-I don't suppose you'd serve time
-for this, but let's avoid the court case.
+1195
+01:23:28,200 --> 01:23:32,319
+I don't suppose you'd serve time for
+this, but let's avoid the court case.
 
-1296
-01:23:33,280 --> 01:23:35,919
+1196
+01:23:32,320 --> 01:23:35,079
 - Are you all right?
 - Yes, of course I'm all right.
 
-1297
-01:23:36,000 --> 01:23:37,719
+1197
+01:23:35,080 --> 01:23:36,760
 - Well, you have just killed a man.
-- Yes, I...
+- Yes...
 
-1298
-01:23:41,440 --> 01:23:42,759
+1198
+01:23:40,440 --> 01:23:41,840
 That's true, isn't it?
 
-1299
-01:23:43,920 --> 01:23:46,079
+1199
+01:23:42,960 --> 01:23:45,120
 But he wasn't a very nice man.
 
-1300
-01:23:47,720 --> 01:23:51,439
+1200
+01:23:46,760 --> 01:23:50,559
 - No. No, he wasn't, really, was he?
-- Frankly, a bloody awful cabbie.
+- Frankly a bloody awful cabbie.
 
-1301
-01:23:51,520 --> 01:23:54,399
-That's true,
-he was a bad cabbie.
+1201
+01:23:50,560 --> 01:23:53,519
+That's true, he was a bad cabbie.
 
-1302
-01:23:54,480 --> 01:23:57,119
-You should have seen the route
-he took us to get here.
+1202
+01:23:53,520 --> 01:23:56,279
+You should have seen
+the route he took us to get here.
 
-1303
-01:23:57,200 --> 01:23:59,919
-Stop! We can't giggle,
+1203
+01:23:56,280 --> 01:23:58,999
+Stop it! We can't giggle,
 it's a crime scene. Stop it.
 
-1304
-01:24:00,000 --> 01:24:02,359
-- You're the one who shot him.
-- Keep your voice down!
+1204
+01:23:59,000 --> 01:24:01,479
+- Well, you're the one who shot him.
+- Keep your voice down.
 
-1305
-01:24:02,440 --> 01:24:04,559
-Sorry, it's just, erm...nerves, I think.
+1205
+01:24:01,480 --> 01:24:05,039
+Sorry, it's just erm...
+nerves, I think. Sorry.
 
-1306
-01:24:04,640 --> 01:24:05,919
-Sorry.
+1206
+01:24:05,040 --> 01:24:09,360
+- You were going to take that damn pill, weren't you?
+- Course I wasn't.
 
-1307
-01:24:06,000 --> 01:24:09,039
-You were going to take that damn pill,
-weren't you?
+1207
+01:24:10,160 --> 01:24:12,359
+Biding my time. Knew you'd turn up.
 
-1308
-01:24:09,120 --> 01:24:13,199
-Course I wasn't. Biding my time.
-Knew you'd turn up.
-
-1309
-01:24:13,280 --> 01:24:14,839
+1208
+01:24:12,360 --> 01:24:13,999
 No, you didn't.
 
-1310
-01:24:14,920 --> 01:24:16,639
+1209
+01:24:14,000 --> 01:24:17,719
 That's how you get your kicks, isn't it?
-
-1311
-01:24:16,720 --> 01:24:18,599
 You risk your life to prove you're clever.
 
-1312
-01:24:18,680 --> 01:24:21,599
+1210
+01:24:17,720 --> 01:24:20,680
 - Why would I do that?
 - Because you're an idiot.
 
-1313
-01:24:23,040 --> 01:24:25,679
+1211
+01:24:22,120 --> 01:24:24,839
 - Dinner?
 - Starving.
 
-1314
-01:24:25,760 --> 01:24:28,479
-End of Baker Street, there's
+1212
+01:24:24,840 --> 01:24:27,599
+End of Baker Street there's
 a good Chinese. Stays open till two.
 
-1315
-01:24:28,560 --> 01:24:31,039
-You can tell a good Chinese
-by the bottom third of the door handle.
+1213
+01:24:27,600 --> 01:24:30,159
+You can tell a good Chinese by the
+bottom third of the door handle.
 
-1316
-01:24:31,120 --> 01:24:34,999
-Sherlock...that's him, that's the man
-I was talking to you about.
+1214
+01:24:30,160 --> 01:24:34,119
+Sherlock... That's him, that's
+the man I was talking to you about.
 
-1317
-01:24:35,080 --> 01:24:37,559
+1215
+01:24:34,120 --> 01:24:36,719
 I know exactly who that is.
 
-1318
-01:24:37,640 --> 01:24:40,159
-So...another case cracked.
+1216
+01:24:36,720 --> 01:24:39,319
+So... Another case cracked.
 
-1319
-01:24:40,240 --> 01:24:42,679
+1217
+01:24:39,320 --> 01:24:41,839
 How very public-spirited.
 
-1320
-01:24:42,760 --> 01:24:45,119
+1218
+01:24:41,840 --> 01:24:44,160
 Though that's never really
 your motivation, is it?
 
-1321
-01:24:46,200 --> 01:24:47,719
+1219
+01:24:45,200 --> 01:24:46,839
 What are you doing here?
 
-1322
-01:24:47,800 --> 01:24:49,279
+1220
+01:24:46,840 --> 01:24:48,399
 As ever, I'm concerned about you.
 
-1323
-01:24:49,360 --> 01:24:51,679
+1221
+01:24:48,400 --> 01:24:50,799
 Yes, I've been hearing
 about your "concern".
 
-1324
-01:24:51,760 --> 01:24:53,399
+1222
+01:24:50,800 --> 01:24:52,559
 Always so aggressive.
 
-1325
-01:24:53,480 --> 01:24:56,319
+1223
+01:24:52,560 --> 01:24:55,439
 Did it never occur to you that
 you and I belong on the same side?
 
-1326
-01:24:56,400 --> 01:24:58,399
-Oddly enough...no.
+1224
+01:24:55,440 --> 01:24:57,519
+Oddly enough, no.
 
-1327
-01:24:58,480 --> 01:25:01,479
+1225
+01:24:57,520 --> 01:25:00,599
 We have more in common
 than you'd like to believe.
 
-1328
-01:25:01,560 --> 01:25:05,599
+1226
+01:25:00,600 --> 01:25:03,719
 This petty feud between us
-is simply childish. People will suffer.
+is simply childish.
 
-1329
-01:25:05,680 --> 01:25:08,439
-And you know how it always upset Mummy.
+1227
+01:25:03,720 --> 01:25:07,480
+People will suffer. And you know
+how it always upset Mummy.
 
-1330
-01:25:09,600 --> 01:25:11,159
+1228
+01:25:08,600 --> 01:25:10,279
 I upset her?
 
-1331
-01:25:11,240 --> 01:25:13,479
+1229
+01:25:10,280 --> 01:25:12,639
 Me?
 
-1332
-01:25:13,560 --> 01:25:15,839
+1230
+01:25:12,640 --> 01:25:14,959
 It wasn't me that upset her, Mycroft.
 
-1333
-01:25:15,920 --> 01:25:17,279
+1231
+01:25:14,960 --> 01:25:16,359
 No. No, wait...
 
-1334
-01:25:17,360 --> 01:25:18,639
+1232
+01:25:16,360 --> 01:25:17,759
 Mummy? Who's Mummy?
 
-1335
-01:25:18,720 --> 01:25:21,079
+1233
+01:25:17,760 --> 01:25:20,199
 Mother. Our mother.
 
-1336
-01:25:21,160 --> 01:25:24,759
+1234
+01:25:20,200 --> 01:25:21,879
 This is my brother, Mycroft.
+
+1235
+01:25:21,880 --> 01:25:23,840
 Putting on weight again?
 
-1337
-01:25:25,760 --> 01:25:28,159
+1236
+01:25:24,800 --> 01:25:27,279
 - Losing it, in fact.
 - He's your brother?
 
-1338
-01:25:28,240 --> 01:25:30,119
+1237
+01:25:27,280 --> 01:25:29,160
 Course he's my brother.
 
-1339
-01:25:31,120 --> 01:25:32,639
+1238
+01:25:30,160 --> 01:25:31,720
 - So he's not...
 - Not what?
 
-1340
-01:25:34,160 --> 01:25:38,519
-- I don't know...criminal mastermind?
+1239
+01:25:33,200 --> 01:25:35,640
+I don't know... Criminal mastermind?
+
+1240
+01:25:36,640 --> 01:25:38,959
 - Close enough.
+- For goodness' sake.
 
-1341
-01:25:38,600 --> 01:25:39,839
-For goodness' sake,
-
-1342
-01:25:39,920 --> 01:25:42,119
+1241
+01:25:38,960 --> 01:25:41,279
 I occupy a minor position
-in the British Government.
+in the British government.
 
-1343
-01:25:42,200 --> 01:25:43,719
-He is the British Government,
+1242
+01:25:41,280 --> 01:25:46,159
+He is the British government, when he's not
+too busy being the British secret service
 
-1344
-01:25:43,800 --> 01:25:46,039
-when he's not too busy
-being the British Secret Service
-
-1345
-01:25:46,120 --> 01:25:48,719
+1243
+01:25:46,160 --> 01:25:47,799
 or the CIA on a freelance basis.
 
-1346
-01:25:48,800 --> 01:25:52,239
-Good evening, Mycroft.
-Try not to start a war before I get home -
+1244
+01:25:47,800 --> 01:25:51,399
+Good evening, Mycroft. Try not
+to start a war before I get home,
 
-1347
-01:25:52,320 --> 01:25:53,959
-you know what it does for the traffic.
+1245
+01:25:51,400 --> 01:25:53,040
+you know what it does
+for the traffic.
 
-1348
-01:25:56,800 --> 01:26:00,159
-So, when you say you're concerned
-about him, you actually are concerned?
+1246
+01:25:55,880 --> 01:25:59,319
+So, when you say you're concerned about him,
+you actually are concerned?
 
-1349
-01:26:00,240 --> 01:26:01,759
+1247
+01:25:59,320 --> 01:26:00,840
 Yes, of course.
 
-1350
-01:26:02,760 --> 01:26:04,839
-It actually is a childish feud?
+1248
+01:26:01,840 --> 01:26:03,960
+I mean, it actually is
+a childish feud?
 
-1351
-01:26:04,920 --> 01:26:07,799
+1249
+01:26:04,720 --> 01:26:06,919
 He's always been so resentful.
 
-1352
-01:26:07,880 --> 01:26:09,719
-You can imagine the Christmas dinners.
+1250
+01:26:06,920 --> 01:26:10,559
+- You can imagine the Christmas dinners.
+- Yeah...
 
-1353
-01:26:09,800 --> 01:26:11,399
-Yeah...
-
-1354
-01:26:11,480 --> 01:26:13,519
+1251
+01:26:10,560 --> 01:26:12,600
 No... God, no.
 
-1355
-01:26:14,640 --> 01:26:17,439
-I'd better, erm... Hello again.
+1252
+01:26:13,680 --> 01:26:15,519
+I'd better erm...
 
-1356
-01:26:18,520 --> 01:26:21,799
+1253
+01:26:15,520 --> 01:26:17,679
+Hello again.
+
+1254
+01:26:17,680 --> 01:26:20,920
 - Hello.
 - We met earlier on this evening.
 
-1357
-01:26:21,880 --> 01:26:23,599
-Oh!
+1255
+01:26:21,880 --> 01:26:23,959
+- Oh!
+- Okay. Goodnight.
 
-1358
-01:26:23,680 --> 01:26:26,519
-- OK. Good night.
-- Good night, Dr Watson.
+1256
+01:26:23,960 --> 01:26:25,600
+Goodnight, Dr. Watson.
 
-1359
-01:26:28,440 --> 01:26:30,079
+1257
+01:26:27,440 --> 01:26:29,199
 - So, dim sum.
 - Mmm!
 
-1360
-01:26:30,160 --> 01:26:31,919
-I can always predict the fortune cookies.
-
-1361
-01:26:32,000 --> 01:26:33,399
+1258
+01:26:29,200 --> 01:26:31,719
+- I can always predict the fortune cookies.
 - No, you can't.
-- Almost can.
 
-1362
-01:26:33,480 --> 01:26:34,599
-You did get shot, though.
+1259
+01:26:31,720 --> 01:26:33,759
+Almost can. You did get shot, though.
 
-1363
-01:26:34,680 --> 01:26:35,759
+1260
+01:26:33,760 --> 01:26:36,119
 - Sorry?
-- In Afghanistan.
+- In Afghanistan. There was an actual wound.
 
-1364
-01:26:35,840 --> 01:26:36,999
-There was an actual wound.
-
-1365
-01:26:37,080 --> 01:26:39,399
+1261
+01:26:36,120 --> 01:26:38,519
 - Oh. Yeah, shoulder.
 - Shoulder! I thought so.
 
-1366
-01:26:39,480 --> 01:26:41,079
+1262
+01:26:38,520 --> 01:26:40,273
 - No, you didn't.
 - The left one.
 
-1367
-01:26:41,160 --> 01:26:42,679
+1263
+01:26:40,285 --> 01:26:41,823
 - Lucky guess.
 - I never guess.
 
-1368
-01:26:42,760 --> 01:26:44,239
+1264
+01:26:41,840 --> 01:26:43,399
 Yes, you do.
 
-1369
-01:26:44,320 --> 01:26:46,879
+1265
+01:26:43,400 --> 01:26:46,039
 - What are you so happy about?
 - Moriarty.
 
-1370
-01:26:46,960 --> 01:26:50,159
+1266
+01:26:46,040 --> 01:26:49,200
 - What's Moriarty?
 - I've absolutely no idea.
 
-1371
-01:26:51,880 --> 01:26:54,359
+1267
+01:26:50,960 --> 01:26:53,479
 Sir, shall we go?
 
-1372
-01:26:54,440 --> 01:26:57,079
+1268
+01:26:53,480 --> 01:26:56,279
 Interesting, that soldier fellow.
 
-1373
-01:26:57,160 --> 01:26:59,879
-He could be the making of my brother...
+1269
+01:26:56,280 --> 01:26:59,039
+He could be the making
+of my brother...
 
-1374
-01:26:59,960 --> 01:27:01,599
+1270
+01:26:59,040 --> 01:27:00,680
 or make him worse than ever.
 
-1375
-01:27:02,640 --> 01:27:05,519
-Either way, we'd better upgrade
-their surveillance status.
+1271
+01:27:01,720 --> 01:27:04,679
+Either way, we'd better
+upgrade their surveillance status.
 
-1376
-01:27:05,600 --> 01:27:07,959
-Grade 3 active.
+1272
+01:27:04,680 --> 01:27:07,079
+Grade three active.
 
-1377
-01:27:08,040 --> 01:27:10,039
-Sorry, sir - whose status?
+1273
+01:27:07,080 --> 01:27:09,080
+Sorry, sir... Whose status?
 
-1378
-01:27:12,120 --> 01:27:15,440
-Sherlock Holmes and Dr.Watsan
+1274
+01:27:11,120 --> 01:27:14,440
+Sherlock Holmes, and Dr. Watson.
 
-1379
-01:28:30,120 --> 01:30:15,440
-SubTiltle By : Tar698
+1275
+01:27:48,271 --> 01:27:52,192
+Original Subtitles by Red Bee Media Ltd.
+

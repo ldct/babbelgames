@@ -27,7 +27,7 @@ defmodule Srt do
         l1
         |> Enum.map(fn e -> pairEntry(e, l2) end)
         |> IO.inspect
-        |> Enum.filter(fn {_, _, score} -> score > 0.3 end)
+        |> Enum.filter(fn {_, _, score} -> score > 0.5 end)
         |> Enum.map(fn {a, b, _} -> {a, b} end)
         # :ok
     end
@@ -77,6 +77,7 @@ defmodule Srt do
     def parseSrtEntry(entry) do
         arr = entry
         |> String.split("\r\n")
+        |> IO.inspect
 
         time = arr
         |> Enum.at(1)
