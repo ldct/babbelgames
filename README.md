@@ -11,14 +11,6 @@ rsync -avzPe "ssh -i ./xuanji-OSX.pem" ./opus-OS/en-fr/fr ubuntu@54.201.205.125:
 ln -s ../lexparser_xj.sh lexparser_xj.sh
 mkdir opus-OS
 
-## build jsx
-
-node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] main.jsx -o static/bundle.js
-
-node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] matchingGame.jsx -o static/matchingBundle.js
-
-node_modules/browserify/bin/cmd.js -t [ babelify --presets [ react ] ] matchingGameOrdered.jsx -o static/matchingOrderedBundle.js
-
 ## deployment
 
 ```
@@ -27,7 +19,11 @@ iex -S mix
 # {:ok, _} = Plug.Adapters.Cowboy.http Frex, [], port: 4000
 ```
 
-## stats
+## fixing screwed up files
+
+bbe -e "s/\xe9/é/g" s01e01.srt > s01e01.fixed.srt
+
+## stats for vikidia
 
 after filtering out stubs, etc: 35958 (19017 unique)
 after filtering out sentences that don't contain est: 15117 unique

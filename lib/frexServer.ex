@@ -77,6 +77,32 @@ defmodule FrexServer do
     ))
   end
 
+  get "/sentenceMatchingGame/sherlock.s01e01.srt.json" do
+
+    entries = Srt.pairSrt("sherlock/en/s01e01.srt", "sherlock/fr/s01e01.srt")
+    |> Enum.map(fn {a, b} -> [a, b] end)
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, Poison.encode!(
+      entries,
+      pretty: true
+    ))
+  end
+
+  get "/sentenceMatchingGame/sherlock.s01e02.srt.json" do
+
+    entries = Srt.pairSrt("sherlock/en/s01e02.srt", "sherlock/fr/s01e02.srt")
+    |> Enum.map(fn {a, b} -> [a, b] end)
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, Poison.encode!(
+      entries,
+      pretty: true
+    ))
+  end
+
   def randomIndex(arr) do
     :rand.uniform * (length(arr) - 1) |> round
   end

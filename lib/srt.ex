@@ -27,7 +27,7 @@ defmodule Srt do
         l1
         |> Enum.map(fn e -> pairEntry(e, l2) end)
         |> IO.inspect
-        |> Enum.filter(fn {_, _, score} -> score > 0.5 end)
+        |> Enum.filter(fn {_, _, score} -> score > 0.3 end)
         |> Enum.map(fn {a, b, _} -> {a, b} end)
         # :ok
     end
@@ -60,8 +60,10 @@ defmodule Srt do
     def parseSrt(filename) do
         filename
         |> File.read!
+        |> String.replace("\r\n\r\n\r\n", "\r\n\r\n")
         |> String.split("\r\n\r\n")
         |> Enum.filter(fn e -> isEmptyEntry e end)
+        |> IO.inspect
         |> Enum.map(fn e -> parseSrtEntry e end)
     end
 
