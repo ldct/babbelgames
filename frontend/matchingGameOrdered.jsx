@@ -43,7 +43,7 @@ var Tile = React.createClass({
       textAlign: 'center',
     }} onClick={function () {
       if (self.props.handleClick) {
-        self.props.handleClick(self.props.matchKey, self.props.lang);        
+        self.props.handleClick(self.props.matchKey, self.props.lang);
       }
     }} className = {(!this.props.selected && this.props.handleClick) ? 'dim-on-hover' : ''}>{this.props.text}</div>
   }
@@ -66,12 +66,19 @@ var BlankTile = React.createClass({
   }
 });
 
-var OrderedMatchingGame = React.createClass({
+var OrderedMatchingGame = React.createClass({ /* a slab of 10 tiles */
   getInitialState: function () {
     return {
       'selectedTile': null,
       'solved': []
     }
+  },
+  handleSolve: function (matchKey) {
+    var newSolved = this.state.solved.concat(matchKey);
+    this.props.onNumMatchedChanged(newSolved);
+    this.setState({
+      'solved': newSolved
+    });
   },
   handleEnTileClick: function (matchKey, lang) {
     var self = this;
@@ -84,9 +91,7 @@ var OrderedMatchingGame = React.createClass({
       })
     } else {
       if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
-        self.setState({
-          'solved': self.state.solved.concat(matchKey)
-        });
+        this.handleSolve(matchKey);
       } else {
         console.log('no match!');
       }
@@ -96,7 +101,6 @@ var OrderedMatchingGame = React.createClass({
     }
   },
   handleFrTileClick: function (matchKey, lang) {
-    console.log('handleFrTileClick');
     var self = this;
     if (self.state.selectedTile === null) { /* select a tile */
       self.setState({
@@ -107,11 +111,7 @@ var OrderedMatchingGame = React.createClass({
       })
     } else { /* attempt a match */
       if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
-        var newSolved = self.state.solved.concat(matchKey);
-        this.props.onNumMatchedChanged(newSolved.length);
-        self.setState({
-          'solved': newSolved
-        });
+        this.handleSolve(matchKey);
       }
       self.setState({
         'selectedTile': null
@@ -202,6 +202,31 @@ var TranslationsReference = React.createClass({
   }
 });
 
+var insertParam = function (key, value) {
+    key = encodeURI(key); value = encodeURI(value);
+
+    var kvp = document.location.search.substr(1).split('&');
+
+    var i=kvp.length; var x; while(i--)
+    {
+        x = kvp[i].split('=');
+
+        if (x[0]==key)
+        {
+            x[1] = value;
+            kvp[i] = x.join('=');
+            break;
+        }
+    }
+
+    if(i<0) {kvp[kvp.length] = [key,value].join('=');}
+
+    console.log(kvp);
+
+    window.history.replaceState(null, null, window.location.pathname + '?' + kvp.join('&'));
+    // document.location.search = kvp.join('&');
+}
+
 var ProgressBar = React.createClass({
   render: function () {
     const pct = 100 * this.props.done / this.props.total;
@@ -222,16 +247,20 @@ var App = React.createClass({
       numMatched: 0,
     };
   },
-  handleNumMatchedChanged: function (numMatched) {
+  handleNumMatchedChanged: function (solved) {
     var self = this;
-    if (numMatched === 5) {
+
+
+
+    if (solved.length === 5) {
+      insertParam('start', self.state.startIdx + 1);
       this.setState({
         startIdx: self.state.startIdx + 1,
         numMatched: 0,
       });
     } else {
       this.setState({
-        numMatched: numMatched,
+        numMatched: solved.length,
       });
     }
   },
@@ -264,7 +293,8 @@ fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
 
   var start = parseInt(getQueryParameterByName('start'), 10) || 0;
 
-  var activityPairs = res.slice(start); // [en, fr] pairs
+  var activityPairs = res; // [en, fr] pairs
+
   var chunksOfActivityPairs = _.chunk(activityPairs, 5);
 
   var scrambledChunksOfActivityPairs = chunksOfActivityPairs.map(function (chunk) {
