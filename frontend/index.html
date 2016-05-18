@@ -38,7 +38,7 @@ var EpisodeTile = React.createClass({
           top: 0, left: 0,
           width: '100%', height: '100%',
         }}
-        src={'/img/' + this.props.src + '.jpg'} />
+        src={'/img/' + this.props.src.replace('/', '.') + '.jpg'} />
       <div
         style={{
           visibility: isSelected ? 'visible' : 'hidden',
@@ -86,26 +86,26 @@ var App = React.createClass({
       flexWrap: 'wrap',
     }}>
       <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.s01e01" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.s01e02" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e03" />
       <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley.s01e01" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley.s01e02" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley/s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley/s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="silicon.valley/s01e03" />
       <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits.s01e01" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits.s01e02" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits/s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits/s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="suits/s01e03" />
       <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.s01e01" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.s01e02" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.s01e03" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation.s01e04" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation/s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation/s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation/s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="parks.and.recreation/s01e04" />
       <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym.s01e01" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym.s01e02" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym.s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym/s01e01" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym/s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="himym/s01e03" />
     </div>
   }
 });
