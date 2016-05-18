@@ -10,7 +10,7 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/friends.s01e01.srt.json" do
 
-    entries = Srt.pairSrt("friends/en/s01e01.srt", "friends/fr/s01e01.srt")
+    entries = Srt.pairSrt("subtitles/friends/en/s01e01.srt", "subtitles/friends/fr/s01e01.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
 
     conn
@@ -23,7 +23,7 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/friends.s01e02.srt.json" do
 
-    entries = Srt.pairSrt("friends/en/s01e02.srt", "friends/fr/s01e02.srt")
+    entries = Srt.pairSrt("subtitles/friends/en/s01e02.srt", "subtitles/friends/fr/s01e02.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
 
     conn
@@ -36,7 +36,7 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/sherlock.s01e01.srt.json" do
 
-    entries = Srt.pairSrt("sherlock/en/s01e01.srt", "sherlock/fr/s01e01.srt")
+    entries = Srt.pairSrt("subtitles/sherlock/en/s01e01.srt", "subtitles/sherlock/fr/s01e01.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
 
     conn
@@ -49,7 +49,7 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/sherlock.s01e02.srt.json" do
 
-    entries = Srt.pairSrt("sherlock/en/s01e02.srt", "sherlock/fr/s01e02.srt")
+    entries = Srt.pairSrt("subtitles/sherlock/en/s01e02.srt", "subtitles/sherlock/fr/s01e02.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
 
     conn
@@ -69,70 +69,37 @@ defmodule FrexServer do
   end
 
   get "/matchingGame.html" do
-    contents = File.read!("static/matchingGame.html")
+    contents = File.read!("frontend/matchingGame.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
     |> send_resp(200, contents)
   end
 
   get "/index.html" do
-    contents = File.read!("static/index.html")
+    contents = File.read!("frontend/index.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
     |> send_resp(200, contents)
   end
 
   get "/matchingGameOrdered.html" do
-    contents = File.read!("static/matchingGameOrdered.html")
+    contents = File.read!("frontend/matchingGameOrdered.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
     |> send_resp(200, contents)
   end
 
   get "/img/:filename" do
-    contents = File.read!("static/img/" <> filename)
+    contents = File.read!("frontend/img/" <> filename)
     conn
     |> send_resp(200, contents)
   end
 
   get "/matchingGameOrdered.jsx" do
-    contents = File.read!("static/matchingGameOrdered.jsx")
+    contents = File.read!("frontend/matchingGameOrdered.jsx")
     conn
     |> put_resp_content_type("application/javascript; charset=UTF-8")
     |> send_resp(200, contents)
-  end
-
-  get "/bundle.js" do
-    contents = File.read!("static/bundle.js")
-    conn
-    |> put_resp_content_type("application/javascript; charset=UTF-8")
-    |> send_resp(200, contents)
-  end
-
-  get "/matchingBundle.js" do
-    contents = File.read!("static/matchingBundle.js")
-    conn
-    |> put_resp_content_type("application/javascript; charset=UTF-8")
-    |> send_resp(200, contents)
-  end
-
-  get "subtitle-noparse/random.json" do
-    fr = File.stream!("opus-OS/en-fr/fr")
-    en = File.stream!("opus-OS/en-fr/en")
-    n = randomIndex()
-
-    frSentence = fr |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
-    enSentence = en |> Enum.at(n) |> String.replace("\n", "") |> String.replace(~r/^- /, "")
-
-    conn
-    |> put_resp_content_type("application/json")
-    |> send_resp(200, Poison.encode!(
-      %{
-        'original': frSentence,
-        'translated': enSentence,
-      },
-      pretty: true
-    ))
   end
 
   def translateFrenchWord(word) do
@@ -155,7 +122,6 @@ defmodule FrexServer do
   end
 
   get "translate/:words" do
-
 
     translatedWords = words
     |> String.split(",")
