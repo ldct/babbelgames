@@ -26,7 +26,7 @@ var Tile = React.createClass({
   render: function () {
     var self = this;
     return <div style={{
-      backgroundColor: this.props.lang === 'en' ? (this.props.selected ? 'rgba(66, 143, 196, 1)' : 'rgba(66, 143, 196, 0.7)') : 'rgba(255, 147, 0, 0.7)',
+      backgroundColor: this.props.lang === 'en' ? (this.props.selected ? 'rgba(66, 143, 196, 1)' : 'rgba(66, 143, 196, 0.7)') : (this.props.selected ? '#D58313' : 'rgba(255, 147, 0, 0.7)'),
       borderColor: '#e5e6e9 #dfe0e4 #d0d1d5',
       borderWidth: '1px',
       borderStyle: 'solid',
@@ -42,8 +42,10 @@ var Tile = React.createClass({
       justifyContent: 'center',
       textAlign: 'center',
     }} onClick={function () {
-      self.props.handleClick(self.props.matchKey, self.props.lang);
-    }} className = {((this.props.lang === 'en' && !this.props.selected) || (this.props.lang === 'fr')) ? 'dim-on-hover' : ''}>{this.props.text}</div>
+      if (self.props.handleClick) {
+        self.props.handleClick(self.props.matchKey, self.props.lang);        
+      }
+    }} className = {(!this.props.selected && this.props.handleClick) ? 'dim-on-hover' : ''}>{this.props.text}</div>
   }
 });
 
@@ -84,7 +86,7 @@ var OrderedMatchingGame = React.createClass({
       if (self.state.selectedTile.matchKey === matchKey && self.state.selectedTile.lang !== lang) {
         self.setState({
           'solved': self.state.solved.concat(matchKey)
-        })
+        });
       } else {
         console.log('no match!');
       }
@@ -94,6 +96,7 @@ var OrderedMatchingGame = React.createClass({
     }
   },
   handleFrTileClick: function (matchKey, lang) {
+    console.log('handleFrTileClick');
     var self = this;
     if (self.state.selectedTile === null) { /* select a tile */
       self.setState({
@@ -138,14 +141,15 @@ var OrderedMatchingGame = React.createClass({
         flexDirection: "row",
         justifyContent: "center",
       }}>{ /* fixed french */
-        this.props.frTilesData.map(function (frTileData) {
+        this.props.frTilesData.map((frTileData) => {
+          var clickable = self.state.solved.indexOf(frTileData.matchKey) === -1;
           return <Tile
             text={frTileData.text}
             lang="fr"
             key={frTileData.matchKey}
             matchKey={frTileData.matchKey}
             selected={self.state.selectedTile && self.state.selectedTile.matchKey === frTileData.matchKey && self.state.selectedTile.lang === frTileData.lang}
-            handleClick={self.handleFrTileClick}/>
+            handleClick={clickable ? self.handleFrTileClick : null}/>
         })
       }</div>
 
