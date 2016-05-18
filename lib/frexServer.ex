@@ -10,7 +10,7 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/friends.s01e01.srt.json" do
 
-    entries = Srt.pairSrt("subtitles/friends/en/s01e01.srt", "subtitles/friends/fr/s01e01.srt")
+    entries = Srt.pairSrt("data/subtitles/friends/en/s01e01.srt", "data/subtitles/friends/fr/s01e01.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
 
     conn
@@ -23,7 +23,7 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/friends.s01e02.srt.json" do
 
-    entries = Srt.pairSrt("subtitles/friends/en/s01e02.srt", "subtitles/friends/fr/s01e02.srt")
+    entries = Srt.pairSrt("data/subtitles/friends/en/s01e02.srt", "data/subtitles/friends/fr/s01e02.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
 
     conn
@@ -36,7 +36,7 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/sherlock.s01e01.srt.json" do
 
-    entries = Srt.pairSrt("subtitles/sherlock/en/s01e01.srt", "subtitles/sherlock/fr/s01e01.srt")
+    entries = Srt.pairSrt("data/subtitles/sherlock/en/s01e01.srt", "data/subtitles/sherlock/fr/s01e01.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
 
     conn
@@ -49,7 +49,7 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/sherlock.s01e02.srt.json" do
 
-    entries = Srt.pairSrt("subtitles/sherlock/en/s01e02.srt", "subtitles/sherlock/fr/s01e02.srt")
+    entries = Srt.pairSrt("data/subtitles/sherlock/en/s01e02.srt", "data/subtitles/sherlock/fr/s01e02.srt")
     |> Enum.map(fn {a, b} -> [a, b] end)
 
     conn
