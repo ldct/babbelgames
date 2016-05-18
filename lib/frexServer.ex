@@ -68,14 +68,6 @@ defmodule FrexServer do
     :rand.uniform * 100000 |> round
   end
 
-
-  get "/index.html" do
-    contents = File.read!("static/index.html")
-    conn
-    |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, contents)
-  end
-
   get "/matchingGame.html" do
     contents = File.read!("static/matchingGame.html")
     conn
@@ -83,8 +75,8 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
-  get "/main.html" do
-    contents = File.read!("static/main.html")
+  get "/index.html" do
+    contents = File.read!("static/index.html")
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
     |> send_resp(200, contents)
