@@ -66,7 +66,7 @@ defmodule Srt do
 
         matchingTLIs = transcriptLineInfo
         |> Enum.filter(fn tli ->
-            tli
+            (String.length(line) > 0) && tli
             |> Map.fetch!(:line)
             |> String.contains?(line)
         end)
@@ -78,16 +78,6 @@ defmodule Srt do
             })
             true -> srtLine
         end
-    end
-
-    def pairSrtWithTranscript(srtFilename, transcriptFilename) do
-
-
-        srtEntries = srtFilename
-        |> parseSrt
-        |> Enum.slice(0..100)
-
-
     end
 
     def pairSrt(l1Filename, l2Filename, transcriptFilename) do
@@ -181,9 +171,19 @@ defmodule Srt do
         [start_time, end_time] = time
         |> Enum.map(fn t -> parseTime t end)
 
+        lines = Enum.slice(arr, 2..-1)
+        |> IO.inspect
+        |> Enum.map(fn l ->
+            l
+            |> String.replace(~r/\<.*\>/U, "")
+            |> String.replace(~r/^\-/, "")      # todo: this is removing speaker line markers
+            |> String.replace(~r/^\ +/, "")
+        end)
+        |> IO.inspect
+
         %{
           "time": [start_time, end_time],
-          'lines': Enum.slice(arr, 2..-1) |> Enum.join(" ")
+          'lines': lines |> Enum.join(" ")
         }
     end
 
