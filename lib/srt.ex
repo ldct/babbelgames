@@ -20,16 +20,98 @@ defmodule Srt do
 
     end
 
+    def stripPunctuation(str) do
+        if str == nil do
+            nil
+        else
+            str
+            |> String.downcase
+            |> String.replace(~r/[^a-z\ ]/, "")
+        end
+    end
+
+    def removeParens(str) do
+        str |> String.replace(~r/\(.*\)/sU, "")
+        |> String.replace(~r/\<.*\)/sU, "")
+    end
+
+    def collapseWhitespace(str) do
+        str |> String.replace(~r/\ +/, " ")
+    end
+
+    def parseTranscriptLine(line) do
+        parts = line
+        |> String.split(": ", parts: 2)
+
+        cond do
+           (parts |> Enum.at(0)) == nil -> nil
+           (parts |> Enum.at(1)) == nil -> nil
+           true -> %{
+            :speaker => parts |> Enum.at(0),
+            :line => parts |> Enum.at(1) |> Srt.stripPunctuation |> Srt.collapseWhitespace
+           }
+        end
+
+    end
+
+    def parseTranscriptForLines(transcriptFilename) do
+        transcriptFilename
+        |> File.read!
+        |> Srt.removeParens
+        |> String.replace("d’", "do ")
+        |> String.replace("gonna", "going to")
+        |> String.split("\n")
+        |> Enum.filter(fn x -> (String.length x) > 0 end)
+        |> Enum.filter(fn x -> x |> String.contains?(":") end)
+        |> Enum.map(fn x -> parseTranscriptLine x end)
+        |> Enum.filter(fn x -> x != nil end)
+    end
+
+    def addSpeakerToSrtLine(srtLine, transcriptLineInfo) do
+
+        line = srtLine
+        |> Map.fetch!(:lines)
+        |> Srt.stripPunctuation
+        |> String.downcase
+
+        matchingTLIs = transcriptLineInfo
+        |> Enum.filter(fn tli ->
+            tli
+            |> Map.fetch!(:line)
+            |> String.contains?(line)
+        end)
+
+        cond do
+          (matchingTLIs |> length) == 1 ->
+            srtLine |> Map.merge(%{
+                :speaker => matchingTLIs |> Enum.at(0) |> Map.fetch!(:speaker),
+            })
+            true -> srtLine
+        end
+    end
+
+    def pairSrtWithTranscript(srtFilename, transcriptFilename) do
+
+        transcriptLineInfo = transcriptFilename
+        |> parseTranscriptForLines
+        |> IO.inspect
+
+        srtEntries = srtFilename
+        |> parseSrt
+        |> Enum.slice(0..100)
+        |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end)
+
+
+    end
+
     def pairSrt(l1Filename, l2Filename) do
         l1 = l1Filename |> parseSrt
         l2 = l2Filename |> parseSrt
 
         l1
         |> Enum.map(fn e -> pairEntry(e, l2) end)
-        |> IO.inspect
         |> Enum.filter(fn {_, _, score} -> score > 0.5 end)
         |> Enum.map(fn {a, b, _} -> {a, b} end)
-        # :ok
     end
 
     def pairEntry(entry, l2) do
@@ -63,7 +145,6 @@ defmodule Srt do
         |> String.replace("\r\n\r\n\r\n", "\r\n\r\n")
         |> String.split("\r\n\r\n")
         |> Enum.filter(fn e -> isEmptyEntry e end)
-        |> IO.inspect
         |> Enum.map(fn e -> parseSrtEntry e end)
     end
 
@@ -77,7 +158,6 @@ defmodule Srt do
     def parseSrtEntry(entry) do
         arr = entry
         |> String.split("\r\n")
-        |> IO.inspect
 
         time = arr
         |> Enum.at(1)
