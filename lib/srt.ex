@@ -60,7 +60,7 @@ defmodule Srt do
     def addSpeakerToSrtLine(srtLine, transcriptLineInfo) do
 
         line = srtLine
-        |> Map.fetch!(:lines)
+        |> Map.fetch!(:l1)
         |> Nlp.stripPunctuation
         |> String.downcase
 
@@ -88,9 +88,10 @@ defmodule Srt do
         |> parseTranscriptForLines
 
         l1
-        |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end)
         |> Enum.map(fn e -> pairEntry(e, l2) end)
         |> Enum.filter(fn %{:score => score} -> score > 0.5 end)
+        |> Enum.flat_map(fn p -> splitSrtPairsSentences(p) end)
+        |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end)
         |> Enum.map(fn
             %{ :l1 => a, :l2 => b, :speaker => s} -> {a, b, s}
             %{ :l1 => a, :l2 => b} -> {a, b}
@@ -109,6 +110,16 @@ defmodule Srt do
             %{ :l1 => a, :l2 => b, :speaker => s} -> {a, b, s}
             %{ :l1 => a, :l2 => b} -> {a, b}
         end)
+    end
+
+    def splitSrtPairsSentences(p) do
+        %{:l1 => l1, :l2 => l2} = p
+        |> IO.inspect
+        [%{
+            :l1 => l1,
+            :l2 => l2,
+        }]
+        # todo: split sentences, match them if possible
     end
 
     def pairEntry(entry, l2) do
@@ -150,6 +161,7 @@ defmodule Srt do
         |> String.replace("\r\n\r\n\r\n", "\r\n\r\n")
         |> String.split("\r\n\r\n")
         |> Enum.filter(fn e -> isEmptyEntry e end)
+        |> Enum.slice(1..20)
         |> Enum.map(fn e -> parseSrtEntry e end)
     end
 
@@ -172,14 +184,12 @@ defmodule Srt do
         |> Enum.map(fn t -> parseTime t end)
 
         lines = Enum.slice(arr, 2..-1)
-        |> IO.inspect
         |> Enum.map(fn l ->
             l
             |> String.replace(~r/\<.*\>/U, "")
             |> String.replace(~r/^\-/, "")      # todo: this is removing speaker line markers
             |> String.replace(~r/^\ +/, "")
         end)
-        |> IO.inspect
 
         %{
           "time": [start_time, end_time],

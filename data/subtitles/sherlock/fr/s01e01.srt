@@ -7,7 +7,7 @@ English SRT Subtitles - UF (v1.00)
 00:01:28,040 --> 00:01:30,240
 Comment avance votre blog?
 
-3 
+3
 00:01:31,800 --> 00:01:35,600
 Bien, très bien...
 
@@ -17,7 +17,7 @@ Vous n'avez pas écrit un mot, n'est-ce pas?
 
 5
 00:01:37,280 --> 00:01:40,120
-Vous venez d'écrire 
+Vous venez d'écrire
 "a toujours des problèmes de confiance"
 
 6
@@ -34,7 +34,7 @@ John, vous êtes un soldat
 
 9
 00:01:51,760 --> 00:01:55,360
-et vous allez mettre du temps 
+et vous allez mettre du temps
 à vous habituer à la vie civile
 
 10
@@ -96,12 +96,12 @@ Taxi, taxi!
 
 23
 00:03:52,160 --> 00:03:54,160
-J'en ai pour deux minutes mec. 
+J'en ai pour deux minutes mec.
 Quoi?
 
 24
 00:03:54,160 --> 00:03:57,200
-Je vais juste à la maison pour chercher mon parapluie. 
+Je vais juste à la maison pour chercher mon parapluie.
 Tu peux partager le mien.
 
 25
@@ -132,19 +132,19 @@ Secrétaire d'Etat au transport,
 
 31
 00:05:00,280 --> 00:05:04,920
-A été trouvé la nuit dernière dans un immeuble 
+A été trouvé la nuit dernière dans un immeuble
 de la banlieue de Londres.
 
 32
 00:05:04,920 --> 00:05:08,560
-L'enquête préliminaire laisse 
+L'enquête préliminaire laisse
 présumer qu'il s'agit d'un suicide.
 
 
 33
 00:05:08,560 --> 00:05:12,520
-Nous pouvons confirmer que ce suicide présumé 
-ressemble de près à ceux de 
+Nous pouvons confirmer que ce suicide présumé
+ressemble de près à ceux de
 
 
 34
@@ -174,12 +174,12 @@ Et bien, ils ont tous pris le même poison.
 
 39
 00:05:29,400 --> 00:05:32,600
-Ils ont tous été trouvés dans des lieux 
+Ils ont tous été trouvés dans des lieux
 où ils n'avaient aucune raison d'être.
 
 40
 00:05:32,600 --> 00:05:35,760
-Aucun d'entre eux ne montrait de signes 
+Aucun d'entre eux ne montrait de signes
 préalables. Mais il ne peut pas y avoir de suicides en série.
 
 41
@@ -241,25 +241,25 @@ chance que ça soit des meurtres?
 
 53
 00:06:22,360 --> 00:06:25,120
-Et si c'est le cas, est-ce l'oeuvre 
+Et si c'est le cas, est-ce l'oeuvre
 d'un tueur en série?
 
 54
 00:06:25,120 --> 00:06:29,960
-Je sais que vous aimez 
-écrire à ce sujet mais il 
+Je sais que vous aimez
+écrire à ce sujet mais il
 semblerait que ce sont des suicides
 
 
 55
 00:06:29,960 --> 00:06:34,000
-Nous connaissons la différence. Le poison 
+Nous connaissons la différence. Le poison
 a clairement été auto-administré.
 
 
 56
 00:06:34,000 --> 00:06:37,040
-Oui, mais s'il y a des meurtres, 
+Oui, mais s'il y a des meurtres,
 comment doivent faire les gens pour rester en sécurité?
 
 57
@@ -272,8 +272,8 @@ Daily Mail!
 
 59
 00:06:40,960 --> 00:06:48,840
-Evidemment, c'est une période effrayante 
-pour la population mais tout ce que chacun doit faire est de 
+Evidemment, c'est une période effrayante
+pour la population mais tout ce que chacun doit faire est de
 faire preuve de précautions.
 
 60
@@ -295,7 +295,7 @@ Il nous fait passer pour des cons.
 
 64
 00:07:07,800 --> 00:07:10,360
-Si tu peux me dire 
+Si tu peux me dire
 comment il fait ça, je l'arrêterai.
 
 65
@@ -331,7 +331,7 @@ Donc tu es toujours à Barts?
 
 72
 00:07:46,600 --> 00:07:49,880
-J'enseigne désormais, oui, de jeunes gens 
+J'enseigne désormais, oui, de jeunes gens
 brillants comme nous l'avons été.
 
 73
@@ -340,7 +340,7 @@ Mon dieu, je les hais.
 
 74
 00:07:51,960 --> 00:07:54,680
-Et toi, tu restes en ville jusqu'à ce que 
+Et toi, tu restes en ville jusqu'à ce que
 tu sois rétabli?
 
 75
@@ -423,7 +423,7 @@ Peut-être que plus tard, quand vous aurez terminé...
 
 92
 00:09:01,520 --> 00:09:03,600
-Vous mettez du rouge à lèvres. 
+Vous mettez du rouge à lèvres.
 Vous n'en mettiez pas avant.
 
 93
@@ -535,7 +535,7 @@ Ca vous dérangerait?
 
 117
 00:10:31,480 --> 00:10:33,680
-Des colocataires potentiels doivent savoir 
+Des colocataires potentiels doivent savoir
 le pire de chacun d'entre eux.
 
 118
@@ -548,8 +548,8 @@ Qui a dit quoi que ce soit à propos de colocataires?
 
 120
 00:10:40,360 --> 00:10:44,680
-Moi. J'ai dis à Mike ce matin 
-que quelqu'un comme moi aurait du mal 
+Moi. J'ai dis à Mike ce matin
+que quelqu'un comme moi aurait du mal
 à trouver un colocataire.
 
 
@@ -583,7 +583,7 @@ On se vera là bas demain soir,
 
 127
 00:10:59,200 --> 00:11:03,120
-Désolé, il faut que je me sauve. Je crois que 
+Désolé, il faut que je me sauve. Je crois que
 j'ai laissé ma cravache à la morgue.
 
 128
@@ -613,7 +613,7 @@ Je ne connais même pas votre nom.
 
 134
 00:11:19,720 --> 00:11:22,760
-Je sais que vous êtes un médecin de l'Armée 
+Je sais que vous êtes un médecin de l'Armée
 et que vous êtes revenu blessé d'Afghanistan.
 
 135
@@ -623,12 +623,12 @@ mais vous n'irez pas lui demander son l'aide parce que vous ne le méprisez
 
 136
 00:11:25,880 --> 00:11:30,520
-peut être parce qu'il est alcoolique, plus probablement parce 
+peut être parce qu'il est alcoolique, plus probablement parce
 qu'il a récemment quitté sa femme.
 
 137
 00:11:30,520 --> 00:11:35,080
-Et je sais que votre psy  pense que votre boitement 
+Et je sais que votre psy  pense que votre boitement
 est psychosomatique, ce qui est vrai, j'en ai peur.
 
 
@@ -732,7 +732,7 @@ Quans pensez vous, Dr Watson?
 
 161
 00:14:21,840 --> 00:14:25,840
-Il y a une autre chambre à l'étage, 
+Il y a une autre chambre à l'étage,
 si jamais vous avez besoin de deux chambres.
 
 162
@@ -750,7 +750,7 @@ Sherlock! Le bazare que vous avez mis.
 
 165
 00:14:45,960 --> 00:14:47,720
-J'ai rechercé des infos sur vous 
+J'ai rechercé des infos sur vous
 sur internet la nuit dernière.
 
 166
@@ -764,8 +764,8 @@ Qu'en pensez-vous?
 
 168
 00:14:58,080 --> 00:15:02,440
-Vous dites que vous pouvez identifier un 
-concepteur de logiciels à sa cravate et 
+Vous dites que vous pouvez identifier un
+concepteur de logiciels à sa cravate et
 un pilote de ligne à son pouce gauche??
 
 169
@@ -812,7 +812,7 @@ Qu'y-a-t-il de nouveau cette fois? Vous ne seriez pas venu sinon.
 
 179
 00:15:34,480 --> 00:15:37,160
-Vous savez qu'ils ne laissent jamais de lettres? 
+Vous savez qu'ils ne laissent jamais de lettres?
 Celui là si.
 
 180
@@ -856,7 +856,7 @@ je serai en retard. J'aurai besoin de nourriture.
 
 189
 00:16:08,760 --> 00:16:11,520
-Je suis votre logeuse, mon cher, 
+Je suis votre logeuse, mon cher,
 pas votre gouvernante.
 
 190
@@ -879,7 +879,7 @@ Mais vous êtes plus du genre posé, je le sent.
 
 194
 00:16:26,440 --> 00:16:28,600
-Je vais vous faire ce thé, 
+Je vais vous faire ce thé,
 reposez votre jambe.
 
 195
@@ -926,7 +926,7 @@ C'est très bien.
 
 205
 00:17:00,520 --> 00:17:03,280
-Vous avez vu nombre de blessures, donc. 
+Vous avez vu nombre de blessures, donc.
 Des morts violentes.
 
 206
@@ -957,12 +957,12 @@ Suicides impossibles? Quatre en tout?
 
 212
 00:17:25,360 --> 00:17:28,520
-Aucun intérêt à rester à la maison quand il se passe enfin 
+Aucun intérêt à rester à la maison quand il se passe enfin
 quelque chose d'intéressant.
 
 213
 00:17:28,520 --> 00:17:31,920
-Regardez-vous, tout content. C'est n'est pas convenable. 
+Regardez-vous, tout content. C'est n'est pas convenable.
 Qui s'inquète des convenances?
 
 214
@@ -1005,8 +1005,8 @@ Je suis détective consultant. Le seul au monde, j'ai inventé ce travail.
 
 223
 00:18:36,600 --> 00:18:40,840
-Qu'est-ce que ça signifie? Ca signifie que lorsque 
-la police n'a plus pied, donc tout le temps, 
+Qu'est-ce que ça signifie? Ca signifie que lorsque
+la police n'a plus pied, donc tout le temps,
 
 224
 00:18:40,840 --> 00:18:44,800
@@ -1015,8 +1015,8 @@ La police ne consulte pas des amateurs.
 
 225
 00:18:46,360 --> 00:18:50,720
-Quand je vous ai rencontré la première fois hier, 
-j'ai dis Afghanistan ou Irak? 
+Quand je vous ai rencontré la première fois hier,
+j'ai dis Afghanistan ou Irak?
 Vous avez eu l'air surpris..
 
 226
@@ -1044,7 +1044,7 @@ donc médecin de l'Armée, évidemment.
 
 231
 00:19:04,880 --> 00:19:08,280
-'mais pas en dessous des poignets. Vous êtes allé à 
+'mais pas en dessous des poignets. Vous êtes allé à
 l'étranger mais n'avez pas fait bronzette.
 
 232
@@ -1059,7 +1059,7 @@ lorsque vous vous tenez debout.
 
 234
 00:19:14,360 --> 00:19:17,520
-'Cela veut dire que les circonstances de la 
+'Cela veut dire que les circonstances de la
 blessure étaient traumatisantes
 
 235
@@ -1072,7 +1072,7 @@ Vous avez dit que j'ai un psy.
 
 237
 00:19:24,160 --> 00:19:27,280
-Vous boitez à cause d'un trouble psychique - évidemment que 
+Vous boitez à cause d'un trouble psychique - évidemment que
 vous avez un psy.
 238
 00:19:27,280 --> 00:19:29,160
@@ -1100,7 +1100,7 @@ Il a été dans la même poche que clés et monnaie.
 
 243
 00:19:38,640 --> 00:19:40,840
-Vous ne traiteriez pas votre seul objet de luxe 
+Vous ne traiteriez pas votre seul objet de luxe
 de cette façon,
 
 244
@@ -1139,7 +1139,7 @@ c'est donc une relation sentimentale.
 
 251
 00:20:00,720 --> 00:20:04,120
-La valeur du téléhpone  laisse à penser à une épouse, 
+La valeur du téléhpone  laisse à penser à une épouse,
 pas à une copine
 
 252
@@ -1163,13 +1163,13 @@ Non, il voulait s'en débarasser. Il l'a quittée.
 
 256
 00:20:13,520 --> 00:20:15,960
-Il vous a donné le téléphone, 
+Il vous a donné le téléphone,
 donc il voulait rester en contact.
 
 257
 00:20:15,960 --> 00:20:20,120
 Vous recherchez un logement pas cher,
-mais vous n'allez pas demander de l'aide à 
+mais vous n'allez pas demander de l'aide à
 votre frère -
 
 258
@@ -1192,12 +1192,12 @@ Plein de petites éraflures autour.
 
 262
 00:20:32,200 --> 00:20:34,720
-Tous les soirs il le met à recharger mais 
+Tous les soirs il le met à recharger mais
 ses mains tremblent.
 
 263
 00:20:34,720 --> 00:20:36,800
-Vous ne verrez jamais ces marques 
+Vous ne verrez jamais ces marques
 sur le téléhpone d'un homme sobre.
 
 264
@@ -1240,7 +1240,7 @@ Harry et moi on ne s'entend pas,
 
 272
 00:21:18,040 --> 00:21:21,200
-Clara and Harry se sont séparés 
+Clara and Harry se sont séparés
 il y a trois mois
 
 273
@@ -1253,7 +1253,7 @@ et Harry est un buveur.
 
 275
 00:21:24,760 --> 00:21:27,520
-Attention, cependant. Je n'espérais pas avoir 
+Attention, cependant. Je n'espérais pas avoir
 raison à propos de tout.
 
 276
@@ -1271,7 +1271,7 @@ Non - Sérieusment, Qu'est-ce que je fais ici? Il y a toujours quelque chose.
 
 279
 00:21:37,720 --> 00:21:41,320
-Salut Freaks! Je suis là pour voir 
+Salut Freaks! Je suis là pour voir
 l'Inspecteur en Chef Lestrade.
 
 280
@@ -1289,7 +1289,7 @@ Je crois qu'il veut que je jette un oeil.
 
 283
 00:21:46,040 --> 00:21:49,560
-Bien, tu sais ce que j'en pense, n'est-ce pas? 
+Bien, tu sais ce que j'en pense, n'est-ce pas?
 Comme toujours, Sally.
 
 284
@@ -1332,7 +1332,7 @@ Ah, Anderson. Nous y revoila.
 
 293
 00:22:21,160 --> 00:22:25,080
-C'est une scène de crime. Je ne veut pas 
+C'est une scène de crime. Je ne veut pas
 la voir contaminée. Est-ce clair?
 
 
@@ -1358,7 +1358,7 @@ Mon déodorant?
 
 299
 00:22:34,280 --> 00:22:38,080
-C'est pour hommes. Bien sûr que c'est pour hommes - j'en met. 
+C'est pour hommes. Bien sûr que c'est pour hommes - j'en met.
 
 300
 00:22:38,080 --> 00:22:39,320
@@ -1375,12 +1375,12 @@ Quoi que vous tentiez d'insinuer...
 
 303
 00:22:45,240 --> 00:22:51,080
-Je n'insinue rien du tout. Je suis certain que Sally 
+Je n'insinue rien du tout. Je suis certain que Sally
 est passée pour une petite discussion, et qu'elle est restée par hasard.
 
 304
 00:22:51,080 --> 00:22:54,760
-Et je suppose qu'elle a frotté votre parquet, 
+Et je suppose qu'elle a frotté votre parquet,
 à en juger par l'état de ses genoux.
 
 305
@@ -1454,7 +1454,7 @@ Elle est allemande.
 
 322
 00:25:40,360 --> 00:25:43,920
-Rache. C'est l'allemand pour revanche. 
+Rache. C'est l'allemand pour revanche.
 Elle a peut être tenté de nous dire quelque chose.
 
 323
@@ -1463,8 +1463,8 @@ Oui, merci pour la contribution.
 
 324
 00:25:45,880 --> 00:25:49,160
-Donc elle est allemande? Bien sûr que non. 
-Elle vient de l'extérieur de la ville, cependant.  
+Donc elle est allemande? Bien sûr que non.
+Elle vient de l'extérieur de la ville, cependant.
 
 325
 00:25:49,160 --> 00:25:50,880
@@ -1495,7 +1495,7 @@ Nous avons une équipe entière dehors.
 
 331
 00:26:01,520 --> 00:26:04,600
-Ils ne travailleront pas avec moi. 
+Ils ne travailleront pas avec moi.
 J'enfreinds toutes les règles en vous laissant ici.
 
 332
@@ -1528,7 +1528,7 @@ Et bien? Qu'est-ce que je fait ici?
 
 339
 00:26:26,360 --> 00:26:30,080
-Vous m'aidez à me faire une idée. 
+Vous m'aidez à me faire une idée.
 Je suis censé vous aider à payer le loyer.
 C'est plus drôle.
 
@@ -1582,12 +1582,12 @@ Je penche pour les medias, vu l'effroyable ton rose.
 
 351
 00:27:17,760 --> 00:27:22,080
-A voyagée depuis Cardiff dans l'intention de rester 
+A voyagée depuis Cardiff dans l'intention de rester
 à Londres pour une nuit, d'après la taille de sa valise.
 
 352
 00:27:22,080 --> 00:27:25,680
-Valise? Oui. Elle a été mariée au moins 10 ans, 
+Valise? Oui. Elle a été mariée au moins 10 ans,
 mais pas heureuse.
 
 353
@@ -1606,7 +1606,7 @@ Vieille d'au moin 10 ans.
 
 356
 00:27:33,320 --> 00:27:38,600
-Le reste de ses bijoux a été nettoyé réguilièrement, 
+Le reste de ses bijoux a été nettoyé réguilièrement,
 mais pas sa bague de mariage.
 
 357
@@ -1624,7 +1624,7 @@ Elle ne travaille pas avec ses mains, donc pourquoi retire-t-elle sa bague?
 
 360
 00:27:48,520 --> 00:27:52,240
-Pas un seul amant, elle n'aurait jamais pu entretenir 
+Pas un seul amant, elle n'aurait jamais pu entretenir
 l'illusion d'être célibataire pendant si longtemps.
 
 361
@@ -1661,7 +1661,7 @@ Elle l'a relevé à cause du vent.
 
 368
 00:28:13,240 --> 00:28:15,800
-Elle a un parapluie dans sa poche, 
+Elle a un parapluie dans sa poche,
 mais il est sec et n'a pas été utilisé.
 
 369
@@ -1671,7 +1671,7 @@ trop fort pour son parapluie.
 
 370
 00:28:18,360 --> 00:28:21,280
-On sait d'après sa valise qu'elle 
+On sait d'après sa valise qu'elle
 avait l'intention de rester pour la nuit.
 
 371
@@ -1681,7 +1681,7 @@ mais elle n'a pas pu voyager plus de 2 ou 3 heures
 
 372
 00:28:25,640 --> 00:28:29,800
-Donc - Où y'a-t-il eu de fortes pluie et 
+Donc - Où y'a-t-il eu de fortes pluie et
 un vent violent dans un rayon de ce temps de trajet?
 
 373
@@ -1714,7 +1714,7 @@ Non, elle laissait un message furieux en Allemand - bien sûr qu'elle écrivait 
 
 379
 00:28:48,840 --> 00:28:52,760
-Pourquoi a-t-elle attendu de mourir pour l'écrire? 
+Pourquoi a-t-elle attendu de mourir pour l'écrire?
 Comment savez-vous qu'elle avait une valise?
 
 380
@@ -1723,7 +1723,7 @@ Il y a des petites éclaboussures sur ses chevilles et mollet droit mais pas du 
 
 381
 00:28:55,800 --> 00:29:00,360
-Elle trainait une valise à roulettes derrière elle 
+Elle trainait une valise à roulettes derrière elle
 avec la main droite, d'après ces traces d'éclaboussures.
 
 
@@ -1738,7 +1738,7 @@ pour une femme qui fait si attention à sa tenue -
 
 384
 00:29:04,280 --> 00:29:07,240
-nepeut convenir que pour une nuit donc on sait 
+nepeut convenir que pour une nuit donc on sait
 qu'elle ne restait que pour la nuit.
 
 385
@@ -1757,7 +1757,7 @@ Il n'y a jamais eu de valise.
 
 388
 00:29:16,520 --> 00:29:21,000
-Une valise! Est-ce que quelqu'un a trouvé une valise? 
+Une valise! Est-ce que quelqu'un a trouvé une valise?
 Y'avait-il une valise dans cette maison?
 
 389
@@ -1960,7 +1960,7 @@ Un jour viendra où ça ne suffira plus.
 
 436
 00:32:06,760 --> 00:32:10,040
-Un jour on se tiendra devant un corps 
+Un jour on se tiendra devant un corps
 et ce sera lui qui l'aura mis là.
 
 437
@@ -1974,7 +1974,7 @@ Les psychopathes s'ennuient.
 
 439
 00:32:15,720 --> 00:32:17,640
-Donovan! 
+Donovan!
 J'arrive.
 
 440
@@ -2071,7 +2071,7 @@ Comment faites vous ça?
 
 463
 00:34:20,320 --> 00:34:25,840
-'Je pourrais vous menacer, mais je suis cerain 
+'Je pourrais vous menacer, mais je suis cerain
 que la situation vous apparaît clairement.
 
 464
@@ -2140,7 +2140,7 @@ sur mon téléphone.
 
 480
 00:36:00,360 --> 00:36:05,480
-Quand on veut échapper à l'attention de Sherlock Holmes, 
+Quand on veut échapper à l'attention de Sherlock Holmes,
 on apprend à être discret. D'où cet endroit.
 
 481
@@ -2169,7 +2169,7 @@ La bravoure du soldat.
 
 487
 00:36:20,480 --> 00:36:24,040
-La bravoure est de loin le terme le plus gentil 
+La bravoure est de loin le terme le plus gentil
 pour la stupidité, vous ne trouvez pas ?
 
 488
@@ -2308,7 +2308,7 @@ C'est aimable à vous.
 
 521
 00:38:03,680 --> 00:38:08,120
-Mais je préfèrerais pour diverses raisons 
+Mais je préfèrerais pour diverses raisons
 que mon inquiétude ne soit pas mentionnée.
 
 522
@@ -2351,7 +2351,7 @@ Ce pourrait-il que vous ayez décidé de faire confiance à Sherlock Holmes parm
 
 531
 00:38:43,520 --> 00:38:46,480
-Qui a dit que je lui fait confiance? 
+Qui a dit que je lui fait confiance?
 Vous ne semblez pas du genre à vous faire facilement des amis.
 
 532
@@ -2384,12 +2384,12 @@ Remarquable. Quoi donc?
 
 539
 00:39:31,800 --> 00:39:38,480
-La plupart des gens...vadrouillent dans cette ville et tout 
+La plupart des gens...vadrouillent dans cette ville et tout
 ce qu'ils voient ce sont des magasins, des rues, des voitures.
 
 540
 00:39:38,480 --> 00:39:41,320
-Quand vous marchez avec Sherlock Holmes, 
+Quand vous marchez avec Sherlock Holmes,
 vous voyez le champ de bataille.
 
 541
@@ -2511,7 +2511,7 @@ Ca m'aide à réfléchir.
 
 569
 00:42:24,600 --> 00:42:28,360
-Impossible de rester dépendant à la cigarette 
+Impossible de rester dépendant à la cigarette
 à Londres ces temps-ci.
 
 570
@@ -2546,7 +2546,7 @@ Puis-je vous emprunter votre téléphone?
 
 577
 00:42:51,200 --> 00:42:55,120
-Mon téléphone? Toujours une chance que mon numéro soit reconnu. 
+Mon téléphone? Toujours une chance que mon numéro soit reconnu.
 Il est sur mon site web.
 
 578
@@ -2634,7 +2634,7 @@ Non. Dommage, on aurait pu partager en 2. Pensez-y la prochaine fois.
 597
 00:44:10,520 --> 00:44:14,440
 Qui est-il?
-L'homme le plus dangereux que vous ayez rencontré, 
+L'homme le plus dangereux que vous ayez rencontré,
 et pas mon problème pour le moment.
 
 598
@@ -2651,7 +2651,7 @@ Attendez. Ce n'était pas le nom de la femme morte?
 
 601
 00:44:27,520 --> 00:44:30,400
-Si. Ce n'est pas important. 
+Si. Ce n'est pas important.
 Composez le numéro.
 
 602
@@ -2720,7 +2720,7 @@ Je n'ai jamais dit que vous l'aviez tuée.
 
 617
 00:45:22,960 --> 00:45:27,080
-Pourquoi pas? Etant donné ce message et le fait que j'ai sa valise, 
+Pourquoi pas? Etant donné ce message et le fait que j'ai sa valise,
 c'est une supposition parfaitement logique.
 
 618
@@ -2745,12 +2745,12 @@ Où? Le tueur a du la conduire jusqu'à Lauriston Gardens.
 
 623
 00:45:41,640 --> 00:45:44,520
-Il n'a pu garder la valise que par 
+Il n'a pu garder la valise que par
 accident si elle était dans la voiture.
 
 624
 00:45:44,520 --> 00:45:47,320
-Personne ne pourrait être vu avec 
+Personne ne pourrait être vu avec
 cette valise sans attirer l'attention -
 
 625
@@ -2763,12 +2763,12 @@ Manifestement, il s'est senti contraint de s'en débarrasser.
 
 627
 00:45:52,840 --> 00:45:55,960
-Ca n'a pas dû lui prendre plus de 5 minutes 
+Ca n'a pas dû lui prendre plus de 5 minutes
 pour se rendre compte de son erreur.
 
 628
 00:45:55,960 --> 00:46:00,640
-J'ai vérifier toutes les ruelles assez larges pour 
+J'ai vérifier toutes les ruelles assez larges pour
 une voiture à 5 minutes de Lauriston Gardens,
 
 629
@@ -2781,7 +2781,7 @@ une voiture à 5 minutes de Lauriston Gardens,
 
 631
 00:46:09,720 --> 00:46:12,680
-Rose. Vous avez trouvé tout ça parce que vous 
+Rose. Vous avez trouvé tout ça parce que vous
 avez réalisé que la valise sertait rose ?
 
 632
@@ -2812,7 +2812,7 @@ Son téléphone. Où est sont téléphone portable?
 
 638
 00:46:25,960 --> 00:46:28,480
-Il n'y avait pas de téléphone sur le corps, 
+Il n'y avait pas de téléphone sur le corps,
 il n'y a aucun téléphone dans la valise.
 
 639
@@ -2851,12 +2851,12 @@ Le meurtirer... Vous pensez que le meurtrier a le téléphone?
 
 647
 00:46:51,880 --> 00:46:57,160
-Peut être qu'elle...l'a laissé au même moment que sa valise. 
+Peut être qu'elle...l'a laissé au même moment que sa valise.
 Peut être qu'il lui a pris pour une raison déterminée.
 
 648
 00:46:58,200 --> 00:47:01,600
-Quoi qu'il en soit, il est probable 
+Quoi qu'il en soit, il est probable
 que le meurtrier a son téléphone.
 
 649
@@ -2875,7 +2875,7 @@ Quelques heures après sa dernière vicitme,
 
 652
 00:47:11,240 --> 00:47:14,640
-et maintenant il reçoit un message qui 
+et maintenant il reçoit un message qui
 ne peut venir que d'elle.
 
 653
@@ -2889,7 +2889,7 @@ paniquerait.
 
 655
 00:47:25,440 --> 00:47:28,520
-Avez-vous parlé à la police ? Quatre personnes sont mortes, 
+Avez-vous parlé à la police ? Quatre personnes sont mortes,
 il n'y a le temps de parler à la police.
 
 656
@@ -2910,13 +2910,13 @@ Du calme, vous vous en sortez bien.
 
 660
 00:47:37,440 --> 00:47:41,720
-Bon? Bon, quoi? Bon - vous pourriez rester 
+Bon? Bon, quoi? Bon - vous pourriez rester
 ici assis..et regarder la télé.
 
 661
 00:47:41,720 --> 00:47:46,400
 Quoi, vous voulez que je vienne avec vous?
-J'aime être accompagné quand je sors, 
+J'aime être accompagné quand je sors,
 et je réfméchis mieux quand je parle à voix haute.
 
 662
@@ -2981,7 +2981,7 @@ C'est sont terrain de chasse. Juste ici dans le coeur de la ville.
 
 676
 00:48:38,000 --> 00:48:41,360
-Maintenant que nous savons que ses victimes 
+Maintenant que nous savons que ses victimes
 ont été enlevées, ça change tout.
 
 677
@@ -2994,7 +2994,7 @@ Des endroits peuplés, mais personne ne les a vues partir.
 
 679
 00:48:47,960 --> 00:48:50,680
-Réfléchissez! A qui fait-on confiance 
+Réfléchissez! A qui fait-on confiance
 même quand on ne le connaît pas ?
 
 680
@@ -3060,8 +3060,8 @@ C'est homme m'a débarassé d'une inculpation pour meurtre.
 
 695
 00:49:33,080 --> 00:49:38,600
-Voici Angelo. Il y a 3 ans, j'ai démontré à Lestrade qu'au moment 
-d'un triple meurtre particulièrement vicieux, 
+Voici Angelo. Il y a 3 ans, j'ai démontré à Lestrade qu'au moment
+d'un triple meurtre particulièrement vicieux,
 
 696
 00:49:38,600 --> 00:49:40,680
@@ -3078,12 +3078,12 @@ Rien du tout.
 
 699
 00:49:45,600 --> 00:49:48,400
-Mais sans cet homme, je serais allé en prison. 
+Mais sans cet homme, je serais allé en prison.
 Vous êtes allé en prison.
 
 700
 00:49:48,400 --> 00:49:51,120
-Je vous apporte des bougies pour la table. 
+Je vous apporte des bougies pour la table.
 C'est plus romantique.
 
 701
@@ -3129,7 +3129,7 @@ Des amis?
 
 711
 00:50:26,240 --> 00:50:30,480
-Des gens qu'ils connaissent, qu'ils aimes, 
+Des gens qu'ils connaissent, qu'ils aimes,
 qu'ils n'aiment pas...
 
 712
@@ -3184,12 +3184,12 @@ John, hum...
 
 724
 00:51:10,280 --> 00:51:13,040
-Je crois que vous devriez savoir que 
+Je crois que vous devriez savoir que
 je me considère comme marié à mon travail.
 
 725
 00:51:13,040 --> 00:51:16,360
-et bien que je sois flatté, je ne 
+et bien que je sois flatté, je ne
 recherche vraiment pas de...Non,
 
 726
@@ -3335,7 +3335,7 @@ Au moindre problème - faites le savoir.
 
 760
 00:54:39,720 --> 00:54:42,720
-En gros, simplement un taxi qui ralentissait. 
+En gros, simplement un taxi qui ralentissait.
 En gros.
 
 761
@@ -3362,7 +3362,7 @@ Je le détrousse quand il est ennuyant.
 
 766
 00:54:54,080 --> 00:54:56,600
-Vous pouvez garder celle la, 
+Vous pouvez garder celle la,
 j'en ai plein à l'appartement.
 
 767
@@ -3389,7 +3389,7 @@ C'était ridicule.
 
 772
 00:55:19,880 --> 00:55:23,400
-C'est la chose la plus ridicule 
+C'est la chose la plus ridicule
 que je n'ai...jamais faite.
 
 773
@@ -3471,7 +3471,7 @@ Mme Hudson? En haut.
 
 792
 00:56:25,920 --> 00:56:28,880
-Que faites vous? Et bien, je savais 
+Que faites vous? Et bien, je savais
 que vous trouveriez la valise.
 
 793
@@ -3522,7 +3522,7 @@ Anderson, que faites vous ici à une saisie de drogue?
 803
 00:57:00,440 --> 00:57:05,240
 Oh, Je me suis porté volontaire. Comme tous les autres.
-Ils ne font pas tous partie de la brigade anti-drogue, 
+Ils ne font pas tous partie de la brigade anti-drogue,
 mais ils sont très enthousiastes.
 
 804
@@ -3541,7 +3541,7 @@ Continuez de chercher, les gars.
 
 807
 00:57:11,080 --> 00:57:13,360
-Ou vous pourriez nous aider courtoisement 
+Ou vous pourriez nous aider courtoisement
 et je leur dirais d'arrêter.
 
 808
@@ -3557,7 +3557,7 @@ mais n'avancez pas seul.
 
 810
 00:57:19,600 --> 00:57:23,680
-C'est clair? Quoi - Vous avez fait semblant de mettre en place 
+C'est clair? Quoi - Vous avez fait semblant de mettre en place
 une prétendue saisie de drogue pour m'intimider?
 
 811
@@ -3603,8 +3603,8 @@ Laissez tomber ça, nous avons trouvé la valise.
 
 821
 00:57:48,280 --> 00:57:53,080
-D'après une certaine personne le meurtrier a la valise, 
-et non l'avons trouvée entre les mains 
+D'après une certaine personne le meurtrier a la valise,
+et non l'avons trouvée entre les mains
 de notre psychopathe préféré.
 
 822
@@ -3629,7 +3629,7 @@ Techniquement, elle n'a jamais vécue.
 
 826
 00:58:07,120 --> 00:58:12,240
-Rachel était la fille mort-née de 
+Rachel était la fille mort-née de
 Jennifer Wilson, il y a 14 ans.
 
 827
@@ -3655,7 +3655,7 @@ Elle ne pensait pas à sa fille.
 
 832
 00:58:24,600 --> 00:58:28,320
-Elle a gravé son nom sur le plancher avec ses ongles. 
+Elle a gravé son nom sur le plancher avec ses ongles.
 Elle se mourrait.
 
 
@@ -3665,14 +3665,14 @@ Ca demande un effort, ça a dû faire mal.
 
 834
 00:58:31,160 --> 00:58:35,640
-Vous avez dit que les victimes ont toutes pris 
+Vous avez dit que les victimes ont toutes pris
 le poison elles-mêmes, qu'il leur a fait prendre.
 
 
 835
 00:58:35,640 --> 00:58:40,720
-Peut être qu'il...Je ne sais pas, leur parle. 
-Peut être qu'il a utilisé la mort de sa fille 
+Peut être qu'il...Je ne sais pas, leur parle.
+Peut être qu'il a utilisé la mort de sa fille
 d'une certaine manière.
 
 
@@ -3692,7 +3692,7 @@ Pas très bon, non.
 839
 00:58:50,320 --> 00:58:54,680
 si vous étiez mourrant...
-Si vous aviez été tué - dans vos dernières 
+Si vous aviez été tué - dans vos dernières
 secondes à vivre, que diriez-vous ?
 
 840
@@ -3707,7 +3707,7 @@ Je n'en ai pas besoin.
 842
 00:59:00,400 --> 00:59:04,600
 Oui, mais si vous étiez intelligent, vraiment intelligent.
-Jennifer Wilson avaient toutes ces aventures 
+Jennifer Wilson avaient toutes ces aventures
 - elle était intelligente.
 
 
@@ -3723,7 +3723,7 @@ Votre taxi est arrivé, Sherlock.
 845
 00:59:09,120 --> 00:59:13,640
 Je n'ai pas commandé de taxi. Allez-vous en.
-Oh lala. Ils mettent un sacré bazar. 
+Oh lala. Ils mettent un sacré bazar.
 Qu'est-ce qu'ils cherchent ?
 
 
@@ -3738,7 +3738,7 @@ ce sont des plantes apaisantes.
 
 848
 00:59:18,480 --> 00:59:21,600
-Taisez-vous, tous ! Ne parlez pas, ne respirez pas. 
+Taisez-vous, tous ! Ne parlez pas, ne respirez pas.
 J'essaie de réfléchir.
 
 
@@ -3794,7 +3794,7 @@ Elle l'a caché sur lui.
 
 860
 00:59:51,920 --> 00:59:54,960
-Quand elle est sortie de la voiture, 
+Quand elle est sortie de la voiture,
 elle savait qu'elle allait mourir.
 
 
@@ -3850,7 +3850,7 @@ Er, jennie.pink@mephone.org.uk.
 
 872
 01:00:26,080 --> 01:00:31,360
-Elle n'avait pas de pc portable, ce qui signifie 
+Elle n'avait pas de pc portable, ce qui signifie
 qu'elle travaillait avec son téléphone.
 Un smartphone, qui permet de recevoit les e-mail.
 
@@ -3900,12 +3900,12 @@ Mme Hudson, il n'est pas l'heure de votre infusion du soir?
 
 882
 01:01:00,200 --> 01:01:03,440
-Faites venir des voitures, faites venir un hélicoptère. 
+Faites venir des voitures, faites venir un hélicoptère.
 La batterie de ce téléphone ne tiendra pas éternellement.
 
 883
 01:01:03,440 --> 01:01:06,600
-On aura juste une carte, mais pas de nom. 
+On aura juste une carte, mais pas de nom.
 C'est un début !
 
 884
@@ -3934,7 +3934,7 @@ Comment?
 
 890
 01:01:22,280 --> 01:01:25,800
-Peut être qu'il était dans la valise quand vous l'avez 
+Peut être qu'il était dans la valise quand vous l'avez
 rapportée et qu'il  est...tombé quelque part.
 
 891
@@ -3985,7 +3985,7 @@ Je ne sais pas.
 
 902
 01:02:43,560 --> 01:02:45,640
-Je vais réessayer. 
+Je vais réessayer.
 Bonne idée.
 
 903
@@ -3994,7 +3994,7 @@ Où allez-vous?
 
 904
 01:02:47,320 --> 01:02:50,800
-Prendre l'air, je sorts juste un moment. 
+Prendre l'air, je sorts juste un moment.
 Je ne serai par long.
 
 905
@@ -4044,7 +4044,7 @@ Un vrai avantage pour un tueur en série.
 
 916
 01:03:39,200 --> 01:03:41,400
-C'est une aveux? 
+C'est une aveux?
 Oh, oui.
 
 917
@@ -4058,7 +4058,7 @@ Si vous le faites, je ne fuirai pas.
 
 919
 01:03:47,760 --> 01:03:51,520
-Je m'assiérai calmement et ils pourront m'arrêter, 
+Je m'assiérai calmement et ils pourront m'arrêter,
 je le promets.
 
 920
@@ -4084,7 +4084,7 @@ et elles se sont tuées.
 
 925
 01:04:06,360 --> 01:04:09,600
-Si vous appelez les flics maintenant, 
+Si vous appelez les flics maintenant,
 je vous promets une chose..
 
 926
@@ -4093,7 +4093,7 @@ Vous ne saurez jamais ce que je leur ai dit.
 
 927
 01:04:19,040 --> 01:04:22,120
-Personne d'autre ne mourrera, cela dit, 
+Personne d'autre ne mourrera, cela dit,
 et je crois qu'ils appellent ça un résultat.
 
 928
@@ -4216,7 +4216,7 @@ Du bon boulot ! J'ai adoré.
 
 956
 01:06:24,360 --> 01:06:28,000
-Qui vous a averti à mon sujet? 
+Qui vous a averti à mon sujet?
 Quelqu'un qui vous a remarqué.
 
 957
@@ -4310,10 +4310,10 @@ Une chose quand on est chauffeur de taxi
 
 978
 01:07:57,640 --> 01:08:00,720
-Ca m'étonne qu'il n'y en ait pas plus qui se lancent. 
+Ca m'étonne qu'il n'y en ait pas plus qui se lancent.
 
 979
-01:08:01,680 --> 01:08:03,680 
+01:08:01,680 --> 01:08:03,680
 Et vous avez juste fait entrer vos victimes ?
 Comment?
 
@@ -4423,7 +4423,7 @@ Sherlock Holmes! Regarez vous !
 
 1005
 01:10:32,200 --> 01:10:37,240
-Ici en chair et en os. Votre site internet, 
+Ici en chair et en os. Votre site internet,
 votre fan m'en a parlé.
 
 1006
@@ -4512,7 +4512,7 @@ Vous êtes celui qui doit choisir.
 
 1026
 01:11:43,720 --> 01:11:47,720
-Pourquoi le devrais-je? Je n'y voit aucun intérêt. 
+Pourquoi le devrais-je? Je n'y voit aucun intérêt.
 Qu'est-ce que j'y gagne?
 
 1027
@@ -4686,7 +4686,7 @@ Donc...
 
 1067
 01:14:21,080 --> 01:14:25,120
-Vous risqueriez votre vie 4 fois juste pour tuer 
+Vous risqueriez votre vie 4 fois juste pour tuer
 des inconnus ? Pourquoi ?
 
 1068
@@ -4708,8 +4708,8 @@ Personne ne vous l'a fait remarquer.
 
 1072
 01:14:35,920 --> 01:14:40,680
-D'autres traces qui montrent que c'est déjà arrivé avant, 
-donc il est évident que vous vivez seul - 
+D'autres traces qui montrent que c'est déjà arrivé avant,
+donc il est évident que vous vivez seul -
 il n'y a personne pour vous le dire.
 
 1073
@@ -4727,7 +4727,7 @@ La photo est vielle, mais le cadre est neuf.
 
 1076
 01:14:47,280 --> 01:14:49,680
-Vous pensez à vos enfants, 
+Vous pensez à vos enfants,
 mais vous n'allez pas les voir.
 
 1077
@@ -4740,7 +4740,7 @@ Elle a pris les enfants
 
 1079
 01:14:53,920 --> 01:14:57,360
-mais vous les aimez encore 
+mais vous les aimez encore
 et ça fait toujours mal.
 
 1080
@@ -4834,7 +4834,7 @@ Oh...
 
 1101
 01:16:11,800 --> 01:16:14,280
-Vous êtes bon, n'est-ce pas? 
+Vous êtes bon, n'est-ce pas?
 Comment ?
 
 1102
@@ -4886,7 +4886,7 @@ Vous n'êtes pas le seul à apprécier un bon meutre.
 
 1113
 01:16:54,440 --> 01:16:58,600
-Il y en a d'autres exactement comme vous la dehors, 
+Il y en a d'autres exactement comme vous la dehors,
 sauf que vous n'êtes qu'un homme.
 
 1114
@@ -5137,7 +5137,7 @@ Non...
 
 1175
 01:21:05,400 --> 01:21:08,520
-Vous êtes mourrant, mais vous 
+Vous êtes mourrant, mais vous
 pouvez encore souffrir.
 
 1176
@@ -5177,7 +5177,7 @@ Je en suis pas en état de choc.
 
 1184
 01:21:49,960 --> 01:21:52,640
-Oui, mais certains gars veulent 
+Oui, mais certains gars veulent
 prendre des photos.
 
 1185
@@ -5211,13 +5211,13 @@ La balle qu'ils ont retirée du mur provient d'un pistolet.
 
 1192
 01:22:13,200 --> 01:22:17,760
-Un tir mortel à cette distance, 
+Un tir mortel à cette distance,
 c'est un tir d'élite.
 Mais pas seulement un tireur d'élite,  c'est un combattant.
 
 1193
 01:22:17,760 --> 01:22:21,400
-Sa main n'a pas du trembler du tout, 
+Sa main n'a pas du trembler du tout,
 donc il est accoutumé à la violence.
 
 1194
@@ -5247,7 +5247,7 @@ Où allez-vous? Je dois juste...discuter du loyer.
 
 1200
 01:22:46,280 --> 01:22:49,680
-J'ai encore des question. Quoi encore? 
+J'ai encore des question. Quoi encore?
 Je suis en état de choc - regardez, j'ai une couverture.
 
 1201
@@ -5279,7 +5279,7 @@ Joli tir.
 
 1207
 01:23:20,680 --> 01:23:23,720
-Oui. Oui, surement en effet. A travers cette vitre. 
+Oui. Oui, surement en effet. A travers cette vitre.
 Si vous saviez...
 
 1208
@@ -5320,7 +5320,7 @@ C'est vrai, c'était un mauvais taxi.
 
 1216
 01:23:53,520 --> 01:23:56,280
-Vous auriez dû voir la route 
+Vous auriez dû voir la route
 qu'il a prise pour veinr ici.
 
 1217
@@ -5501,7 +5501,7 @@ ou régulièrement free-lance à la CIA.
 
 1258
 01:25:47,800 --> 01:25:51,400
-Bonne soirée, Mycroft. Essaie de ne pas 
+Bonne soirée, Mycroft. Essaie de ne pas
 déclancher une guerre avant que je rentre à la maison.
 
 1259
@@ -5510,7 +5510,7 @@ Tu connais les conséquences sur le traffic.
 
 1260
 01:25:55,880 --> 01:25:59,320
-Donc, quand vous dites que vous êtes 
+Donc, quand vous dites que vous êtes
 inquiet pour lui - vous l'êtes vraiment?
 
 1261
@@ -5527,7 +5527,7 @@ Il a toujours été si rancunier.
 
 1264
 01:26:06,920 --> 01:26:10,560
-Immaginez les dîners de Nöel. 
+Immaginez les dîners de Nöel.
 Oui...
 
 1265
@@ -5594,7 +5594,7 @@ Moriarty.
 
 1279
 01:26:46,040 --> 01:26:49,200
-C'est quoi Moriarty? 
+C'est quoi Moriarty?
 Je n'en ai aucune idée.
 
 1280
@@ -5616,7 +5616,7 @@ ou le rendre pire que jamais.
 
 1284
 01:27:01,720 --> 01:27:04,680
-Quoi qu'il en soir, nous ferions mieux 
+Quoi qu'il en soir, nous ferions mieux
 d'augmenter leur niveau de surveillance
 
 1285
@@ -5646,8 +5646,8 @@ Trad par Cholesmarrons --> Enjoy :D
 
 9999
 00:00:0,500 --> 00:00:2,00
-<font color="#ffff00" size=14>www.tvsubtitles.net</font>
+www.tvsubtitles.net
 
 9999
 00:00:0,500 --> 00:00:2,00
-<font color="#ffff00" size=14>www.tvsubtitles.net</font>
+www.tvsubtitles.net
