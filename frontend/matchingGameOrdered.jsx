@@ -45,7 +45,13 @@ var Tile = React.createClass({
       if (self.props.handleClick) {
         self.props.handleClick(self.props.matchKey, self.props.lang);
       }
-    }} className = {(!this.props.selected && this.props.handleClick) ? 'dim-on-hover' : ''}>{this.props.text}</div>
+    }} className = {(!this.props.selected && this.props.handleClick) ? 'dim-on-hover' : ''}>
+      <span style={{
+        fontSize: (this.props.text.length > 100) ? '0.8em' : '1em',
+      }}>
+        {this.props.text}
+      </span>
+    </div>
   }
 });
 
@@ -144,7 +150,7 @@ var OrderedMatchingGame = React.createClass({ /* a slab of 10 tiles */
         this.props.frTilesData.map((frTileData) => {
           var clickable = self.state.solved.indexOf(frTileData.matchKey) === -1;
           return <Tile
-            text={frTileData.text}
+            text={frTileData.speaker ? frTileData.speaker + ": " + frTileData.text : frTileData.text}
             lang="fr"
             key={frTileData.matchKey}
             matchKey={frTileData.matchKey}
@@ -302,6 +308,7 @@ fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
     var frTilesData = chunk.map(function (pair, i) {
       return {
         'text': pair[1],
+        'speaker': pair[2],
         'lang': 'fr',
         'matchKey': i
       };

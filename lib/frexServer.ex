@@ -8,13 +8,44 @@ defmodule FrexServer do
     send_resp(conn, 200, "world")
   end
 
+  get "/sentenceMatchingGame/sherlock/:episode" do
+
+    "hi" |> IO.inspect
+
+    srtFilename = episode
+    |> String.replace(".json", "")
+    |> IO.inspect
+
+    episodeFilename = srtFilename |> String.replace(".srt", "")
+
+    entries = Srt.pairSrt(
+      "data/subtitles/sherlock/en/" <> srtFilename,
+      "data/subtitles/sherlock/fr/" <> srtFilename,
+      "data/screenplay/sherlock/" <> episodeFilename <> ".txt")
+    |> Enum.map(fn
+      {a, b, c} -> [a, b, c]
+      {a, b} -> [a, b]
+    end)
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, Poison.encode!(
+      entries,
+      pretty: true
+    ))
+
+  end
+
   get "/sentenceMatchingGame/:seriesName/:episode" do
-    srtFilename = episode 
-    |> String.replace(".json", "") 
+    srtFilename = episode
+    |> String.replace(".json", "")
     |> IO.inspect
 
     entries = Srt.pairSrt("data/subtitles/" <> seriesName <> "/en/" <> srtFilename, "data/subtitles/" <> seriesName <> "/fr/" <> srtFilename)
-    |> Enum.map(fn {a, b} -> [a, b] end)
+    |> Enum.map(fn
+      {a, b, c} -> [a, b, c]
+      {a, b} -> [a, b]
+    end)
 
     conn
     |> put_resp_content_type("application/json")

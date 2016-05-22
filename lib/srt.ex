@@ -20,16 +20,6 @@ defmodule Srt do
 
     end
 
-    def stripPunctuation(str) do
-        if str == nil do
-            nil
-        else
-            str
-            |> String.downcase
-            |> String.replace(~r/[^a-z\ ]/, "")
-        end
-    end
-
     def removeParens(str) do
         str |> String.replace(~r/\(.*\)/sU, "")
         |> String.replace(~r/\<.*\)/sU, "")
@@ -48,7 +38,7 @@ defmodule Srt do
            (parts |> Enum.at(1)) == nil -> nil
            true -> %{
             :speaker => parts |> Enum.at(0),
-            :line => parts |> Enum.at(1) |> Srt.stripPunctuation |> Srt.collapseWhitespace
+            :line => parts |> Enum.at(1) |> Nlp.stripPunctuation |> Srt.collapseWhitespace
            }
         end
 
@@ -71,7 +61,7 @@ defmodule Srt do
 
         line = srtLine
         |> Map.fetch!(:lines)
-        |> Srt.stripPunctuation
+        |> Nlp.stripPunctuation
         |> String.downcase
 
         matchingTLIs = transcriptLineInfo
@@ -92,15 +82,29 @@ defmodule Srt do
 
     def pairSrtWithTranscript(srtFilename, transcriptFilename) do
 
-        transcriptLineInfo = transcriptFilename
-        |> parseTranscriptForLines
-        |> IO.inspect
 
         srtEntries = srtFilename
         |> parseSrt
         |> Enum.slice(0..100)
-        |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end)
 
+
+    end
+
+    def pairSrt(l1Filename, l2Filename, transcriptFilename) do
+        l1 = l1Filename |> parseSrt
+        l2 = l2Filename |> parseSrt
+
+        transcriptLineInfo = transcriptFilename
+        |> parseTranscriptForLines
+
+        l1
+        |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end)
+        |> Enum.map(fn e -> pairEntry(e, l2) end)
+        |> Enum.filter(fn %{:score => score} -> score > 0.5 end)
+        |> Enum.map(fn
+            %{ :l1 => a, :l2 => b, :speaker => s} -> {a, b, s}
+            %{ :l1 => a, :l2 => b} -> {a, b}
+        end)
 
     end
 
@@ -110,17 +114,28 @@ defmodule Srt do
 
         l1
         |> Enum.map(fn e -> pairEntry(e, l2) end)
-        |> Enum.filter(fn {_, _, score} -> score > 0.5 end)
-        |> Enum.map(fn {a, b, _} -> {a, b} end)
+        |> Enum.filter(fn %{:score => score} -> score > 0.5 end)
+        |> Enum.map(fn
+            %{ :l1 => a, :l2 => b, :speaker => s} -> {a, b, s}
+            %{ :l1 => a, :l2 => b} -> {a, b}
+        end)
     end
 
     def pairEntry(entry, l2) do
         {l2Entry, score} = mostOverlappedEntry(entry, l2)
-        {
-            entry |> Map.fetch!(:lines),
-            l2Entry |> Map.fetch!(:lines),
-            score
-        }
+        case {entry, l2Entry} do
+            {%{:lines => l1, :speaker => speaker}, %{:lines => l2}} -> %{
+                :l1 => l1,
+                :l2 => l2,
+                :score => score,
+                :speaker => speaker
+            }
+            {%{:lines => l1}, %{:lines => l2}} -> %{
+                :l1 => l1,
+                :l2 => l2,
+                :score => score
+            }
+        end
     end
 
     def overlap(t1, t2) do
