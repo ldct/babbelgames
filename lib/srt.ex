@@ -21,12 +21,12 @@ defmodule Srt do
     end
 
     def removeParens(str) do
-        str |> String.replace(~r/\(.*\)/sU, "")
-        |> String.replace(~r/\<.*\)/sU, "")
+        str |> String.replace(~r/\(.*\)/suU, "")
+        |> String.replace(~r/\<.*\)/suU, "")
     end
 
     def collapseWhitespace(str) do
-        str |> String.replace(~r/\ +/, " ")
+        str |> String.replace(~r/\ +/u, " ")
     end
 
     def parseTranscriptLine(line) do
@@ -114,12 +114,24 @@ defmodule Srt do
 
     def splitSrtPairsSentences(p) do
         %{:l1 => l1, :l2 => l2} = p
-        |> IO.inspect
-        [%{
-            :l1 => l1,
-            :l2 => l2,
-        }]
-        # todo: split sentences, match them if possible
+
+        l1Lines = l1 |> String.split(~r/[!?\.](?=.)/u)
+        l2Lines = l2 |> String.split(~r/[!?\.](?=.)/u)
+
+        cond do
+            (length l1Lines) == (length l2Lines) ->
+                Enum.zip(l1Lines, l2Lines) |> IO.inspect |> Enum.map(fn {l1Line, l2Line} ->
+                    %{
+                        :l1 => l1Line,
+                        :l2 => l2Line,
+                    }
+                end)
+            true ->
+                [%{
+                    :l1 => l1,
+                    :l2 => l2,
+                }]
+        end
     end
 
     def pairEntry(entry, l2) do
@@ -161,7 +173,6 @@ defmodule Srt do
         |> String.replace("\r\n\r\n\r\n", "\r\n\r\n")
         |> String.split("\r\n\r\n")
         |> Enum.filter(fn e -> isEmptyEntry e end)
-        |> Enum.slice(1..20)
         |> Enum.map(fn e -> parseSrtEntry e end)
     end
 
@@ -186,9 +197,9 @@ defmodule Srt do
         lines = Enum.slice(arr, 2..-1)
         |> Enum.map(fn l ->
             l
-            |> String.replace(~r/\<.*\>/U, "")
-            |> String.replace(~r/^\-/, "")      # todo: this is removing speaker line markers
-            |> String.replace(~r/^\ +/, "")
+            |> String.replace(~r/\<.*\>/uU, "")
+            |> String.replace(~r/^\-/u, "")      # todo: this is removing speaker line markers
+            |> String.replace(~r/^\ +/u, "")
         end)
 
         %{
