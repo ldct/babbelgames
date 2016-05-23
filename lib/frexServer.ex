@@ -10,28 +10,38 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/sherlock/:episode" do
 
-    srtFilename = episode
-    |> String.replace(".json", "")
-    |> IO.inspect
+    cacheFilename = "cache/sherlock\\" <> episode
 
-    episodeFilename = srtFilename |> String.replace(".srt", "")
+    if File.exists?(cacheFilename) do
+      conn
+      |> put_resp_content_type("application/json")
+      |> send_resp(200, File.read!(cacheFilename))
+    else
+      "file not exists" |> IO.inspect
 
-    entries = Srt.pairSrt(
-      "data/subtitles/sherlock/en/" <> srtFilename,
-      "data/subtitles/sherlock/fr/" <> srtFilename,
-      "data/screenplay/sherlock/" <> episodeFilename <> ".txt")
-    |> Enum.map(fn
-      {a, b, c} -> [a, b, c]
-      {a, b} -> [a, b]
-    end)
+      srtFilename = episode
+      |> String.replace(".json", "")
+      |> IO.inspect
 
-    conn
-    |> put_resp_content_type("application/json")
-    |> send_resp(200, Poison.encode!(
-      entries,
-      pretty: true
-    ))
+      episodeFilename = srtFilename |> String.replace(".srt", "")
 
+      entries = Srt.pairSrt(
+        "data/subtitles/sherlock/en/" <> srtFilename,
+        "data/subtitles/sherlock/fr/" <> srtFilename,
+        "data/screenplay/sherlock/" <> episodeFilename <> ".txt")
+      |> Enum.map(fn
+        {a, b, c} -> [a, b, c]
+        {a, b} -> [a, b]
+      end)
+
+      jsonResult = Poison.encode!(entries, pretty: true)
+
+      File.write!(cacheFilename, jsonResult)
+
+      conn
+      |> put_resp_content_type("application/json")
+      |> send_resp(200, jsonResult)
+    end
   end
 
   get "/sentenceMatchingGame/:seriesName/:episode" do
