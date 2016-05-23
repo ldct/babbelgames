@@ -25,10 +25,6 @@ defmodule Srt do
         |> String.replace(~r/\<.*\)/suU, "")
     end
 
-    def collapseWhitespace(str) do
-        str |> String.replace(~r/\ +/u, " ")
-    end
-
     def parseTranscriptLine(line) do
         parts = line
         |> String.split(": ", parts: 2)
@@ -38,7 +34,7 @@ defmodule Srt do
            (parts |> Enum.at(1)) == nil -> nil
            true -> %{
             :speaker => parts |> Enum.at(0),
-            :line => parts |> Enum.at(1) |> Nlp.stripPunctuation |> Srt.collapseWhitespace
+            :line => parts |> Enum.at(1) |> Nlp.canonicalize
            }
         end
 
@@ -61,7 +57,7 @@ defmodule Srt do
 
         line = srtLine
         |> Map.fetch!(:l1)
-        |> Nlp.stripPunctuation
+        |> Nlp.canonicalize
         |> String.downcase
 
         matchingTLIs = transcriptLineInfo
@@ -120,7 +116,7 @@ defmodule Srt do
 
         cond do
             (length l1Lines) == (length l2Lines) ->
-                Enum.zip(l1Lines, l2Lines) |> IO.inspect |> Enum.map(fn {l1Line, l2Line} ->
+                Enum.zip(l1Lines, l2Lines) |> Enum.map(fn {l1Line, l2Line} ->
                     %{
                         :l1 => l1Line,
                         :l2 => l2Line,
