@@ -15,4 +15,9 @@ defmodule Nlp do
         str |> String.replace(~r/\(.*\)/suU, "")
         |> String.replace(~r/\<.*\)/suU, "")
     end
+
+    def invertEllipses(str) do
+        str |> String.replace("/ELLIPSES/", "...")
+    end
+
 end

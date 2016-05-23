@@ -78,8 +78,8 @@ defmodule Srt do
         |> Enum.flat_map(fn p -> splitSrtPairsSentences(p) end)
         |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end)
         |> Enum.map(fn
-            %{ :l1 => a, :l2 => b, :speaker => s} -> {a, b, s}
-            %{ :l1 => a, :l2 => b} -> {a, b}
+            %{ :l1 => a, :l2 => b, :speaker => s} -> {a |> Nlp.invertEllipses, b |> Nlp.invertEllipses, s}
+            %{ :l1 => a, :l2 => b} -> {a |> Nlp.invertEllipses, b |> Nlp.invertEllipses}
         end)
 
     end
