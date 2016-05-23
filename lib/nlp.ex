@@ -10,4 +10,9 @@ defmodule Nlp do
             |> String.replace(~r/\ +/u, " ")
         end
     end
+
+    def removeParens(str) do
+        str |> String.replace(~r/\(.*\)/suU, "")
+        |> String.replace(~r/\<.*\)/suU, "")
+    end
 end

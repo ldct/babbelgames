@@ -1,28 +1,13 @@
 defmodule Srt do
 
-    def indexIn(element, collection) do
-        collection
-        |> Enum.find_index(fn e -> e == element end)
-    end
+    def mostOverlappedEntry(%{:time => time}, l2Entries) do
 
-    def mostOverlappedEntry(entry, l2Entries) do
-        time = entry
-        |> Map.fetch!(:time)
-
-        scores = l2Entries
-        |> Enum.map(fn e -> e |> Map.fetch!(:time) |> overlap(time) end)
-
-        score = Enum.max(scores)
-
-        idx = indexIn(score, scores)
+        {idx, score} = l2Entries
+        |> Enum.map(fn %{:time => t } -> overlap(t, time) end)
+        |> Util.argmaxAndMax
 
         {Enum.at(l2Entries, idx), score}
 
-    end
-
-    def removeParens(str) do
-        str |> String.replace(~r/\(.*\)/suU, "")
-        |> String.replace(~r/\<.*\)/suU, "")
     end
 
     def parseTranscriptLine(line) do
@@ -43,9 +28,13 @@ defmodule Srt do
     def parseTranscriptForLines(transcriptFilename) do
         transcriptFilename
         |> File.read!
-        |> Srt.removeParens
+        |> Nlp.removeParens
         |> String.replace("d’", "do ")
         |> String.replace("gonna", "going to")
+        |> String.replace("’em", "them")
+        |> String.replace("’til", "till")
+        |> String.replace("dunno", "don't know")
+        |> String.replace("gotta", "got to")
         |> String.split("\n")
         |> Enum.filter(fn x -> (String.length x) > 0 end)
         |> Enum.filter(fn x -> x |> String.contains?(":") end)
@@ -196,6 +185,7 @@ defmodule Srt do
             |> String.replace(~r/\<.*\>/uU, "")
             |> String.replace(~r/^\-/u, "")      # todo: this is removing speaker line markers
             |> String.replace(~r/^\ +/u, "")
+            |> String.replace(~r/\.\.\./u, "/ELLIPSES/")
         end)
 
         %{

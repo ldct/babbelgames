@@ -10,8 +10,6 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/sherlock/:episode" do
 
-    "hi" |> IO.inspect
-
     srtFilename = episode
     |> String.replace(".json", "")
     |> IO.inspect
