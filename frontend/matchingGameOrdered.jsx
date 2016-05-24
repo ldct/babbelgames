@@ -72,6 +72,27 @@ var BlankTile = React.createClass({
   }
 });
 
+var ScreenplayInformationArea = React.createClass({
+  render: function () {
+    var screenplayLines = this.props.screenplayText.split('\n');
+    var lineNumbers = this.props.frTileData.map(td => td.lineNumber).filter(x => x);
+
+    if (lineNumbers.length === 0) return <div></div>
+
+    var start = Math.min.apply(null, lineNumbers);
+    var end = Math.max.apply(null, lineNumbers);
+
+    console.log(screenplayLines, start, end);
+
+    return <div>
+      {screenplayLines.slice(start-2, end+2).map(line => {
+        return <div>{line}</div>
+      })}
+    </div>
+
+  }
+});
+
 var OrderedMatchingGame = React.createClass({ /* a slab of 10 tiles */
   getInitialState: function () {
     return {
@@ -142,6 +163,9 @@ var OrderedMatchingGame = React.createClass({ /* a slab of 10 tiles */
       display: "flex",
       flexDirection: "column",
     }}>
+      <ScreenplayInformationArea
+        frTileData={this.props.frTilesData}
+        screenplayText={this.props.screenplayText} />
       <div style={{
         display: "flex",
         flexDirection: "row",
@@ -150,7 +174,10 @@ var OrderedMatchingGame = React.createClass({ /* a slab of 10 tiles */
         this.props.frTilesData.map((frTileData) => {
           var clickable = self.state.solved.indexOf(frTileData.matchKey) === -1;
           return <Tile
-            text={frTileData.speaker ? frTileData.speaker + ": " + frTileData.text : frTileData.text}
+            text={frTileData.speaker
+              ? frTileData.speaker + ": " + frTileData.text + (frTileData.lineNumber ?
+                ' /' + frTileData.lineNumber : '')
+              : frTileData.text}
             lang="fr"
             key={frTileData.matchKey}
             matchKey={frTileData.matchKey}
@@ -283,6 +310,7 @@ var App = React.createClass({
         total={this.props.numPairs} />
       <OrderedMatchingGame
         key={this.state.startIdx}
+        screenplayText={this.props.screenplayText}
         frTilesData={frTilesData}
         enScrambledTilesData={enScrambledTilesData}
         onNumMatchedChanged={this.handleNumMatchedChanged} />
@@ -299,7 +327,7 @@ fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
 
   var start = parseInt(getQueryParameterByName('start'), 10) || 0;
 
-  var activityPairs = res; // [en, fr] pairs
+  var activityPairs = res.tileData; // [en, fr] pairs
 
   var chunksOfActivityPairs = _.chunk(activityPairs, 5);
 
@@ -309,6 +337,7 @@ fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
       return {
         'text': pair[1],
         'speaker': pair[2],
+        'lineNumber': pair[3],
         'lang': 'fr',
         'matchKey': i
       };
@@ -334,7 +363,8 @@ fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
   ReactDOM.render(
     <App
       scrambledChunksOfActivityPairs={scrambledChunksOfActivityPairs}
-      numPairs={res.length}
+      numPairs={res.tileData.length}
+      screenplayText={res.screenplay}
       initialStartIdx={start} />,
     document.getElementById('container')
   );

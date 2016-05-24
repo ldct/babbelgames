@@ -12,12 +12,23 @@ defmodule Nlp do
     end
 
     def removeParens(str) do
-        str |> String.replace(~r/\(.*\)/suU, "")
+        str
+        |> String.replace(~r/\(.*\)/suU, "")
         |> String.replace(~r/\<.*\)/suU, "")
     end
 
     def invertEllipses(str) do
         str |> String.replace("/ELLIPSES/", "...")
+    end
+
+    def expandShortForms(str) do
+        str
+        |> String.replace("d’", "do ")
+        |> String.replace("gonna", "going to")
+        |> String.replace("’em", "them")
+        |> String.replace("’til", "till")
+        |> String.replace("dunno", "don't know")
+        |> String.replace("gotta", "got to")
     end
 
 end

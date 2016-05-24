@@ -29,12 +29,12 @@ defmodule FrexServer do
         "data/subtitles/sherlock/en/" <> srtFilename,
         "data/subtitles/sherlock/fr/" <> srtFilename,
         "data/screenplay/sherlock/" <> episodeFilename <> ".txt")
-      |> Enum.map(fn
-        {a, b, c} -> [a, b, c]
-        {a, b} -> [a, b]
-      end)
+      |> Enum.map(fn x -> Tuple.to_list(x) end)
 
-      jsonResult = Poison.encode!(entries, pretty: true)
+      jsonResult = Poison.encode!(%{
+        "tileData" => entries,
+        "screenplay" => File.read!("data/screenplay/sherlock/" <> episodeFilename <> ".txt"),
+      }, pretty: true)
 
       File.write!(cacheFilename, jsonResult)
 
