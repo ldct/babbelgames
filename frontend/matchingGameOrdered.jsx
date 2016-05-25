@@ -74,19 +74,60 @@ var BlankTile = React.createClass({
 
 var ScreenplayInformationArea = React.createClass({
   render: function () {
+
+    var largestPreviousLineNumber = null;
+
+    for (var i=this.props.startIdx - 1; i>=0; i--) {
+      var lineNumbers = this.props.scrambledChunksOfActivityPairs[i].frTilesData.map(td => td.lineNumber).filter(x => x);
+      if (lineNumbers.length) {
+        largestPreviousLineNumber = Math.max.apply(null, lineNumbers);
+        break;
+      }
+    }
+
+    largestPreviousLineNumber = largestPreviousLineNumber || 0;
+
     var screenplayLines = this.props.screenplayText.split('\n');
-    var lineNumbers = this.props.frTileData.map(td => td.lineNumber).filter(x => x);
 
-    if (lineNumbers.length === 0) return <div></div>
+    var smallestNextLineNumber = null;
 
-    var start = Math.min.apply(null, lineNumbers);
-    var end = Math.max.apply(null, lineNumbers);
+    for (var i=this.props.startIdx+1; i < this.props.scrambledChunksOfActivityPairs.length; i++) {
+      var lineNumbers = this.props.scrambledChunksOfActivityPairs[i].frTilesData.map(td => td.lineNumber).filter(x => x);
+      if (lineNumbers.length) {
+        smallestNextLineNumber = Math.min.apply(null, lineNumbers);
+        break;
+      }
+    }
 
-    console.log(screenplayLines, start, end);
+    smallestNextLineNumber = smallestNextLineNumber || screenplayLines.length;
+
+    var lineNumbers = this.props.scrambledChunksOfActivityPairs[this.props.startIdx].frTilesData.map(td => td.lineNumber).filter(x => x);
+
+    var start, end;
+
+    if (lineNumbers.length === 0) {
+      start, end = largestPreviousLineNumber, smallestNextLineNumber;
+    } else {
+      var smallestHereLineNumber = Math.min.apply(null, lineNumbers);
+      var largestHereLineNumber = Math.max.apply(null, lineNumbers);
+
+      end = largestHereLineNumber;
+
+      if (smallestHereLineNumber === largestPreviousLineNumber) {
+        start = largestPreviousLineNumber;
+      } else {
+        start = largestPreviousLineNumber + 1;
+      }
+    }
+
+    if (this.props.startIdx === 0) start = 0;
+
+    console.log(start, end);
+
 
     return <div>
-      {screenplayLines.slice(start-2, end+2).map(line => {
-        return <div>{line}</div>
+      {screenplayLines.slice(start, end+1).map((line, i) => {
+        return <div key={i}>{line}</div>
       })}
     </div>
 
@@ -163,9 +204,6 @@ var OrderedMatchingGame = React.createClass({ /* a slab of 10 tiles */
       display: "flex",
       flexDirection: "column",
     }}>
-      <ScreenplayInformationArea
-        frTileData={this.props.frTilesData}
-        screenplayText={this.props.screenplayText} />
       <div style={{
         display: "flex",
         flexDirection: "row",
@@ -308,9 +346,12 @@ var App = React.createClass({
       <ProgressBar
         done={this.state.startIdx * 5 + this.state.numMatched}
         total={this.props.numPairs} />
+      <ScreenplayInformationArea
+        startIdx={this.state.startIdx}
+        scrambledChunksOfActivityPairs={this.props.scrambledChunksOfActivityPairs}
+        screenplayText={this.props.screenplayText} />
       <OrderedMatchingGame
         key={this.state.startIdx}
-        screenplayText={this.props.screenplayText}
         frTilesData={frTilesData}
         enScrambledTilesData={enScrambledTilesData}
         onNumMatchedChanged={this.handleNumMatchedChanged} />
