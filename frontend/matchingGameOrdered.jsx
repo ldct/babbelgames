@@ -346,10 +346,13 @@ var App = React.createClass({
       <ProgressBar
         done={this.state.startIdx * 5 + this.state.numMatched}
         total={this.props.numPairs} />
-      <ScreenplayInformationArea
-        startIdx={this.state.startIdx}
-        scrambledChunksOfActivityPairs={this.props.scrambledChunksOfActivityPairs}
-        screenplayText={this.props.screenplayText} />
+      {this.props.screenplayText ?
+        <ScreenplayInformationArea
+          startIdx={this.state.startIdx}
+          scrambledChunksOfActivityPairs={this.props.scrambledChunksOfActivityPairs}
+          screenplayText={this.props.screenplayText} />
+        : null
+      }
       <OrderedMatchingGame
         key={this.state.startIdx}
         frTilesData={frTilesData}

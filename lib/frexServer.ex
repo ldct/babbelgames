@@ -50,17 +50,16 @@ defmodule FrexServer do
     |> IO.inspect
 
     entries = Srt.pairSrt("data/subtitles/" <> seriesName <> "/en/" <> srtFilename, "data/subtitles/" <> seriesName <> "/fr/" <> srtFilename)
-    |> Enum.map(fn
-      {a, b, c} -> [a, b, c]
-      {a, b} -> [a, b]
-    end)
+    |> Enum.map(fn t -> Tuple.to_list(t) end)
+
+
+    jsonResult = Poison.encode!(%{
+      "tileData" => entries,
+    }, pretty: true)
 
     conn
     |> put_resp_content_type("application/json")
-    |> send_resp(200, Poison.encode!(
-      entries,
-      pretty: true
-    ))
+    |> send_resp(200, jsonResult)
 
   end
 
