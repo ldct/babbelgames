@@ -94,6 +94,10 @@ Et c'est ma mère.
 Ce qui est vraiment très bizarre.
 Elle m'appelle jamais.
 
+21
+00:01:55,865 --> 00:01:57,783
+Hi.
+
 22
 00:01:58,794 --> 00:02:01,543
 Quand ce mec dit bonjour,

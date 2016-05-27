@@ -65,7 +65,7 @@ Then I look down and I realize
 there is a phone...
 
 15
-00:01:32,050 --> 00:01:34,009
+00:01:31,968 --> 00:01:33,032
 ...there.
 
 16
@@ -148,13 +148,12 @@ I'll be fine. All right? Really.
 I hope she'll be very happy.
 
 33
-00:02:34,821 --> 00:02:36,155
-- No, you don't.
-- No, I don't.
+00:02:34,335 --> 00:02:35,281
+No, you don't.
 
 34
 00:02:36,322 --> 00:02:38,157
-To hell with her. She left me!
+No, I don't. To hell with her. She left me!
 
 35
 00:02:39,200 --> 00:02:41,160
@@ -727,7 +726,7 @@ She always drank it out of the can.
 I should have known.
 
 160
-00:10:11,861 --> 00:10:15,071
+00:10:13,446 --> 00:10:14,710
 Hey. Ross, let me ask you a question.
 
 161

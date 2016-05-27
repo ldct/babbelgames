@@ -343,6 +343,21 @@ var App = React.createClass({
 
 
     return <div>
+      <div style={{
+        backgroundColor: '#44B78B',
+        color: 'white',
+        fontFamily: 'Montserrat,Arial,sans-serif',
+        padding: '41px 40px 31px',
+        display: 'flex',
+      }}>
+        <img src="/img/friends.s01e01.jpg" height={170} />
+        <div style={{
+          marginLeft: 30
+        }}>
+          <h1> The One Where Monica Gets a New Roommate </h1>
+          <h2> Friends s01e01 </h2>
+        </div>
+      </div>
       <ProgressBar
         done={this.state.startIdx * 5 + this.state.numMatched}
         total={this.props.numPairs} />
