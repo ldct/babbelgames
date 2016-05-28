@@ -8,9 +8,9 @@ defmodule FrexServer do
     send_resp(conn, 200, "world")
   end
 
-  get "/sentenceMatchingGame/sherlock/:episode" do
+  get "/sentenceMatchingGame/:series/:episode" do
 
-    cacheFilename = "cache/sherlock\\" <> episode
+    cacheFilename = "cache/" <> series <> "\\" <> episode
 
     if File.exists?(cacheFilename) do
       conn
@@ -26,14 +26,14 @@ defmodule FrexServer do
       episodeFilename = srtFilename |> String.replace(".srt", "")
 
       entries = Srt.pairSrt(
-        "data/subtitles/sherlock/en/" <> srtFilename,
-        "data/subtitles/sherlock/fr/" <> srtFilename,
-        "data/screenplay/sherlock/" <> episodeFilename <> ".txt")
+        "data/subtitles/" <> series <> "/en/" <> srtFilename,
+        "data/subtitles/" <> series <> "/fr/" <> srtFilename,
+        "data/screenplay/" <> series <> "/" <> episodeFilename <> ".txt")
       |> Enum.map(fn x -> Tuple.to_list(x) end)
 
       jsonResult = Poison.encode!(%{
         "tileData" => entries,
-        "screenplay" => File.read!("data/screenplay/sherlock/" <> episodeFilename <> ".txt"),
+        "screenplay" => File.read!("data/screenplay/" <> series <> "/" <> episodeFilename <> ".txt"),
       }, pretty: true)
 
       File.write!(cacheFilename, jsonResult)
@@ -44,24 +44,24 @@ defmodule FrexServer do
     end
   end
 
-  get "/sentenceMatchingGame/:seriesName/:episode" do
-    srtFilename = episode
-    |> String.replace(".json", "")
-    |> IO.inspect
+  # get "/sentenceMatchingGame/:seriesName/:episode" do
+  #   srtFilename = episode
+  #   |> String.replace(".json", "")
+  #   |> IO.inspect
 
-    entries = Srt.pairSrt("data/subtitles/" <> seriesName <> "/en/" <> srtFilename, "data/subtitles/" <> seriesName <> "/fr/" <> srtFilename)
-    |> Enum.map(fn t -> Tuple.to_list(t) end)
+  #   entries = Srt.pairSrt("data/subtitles/" <> seriesName <> "/en/" <> srtFilename, "data/subtitles/" <> seriesName <> "/fr/" <> srtFilename)
+  #   |> Enum.map(fn t -> Tuple.to_list(t) end)
 
 
-    jsonResult = Poison.encode!(%{
-      "tileData" => entries,
-    }, pretty: true)
+  #   jsonResult = Poison.encode!(%{
+  #     "tileData" => entries,
+  #   }, pretty: true)
 
-    conn
-    |> put_resp_content_type("application/json")
-    |> send_resp(200, jsonResult)
+  #   conn
+  #   |> put_resp_content_type("application/json")
+  #   |> send_resp(200, jsonResult)
 
-  end
+  # end
 
   def randomIndex(arr) do
     :rand.uniform * (length(arr) - 1) |> round

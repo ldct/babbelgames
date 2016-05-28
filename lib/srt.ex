@@ -125,8 +125,8 @@ defmodule Srt do
         |> Enum.map(fn e -> pairEntry(e, l2) end)
         |> Enum.filter(fn %{:score => score} -> score > 0.5 end)
         |> Enum.map(fn
-            %{ :l1 => a, :l2 => b, :speaker => s} -> {a, b, s}
-            %{ :l1 => a, :l2 => b} -> {a, b}
+            %{ :l1 => a, :l2 => b, :speaker => s} -> {a |> Nlp.invertEllipses, b |> Nlp.invertEllipses, s}
+            %{ :l1 => a, :l2 => b} -> {a |> Nlp.invertEllipses, b |> Nlp.invertEllipses}
         end)
     end
 
