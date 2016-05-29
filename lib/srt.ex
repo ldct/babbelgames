@@ -98,8 +98,8 @@ defmodule Srt do
     end
 
     def pairSrt(l1Filename, l2Filename, transcriptFilename) do
-        l1 = l1Filename |> parseSrt
-        l2 = l2Filename |> parseSrt
+        l1 = l1Filename |> parseSrt |> IO.inspect
+        l2 = l2Filename |> parseSrt |> IO.inspect
 
         transcriptLineInfo = transcriptFilename
         |> parseTranscriptForLines
@@ -190,6 +190,7 @@ defmodule Srt do
         |> File.read!
         |> String.replace("\r\n\r\n\r\n", "\r\n\r\n")
         |> String.split("\r\n\r\n")
+        |> IO.inspect
         |> Enum.filter(fn e -> isEmptyEntry e end)
         |> Enum.map(fn e -> parseSrtEntry e end)
     end

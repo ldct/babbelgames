@@ -1765,7 +1765,7 @@ Look at this one.
 387
 00:30:14,600 --> 00:30:17,000
 Got a taxi from him
-on the day he died, £18.50.
+on the day he died, Â£18.50.
 
 388
 00:30:17,000 --> 00:30:18,840
@@ -1896,7 +1896,7 @@ No, thanks, no.
 
 416
 00:31:59,440 --> 00:32:02,200
-£10! £10!
+Â£10! Â£10!
 
 417
 00:32:03,560 --> 00:32:06,480
@@ -3146,12 +3146,12 @@ Arrived from China a month ago,
 701
 00:55:36,000 --> 00:55:39,440
 Chinese ceramic statue sold for
-£400,000.
+Â£400,000.
 
 702
 00:55:39,440 --> 00:55:42,840
 Look, a month before that,
-Chinese painting, £500,000.
+Chinese painting, Â£500,000.
 
 703
 00:55:42,840 --> 00:55:45,160
@@ -4152,7 +4152,7 @@ He lent that to me.
 
 928
 01:15:51,080 --> 01:15:57,040
-And a cheque for £5,000 made out
+And a cheque for Â£5,000 made out
 in the name of Mr Sherlock Holmes.
 
 929
@@ -4285,7 +4285,7 @@ Where's the hairpin? What?
 957
 01:18:30,520 --> 01:18:34,440
 The Empress pin
-valued at £9 million sterling?
+valued at Â£9 million sterling?
 
 958
 01:18:34,440 --> 01:18:36,720
@@ -4480,7 +4480,7 @@ What they were trying to reclaim.
 1000
 01:22:46,960 --> 01:22:48,800
 What, a jade pin?
-Worth £9 million.
+Worth Â£9 million.
 
 1001
 01:22:48,800 --> 01:22:51,120
@@ -4489,7 +4489,7 @@ their London hideout.
 
 1002
 01:22:51,120 --> 01:22:53,720
-Hang on. A hairpin worth £9 million?
+Hang on. A hairpin worth Â£9 million?
 
 1003
 01:22:53,720 --> 01:22:55,960
@@ -4515,7 +4515,7 @@ to something, a little hairpin.
 
 1008
 01:23:12,320 --> 01:23:14,800
-Worth £9 million.
+Worth Â£9 million.
 Eddie Van Coon was the thief,
 
 1009
@@ -4666,7 +4666,7 @@ Oh? What's it worth?
 
 1041
 01:25:10,440 --> 01:25:13,080
-£9 million.
+Â£9 million.
 
 1042
 01:25:16,080 --> 01:25:17,320
