@@ -425,8 +425,8 @@ Pousse-la dans l'escalier !
 
 97
 00:06:57,100 --> 00:07:00,100
-Pousse-la dans l'escalier !
 Pousse-la !
+Pousse-la dans l'escalier !
 
 98
 00:07:04,600 --> 00:07:06,600
@@ -860,6 +860,7 @@ Vous.
 
 193
 00:13:14,200 --> 00:13:16,600
+- Mon Dieu !
 Je sais, je suis un imbécile.
 
 194
@@ -1376,10 +1377,14 @@ Tu as raison. Excuse-moi.
  « autrefois j'étais en bois,
 mais je n' le suis plus... »
 
-307
-00:21:13,500 --> 00:21:18,500
+279
+00:21:13,148 --> 00:21:17,319
 [UNCUT]Je vous annonce que c'est
-un homme mort, ho ?, Chandler ? ..
+un homme mort, ho ?,
+
+280
+00:21:17,528 --> 00:21:19,488
+Chandler ? ..
 
 308
 00:21:22,300 --> 00:21:24,600

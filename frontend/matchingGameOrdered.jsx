@@ -106,7 +106,8 @@ var ScreenplayInformationArea = React.createClass({
     var start, end;
 
     if (lineNumbers.length === 0) {
-      start, end = largestPreviousLineNumber, smallestNextLineNumber;
+      start = largestPreviousLineNumber;
+      end = smallestNextLineNumber;
     } else {
       var smallestHereLineNumber = Math.min.apply(null, lineNumbers);
       var largestHereLineNumber = Math.max.apply(null, lineNumbers);

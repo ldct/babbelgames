@@ -345,13 +345,11 @@ and "Who am I doing it for?"
 
 82
 00:05:46,600 --> 00:05:51,700
-I didn't know where to go,
-and I know we've drifted apart but..
+So anyway I just didn't know where to go, and I know that you and I have kinda drifted apart,
 
 83
 00:05:51,800 --> 00:05:54,300
-you're the only person
-I know here.
+but you're the only person I knew who lived here in the city.
 
 84
 00:05:54,400 --> 00:05:56,000
@@ -359,35 +357,40 @@ I know here.
 
 85
 00:05:56,100 --> 00:05:58,500
-- I hoped that wouldn't be an issue.
+I was kinda hoping that wouldn't be an issue...
 
-78
-00:06:15,626 --> 00:06:20,547
+86
+00:06:15,300 --> 00:06:17,700
 I guess he bought her the pipe organ,
+
+87
+00:06:17,800 --> 00:06:19,400
 and she's really not happy about it.
 
-79
-00:06:21,173 --> 00:06:23,759
-"Tuna or egg salad!
-Decide!"
+88
+00:06:21,700 --> 00:06:25,700
+Tuna or egg salad!
+Decide!
 
 80
 00:06:25,302 --> 00:06:30,015
-"I'll have whatever
-Christina's having."
+ I'll have whatever Christine is having.
 
 81
 00:06:30,224 --> 00:06:33,519
 Daddy, I just
 I can't marry him.
 
-82
-00:06:34,019 --> 00:06:38,941
+91
+00:06:34,400 --> 00:06:35,500
 I'm sorry.
+
+92
+00:06:36,100 --> 00:06:37,800
 I just don't love him.
 
 83
-00:06:39,149 --> 00:06:43,153
+00:06:39,400 --> 00:06:41,200
 Well, it matters to me!
 
 84
@@ -400,23 +403,22 @@ my head will fall off."
 She should not be
 wearing those pants.
 
-86
-00:06:54,998 --> 00:06:56,667
+96
+00:06:55,700 --> 00:06:57,000
 Push her down the stairs!
 
-87
-00:06:57,167 --> 00:07:00,045
+97
+00:06:57,100 --> 00:07:00,100
 Push her!
 Push her down the stairs!
 
 88
 00:07:04,341 --> 00:07:06,969
-Come on, Daddy, listen!
+Come on, Daddy, listen to me!
 
 89
 00:07:07,553 --> 00:07:11,807
-All my life, everyone's
-always told me, "You're a shoe!"
+It's like, all of my life, everyone has always told me, "You're a shoe!"
 
 90
 00:07:12,015 --> 00:07:14,434
@@ -428,7 +430,7 @@ What if I don't want to be a shoe?
 
 92
 00:07:17,855 --> 00:07:20,899
-What if I want to be a purse?
+What if I wanna be a- a purse, y'know?
 
 93
 00:07:21,108 --> 00:07:23,735
@@ -436,11 +438,10 @@ Or a hat?
 
 94
 00:07:24,069 --> 00:07:26,488
-No, I don't want you
-to buy me a hat!
+No, I'm not saying I want you to buy me a hat
 
 95
-00:07:26,697 --> 00:07:29,992
+00:07:27,100 --> 00:07:28,500
 It's a metaphor, Daddy!
 
 96
@@ -460,7 +461,7 @@ here with Monica.
 99
 00:07:44,756 --> 00:07:48,093
 I guess we've established
-she's staying with Monica.
+she's staying here with Monica.
 
 100
 00:07:48,635 --> 00:07:51,889
@@ -471,7 +472,7 @@ Well, maybe that's my decision.
 Maybe I don't need your money.
 
 102
-00:07:54,892 --> 00:07:57,728
+00:07:54,700 --> 00:07:56,000
 Wait!
 I said maybe!
 
@@ -486,11 +487,11 @@ Try to think of nice, calm things.
 105
 00:08:10,741 --> 00:08:14,244
 Raindrops on roses
-And whiskers on kittens
+And rabbits and kittens
 
 106
 00:08:14,703 --> 00:08:18,874
-Doorbells and sleigh bells
+Bluebells and sleighbells
 And something with mittens
 
 107
@@ -503,21 +504,24 @@ And noodles with string
 I'm all better now.
 
 109
-00:08:27,549 --> 00:08:30,093
+00:08:28,000 --> 00:08:28,700
 I helped.
 
 110
 00:08:31,303 --> 00:08:33,722
 This is probably for the best.
 
-111
-00:08:34,473 --> 00:08:39,144
-Independence. Controlling your life.
+121
+00:08:34,600 --> 00:08:37,800
+Independence. Taking control of your life.
+
+122
+00:08:38,000 --> 00:08:39,800
 The whole hat thing.
 
 112
 00:08:39,311 --> 00:08:43,440
-You can always come to Joey.
+And hey, you need anything, you can always come to Joey.
 
 113
 00:08:43,649 --> 00:08:47,236
@@ -532,10 +536,6 @@ It's her wedding day.
 115
 00:08:52,115 --> 00:08:55,244
 Like there's a rule, or something?
-
-116
-00:08:57,371 --> 00:08:59,706
-I got it.
 
 117
 00:08:59,957 --> 00:09:03,418
@@ -557,12 +557,12 @@ Buzz him in.
 - Paul, the wine guy?
 
 121
-00:09:11,802 --> 00:09:12,761
+00:09:12,300 --> 00:09:13,000
 Maybe.
 
 122
 00:09:12,970 --> 00:09:16,265
-Your "not a real date"
+Your "not a real date" toinght
 is with Paul, the wine guy?
 
 123
@@ -572,12 +572,15 @@ is with Paul, the wine guy?
 
 124
 00:09:19,142 --> 00:09:21,645
-It's a "Dear Diary" moment.
+This is a "Dear Diary" moment.
 
-125
-00:09:21,812 --> 00:09:25,274
-- Rach, I can cancel.
-- Please, go, I'll be fine.
+136
+00:09:22,000 --> 00:09:23,800
+- Rach, wait, I can cancel.
+
+137
+00:09:23,900 --> 00:09:26,500
+- Please, no, go, that'd be fine.
 
 126
 00:09:26,650 --> 00:09:30,070
@@ -585,20 +588,17 @@ Ross, are you okay?
 Do you want me to stay?
 
 127
-00:09:30,279 --> 00:09:32,948
+00:09:30,700 --> 00:09:31,500
 That'd be good.
 
 128
 00:09:34,199 --> 00:09:38,203
 - Really?- Go on! It's Paul, the wine guy!
 
-129
-00:09:38,787 --> 00:09:40,998
-Does he sell it, drink it?
-
-130
-00:09:41,206 --> 00:09:43,959
-Or he just complains a lot?
+141
+00:09:39,000 --> 00:09:42,900
+What does that mean?
+Does he sell it? drink it? or just complain a lot?
 
 131
 00:09:44,168 --> 00:09:46,503
@@ -618,7 +618,7 @@ Everybody, this is Paul.
 134
 00:09:57,514 --> 00:10:00,642
 I'll be right back.
-I've just gotta go
+I just gotta go
 
 135
 00:10:00,851 --> 00:10:03,187
@@ -649,10 +649,10 @@ rub her neck in the same spot..
 
 141
 00:10:26,710 --> 00:10:29,546
-until it starts to get red.
+until it starts to get a little red.
 
 142
-00:10:29,755 --> 00:10:33,091
+00:10:30,300 --> 00:10:31,600
 Shut up, Joey!
 
 143
@@ -661,11 +661,11 @@ What are you up to tonight?
 
 144
 00:10:36,512 --> 00:10:40,224
-I was supposed to be headed
+I was kinda supposed to be headed
 for Aruba on my honeymoon..
 
 145
-00:10:40,516 --> 00:10:42,851
+00:10:41,300 --> 00:10:42,100
 so, nothing.
 
 146
@@ -683,18 +683,18 @@ This time of year?
 Talk about your..
 
 149
-00:10:53,278 --> 00:10:56,573
+00:10:53,700 --> 00:10:54,600
 big lizards.
 
 150
 00:10:59,243 --> 00:11:01,954
-If you don't want
-to be alone tonight..
+If you don't feel like being
+alone tonight..
 
 151
 00:11:02,120 --> 00:11:05,707
-Joey and Chandler are
-helping me with my furniture.
+Joey and Chandler are coming over to
+help me put together my new furniture.
 
 152
 00:11:05,916 --> 00:11:08,293
@@ -702,26 +702,28 @@ We're very excited about it.
 
 153
 00:11:08,544 --> 00:11:11,713
-Thanks. But I'm just
-going to hang out here.
+Thanks. But I think I'm just
+going to hang out here tonight.
 
 154
 00:11:11,922 --> 00:11:14,007
-- It's been a long day.
-- Oh, sure.
+- It's been kinda a long day.
 
 155
-00:11:14,341 --> 00:11:15,551
-Phoebe, wanna help?
+00:11:14,900 --> 00:11:16,000
+Pheebs, you wanna help?
 
 156
 00:11:16,009 --> 00:11:19,721
 I wish I could,
 but I don't want to.
 
-157
-00:11:27,729 --> 00:11:33,694
+168
+00:11:28,100 --> 00:11:30,900
 Love is sweet as summer showers
+
+169
+00:11:31,100 --> 00:11:34,200
 Love is a wondrous work of art
 
 158
@@ -738,7 +740,7 @@ Is like a giant pigeon
 Crapping on my heart
 
 161
-00:11:50,627 --> 00:11:52,504
+00:11:51,000 --> 00:11:51,500
 Thank you.
 
 162
@@ -753,7 +755,7 @@ little worm guys.
 
 164
 00:12:09,771 --> 00:12:14,318
-I have no bracket-y thing.
+I have no brackety thing.
 I see no worm guys whatsoever..
 
 165
@@ -762,7 +764,7 @@ and I cannot feel my legs.
 
 166
 00:12:20,824 --> 00:12:24,536
-- We got a bookcase.
+- We've got a bookcase.
 - It's beautiful.
 
 167
@@ -793,14 +795,17 @@ This was Carol's favorite beer.
 She always drank it out of the can.
 I should have known.
 
-173
-00:12:55,984 --> 00:13:01,156
-- Start with that, we're out of here.
+186
+00:12:56,400 --> 00:12:58,500
+If you're gonna start with that stuff we're outta here.
+
+187
+00:12:58,600 --> 00:13:01,100
 - Please don't spoil all this fun.
 
 174
-00:13:01,365 --> 00:13:02,783
-Let me ask you.
+00:13:01,900 --> 00:13:03,400
+Ross, let me ask you a question.
 
 175
 00:13:02,991 --> 00:13:07,329
@@ -811,15 +816,19 @@ the stereo, the good TV.
 00:13:07,538 --> 00:13:09,331
 What did you get?
 
-177
-00:13:09,540 --> 00:13:12,668
+191
+00:13:10,000 --> 00:13:10,600
 - You guys.
+
+192
+00:13:10,700 --> 00:13:13,300
 - You got screwed.
+- Oh, my God.
 
 178
 00:13:12,835 --> 00:13:17,422
-- Oh, my God.
-- I know. I'm such an idiot.
+- Oh, my God!
+- I know, I'm such an idiot.
 
 179
 00:13:17,631 --> 00:13:22,177
@@ -833,33 +842,39 @@ I mean, how clean can teeth get?
 181
 00:13:24,930 --> 00:13:27,266
 My brother's going through that.
+He's such a mess.
 
 182
 00:13:27,474 --> 00:13:29,017
-How did you get over it?
+How did you get through it?
 
 183
 00:13:29,268 --> 00:13:32,729
-He might accidentally
-break something valuable of hers.
+Well, you might try accidentally breaking something valuable of hers
 
 184
 00:13:32,896 --> 00:13:34,523
-- Say her
+- Say her...
 - Leg?
 
-185
-00:13:34,731 --> 00:13:38,652
-That's one way of doing it.
+200
+00:13:35,400 --> 00:13:36,800
+That's one way.
+
+201
+00:13:37,500 --> 00:13:39,100
 I went for the watch.
 
 186
 00:13:39,278 --> 00:13:41,822
 You actually broke her watch?
 
-187
-00:13:42,030 --> 00:13:46,243
+203
+00:13:41,200 --> 00:13:43,900
 The worst I ever did was shred
+
+204
+00:13:44,200 --> 00:13:46,800
 my old boyfriend's favorite towel.
 
 188
@@ -906,10 +921,17 @@ right now, but you just
 00:14:32,706 --> 00:14:34,249
 I'm divorced.
 
-197
-00:14:34,458 --> 00:14:40,589
+214
+00:14:34,800 --> 00:14:36,900
 - I'm only 26, and I'm divorced!
+
+215
+00:14:37,200 --> 00:14:38,400
 - Shut up!
+
+216
+00:14:38,600 --> 00:14:39,700
+You must stop!
 
 198
 00:14:45,260 --> 00:14:47,638
@@ -920,22 +942,23 @@ That only took me an hour.
 We haven't had a relationship
 that's lasted longer than a Mento.
 
-200
-00:14:56,605 --> 00:14:59,942
+
+219
+00:14:57,000 --> 00:15:00,500
 You have had the love of a woman
 for four years.
 
-201
-00:15:00,150 --> 00:15:05,447
+220
+00:15:00,600 --> 00:15:03,900
 Four years of closeness and sharing,
-after which she ripped your heart out.
 
-202
-00:15:05,656 --> 00:15:08,659
+221
+00:15:04,000 --> 00:15:09,800
+after which she ripped your heart out.
 That is why we don't do it!
 
-203
-00:15:09,576 --> 00:15:12,996
+222
+00:15:09,900 --> 00:15:11,600
 I don't think that was my point!
 
 204
@@ -993,17 +1016,20 @@ You were like, what, 8?
 Welcome back to the world.
 Grab a spoon!
 
-215
-00:16:01,253 --> 00:16:05,507
+234
+00:16:01,500 --> 00:16:04,000
 - I don't know if I'm hungry or horny.
-- Then stay out of my freezer.
+
+235
+00:16:04,500 --> 00:16:05,800
+- Stay out of my freezer.
 
 216
 00:16:09,720 --> 00:16:12,806
 Ever since she walked out on me..
 
 217
-00:16:13,307 --> 00:16:15,225
+00:16:13,300 --> 00:16:14,100
 What?
 
 218
@@ -1030,7 +1056,7 @@ Yeah, yeah.
 I think there is.
 
 223
-00:16:33,410 --> 00:16:36,705
+00:16:33,500 --> 00:16:34,700
 What were you going to say?
 
 224
@@ -1042,12 +1068,15 @@ Ever since she left me..
 I haven't been able to perform..
 
 226
-00:16:47,090 --> 00:16:48,884
+00:16:47,300 --> 00:16:47,900
 sexually.
 
-227
-00:16:51,178 --> 00:16:54,097
+247
+00:16:51,300 --> 00:16:52,500
 Oh, God!
+
+248
+00:16:52,500 --> 00:16:53,700
 I'm so sorry.
 
 228
@@ -1060,7 +1089,7 @@ not what you need right now.
 How long?
 
 230
-00:17:01,939 --> 00:17:05,025
+00:17:02,200 --> 00:17:03,000
 - Two years.
 - Wow.
 
@@ -1074,7 +1103,7 @@ So you still think you might
 want that fifth date?
 
 233
-00:17:16,495 --> 00:17:20,749
+00:17:18,400 --> 00:17:19,300
 Yeah.
 Yeah, I do.
 
@@ -1091,10 +1120,6 @@ Chachi, Chachi, Chachi..
 236
 00:17:32,386 --> 00:17:36,473
 in the bonds of holy matrimony.
-
-237
-00:17:36,723 --> 00:17:37,766
-See!
 
 238
 00:17:37,975 --> 00:17:43,981
@@ -1115,14 +1140,20 @@ since I grabbed a spoon?
 Do the words, "Billy, don't be
 a hero," mean anything to you?
 
-242
-00:17:58,537 --> 00:18:01,623
+263
+00:17:58,900 --> 00:17:59,800
 Great story.
+
+264
+00:18:00,600 --> 00:18:01,700
 But I gotta go.
 
-243
-00:18:01,832 --> 00:18:06,670
+265
+00:18:02,200 --> 00:18:03,600
 I got a date with Andrea.
+
+266
+00:18:03,700 --> 00:18:05,800
 Angela. No, Andrea.
 
 244
@@ -1130,9 +1161,13 @@ Angela. No, Andrea.
 Andrea's the screamer.
 Angela has cats.
 
-245
-00:18:10,465 --> 00:18:15,137
-Right, thanks. It's Julie.
+268
+00:18:10,800 --> 00:18:11,700
+Right, thanks.
+
+269
+00:18:11,900 --> 00:18:13,500
+It's Julie.
 I'm out of here.
 
 246
@@ -1141,16 +1176,19 @@ Here's the thing. Even if
 I could get it together enough..
 
 247
-00:18:21,226 --> 00:18:23,812
+00:18:20,600 --> 00:18:22,800
 to ask a woman out..
 
 248
 00:18:24,021 --> 00:18:25,689
 who am I going to ask?
 
-249
-00:18:50,005 --> 00:18:53,634
+273
+00:18:50,300 --> 00:18:51,200
 Isn't this amazing?
+
+274
+00:18:51,700 --> 00:18:54,000
 I've never made coffee in my life.
 
 250
@@ -1204,12 +1242,12 @@ Lenny and Squiggy are here.
 - Stop.
 
 260
-00:19:41,849 --> 00:19:46,395
+00:19:42,000 --> 00:19:44,500
 Last night was like
-all my birthdays, both graduations..
 
 261
-00:19:46,603 --> 00:19:49,106
+00:19:44,600 --> 00:19:48,700
+all my birthdays, both graduations...
 plus the barn-raising scene
 in Witness.
 
@@ -1218,11 +1256,11 @@ in Witness.
 We'll talk later.
 
 263
-00:20:01,743 --> 00:20:03,412
+00:20:02,300 --> 00:20:02,800
 Thank you.
 
 264
-00:20:10,502 --> 00:20:13,797
+00:20:10,900 --> 00:20:12,400
 That wasn't a real date.
 
 265
@@ -1247,14 +1285,20 @@ it doesn't make much of a difference.
 00:20:32,608 --> 00:20:35,194
 So, like, you guys all have jobs?
 
-270
-00:20:36,445 --> 00:20:40,991
+295
+00:20:36,500 --> 00:20:38,500
 Yeah, we all have jobs.
+
+296
+00:20:38,700 --> 00:20:40,900
 That's how we buy stuff.
 
-271
-00:20:43,160 --> 00:20:47,289
+297
+00:20:43,500 --> 00:20:44,400
 - Yeah, I'm an actor.
+
+298
+00:20:45,400 --> 00:20:47,700
 - Have I seen you in anything?
 
 272
@@ -1265,7 +1309,7 @@ Mostly regional work.
 273
 00:20:50,000 --> 00:20:53,462
 Unless you saw the Wee One's
-production of Pinocchio..
+production of Pinocchio...
 
 274
 00:20:53,670 --> 00:20:56,465
@@ -1281,9 +1325,12 @@ It was a job!
 "Look, Geppetto.
 I'm a real live boy."
 
-277
-00:21:04,014 --> 00:21:07,768
+304
+00:21:04,300 --> 00:21:06,200
 - I will not take this abuse.
+
+305
+00:21:06,300 --> 00:21:07,400
 - You're right, I'm sorry.
 
 278
@@ -1311,7 +1358,7 @@ Did you talk to Barry?
 I can't stop smiling.
 
 283
-00:21:28,539 --> 00:21:33,043
+00:21:29,800 --> 00:21:31,800
 I see that. You look like you
 slept with a hanger in your mouth.
 
@@ -1330,9 +1377,12 @@ He's just so..
 Well, it's like that.
 With feelings.
 
-287
-00:21:48,892 --> 00:21:51,895
+314
+00:21:49,400 --> 00:21:50,800
 - Wow, are you in trouble!
+
+315
+00:21:50,900 --> 00:21:51,700
 - Big time!
 
 288
@@ -1341,7 +1391,7 @@ Want a wedding dress?
 Hardly used.
 
 289
-00:21:55,858 --> 00:21:59,403
+00:21:56,400 --> 00:21:58,100
 I think we're getting a little
 ahead of ourselves.
 
@@ -1370,18 +1420,21 @@ of those job things.
 - Hi, Monica.
 - Franny, welcome back.
 
-295
-00:22:27,389 --> 00:22:30,559
+323
+00:22:27,800 --> 00:22:28,700
 - How was Florida?
+
+324
+00:22:29,500 --> 00:22:30,900
 - You had sex, didn't you?
 
-296
-00:22:32,603 --> 00:22:34,813
+325
+00:22:32,800 --> 00:22:33,800
 - How do you do that?
-- I hate you.
 
-297
-00:22:34,980 --> 00:22:39,026
+326
+00:22:34,000 --> 00:22:37,000
+- I hate you.
 I'm pushing my aunt through
 Parrot Jungle, you're having sex.
 
@@ -1393,9 +1446,12 @@ So, who?
 00:22:42,738 --> 00:22:44,198
 You know Paul?
 
-300
-00:22:44,489 --> 00:22:47,868
+330
+00:22:44,900 --> 00:22:45,900
 Paul, the wine guy?
+
+331
+00:22:46,300 --> 00:22:48,100
 Yeah, I know Paul.
 
 301
@@ -1428,16 +1484,20 @@ I assume we want an answer
 more sophisticated than:
 
 307
-00:23:12,226 --> 00:23:15,145
+00:23:12,000 --> 00:23:13,600
 "To get you into bed."
 
 308
 00:23:15,354 --> 00:23:17,689
 I hate men.
 
-309
-00:23:17,856 --> 00:23:21,985
-Don't hate. You don't want
+340
+00:23:18,000 --> 00:23:19,100
+Don't hate.
+
+341
+00:23:19,200 --> 00:23:20,900
+You don't want
 to put that out into the universe.
 
 310
@@ -1455,7 +1515,7 @@ and men with emotional problems
 can hear?
 
 313
-00:23:30,577 --> 00:23:33,872
+00:23:30,800 --> 00:23:32,300
 Come here.
 Give me your feet.
 
@@ -1468,19 +1528,25 @@ I just thought he was nice, you know?
 I can't believe
 you didn't know it was a line.
 
-316
-00:23:53,851 --> 00:23:55,686
+348
+00:23:54,100 --> 00:23:54,800
 - Guess what?
-- You got a job?
 
-317
-00:23:55,853 --> 00:24:00,148
+349
+00:23:55,000 --> 00:23:57,100
+- You got a job?
 Are you kidding?
+
+350
+00:23:57,200 --> 00:23:58,900
 I'm trained for nothing.
 
-318
-00:24:00,440 --> 00:24:04,403
+351
+00:24:00,800 --> 00:24:03,000
 - I was laughed out of 12 interviews.
+
+352
+00:24:03,200 --> 00:24:04,800
 - You're surprisingly upbeat.
 
 319
@@ -1515,7 +1581,7 @@ I've got great boots" boots.
 And who pays for that?
 
 326
-00:24:26,300 --> 00:24:29,011
+00:24:26,100 --> 00:24:27,500
 My father.
 
 327
@@ -1537,9 +1603,10 @@ That's why I was getting married.
 Give her a break.
 It's hard being on your own.
 
-331
-00:24:45,736 --> 00:24:46,737
+365
+00:24:46,100 --> 00:24:48,100
 Thank you.
+You're welcome.
 
 332
 00:24:46,904 --> 00:24:50,449
@@ -1574,18 +1641,17 @@ So I know exactly how you feel.
 The word you're looking for is:
 
 339
-00:25:14,014 --> 00:25:16,433
+00:25:14,000 --> 00:25:15,100
 "Anyway.."
 
 340
 00:25:20,437 --> 00:25:24,233
-- You ready?
+- All right, You ready?
 - No, how can I be ready?
 
 341
 00:25:24,399 --> 00:25:27,277
-"Ready to jump out of the plane
-with no parachute?"
+You ready to jump out the airplane without your parachute?
 
 342
 00:25:27,444 --> 00:25:29,696
@@ -1602,18 +1668,22 @@ with no parachute?"
 Cut. Cut. Cut.
 
 345
-00:25:43,627 --> 00:25:47,172
+00:25:45,800 --> 00:25:49,600
 You know what?
 I think we can leave it at that.
+Kind of a symbolic gesture.
 
 346
-00:25:47,381 --> 00:25:51,426
-- Kind of a symbolic gesture.
+00:25:49,800 --> 00:25:51,700
 - Rachel, that was a library card.
 
-347
-00:25:58,141 --> 00:26:02,980
-If you listen closely, you can hear
+384
+00:25:58,400 --> 00:26:00,200
+If you listen closely,
+
+385
+00:26:00,300 --> 00:26:02,500
+you can hear
 a thousand retailers scream.
 
 348
@@ -1625,9 +1695,12 @@ Welcome to the real world!
 It sucks.
 You're gonna love it.
 
-350
-00:26:19,204 --> 00:26:22,291
+388
+00:26:19,600 --> 00:26:20,400
 That's it.
+
+389
+00:26:21,800 --> 00:26:22,800
 Are you going to crash on the couch?
 
 351
@@ -1636,17 +1709,20 @@ Are you going to crash on the couch?
 - Are you gonna be okay?
 
 352
-00:26:28,422 --> 00:26:31,758
+00:26:29,000 --> 00:26:30,600
 Look what I just
 found on the floor.
 
 353
-00:26:32,676 --> 00:26:34,178
+00:26:32,900 --> 00:26:33,500
 What?
 
-354
-00:26:34,386 --> 00:26:38,140
+393
+00:26:34,500 --> 00:26:35,900
 That's Paul's watch.
+
+394
+00:26:36,600 --> 00:26:38,100
 Just put it back where you found it.
 
 355
@@ -1654,13 +1730,16 @@ Just put it back where you found it.
 Oh, boy!
 All right.
 
-356
-00:26:42,394 --> 00:26:45,731
+396
+00:26:42,700 --> 00:26:43,700
 - Good night, everybody.
+
+397
+00:26:43,800 --> 00:26:44,300
 - Good night.
 
 357
-00:26:55,782 --> 00:27:00,662
+00:26:57,500 --> 00:26:59,400
 - I'm sorry. Have it, I don't want it.
 - Split it?
 
@@ -1678,7 +1757,7 @@ I had a major crush on you.
 I knew.
 
 361
-00:27:14,092 --> 00:27:17,179
+00:27:14,500 --> 00:27:15,300
 You did?
 
 362
@@ -1687,7 +1766,7 @@ I figured you thought
 I was Monica's geeky brother.
 
 363
-00:27:21,183 --> 00:27:23,227
+00:27:21,600 --> 00:27:22,300
 I did.
 
 364
@@ -1705,42 +1784,43 @@ Do you think it would be okay
 if I asked you out sometime?
 
 367
-00:27:40,369 --> 00:27:42,538
-Yeah.
-
-368
-00:27:42,746 --> 00:27:44,039
-Maybe.
-
-369
-00:27:44,957 --> 00:27:48,252
-Okay.
+00:27:43,100 --> 00:27:44,000
+Yeah. Maybe.
 
 370
-00:27:51,672 --> 00:27:53,590
-Okay, maybe I will.
+00:27:52,600 --> 00:27:53,900
+Okay. Okay, maybe I will.
 
-371
-00:27:57,928 --> 00:28:01,348
+411
+00:27:58,400 --> 00:27:59,100
 - Good night.
+
+412
+00:28:15,100 --> 00:28:15,800
 - Good night.
 
 372
 00:28:14,444 --> 00:28:16,655
 See you.
 
-373
-00:28:17,948 --> 00:28:20,450
+413
+00:28:18,300 --> 00:28:19,200
 Wait, wait.
+
+414
+00:28:19,500 --> 00:28:20,600
 What's with you?
 
 374
-00:28:23,078 --> 00:28:27,374
+00:28:23,500 --> 00:28:24,900
 I just grabbed a spoon.
 
-375
-00:28:33,463 --> 00:28:37,634
+416
+00:28:34,600 --> 00:28:36,000
 - I can't believe what I'm hearing.
+
+417
+00:28:36,100 --> 00:28:37,700
 - Can't believe what I'm hearing
 
 376
@@ -1748,27 +1828,33 @@ I just grabbed a spoon.
 - What? I said
 -  What? I said
 
-377
-00:28:41,054 --> 00:28:43,557
+419
+00:28:41,400 --> 00:28:42,200
 - Would you stop?
+
+420
+00:28:42,600 --> 00:28:45,000
 - Was I doing it again?
+- Yes!
 
-378
-00:28:43,765 --> 00:28:46,059
-Yes!
-
-379
-00:28:46,351 --> 00:28:50,814
+421
+00:28:46,700 --> 00:28:48,900
 I said you had a nice butt.
+
+422
+00:28:49,000 --> 00:28:51,100
 It's just not a great butt.
 
-380
-00:28:50,981 --> 00:28:55,194
+423
+00:28:51,100 --> 00:28:54,300
 - You won't know a butt if it bit you.
+
+424
+00:28:54,400 --> 00:28:56,400
 - There's an image.
 
 381
-00:28:57,654 --> 00:29:00,949
+00:28:58,200 --> 00:28:59,700
 Would anybody like more coffee?
 
 382
@@ -1781,12 +1867,12 @@ or you're serving it?
 - I'm just serving it.
 - I'll have a cup of coffee.
 
-384
-00:29:08,165 --> 00:29:09,625
+428
+00:29:08,700 --> 00:29:10,100
 Kids, new dream.
 
-385
-00:29:09,791 --> 00:29:11,043
+429
+00:29:10,200 --> 00:29:11,200
 I'm in Las Vegas.
 
 386
@@ -1814,5 +1900,4 @@ I'm in Las Vegas.
 
 391
 00:29:27,476 --> 00:29:29,811
-I'm Liza Minnelli..
-
+I'm Liza Minelli-

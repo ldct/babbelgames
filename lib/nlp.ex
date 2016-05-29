@@ -33,6 +33,7 @@ defmodule Nlp do
         |> String.replace("gotta", "got to")
         |> String.replace("I'm", "I am")
         |> String.replace("there's", "there is")
+        |> String.replace("what're", "what are")
     end
 
 end
