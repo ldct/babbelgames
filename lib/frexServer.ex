@@ -8,6 +8,21 @@ defmodule FrexServer do
     send_resp(conn, 200, "world")
   end
 
+  def metadataOf(series, episode) do
+    {series, episode} |> IO.inspect
+    case {series, episode} do
+      {"friends", "s01e01"} -> %{
+        "title" => "The One Where Monica Gets a Roommate",
+        "subtitle" => "Friends s01e01"
+      }
+      {"sherlock", "s01e01"} -> %{
+        "title" => "A Study in Pink",
+        "subtitle" => "Sherlock s01e01"
+      }
+      _ -> %{}
+    end
+  end
+
   get "/sentenceMatchingGame/:series/:episode" do
 
     cacheFilename = "cache/" <> series <> "\\" <> episode
@@ -34,6 +49,7 @@ defmodule FrexServer do
       jsonResult = Poison.encode!(%{
         "tileData" => entries,
         "screenplay" => File.read!("data/screenplay/" <> series <> "/" <> episodeFilename <> ".txt"),
+        "metadata" => metadataOf(series, episode |> String.replace(".srt.json", "")),
       }, pretty: true)
 
       File.write!(cacheFilename, jsonResult)

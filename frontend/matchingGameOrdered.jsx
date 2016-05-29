@@ -351,12 +351,12 @@ var App = React.createClass({
         padding: '41px 40px 31px',
         display: 'flex',
       }}>
-        <img src="/img/friends.s01e01.jpg" height={170} />
+        <img src={this.props.posterImageSrc} height={170} />
         <div style={{
           marginLeft: 30
         }}>
-          <h1> The One Where Monica Gets a New Roommate </h1>
-          <h2> Friends s01e01 </h2>
+          <h1>{this.props.metadata.title}</h1>
+          <h2>{this.props.metadata.subtitle}</h2>
         </div>
       </div>
       <ProgressBar
@@ -425,6 +425,8 @@ fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
 
   ReactDOM.render(
     <App
+      metadata={res.metadata}
+      posterImageSrc={"img/" + dataSource.replace('/', '.').replace('.srt.json', '.jpg')}
       scrambledChunksOfActivityPairs={scrambledChunksOfActivityPairs}
       numPairs={res.tileData.length}
       screenplayText={res.screenplay}
