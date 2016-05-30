@@ -13,4 +13,12 @@ defmodule Util do
         f.(x)
         x
     end
+
+    def fractionTrue(arr) do
+        (arr |> Enum.filter(fn x -> x end) |> length) / (arr |> length)
+    end
+
+    def isMajority(arr) do
+        fractionTrue(arr) > 0.5
+    end
 end

@@ -4,10 +4,13 @@ defmodule Nlp do
             nil
         else
             str
-            |> String.replace(~r/\/ELLIPSES\//, " ")
+            |> String.replace(~r/\.\.\./u, "\/ELLIPSES\/")
+            |> String.replace(~r/\.\./u, "\/ELLIPSES\/")
+            |> String.replace(~r/\/ELLIPSES\//u, " ")
             |> String.downcase
+            |> String.replace("-", " ")
             |> expandShortForms
-            |> String.replace(~r/[^a-z\ ]/, "")
+            |> String.replace(~r/[^a-z\ ]/u, "")
             |> String.replace(~r/^\ +/u, "")
             |> String.replace(~r/\ +$/u, "")
             |> String.replace(~r/\ +/u, " ")
@@ -17,7 +20,8 @@ defmodule Nlp do
     def removeParens(str) do
         str
         |> String.replace(~r/\(.*\)/suU, "")
-        |> String.replace(~r/\<.*\)/suU, "")
+        |> String.replace(~r/\<.*\>/suU, "")
+        |> String.replace(~r/\[.*\]/suU, "")
     end
 
     def invertEllipses(str) do
@@ -38,6 +42,8 @@ defmodule Nlp do
         |> String.replace("what're", "what are")
         |> String.replace("c'mon", "come on")
         |> String.replace("there's", "there is")
+        |> String.replace("outta", "out of")
+        |> String.replace("cmere", "come here")
     end
 
 end

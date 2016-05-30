@@ -28,7 +28,6 @@ defmodule Srt do
     def parseTranscriptForLines(transcriptFilename) do
         transcriptFilename
         |> File.read!
-        |> Nlp.expandShortForms
         |> String.split("\n")
         |> Enum.map(fn x -> Nlp.removeParens(x) end)
         |> Stream.with_index
@@ -36,6 +35,40 @@ defmodule Srt do
         |> Enum.filter(fn {x, _} -> x |> String.contains?(":") end)
         |> Enum.map(fn {x, l} -> {(parseTranscriptLine x), l} end)
         |> Enum.filter(fn {x, _} -> (x != nil) end)
+    end
+
+    def heuristicAddSpeakerToSrtLine(srtLine, transcriptLineInfo) do
+
+        needle = srtLine
+        |> Map.fetch!(:l1)
+        |> Nlp.canonicalize
+
+        cond do
+            (needle |> String.length) > 0 ->
+                matches = transcriptLineInfo
+                |> Enum.map(fn
+                    {%{:line => hay, :speaker => s}, l} ->
+                        score = needle
+                        |> String.split(" ")
+                        |> Enum.map(fn w ->
+                            String.contains?(hay, w)
+                        end)
+                        |> Util.fractionTrue
+                        {score, s, l}
+                end)
+                |> Enum.filter(fn {score, _, _} -> score > 0.5 end)
+
+                if (matches |> length) == 1 do
+                    [{_, speaker, lineNumber}] = matches
+                    srtLine |> Map.merge(%{
+                        :speaker => speaker,
+                        :lineNumber => lineNumber
+                    })
+                else
+                    srtLine
+                end
+            true -> srtLine
+        end
     end
 
     def addSpeakerToSrtLine(srtLine, transcriptLineInfo) do
@@ -54,6 +87,7 @@ defmodule Srt do
 
         matchingTLIs = transcriptLineInfo
         |> Enum.filter(fn {%{:line => hay} , _} ->
+            hay = hay |> Nlp.canonicalize
             n = needle
             needleRegex = "(^" <> n <> ")|(" <> n <> "$)|(\ " <> n <> "\ )"
             |> Regex.compile!
@@ -159,9 +193,9 @@ defmodule Srt do
     def addSpeakerToSrtPairs(p, transcriptLineInfo) do
         p
         |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end)
-        |> Srt.checkedLisOnLineNumber
-        |> addSurroundingLineNumbers
+        |> Srt.lisOnLineNumber
         |> Util.onTheSide(fn x -> x |> numEntriesWithHasKey(:lineNumber) |> IO.inspect end)
+        |> addSurroundingLineNumbers
         |> Enum.map(fn
             x = %{:lineNumber => _} -> x
             x = %{:prevLineNumber => s, :nextLineNumber => e} ->
@@ -171,24 +205,29 @@ defmodule Srt do
             # todo: only prev, or only next
             x -> x
         end)
-        |> Srt.checkedLisOnLineNumber
+        |> Srt.lisOnLineNumber
         |> Util.onTheSide(fn x -> x |> numEntriesWithHasKey(:lineNumber) |> IO.inspect end)
         |> addSurroundingLineNumbers
         |> Util.onTheSide(fn x -> x |> numEntriesWithHasKey(:lineNumber) |> IO.inspect end)
         |> Enum.map(fn
             x = %{:lineNumber => _} -> x
             x = %{:prevLineNumber => s, :nextLineNumber => e} ->
-                x |> Map.fetch!(:l1) |> IO.inspect
-                transcriptLineInfo |> sliceTranscriptLineInfoOnLineNumber(s, e) |> IO.inspect
                 x
-                |> Srt.addSpeakerToSrtLine(transcriptLineInfo
+                |> Srt.heuristicAddSpeakerToSrtLine(transcriptLineInfo
                     |> sliceTranscriptLineInfoOnLineNumber(s, e))
-            # todo: only prev, or only next
             x -> x
         end)
-        |> Srt.checkedLisOnLineNumber
+        |> Srt.lisOnLineNumber
         |> Util.onTheSide(fn x -> x |> numEntriesWithHasKey(:lineNumber) |> IO.inspect end)
-
+        |> addSurroundingLineNumbers
+        |> Enum.map(fn
+            x = %{:lineNumber => _} -> x
+            x = %{:l1 => l1, :prevLineNumber => s, :nextLineNumber => e} ->
+                tlis = sliceTranscriptLineInfoOnLineNumber(transcriptLineInfo, s, e)
+                {l1, tlis} |> IO.inspect
+                x
+            x -> x
+        end)
     end
 
     def pairSrt(l1Filename, l2Filename, transcriptFilename) do
