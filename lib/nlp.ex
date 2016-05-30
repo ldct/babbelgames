@@ -4,8 +4,9 @@ defmodule Nlp do
             nil
         else
             str
-            |> expandShortForms
+            |> String.replace(~r/\/ELLIPSES\//, "")
             |> String.downcase
+            |> expandShortForms
             |> String.replace(~r/[^a-z\ ]/, "")
             |> String.replace(~r/^\ +/u, "")
             |> String.replace(~r/\ +/u, " ")
@@ -31,9 +32,11 @@ defmodule Nlp do
         |> String.replace("’til", "till")
         |> String.replace("dunno", "don't know")
         |> String.replace("gotta", "got to")
-        |> String.replace("I'm", "I am")
+        |> String.replace("i'm", "i am")
         |> String.replace("there's", "there is")
         |> String.replace("what're", "what are")
+        |> String.replace("c'mon", "come on")
+        |> String.replace("there's", "there is")
     end
 
 end

@@ -63,7 +63,6 @@ defmodule Srt do
     end
 
     def checkedLisOnLineNumber(arr) do
-        "checkedLisOnLineNumber" |> IO.inspect
         arr |> length |> IO.inspect
         ret = arr |> lisOnLineNumber
         ret |> length |> IO.inspect
@@ -97,9 +96,94 @@ defmodule Srt do
         end
     end
 
+    def addPreviousLineNumber(p) do
+        case p do
+            [] -> []
+            [h = %{:lineNumber => l} | r] -> [h | addPreviousLineNumber(r, l)]
+            [h | r] -> [h | addPreviousLineNumber(r)]
+        end
+    end
+
+    def addPreviousLineNumber(arr, l) do
+       case arr do
+           [] -> []
+           [h = %{:lineNumber => l} | r] -> [h | addPreviousLineNumber(r, l)]
+           [h | r] -> [h |> Map.merge(%{:prevLineNumber => l}) | addPreviousLineNumber(r, l)]
+       end
+    end
+
+    def addNextLineNumber(p) do
+        case p do
+            [] -> []
+            [h = %{:lineNumber => l} | r] -> [h | addNextLineNumber(r, l)]
+            [h | r] -> [h | addNextLineNumber(r)]
+        end
+    end
+
+    def addNextLineNumber(arr, l) do
+       case arr do
+           [] -> []
+           [h = %{:lineNumber => l} | r] -> [h | addNextLineNumber(r, l)]
+           [h | r] -> [h |> Map.merge(%{:nextLineNumber => l}) | addNextLineNumber(r, l)]
+       end
+    end
+
+    def sliceTranscriptLineInfoOnLineNumber(transcriptLineInfo, s, e) do
+        transcriptLineInfo
+        |> Enum.filter(fn {_, l} -> s <= l && l <= e end)
+    end
+
+    def numEntriesWithHasKey(arr, k) do
+        arr
+        |> Enum.filter(fn m -> m |> Map.has_key?(k) end)
+        |> length
+    end
+
+    def addSurroundingLineNumbers(arr) do
+        arr
+        |> addPreviousLineNumber
+        |> Enum.reverse
+        |> addNextLineNumber
+        |> Enum.reverse
+    end
+
+    def addSpeakerToSrtPairs(p, transcriptLineInfo) do
+        p
+        |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end)
+        |> Srt.checkedLisOnLineNumber
+        |> addSurroundingLineNumbers
+        |> Util.onTheSide(fn x -> x |> numEntriesWithHasKey(:lineNumber) |> IO.inspect end)
+        |> Enum.map(fn
+            x = %{:lineNumber => _} -> x
+            x = %{:prevLineNumber => s, :nextLineNumber => e} ->
+                x
+                |> Srt.addSpeakerToSrtLine(transcriptLineInfo
+                |> sliceTranscriptLineInfoOnLineNumber(s, e))
+            # todo: only prev, or only next
+            x -> x
+        end)
+        |> Srt.checkedLisOnLineNumber
+        |> Util.onTheSide(fn x -> x |> numEntriesWithHasKey(:lineNumber) |> IO.inspect end)
+        |> addSurroundingLineNumbers
+        |> Util.onTheSide(fn x -> x |> numEntriesWithHasKey(:lineNumber) |> IO.inspect end)
+        |> Enum.map(fn
+            x = %{:lineNumber => _} -> x
+            x = %{:prevLineNumber => s, :nextLineNumber => e} ->
+                {x} |> IO.inspect
+                x
+                |> Srt.addSpeakerToSrtLine(transcriptLineInfo
+                |> sliceTranscriptLineInfoOnLineNumber(s, e))
+            # todo: only prev, or only next
+            x -> x
+        end)
+        |> Srt.checkedLisOnLineNumber
+        |> Util.onTheSide(fn x -> x |> numEntriesWithHasKey(:lineNumber) |> IO.inspect end)
+
+    end
+
     def pairSrt(l1Filename, l2Filename, transcriptFilename) do
-        l1 = l1Filename |> parseSrt |> IO.inspect
-        l2 = l2Filename |> parseSrt |> IO.inspect
+        l1 = l1Filename |> parseSrt
+        l2 = l2Filename |> parseSrt
 
         transcriptLineInfo = transcriptFilename
         |> parseTranscriptForLines
@@ -108,8 +192,7 @@ defmodule Srt do
         |> Enum.map(fn e -> pairEntry(e, l2) end)
         |> Enum.filter(fn %{:score => score} -> score > 0.5 end)
         |> Enum.flat_map(fn p -> splitSrtPairsSentences(p) end)
-        |> Enum.map(fn x -> x |> Srt.addSpeakerToSrtLine(transcriptLineInfo) end) # todo: now run LIS to delete wrong matches
-        |> Srt.checkedLisOnLineNumber
+        |> addSpeakerToSrtPairs(transcriptLineInfo)
         |> Enum.map(fn
             %{ :l1 => a, :l2 => b, :speaker => s, :lineNumber => l} -> {a |> Nlp.invertEllipses, b |> Nlp.invertEllipses, s, l}
             %{ :l1 => a, :l2 => b} -> {a |> Nlp.invertEllipses, b |> Nlp.invertEllipses}
@@ -117,24 +200,17 @@ defmodule Srt do
 
     end
 
-    def pairSrt(l1Filename, l2Filename) do
-        l1 = l1Filename |> parseSrt
-        l2 = l2Filename |> parseSrt
-
-        l1
-        |> Enum.map(fn e -> pairEntry(e, l2) end)
-        |> Enum.filter(fn %{:score => score} -> score > 0.5 end)
-        |> Enum.map(fn
-            %{ :l1 => a, :l2 => b, :speaker => s} -> {a |> Nlp.invertEllipses, b |> Nlp.invertEllipses, s}
-            %{ :l1 => a, :l2 => b} -> {a |> Nlp.invertEllipses, b |> Nlp.invertEllipses}
-        end)
+    def splitIntoSentences(p) do
+        p
+        |> String.split(~r/(?<=(\!|\?|\.))\ *(?=.)/u)
+        |> Enum.flat_map(fn p -> p |> String.split(~r/(?<=\/ELLIPSES\/)(?=.)/) end)
     end
 
     def splitSrtPairsSentences(p) do
         %{:l1 => l1, :l2 => l2} = p
 
-        l1Lines = l1 |> String.split(~r/[!?\.](?=.)/u)
-        l2Lines = l2 |> String.split(~r/[!?\.](?=.)/u)
+        l1Lines = l1 |> splitIntoSentences
+        l2Lines = l2 |> splitIntoSentences
 
         cond do
             (length l1Lines) == (length l2Lines) ->
@@ -190,7 +266,6 @@ defmodule Srt do
         |> File.read!
         |> String.replace("\r\n\r\n\r\n", "\r\n\r\n")
         |> String.split("\r\n\r\n")
-        |> IO.inspect
         |> Enum.filter(fn e -> isEmptyEntry e end)
         |> Enum.map(fn e -> parseSrtEntry e end)
     end
@@ -220,6 +295,7 @@ defmodule Srt do
             |> String.replace(~r/^\-/u, "")      # todo: this is removing speaker line markers
             |> String.replace(~r/^\ +/u, "")
             |> String.replace(~r/\.\.\./u, "/ELLIPSES/")
+            |> String.replace(~r/\.\./u, "/ELLIPSES/")
         end)
 
         %{

@@ -203,9 +203,12 @@ ils semblent le prendre bien.
 00:03:38,200 --> 00:03:39,200
 [UNCUT] Oh vraiment
 
-49
-00:03:39,300 --> 00:03:45,500
+44
+00:03:39,136 --> 00:03:42,764
 [UNCUT] Donc cet appel hysterique à 3h du matin
+
+45
+00:03:42,973 --> 00:03:47,603
 "J'aurais jamais de petits enfants"
 
 50

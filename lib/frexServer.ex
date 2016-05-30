@@ -9,7 +9,6 @@ defmodule FrexServer do
   end
 
   def metadataOf(series, episode) do
-    {series, episode} |> IO.inspect
     case {series, episode} do
       {"friends", "s01e01"} -> %{
         "title" => "The One Where Monica Gets a Roommate",
@@ -18,6 +17,10 @@ defmodule FrexServer do
       {"sherlock", "s01e01"} -> %{
         "title" => "A Study in Pink",
         "subtitle" => "Sherlock s01e01"
+      }
+      {"sherlock", "s01e02"} -> %{
+        "title" => "The Blind Banker",
+        "subtitle" => "Sherlock s01e02"
       }
       _ -> %{}
     end

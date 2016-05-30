@@ -350,13 +350,22 @@ var App = React.createClass({
         fontFamily: 'Montserrat,Arial,sans-serif',
         padding: '41px 40px 31px',
         display: 'flex',
+        flexDirection: 'column',
       }}>
-        <img src={this.props.posterImageSrc} height={170} />
+        <div style={{textAlign: 'right'}}>
+          <a href="/index.html" style={{color: 'white'}}>back</a>
+        </div>
         <div style={{
-          marginLeft: 30
+          display: 'flex',
+          flexDirection: 'row'
         }}>
-          <h1>{this.props.metadata.title}</h1>
-          <h2>{this.props.metadata.subtitle}</h2>
+          <img src={this.props.posterImageSrc} height={170} />
+          <div style={{
+            marginLeft: 30
+          }}>
+            <h1>{this.props.metadata.title}</h1>
+            <h2>{this.props.metadata.subtitle}</h2>
+          </div>
         </div>
       </div>
       <ProgressBar

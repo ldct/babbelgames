@@ -8,4 +8,9 @@ defmodule Util do
         m = Enum.max(arr)
         {indexIn(m, arr), m}
     end
+
+    def onTheSide(x, f) do
+        f.(x)
+        x
+    end
 end
