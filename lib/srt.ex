@@ -40,16 +40,25 @@ defmodule Srt do
 
     def addSpeakerToSrtLine(srtLine, transcriptLineInfo) do
 
-        line = srtLine
+        needle = srtLine
         |> Map.fetch!(:l1)
         |> Nlp.canonicalize
         |> String.downcase
 
+        case {srtLine, transcriptLineInfo |> length} do
+           {%{:l2 => "J'étais dans la pièce avec les cadeaux."}, 1} ->
+                needle |> IO.inspect
+                transcriptLineInfo |> IO.inspect
+            _ ->
+        end
+
         matchingTLIs = transcriptLineInfo
-        |> Enum.filter(fn {l, _} ->
-            (String.length(line) > 0) && l
-            |> Map.fetch!(:line)
-            |> String.contains?(line)
+        |> Enum.filter(fn {%{:line => hay} , _} ->
+            n = needle
+            needleRegex = "(^" <> n <> ")|(" <> n <> "$)|(\ " <> n <> "\ )"
+            |> Regex.compile!
+            (String.length(needle) > 0)
+            && Regex.match?(needleRegex, hay)
         end)
 
         case matchingTLIs do
@@ -169,10 +178,11 @@ defmodule Srt do
         |> Enum.map(fn
             x = %{:lineNumber => _} -> x
             x = %{:prevLineNumber => s, :nextLineNumber => e} ->
-                {x} |> IO.inspect
+                x |> Map.fetch!(:l1) |> IO.inspect
+                transcriptLineInfo |> sliceTranscriptLineInfoOnLineNumber(s, e) |> IO.inspect
                 x
                 |> Srt.addSpeakerToSrtLine(transcriptLineInfo
-                |> sliceTranscriptLineInfoOnLineNumber(s, e))
+                    |> sliceTranscriptLineInfoOnLineNumber(s, e))
             # todo: only prev, or only next
             x -> x
         end)
@@ -294,6 +304,7 @@ defmodule Srt do
             |> String.replace(~r/\<.*\>/uU, "")
             |> String.replace(~r/^\-/u, "")      # todo: this is removing speaker line markers
             |> String.replace(~r/^\ +/u, "")
+            |> String.replace(~r/\[UNCUT\]/, "")
             |> String.replace(~r/\.\.\./u, "/ELLIPSES/")
             |> String.replace(~r/\.\./u, "/ELLIPSES/")
         end)

@@ -4,11 +4,12 @@ defmodule Nlp do
             nil
         else
             str
-            |> String.replace(~r/\/ELLIPSES\//, "")
+            |> String.replace(~r/\/ELLIPSES\//, " ")
             |> String.downcase
             |> expandShortForms
             |> String.replace(~r/[^a-z\ ]/, "")
             |> String.replace(~r/^\ +/u, "")
+            |> String.replace(~r/\ +$/u, "")
             |> String.replace(~r/\ +/u, " ")
         end
     end
