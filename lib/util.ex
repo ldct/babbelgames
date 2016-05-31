@@ -4,6 +4,10 @@ defmodule Util do
         |> Enum.find_index(fn e -> e == element end)
     end
 
+    def list_contains?(arr, elem) do
+        indexIn(elem, arr) != nil
+    end
+
     def argmaxAndMax(arr) do
         m = Enum.max(arr)
         {indexIn(m, arr), m}

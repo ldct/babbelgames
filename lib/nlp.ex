@@ -44,6 +44,11 @@ defmodule Nlp do
         |> String.replace("there's", "there is")
         |> String.replace("outta", "out of")
         |> String.replace("cmere", "come here")
+        |> String.replace("ya", "you")
+        |> String.replace("alright", "all right")
+        |> String.replace("how'd", "how did")
+        |> String.replace("gimme", "give me")
+        |> String.replace("goodnight", "good night")
     end
 
 end

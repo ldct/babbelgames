@@ -30,7 +30,7 @@ defmodule FrexServer do
 
     cacheFilename = "cache/" <> series <> "\\" <> episode
 
-    if false && File.exists?(cacheFilename) do
+    if File.exists?(cacheFilename) do
       conn
       |> put_resp_content_type("application/json")
       |> send_resp(200, File.read!(cacheFilename))
@@ -63,38 +63,12 @@ defmodule FrexServer do
     end
   end
 
-  # get "/sentenceMatchingGame/:seriesName/:episode" do
-  #   srtFilename = episode
-  #   |> String.replace(".json", "")
-  #   |> IO.inspect
-
-  #   entries = Srt.pairSrt("data/subtitles/" <> seriesName <> "/en/" <> srtFilename, "data/subtitles/" <> seriesName <> "/fr/" <> srtFilename)
-  #   |> Enum.map(fn t -> Tuple.to_list(t) end)
-
-
-  #   jsonResult = Poison.encode!(%{
-  #     "tileData" => entries,
-  #   }, pretty: true)
-
-  #   conn
-  #   |> put_resp_content_type("application/json")
-  #   |> send_resp(200, jsonResult)
-
-  # end
-
   def randomIndex(arr) do
     :rand.uniform * (length(arr) - 1) |> round
   end
 
   def randomIndex do
     :rand.uniform * 100000 |> round
-  end
-
-  get "/matchingGame.html" do
-    contents = File.read!("frontend/matchingGame.html")
-    conn
-    |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, contents)
   end
 
   get "/index.html" do
@@ -111,6 +85,13 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
+  get "/screenplayGame.html" do
+    contents = File.read!("frontend/screenplayGame.html")
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
   get "/img/:filename" do
     contents = File.read!("frontend/img/" <> filename)
     conn
@@ -119,6 +100,13 @@ defmodule FrexServer do
 
   get "/matchingGameOrdered.jsx" do
     contents = File.read!("frontend/matchingGameOrdered.jsx")
+    conn
+    |> put_resp_content_type("application/javascript; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
+  get "/screenplayGame.jsx" do
+    contents = File.read!("frontend/screenplayGame.jsx")
     conn
     |> put_resp_content_type("application/javascript; charset=UTF-8")
     |> send_resp(200, contents)

@@ -1,5 +1,12 @@
 defmodule Srt do
 
+    def ps(series, episode) do
+        Srt.pairSrt(
+            "data/subtitles/" <> series <> "/en/" <> episode <> ".srt",
+            "data/subtitles/" <> series <> "/fr/" <> episode <> ".srt",
+            "data/screenplay/" <> series <> "/s01e01.txt")
+    end
+
     def mostOverlappedEntry(%{:time => time}, l2Entries) do
 
         {idx, score} = l2Entries
@@ -51,15 +58,17 @@ defmodule Srt do
                         score = needle
                         |> String.split(" ")
                         |> Enum.map(fn w ->
-                            String.contains?(hay, w)
+                            hay
+                            |> String.split(" ")
+                            |> Util.list_contains?(w)
                         end)
                         |> Util.fractionTrue
-                        {score, s, l}
+                        {score, s, l, hay}
                 end)
-                |> Enum.filter(fn {score, _, _} -> score > 0.5 end)
+                |> Enum.filter(fn {score, _, _, _} -> score > 0.5 end)
 
                 if (matches |> length) == 1 do
-                    [{_, speaker, lineNumber}] = matches
+                    [{_, speaker, lineNumber, _}] = matches
                     srtLine |> Map.merge(%{
                         :speaker => speaker,
                         :lineNumber => lineNumber
@@ -251,8 +260,17 @@ defmodule Srt do
 
     def splitIntoSentences(p) do
         p
+        |> String.replace("!\"", "/EXCLAMATION_POINT_END_QUOTE/")
+        |> String.replace(".\"", "/PERIOD_END_QUOTE/")
+        |> String.replace("?\"", "/QUESTION_MARK_END_QUOTE/")
         |> String.split(~r/(?<=(\!|\?|\.))\ *(?=.)/u)
         |> Enum.flat_map(fn p -> p |> String.split(~r/(?<=\/ELLIPSES\/)(?=.)/) end)
+        |> Enum.flat_map(fn p -> p |> String.split(~r/(?<=\/EXCLAMATION_POINT_END_QUOTE\/)(?=.)/) end)
+        |> Enum.flat_map(fn p -> p |> String.split(~r/(?<=\/PERIOD_END_QUOTE\/)(?=.)/) end)
+        |> Enum.flat_map(fn p -> p |> String.split(~r/(?<=\/QUESTION_MARK_END_QUOTE\/)(?=.)/) end)
+        |> Enum.map(fn s -> s |> String.replace("/EXCLAMATION_POINT_END_QUOTE/", "!\"") end)
+        |> Enum.map(fn s -> s |> String.replace("/PERIOD_END_QUOTE/", ".\"") end)
+        |> Enum.map(fn s -> s |> String.replace("/QUESTION_MARK_END_QUOTE/", "?\"") end)
     end
 
     def splitSrtPairsSentences(p) do
