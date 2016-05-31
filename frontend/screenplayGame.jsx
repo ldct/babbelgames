@@ -97,14 +97,15 @@ var GameScreen = React.createClass({
         return td[3] == sentence.lineNumber;
       });
 
-      if (matchingTileData.length === 0) return <div style={lineStyle}>{sentence.line}</div>
+      if (matchingTileData.length === 0) return <div key={i} style={lineStyle}>{sentence.line}</div>
 
       var speakerName = sentence.line.split(":")[0];
 
-      return <div style={lineStyle}>
-        <span style={{marginRight: '0.5em'}}>{speakerName}</span>
+      return <div key={i} style={lineStyle}>
+        <span style={{marginRight: '0.5em'}} key={i}>{speakerName}</span>
         {matchingTileData.map((td, j) => {
           return <FlippableSentence
+            key={j}
             displayBoth={this.state.matchedFrIdxs.indexOf(i + "-" + j) !== -1}
             onClick={this.handleFrenchClick.bind(this, td[0], i, j)}
             back={td[1]}
@@ -116,7 +117,7 @@ var GameScreen = React.createClass({
     <div>{englishTiles.map((e, i) => {
       var tileStyle = { border: '1px solid green', display: 'inline-block', margin: 5};
       if (this.state.matchedIds.indexOf(i) !== -1) tileStyle['visibility'] = 'hidden';
-      return <div onClick={this.handleEnglishClick.bind(this, i)} style={tileStyle}>{e}</div>;
+      return <div key={i} onClick={this.handleEnglishClick.bind(this, i)} style={tileStyle}>{e}</div>;
     })}</div>
     </div>
   }
