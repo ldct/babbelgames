@@ -26,14 +26,21 @@ window.random = function () {
 
 var FlippableSentence = React.createClass({
   render: function () {
-    const style={display: 'inline-block', marginRight: '0.5em', border: '1px solid pink'};
-    if (this.props.displayBoth) {
-      return <div style={style} onClick={this.props.onClick}>
-        <div>{this.props.front}</div>
-        <div>{this.props.back}</div>
-      </div>
-    }
-    return <div style={style} onClick={this.props.onClick}>{this.props.back}</div>
+    return <div style={{
+      display: 'inline-block',
+      marginRight: '0.5em',
+      border: '1px solid pink',
+      height: '1.8em',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+    }} onClick={this.props.onClick}>
+      <div style={{
+        fontSize: '0.7em',
+        display: this.props.displayBoth ? 'block' : 'none',
+      }}>{this.props.front}</div>
+      <div>{this.props.back}</div>
+    </div>
   }
 });
 
@@ -52,7 +59,6 @@ var GameScreen = React.createClass({
   },
   handleFrenchClick: function (e, i, j) {
     if (e === this.state.englishTiles[this.state.selectedIdx]) {
-      console.log('match!', i, j);
       this.setState({
         matchedIds: this.state.matchedIds.concat(this.state.selectedIdx),
         matchedFrIdxs: this.state.matchedFrIdxs.concat(i + '-' + j),
@@ -83,6 +89,8 @@ var GameScreen = React.createClass({
 
       const lineStyle = {
         margin: '0.5em',
+        display: 'flex',
+        alignItems: 'center'
       };
 
       var matchingTileData = this.props.tileData.filter(td => {
