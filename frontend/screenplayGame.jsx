@@ -26,9 +26,14 @@ window.random = function () {
 
 var FlippableSentence = React.createClass({
   render: function () {
-    return <div
-      style={{display: 'inline-block', marginRight: '0.5em', border: '1px solid pink'}}
-      onClick={this.props.onClick}>{this.props.back}</div>
+    const style={display: 'inline-block', marginRight: '0.5em', border: '1px solid pink'};
+    if (this.props.displayBoth) {
+      return <div style={style} onClick={this.props.onClick}>
+        <div>{this.props.front}</div>
+        <div>{this.props.back}</div>
+      </div>
+    }
+    return <div style={style} onClick={this.props.onClick}>{this.props.back}</div>
   }
 });
 
@@ -36,6 +41,7 @@ var GameScreen = React.createClass({
   getInitialState: function () {
     return {
       matchedIds: [],
+      matchedFrIdxs: [],
       selectedIdx: null,
     };
   },
@@ -44,9 +50,13 @@ var GameScreen = React.createClass({
       selectedIdx: idx,
     });
   },
-  handleFrenchClick: function (e) {
+  handleFrenchClick: function (e, i, j) {
     if (e === this.state.englishTiles[this.state.selectedIdx]) {
-      console.log('match!');
+      console.log('match!', i, j);
+      this.setState({
+        matchedIds: this.state.matchedIds.concat(this.state.selectedIdx),
+        matchedFrIdxs: this.state.matchedFrIdxs.concat(i + '-' + j),
+      });
     }
   },
   componentDidMount: function () {
@@ -67,7 +77,7 @@ var GameScreen = React.createClass({
     window.rngSeed = this.props.rngSeed;
     shuffle(englishTiles);
 
-    return <div style={{border: '1px solid black'}}>{this.props.sentences.map(sentence => {
+    return <div style={{border: '1px solid black'}}>{this.props.sentences.map((sentence, i) => {
 
       if (sentence.line.length === 0) return null;
 
@@ -85,9 +95,10 @@ var GameScreen = React.createClass({
 
       return <div style={lineStyle}>
         <span style={{marginRight: '0.5em'}}>{speakerName}</span>
-        {matchingTileData.map(td => {
+        {matchingTileData.map((td, j) => {
           return <FlippableSentence
-            onClick={this.handleFrenchClick.bind(this, td[0])}
+            displayBoth={this.state.matchedFrIdxs.indexOf(i + "-" + j) !== -1}
+            onClick={this.handleFrenchClick.bind(this, td[0], i, j)}
             back={td[1]}
             front={td[0]} />
         })}
@@ -95,8 +106,9 @@ var GameScreen = React.createClass({
 
     })}
     <div>{englishTiles.map((e, i) => {
-      if (this.state.matchedIds.indexOf(i) !== -1) return null;
-      return <div onClick={this.handleEnglishClick.bind(this, i)} style={{border: '1px solid green', display: 'inline-block', margin: 5}}>{e}</div>;
+      var tileStyle = { border: '1px solid green', display: 'inline-block', margin: 5};
+      if (this.state.matchedIds.indexOf(i) !== -1) tileStyle['visibility'] = 'hidden';
+      return <div onClick={this.handleEnglishClick.bind(this, i)} style={tileStyle}>{e}</div>;
     })}</div>
     </div>
   }
