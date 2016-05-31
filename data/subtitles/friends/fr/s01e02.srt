@@ -1381,10 +1381,11 @@ Qu'en dis-tu ?
 194
 00:23:30,100 --> 00:23:32,000
 L'émotion te gagne ?
+Non.
 
 195
 00:23:32,500 --> 00:23:36,000
-- Si ! Si ! Tu es émue !
+- Si, si, tu es émue !
 - Pas du tout !
 
 196

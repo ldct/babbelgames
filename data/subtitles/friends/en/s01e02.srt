@@ -1391,7 +1391,7 @@ like an old potato.
 Then don't do that, all right?
 
 308
-00:23:24,230 --> 00:23:27,222
+00:23:26,000 --> 00:23:28,000
 Monica, what do you think?
 
 309
@@ -1401,7 +1401,7 @@ Monica, what do you think?
 
 310
 00:23:32,405 --> 00:23:35,704
--You are. You're welling up.
+-You are, you're welling up.
 -I'm not.
 
 311
