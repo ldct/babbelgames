@@ -39,6 +39,12 @@ var FlippableSentence = React.createClass({
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
+      'WebkitTouchCallout': 'none', /* iOS Safari */
+      'WebkitUserSelect': 'none',   /* Chrome/Safari/Opera */
+      'KhtmlUserSelect': 'none',    /* Konqueror */
+      'MozUserSelect': 'none',      /* Firefox */
+      'msUserSelect': 'none',       /* Internet Explorer/Edge */
+      'userSelect': 'none',           /* Non-prefixed version*/
     }}
     onClick={this.props.onClick}
     className={(!this.props.selected && this.props.onClick) ? "dim-on-hover" : ""}>
@@ -203,6 +209,12 @@ var GameScreen = React.createClass({
         borderColor: '#e5e6e9 #dfe0e4 #d0d1d5',
         borderWidth: '1px',
         borderStyle: 'solid',
+        'WebkitTouchCallout': 'none', /* iOS Safari */
+        'WebkitUserSelect': 'none',   /* Chrome/Safari/Opera */
+        'KhtmlUserSelect': 'none',    /* Konqueror */
+        'MozUserSelect': 'none',      /* Firefox */
+        'msUserSelect': 'none',       /* Internet Explorer/Edge */
+        'userSelect': 'none',           /* Non-prefixed version*/
       };
       if (this.state.matchedIds.indexOf(i) !== -1) tileStyle['visibility'] = 'hidden';
       return <div key={i} onClick={this.handleEnglishClick.bind(this, i)} style={tileStyle} className={this.state.selectedEnglishIdx === i ? "" : "dim-on-hover"}>{e}</div>;
