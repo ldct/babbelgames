@@ -124,6 +124,10 @@ var GameScreen = React.createClass({
       });
     }
 
+    if (frenchWasSelected && englishWasSelected) {
+      console.log('assertion failed');
+    }
+
 
   },
   componentDidMount: function () {
