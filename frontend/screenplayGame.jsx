@@ -41,7 +41,7 @@ var FlippableSentence = React.createClass({
       justifyContent: 'center',
     }}
     onClick={this.props.onClick}
-    className={this.props.selected ? "" : "dim-on-hover"}>
+    className={(!this.props.selected && this.props.onClick) ? "dim-on-hover" : ""}>
       <div style={{
         fontSize: '0.7em',
         display: this.props.displayBoth ? 'block' : 'none',
@@ -181,11 +181,12 @@ var GameScreen = React.createClass({
       return <div key={i} style={lineStyle}>
         <span style={{marginRight: '0.5em'}} key={i}>{speakerName}</span>
         {matchingTileData.map((td, j) => {
+          const displayBoth = this.state.matchedFrIdxs.indexOf(i + "-" + j) !== -1;
           return <FlippableSentence
             selected={i + "-" + j === this.state.selectedFrenchIdx}
             key={j}
             displayBoth={this.state.matchedFrIdxs.indexOf(i + "-" + j) !== -1}
-            onClick={this.handleFrenchClick.bind(this, i, j)}
+            onClick={displayBoth ? null : this.handleFrenchClick.bind(this, i, j)}
             back={td[1]}
             front={td[0]} />
         })}
