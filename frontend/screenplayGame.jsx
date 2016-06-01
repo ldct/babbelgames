@@ -29,7 +29,12 @@ var FlippableSentence = React.createClass({
     return <div style={{
       display: 'inline-block',
       marginRight: '0.5em',
-      border: '1px solid pink',
+      backgroundColor: this.props.selected ? 'rgba(66, 143, 196, 1)' : 'rgba(66, 143, 196, 0.7)',
+      borderColor: '#e5e6e9 #dfe0e4 #d0d1d5',
+      borderWidth: '1px',
+      borderStyle: 'solid',
+      borderRadius: 2,
+      padding: 2,
       height: '1.8em',
       display: 'flex',
       flexDirection: 'column',
@@ -83,14 +88,26 @@ var GameScreen = React.createClass({
     window.rngSeed = this.props.rngSeed;
     shuffle(englishTiles);
 
-    return <div style={{border: '1px solid black'}}>{this.props.sentences.map((sentence, i) => {
+    return <div style={{
+      display: 'flex',
+      maxWidth: '1200px',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      marginTop: 10,
+      borderRadius: 2,
+      boxShadow: '0 1px 2px 1px rgba(0,0,0,0.09)',
+      backgroundColor: 'white',
+    }}>
+    <div style={{display: 'flex', flexDirection: 'column', flex: '2 0 0'}}>
+    {this.props.sentences.map((sentence, i) => {
 
       if (sentence.line.length === 0) return null;
 
       const lineStyle = {
         margin: '0.5em',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        flexWrap: 'wrap',
       };
 
       var matchingTileData = this.props.tileData.filter(td => {
@@ -114,8 +131,17 @@ var GameScreen = React.createClass({
       </div>
 
     })}
-    <div>{englishTiles.map((e, i) => {
-      var tileStyle = { border: '1px solid green', display: 'inline-block', margin: 5};
+    </div>
+
+    <div style={{'display': 'flex', 'flexDirection': 'row', flexWrap: 'wrap', alignItems: 'flex-start', alignContent: 'center', flex: '1 0 0'}}>{englishTiles.map((e, i) => {
+      var tileStyle = {
+        display: 'inline-block', margin: 5,
+        backgroundColor: this.props.selected ? '#D58313' : 'rgba(255, 147, 0, 0.7)',
+        padding: 5,
+        borderColor: '#e5e6e9 #dfe0e4 #d0d1d5',
+        borderWidth: '1px',
+        borderStyle: 'solid',
+      };
       if (this.state.matchedIds.indexOf(i) !== -1) tileStyle['visibility'] = 'hidden';
       return <div key={i} onClick={this.handleEnglishClick.bind(this, i)} style={tileStyle}>{e}</div>;
     })}</div>
@@ -131,7 +157,32 @@ var App = React.createClass({
     };
   },
   render: function () {
-    return <div>{this.props.screenplaySections.map((chunks, i) => {
+    return <div>
+    <div style={{
+      backgroundColor: '#44B78B',
+      color: 'white',
+      fontFamily: 'Montserrat,Arial,sans-serif',
+      padding: '41px 40px 31px',
+      display: 'flex',
+      flexDirection: 'column',
+    }}>
+      <div style={{textAlign: 'right'}}>
+        <a href="/index.html" style={{color: 'white'}}>back</a>
+      </div>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'row'
+      }}>
+        <img src={this.props.posterImageSrc} height={170} />
+        <div style={{
+          marginLeft: 30
+        }}>
+          <h1>{this.props.metadata.title}</h1>
+          <h2>{this.props.metadata.subtitle}</h2>
+        </div>
+      </div>
+    </div>
+    {this.props.screenplaySections.map((chunks, i) => {
       var lineNumbers = chunks.chunk.map(s => s.lineNumber);
 
       var minLineNumber = Math.min.apply(null, lineNumbers);
@@ -168,7 +219,9 @@ fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
 
   ReactDOM.render(
     <App
+      metadata={res.metadata}
       tileData={res.tileData}
+      posterImageSrc={"img/" + dataSource.replace('/', '.').replace('.srt.json', '.jpg')}
       screenplaySections={screenplaySections}
       initialStartIdx={startIdx} />,
     document.getElementById('container')

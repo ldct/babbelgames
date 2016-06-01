@@ -322,8 +322,6 @@ var App = React.createClass({
   handleNumMatchedChanged: function (solved) {
     var self = this;
 
-
-
     if (solved.length === 5) {
       insertParam('start', self.state.startIdx + 1);
       this.setState({
@@ -341,7 +339,6 @@ var App = React.createClass({
 
     var fixedTilesData = this.props.scrambledChunksOfActivityPairs[this.state.startIdx].fixedTilesData;
     var scrambledTilesData = this.props.scrambledChunksOfActivityPairs[this.state.startIdx].scrambledTilesData;
-
 
     return <div>
       <div style={{
