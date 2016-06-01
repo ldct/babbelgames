@@ -49,6 +49,8 @@ defmodule Nlp do
         |> String.replace("how'd", "how did")
         |> String.replace("gimme", "give me")
         |> String.replace("goodnight", "good night")
+        |> String.replace("whaddya", "what are you")
+        |> String.replace("y'", "you ")
     end
 
 end
