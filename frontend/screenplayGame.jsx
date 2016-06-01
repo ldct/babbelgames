@@ -39,7 +39,9 @@ var FlippableSentence = React.createClass({
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
-    }} onClick={this.props.onClick}>
+    }}
+    onClick={this.props.onClick}
+    className={this.props.selected ? "" : "dim-on-hover"}>
       <div style={{
         fontSize: '0.7em',
         display: this.props.displayBoth ? 'block' : 'none',
@@ -54,21 +56,75 @@ var GameScreen = React.createClass({
     return {
       matchedIds: [],
       matchedFrIdxs: [],
-      selectedIdx: null,
+      selectedEnglishIdx: null,
+      selectedFrenchIdx: null,
     };
   },
-  handleEnglishClick: function (idx) {
-    this.setState({
-      selectedIdx: idx,
-    });
-  },
-  handleFrenchClick: function (e, i, j) {
-    if (e === this.state.englishTiles[this.state.selectedIdx]) {
+  attemptMatch: function (frI, frJ, enI) {
+
+    const frenchBack = this.props.tileData.filter(td => {
+      return td[3] == this.props.sentences[frI].lineNumber;
+    })[frJ][0];
+
+    if (frenchBack === this.state.englishTiles[enI]) {
       this.setState({
-        matchedIds: this.state.matchedIds.concat(this.state.selectedIdx),
-        matchedFrIdxs: this.state.matchedFrIdxs.concat(i + '-' + j),
+        matchedIds: this.state.matchedIds.concat(this.state.selectedEnglishIdx),
+        matchedFrIdxs: this.state.matchedFrIdxs.concat(frI + '-' + frJ),
+        selectedFrenchIdx: null,
+        selectedEnglishIdx: null,
+      });
+    } else {
+      this.setState({
+        selectedFrenchIdx: null,
+        selectedEnglishIdx: null,
       });
     }
+  },
+  handleEnglishClick: function (idx) {
+    const frenchWasSelected = this.state.selectedFrenchIdx !== null;
+    const englishWasSelected = this.state.selectedEnglishIdx !== null;
+
+    if (!frenchWasSelected && !englishWasSelected) {
+      this.setState({
+        selectedEnglishIdx: idx,
+      });
+    }
+    if (!frenchWasSelected && englishWasSelected) {
+      this.setState({
+        selectedEnglishIdx: null,
+      });
+    }
+    if (frenchWasSelected && !englishWasSelected) {
+      const [i, j] = this.state.selectedFrenchIdx.split('-');
+      this.attemptMatch(parseInt(i, 10), parseInt(j, 10), idx);
+    }
+    if (frenchWasSelected && englishWasSelected) {
+      console.log('assertion failed');
+    }
+
+  },
+  handleFrenchClick: function (i, j) {
+
+    const frenchWasSelected = this.state.selectedFrenchIdx !== null;
+    const englishWasSelected = this.state.selectedEnglishIdx !== null;
+
+    if (!frenchWasSelected && !englishWasSelected) {
+      this.setState({
+        selectedFrenchIdx: i + '-' + j,
+      });
+    }
+
+    if (!frenchWasSelected && englishWasSelected) {
+      this.attemptMatch(i, j, this.state.selectedEnglishIdx);
+    }
+
+    if (frenchWasSelected && !englishWasSelected) {
+      this.setState({
+        selectedFrenchIdx: null,
+      });
+    }
+
+
   },
   componentDidMount: function () {
     var englishTiles = JSON.parse(JSON.stringify(this.props.tileData)).map(td => {
@@ -122,9 +178,10 @@ var GameScreen = React.createClass({
         <span style={{marginRight: '0.5em'}} key={i}>{speakerName}</span>
         {matchingTileData.map((td, j) => {
           return <FlippableSentence
+            selected={i + "-" + j === this.state.selectedFrenchIdx}
             key={j}
             displayBoth={this.state.matchedFrIdxs.indexOf(i + "-" + j) !== -1}
-            onClick={this.handleFrenchClick.bind(this, td[0], i, j)}
+            onClick={this.handleFrenchClick.bind(this, i, j)}
             back={td[1]}
             front={td[0]} />
         })}
@@ -136,14 +193,14 @@ var GameScreen = React.createClass({
     <div style={{'display': 'flex', 'flexDirection': 'row', flexWrap: 'wrap', alignItems: 'flex-start', alignContent: 'center', flex: '1 0 0'}}>{englishTiles.map((e, i) => {
       var tileStyle = {
         display: 'inline-block', margin: 5,
-        backgroundColor: this.props.selected ? '#D58313' : 'rgba(255, 147, 0, 0.7)',
+        backgroundColor: (this.state.selectedEnglishIdx === i) ? '#D58313' : 'rgba(255, 147, 0, 0.7)',
         padding: 5,
         borderColor: '#e5e6e9 #dfe0e4 #d0d1d5',
         borderWidth: '1px',
         borderStyle: 'solid',
       };
       if (this.state.matchedIds.indexOf(i) !== -1) tileStyle['visibility'] = 'hidden';
-      return <div key={i} onClick={this.handleEnglishClick.bind(this, i)} style={tileStyle}>{e}</div>;
+      return <div key={i} onClick={this.handleEnglishClick.bind(this, i)} style={tileStyle} className={this.state.selectedEnglishIdx === i ? "" : "dim-on-hover"}>{e}</div>;
     })}</div>
     </div>
   }
