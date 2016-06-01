@@ -68,7 +68,7 @@ var GameScreen = React.createClass({
 
     if (frenchBack === this.state.englishTiles[enI]) {
       this.setState({
-        matchedIds: this.state.matchedIds.concat(this.state.selectedEnglishIdx),
+        matchedIds: this.state.matchedIds.concat(enI),
         matchedFrIdxs: this.state.matchedFrIdxs.concat(frI + '-' + frJ),
         selectedFrenchIdx: null,
         selectedEnglishIdx: null,
