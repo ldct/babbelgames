@@ -8,6 +8,13 @@ defmodule FrexServer do
     send_resp(conn, 200, "world")
   end
 
+  get "/" do
+    contents = File.read!("frontend/index.html")
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
   def metadataOf(series, episode) do
     case {series, episode} do
       {"friends", "s01e01"} -> %{
