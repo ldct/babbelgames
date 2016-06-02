@@ -159,7 +159,8 @@ var GameScreen = React.createClass({
       maxWidth: '1200px',
       marginLeft: 'auto',
       marginRight: 'auto',
-      marginTop: 10,
+      marginTop: 30,
+      padding: 20,
       borderRadius: 2,
       boxShadow: '0 1px 2px 1px rgba(0,0,0,0.09)',
       backgroundColor: 'white',
@@ -170,7 +171,7 @@ var GameScreen = React.createClass({
       if (sentence.line.length === 0) return null;
 
       const lineStyle = {
-        margin: '0.5em',
+        margin: '0.75em',
         display: 'flex',
         alignItems: 'center',
         flexWrap: 'wrap',
@@ -284,12 +285,44 @@ fetch('/sentenceMatchingGame/' + dataSource).then(function (response) {
       'lineNumber': i
     };
   });
-  var screenplaySections = _.chunk(screenplayLines, 10).map(chunk => {
+
+  var screenplaySections = [];
+
+  var workingScreenplaySection = [];
+
+  while (screenplayLines.length > 0) {
+    workingScreenplaySection = workingScreenplaySection.concat(screenplayLines[0]);
+    screenplayLines = screenplayLines.slice(1);
+
+    var doRotate = false;
+
+    if (workingScreenplaySection.length > 9) {
+      doRotate = true;
+    }
+
+    var lines = workingScreenplaySection.map(l => l.line).join(' ');
+    if (lines.length > 300) {
+      doRotate = true;
+    }
+
+    if (doRotate) {
+      screenplaySections = screenplaySections.concat([workingScreenplaySection]);
+      workingScreenplaySection = [];
+    }
+
+  }
+
+  if (workingScreenplaySection.length) {
+    screenplaySections = screenplaySections.concat([workingScreenplaySection]);
+  }
+
+  screenplaySections = screenplaySections.map(chunk => {
     return {
       chunk: chunk,
-      rngSeed: Math.random() * 100000,
+      rngSeed: Math.random() * 100000
     }
   });
+
 
   ReactDOM.render(
     <App
