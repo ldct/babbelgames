@@ -154,6 +154,13 @@ var GameScreen = React.createClass({
     window.rngSeed = this.props.rngSeed;
     shuffle(englishTiles);
 
+    const lineStyle = {
+      margin: '0.75em',
+      display: 'flex',
+      alignItems: 'center',
+      flexWrap: 'wrap',
+    };
+
     return <div style={{
       display: 'flex',
       maxWidth: '1200px',
@@ -165,25 +172,19 @@ var GameScreen = React.createClass({
       boxShadow: '0 1px 2px 1px rgba(0,0,0,0.09)',
       backgroundColor: 'white',
     }}>
+
     <div style={{display: 'flex', flexDirection: 'column', flex: '2 0 0'}}>
+
     {this.props.sentences.map((sentence, i) => {
 
       if (sentence.line.length === 0) return null;
-
-      var lineStyle = {
-        margin: '0.75em',
-        display: 'flex',
-        alignItems: 'center',
-        flexWrap: 'wrap',
-      };
 
       var matchingTileData = this.props.tileData.filter(td => {
         return td[3] == sentence.lineNumber;
       });
 
       if (matchingTileData.length === 0) {
-        lineStyle['fontStyle'] = 'italic';
-        return <div key={i} style={lineStyle}>{sentence.line}</div>
+        return <div key={i} style={sentence.line.indexOf(':') === -1 ? Object.assign({}, lineStyle, {fontStyle: 'italic'}) : lineStyle}>{sentence.line}</div>
       }
 
       var speakerName = sentence.line.split(":")[0];
@@ -260,6 +261,7 @@ var App = React.createClass({
         </div>
       </div>
     </div>
+    <div> Hi </div>
     {this.props.screenplaySections.map((chunks, i) => {
       var lineNumbers = chunks.chunk.map(s => s.lineNumber);
 
