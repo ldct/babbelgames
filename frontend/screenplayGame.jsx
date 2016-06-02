@@ -170,7 +170,7 @@ var GameScreen = React.createClass({
 
       if (sentence.line.length === 0) return null;
 
-      const lineStyle = {
+      var lineStyle = {
         margin: '0.75em',
         display: 'flex',
         alignItems: 'center',
@@ -181,7 +181,10 @@ var GameScreen = React.createClass({
         return td[3] == sentence.lineNumber;
       });
 
-      if (matchingTileData.length === 0) return <div key={i} style={lineStyle}>{sentence.line}</div>
+      if (matchingTileData.length === 0) {
+        lineStyle['fontStyle'] = 'italic';
+        return <div key={i} style={lineStyle}>{sentence.line}</div>
+      }
 
       var speakerName = sentence.line.split(":")[0];
 
