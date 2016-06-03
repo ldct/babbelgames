@@ -4,6 +4,7 @@
 <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.js"></script>
+<meta name="viewport" content="width=device-width" />
 
 <body style="margin: 0; background-color: white">
 <div id="container"></div>
@@ -33,6 +34,9 @@ var EpisodeTile = React.createClass({
     var tile = <div
       onMouseEnter={function () {
         self.props.onMouseEnter(self.props.src);
+      }}
+      onMouseLeave={function () {
+        self.props.onMouseLeave(self.props.src);
       }}
       style={{
         display: 'inline-block',
@@ -85,6 +89,7 @@ var App = React.createClass({
   getInitialState: function () {
     return {
       srcOfMousedOverTile: null,
+      showAbout: false,
     }
   },
   handleMouseOverTile: function (src) {
@@ -92,22 +97,49 @@ var App = React.createClass({
       srcOfMousedOverTile: src,
     });
   },
+  handleMouseOutTile: function (src) {
+    if (this.state.srcOfMousedOverTile === src) {
+      this.setState({
+        srcOfMousedOverTile: null,
+      });
+    }
+  },
+  handleAboutClick: function () {
+    this.setState({
+      showAbout: true,
+    });
+  },
   render: function () {
     var mo = this.handleMouseOverTile;
+    var ml = this.handleMouseOutTile;
     return <div style={{
+      minHeight: '80%',
       display: 'flex',
+      flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      flexWrap: 'wrap',
-      height: '80%',
     }}>
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e01" headline="The One Where Monica Gets a Roommate"/>
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e02" headline="The One With the Sonogram at the End"/>
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e03" headline="The One With the Thumb"/>
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="sherlock.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="sherlock/s01e01" headline="A Study in Pink" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="sherlock/s01e02" headline="The Blind Banker" />
+      <div style={{marginBottom: 50}}>
+      babbelgames
+      </div>
+      <div style={{
+        textAlign:'center',
+      }}>
+        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends.poster" isPoster={true} />
+        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e01" headline="The One Where Monica Gets a Roommate"/>
+        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e02" headline="The One With the Sonogram at the End"/>
+        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e03" headline="The One With the Thumb"/>
+        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="sherlock.poster" isPoster={true} />
+        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="sherlock/s01e01" headline="A Study in Pink" />
+        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="sherlock/s01e02" headline="The Blind Banker" />
+      </div>
+      <div style={{marginTop: 50}}>
+      <a style={{color: 'black'}} href="http://eepurl.com/b4kX5f" target="_blank">signup</a> / <a style={{color:'black'}} href="mailto:xuanji@gmail.com">contact</a> / <a style={{color: 'black'}} href="#" onClick={this.handleAboutClick}>about</a>
+      </div>
+      <div style={{marginTop: 10, visibility: this.state.showAbout ? 'visible' : 'hidden'}}>
+      babbelgames.io creates fun language learning games based on real native content. click on a picture above to get started.
+      </div>
+
     </div>
   }
 });
