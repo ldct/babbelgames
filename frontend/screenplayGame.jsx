@@ -273,7 +273,7 @@ var App = React.createClass({
     </div>
     <div className="gamescreen" style={{flexDirection: 'column'}}> <div style={{padding: 10}}>
 
-    Welcome to babbelgame.io. <br /> <br />
+    Welcome to babbelgames.io. <br /> <br />
 
     Match the French and English phrases. Click on an English phrase (orange button) to select it, and then click on the matching French phrase (in blue).
 
