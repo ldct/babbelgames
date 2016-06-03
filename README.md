@@ -18,6 +18,25 @@ mix deps.get
 iex -S mix
 # {:ok, _} = Plug.Adapters.Cowboy.http Frex, [], port: 4000
 ```
+## installation for windows
+Clone the respository by running
+git clone https://github.com/zodiac/frex-backend.git
+
+Install elixir using the installer for windows (it will install erlang if you do not have it)
+http://elixir-lang.org/install.html
+
+Add git.exe to the environment variable PATH which is found at
+C:\Users\<user>\AppData\Local\GitHub\PortableGit_<number>\cmd
+
+Open command prompt and cd to your frex-backend and run
+mix deps.get
+
+After all the dependencies are installed run
+iex -S mix
+
+The application should now be running on 
+http://localhost:4000/
+
 
 ## fixing screwed up files
 
