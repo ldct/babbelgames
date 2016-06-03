@@ -288,7 +288,7 @@ var App = React.createClass({
 
       <br /> <br />
 
-      Want to be notified of new features or content? <a style={{color: 'black'}} href="http://eepurl.com/b4kX5f" target="_blank">Sign up to our mailing list now!</a>
+      Want to be notified? <a style={{color: 'black'}} href="http://eepurl.com/b4kX5f" target="_blank">Sign up for our mailing list now!</a>
 
       </div>
 
