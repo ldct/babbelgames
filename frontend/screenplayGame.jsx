@@ -33,8 +33,8 @@ var FlippableSentence = React.createClass({
       borderColor: '#e5e6e9 #dfe0e4 #d0d1d5',
       borderWidth: '1px',
       borderStyle: 'solid',
-      borderRadius: 2,
-      padding: 2,
+      borderRadius: '2px',
+      padding: '2px',
       height: '1.8em',
       display: 'flex',
       flexDirection: 'column',
@@ -226,12 +226,27 @@ var App = React.createClass({
     };
   },
   render: function () {
+
+    const renderChunks = (chunks, i) => {
+
+      var lineNumbers = chunks.chunk.map(s => s.lineNumber);
+
+      var minLineNumber = Math.min.apply(null, lineNumbers);
+      var maxLineNumber = Math.max.apply(null, lineNumbers);
+
+      var matchingTileData = this.props.tileData.filter((tileData) => {
+        return minLineNumber <= tileData[3] && tileData[3] <= maxLineNumber;
+      });
+
+      return <GameScreen key={i} sentences={chunks.chunk} rngSeed={chunks.rngSeed} tileData={matchingTileData} />
+    }
+
     return <div>
     <div style={{
       backgroundColor: '#44B78B',
       color: 'white',
       fontFamily: 'Montserrat,Arial,sans-serif',
-      padding: '41px 40px 31px',
+      padding: '32px 52px 40px 31px',
       display: 'flex',
       flexDirection: 'column',
     }}>
@@ -256,19 +271,31 @@ var App = React.createClass({
         </div>
       </div>
     </div>
-    <div> Hi </div>
-    {this.props.screenplaySections.map((chunks, i) => {
-      var lineNumbers = chunks.chunk.map(s => s.lineNumber);
+    <div className="gamescreen" style={{flexDirection: 'column'}}> <div style={{padding: 10}}>
 
-      var minLineNumber = Math.min.apply(null, lineNumbers);
-      var maxLineNumber = Math.max.apply(null, lineNumbers);
+    Welcome to babbelgame.io. <br /> <br />
 
-      var matchingTileData = this.props.tileData.filter((tileData) => {
-        return minLineNumber <= tileData[3] && tileData[3] <= maxLineNumber;
-      });
+    Match the French and English phrases. Click on an English phrase (orange button) to select it, and then click on the matching French phrase (in blue).
 
-      return <GameScreen key={i} sentences={chunks.chunk} rngSeed={chunks.rngSeed} tileData={matchingTileData} />
-    })}</div>
+    </div>
+
+    </div>
+
+    {this.props.screenplaySections.slice(0, 2).map(renderChunks)}
+
+      <div className="gamescreen" style={{flexDirection: 'column'}}> <div style={{padding: 10}}>
+      In the coming weeks we'll add new languages, new content, and new features. Sign in to save your progress, upload your own srt files, and enjoy different game modes.
+
+      <br /> <br />
+
+      Want to be notified of new features or content? <a style={{color: 'black'}} href="http://eepurl.com/b4kX5f" target="_blank">Sign up to our mailing list now!</a>
+
+      </div>
+
+      </div>
+
+    {this.props.screenplaySections.slice(2).map(renderChunks)}
+    </div>
   }
 });
 
