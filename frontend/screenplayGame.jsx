@@ -236,7 +236,12 @@ var App = React.createClass({
       flexDirection: 'column',
     }}>
       <div style={{textAlign: 'right'}}>
-        <a href="/index.html" style={{color: 'white'}}>back</a>
+        <div className="header-link-button">
+          <a href="http://eepurl.com/b4kX5f" target="_blank" style={{fontSize: 18}}>Sign Up</a>
+        </div>
+        <div className="header-link-button">
+          <a href="/index.html" style={{fontSize: 18}}>All Shows</a>
+        </div>
       </div>
       <div style={{
         display: 'flex',
