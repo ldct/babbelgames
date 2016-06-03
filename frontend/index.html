@@ -54,15 +54,18 @@ var EpisodeTile = React.createClass({
       <div
         style={{
           visibility: isSelected ? 'visible' : 'hidden',
+          fontFamily: 'Georgia,serif',
           position: 'absolute',
+          flexDirection: 'column',
           top: 0, left: 0,
           width: '100%', height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
+          textAlign: 'center',
         }}>
-        <div>
-        {self.props.src}
+        <div style={{maxWidth: '8em'}}>
+        {self.props.headline}
         </div>
       </div>
     </div>
@@ -99,12 +102,12 @@ var App = React.createClass({
       height: '80%',
     }}>
       <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e01" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e02" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e03" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e01" headline="The One Where Monica Gets a Roommate"/>
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e02" headline="The One With the Sonogram at the End"/>
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="friends/s01e03" headline="The One With the Thumb"/>
       <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="sherlock.poster" isPoster={true} />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="sherlock/s01e01" />
-      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="sherlock/s01e02" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="sherlock/s01e01" headline="A Study in Pink" />
+      <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseEnter={mo} src="sherlock/s01e02" headline="The Blind Banker" />
     </div>
   }
 });
