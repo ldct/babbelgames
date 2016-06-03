@@ -243,7 +243,7 @@ var App = React.createClass({
 
     return <div>
     <div style={{
-      backgroundColor: '#44B78B',
+      backgroundColor: '#3EA87F',
       color: 'white',
       fontFamily: 'Montserrat,Arial,sans-serif',
       padding: '32px 52px 40px 31px',
