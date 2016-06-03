@@ -161,19 +161,9 @@ var GameScreen = React.createClass({
       flexWrap: 'wrap',
     };
 
-    return <div style={{
-      display: 'flex',
-      maxWidth: '1200px',
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      marginTop: 30,
-      padding: 20,
-      borderRadius: 2,
-      boxShadow: '0 1px 2px 1px rgba(0,0,0,0.09)',
-      backgroundColor: 'white',
-    }}>
+    return <div className="gamescreen">
 
-    <div style={{display: 'flex', flexDirection: 'column', flex: '2 0 0'}}>
+    <div className="transcript-area">
 
     {this.props.sentences.map((sentence, i) => {
 
@@ -206,7 +196,7 @@ var GameScreen = React.createClass({
     })}
     </div>
 
-    <div style={{'display': 'flex', 'flexDirection': 'row', flexWrap: 'wrap', alignItems: 'flex-start', alignContent: 'center', flex: '1 0 0'}}>{englishTiles.map((e, i) => {
+    <div className="english-tiles-area">{englishTiles.map((e, i) => {
       var tileStyle = {
         display: 'inline-block', margin: 5,
         backgroundColor: (this.state.selectedEnglishIdx === i) ? '#D58313' : 'rgba(255, 147, 0, 0.7)',
