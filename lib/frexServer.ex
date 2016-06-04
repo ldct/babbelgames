@@ -41,6 +41,10 @@ defmodule FrexServer do
         "title" => "The Blind Banker",
         "subtitle" => "Sherlock s01e02"
       }
+      {"got", "s01e01"} -> %{
+        "title" => "Winter is Coming",
+        "subtitle" => "Game of Thrones s01e01"
+      }
       _ -> %{}
     end
   end
