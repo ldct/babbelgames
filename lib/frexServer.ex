@@ -121,8 +121,8 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
-  get "/screenplayGame.jsx" do
-    contents = File.read!("frontend/screenplayGame.jsx")
+  get "/js/:filename" do
+    contents = File.read!("frontend/js/" <> filename)
     conn
     |> put_resp_content_type("application/javascript; charset=UTF-8")
     |> send_resp(200, contents)

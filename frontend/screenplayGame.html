@@ -4,105 +4,13 @@
 <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/screenplayGame.css">
 <meta name="viewport" content="width=device-width" />
 
-<style type="text/css">
-
-.dim-on-hover:hover {
-    opacity: .7;
-    cursor: pointer;
-}
-
-.gamescreen {
-    display: flex;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30;
-    padding: 20;
-    border-radius: 2;
-    box-shadow: 0 1px 2px 1px rgba(0,0,0,0.09);
-    background-color: white;
-}
-
-.transcript-area {
-    display: flex;
-    flex-direction: column;
-}
-
-.english-tiles-area {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: center;
-}
-
-.header-link-button {
-    display: inline-block;
-    background-color: #CCEBF3;
-    margin-left: 10;
-    margin-right: 10;
-    padding: 4px 18px;
-    border-radius: 4px;
-    color: black;
-}
-
-.header-link-button a {
-    color: black;
-    text-decoration: none;
-
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none;   /* Chrome/Safari/Opera */
-    -khtml-user-select: none;    /* Konqueror */
-    -moz-user-select: none;      /* Firefox */
-    -ms-user-select: none;       /* Internet Explorer/Edge */
-    user-select: none;
-}
-
-.header-link-button:hover {
-    opacity: .7;
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 500px) { /* small screen */
-
-    .gamescreen {
-        flex-direction: column;
-    }
-
-}
-
-@media only screen and (min-width: 500px) {
-
-    .gamescreen {
-        flex-direction: row;
-    }
-
-    .transcript-area {
-        flex: 2 0 0;
-    }
-
-    .english-tiles-area {
-        flex: 1 0 0;
-    }
-}
-
-
-</style>
-
-<body style="margin: 0; background-color: #EEEFF2">
-<div id="container"></div>
+<body>
+    <div id="container"></div>
 </body>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-78695670-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script type="text/babel" src="screenplayGame.jsx"></script>
+<script src="js/googleAnalytics.js"></script>
+<script type="text/babel" src="js/screenplayGame.jsx"></script>
