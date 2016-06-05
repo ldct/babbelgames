@@ -4,9 +4,11 @@
 <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/index.css">
 <meta name="viewport" content="width=device-width" />
 
-<body style="margin: 0; background-color: white">
+<body>
 <div id="container"></div>
 </body>
 
@@ -112,19 +114,11 @@ var App = React.createClass({
   render: function () {
     var mo = this.handleMouseOverTile;
     var ml = this.handleMouseOutTile;
-    return <div style={{
-      minHeight: '80%',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-    }}>
+    return <div className="flex-container">
       <div style={{marginBottom: 50}}>
       babbelgames
       </div>
-      <div style={{
-        textAlign:'center',
-      }}>
+      <div className="align-text-center">
         <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends.poster" isPoster={true} />
         <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e01" headline="The One Where Monica Gets a Roommate"/>
         <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e02" headline="The One With the Sonogram at the End"/>

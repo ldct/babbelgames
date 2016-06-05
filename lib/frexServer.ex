@@ -101,13 +101,6 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
-  get "/matchingGameOrdered.html" do
-    contents = File.read!("frontend/matchingGameOrdered.html")
-    conn
-    |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, contents)
-  end
-
   get "/screenplayGame.html" do
     contents = File.read!("frontend/screenplayGame.html")
     conn
@@ -121,10 +114,10 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
-  get "/matchingGameOrdered.jsx" do
-    contents = File.read!("frontend/matchingGameOrdered.jsx")
+  get "/css/:filename" do
+    contents = File.read!("frontend/css/" <> filename)
     conn
-    |> put_resp_content_type("application/javascript; charset=UTF-8")
+    |> put_resp_content_type("text/css; charset=UTF-8")
     |> send_resp(200, contents)
   end
 
