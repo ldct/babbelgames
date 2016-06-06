@@ -114,6 +114,13 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
+  get "/html/:filename" do
+    contents = File.read!("frontend/html/" <> filename)
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
   get "/css/:filename" do
     contents = File.read!("frontend/css/" <> filename)
     conn

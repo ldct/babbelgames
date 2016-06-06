@@ -89,9 +89,6 @@ var App = React.createClass({
     var mo = this.handleMouseOverTile;
     var ml = this.handleMouseOutTile;
     return <div className="flex-container">
-      <div style={{marginBottom: 50}}>
-      babbelgames
-      </div>
       <div className="align-text-center">
         <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends.poster" isPoster={true} />
         <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e01" headline="The One Where Monica Gets a Roommate"/>
@@ -112,6 +109,7 @@ var App = React.createClass({
   }
 });
 
+$("#navigation-bar" ).load( "html/navbar.html" );
 ReactDOM.render(
   <App />,
   document.getElementById('container')
