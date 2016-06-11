@@ -1,6 +1,7 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react-with-addons.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react-dom.js"></script>
+<!-- The bundle.min.js should not contain any external libraries besides react 
+	instead load them here and add them to the externals of webpack.config.babel.js
+-->
+
 <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.js"></script>
@@ -8,13 +9,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="css/index.css">
 <meta name="viewport" content="width=device-width" />
 
 <body>
-	<div id="navigation-bar"></div>
 	<div id="container"></div>
 </body>
 
-<script src="js/googleAnalytics.js"></script>
-<script type="text/babel" src="js/episodeTile.jsx"></script>
+<script src="/js/bundle.min.js"></script>

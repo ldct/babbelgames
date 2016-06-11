@@ -1,9 +1,11 @@
-var EpisodeTile = React.createClass({
-  handleClick: function () {
-    console.log(this.props.imgPrefix);
-  },
-  render: function () {
+import React from "react";
 
+export default class EpisodeTile extends React.Component {
+  handleClick() {
+    console.log(this.props.imgPrefix);
+  }
+
+  render() {
     var isSelected = !this.props.isPoster && this.props.srcOfMousedOverTile === this.props.src;
 
     var self = this;
@@ -59,58 +61,4 @@ var EpisodeTile = React.createClass({
     }
 
   }
-});
-
-var App = React.createClass({
-  getInitialState: function () {
-    return {
-      srcOfMousedOverTile: null,
-      showAbout: false,
-    }
-  },
-  handleMouseOverTile: function (src) {
-    this.setState({
-      srcOfMousedOverTile: src,
-    });
-  },
-  handleMouseOutTile: function (src) {
-    if (this.state.srcOfMousedOverTile === src) {
-      this.setState({
-        srcOfMousedOverTile: null,
-      });
-    }
-  },
-  handleAboutClick: function () {
-    this.setState({
-      showAbout: true,
-    });
-  },
-  render: function () {
-    var mo = this.handleMouseOverTile;
-    var ml = this.handleMouseOutTile;
-    return <div className="flex-container">
-      <div className="align-text-center">
-        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends.poster" isPoster={true} />
-        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e01" headline="The One Where Monica Gets a Roommate"/>
-        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e02" headline="The One With the Sonogram at the End"/>
-        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="friends/s01e03" headline="The One With the Thumb"/>
-        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="sherlock.poster" isPoster={true} />
-        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="sherlock/s01e01" headline="A Study in Pink" />
-        <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="sherlock/s01e02" headline="The Blind Banker" />
-      </div>
-      <div style={{marginTop: 50}}>
-      <a style={{color: 'black'}} href="http://eepurl.com/b4kX5f" target="_blank">signup</a> / <a style={{color:'black'}} href="mailto:xuanji@gmail.com">contact</a> / <a style={{color: 'black'}} href="#" onClick={this.handleAboutClick}>about</a>
-      </div>
-      <div style={{marginTop: 10, visibility: this.state.showAbout ? 'visible' : 'hidden'}}>
-      babbelgames.io creates fun language learning games based on real native content. click on a picture above to get started.
-      </div>
-
-    </div>
-  }
-});
-
-$("#navigation-bar" ).load( "html/navbar.html" );
-ReactDOM.render(
-  <App />,
-  document.getElementById('container')
-);
+}

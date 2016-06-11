@@ -1,0 +1,43 @@
+#header {
+	background: #fff;
+	-webkit-box-shadow: 1px 0 3px rgba(0,0,0,.7);
+	box-shadow: 1px 0 3px rgba(0,0,0,.7);
+	z-index: 99;
+	width: 100%;
+	position: relative;
+	border-radius: 0;
+	margin-top: 0px;
+}
+
+#navbarBrand {
+	height: auto;
+    padding: 19px 0px 13px;
+}
+
+#navOptions > li > a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px 20px;
+}
+
+#navOptions > li > a:hover {
+	background-color: #E32C26;
+	color: white;
+}
+
+#navbarBrand > img {
+	padding-left: 10px;
+}
+
+@media screen and (min-width: 970px) {
+	#navOptions {
+		margin-top: 50px;
+	}
+
+	#header > .container {
+		width: 100%;
+	    padding-right: 60px;
+	    padding-left: 170px;
+	}
+}
