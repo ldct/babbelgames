@@ -12,34 +12,22 @@ var App = React.createClass({
   getInitialState: function() {
     return {
       srcOfMousedOverTile: null,
-      showAbout: false,
     }
   },
 
   handleMouseOverTile: function(src) {
-    this.setState({
-      srcOfMousedOverTile: src,
-    });
+    this.setState({ srcOfMousedOverTile: src });
   },
 
   handleMouseOutTile: function(src) {
     if (this.state.srcOfMousedOverTile === src) {
-      this.setState({
-        srcOfMousedOverTile: null,
-      });
+      this.setState({ srcOfMousedOverTile: null });
     }
-  },
-
-  handleAboutClick: function() {
-    this.setState({
-      showAbout: true,
-    });
   },
 
   render: function() {
     var mo = this.handleMouseOverTile,
-        ml = this.handleMouseOutTile,
-        ac = this.handleAboutClick;
+        ml = this.handleMouseOutTile;
     return (
       <div className={styles.flexContainer}>
         <div className={styles.episodeTileContainer}>
@@ -52,14 +40,8 @@ var App = React.createClass({
           <EpisodeTile srcOfMousedOverTile={this.state.srcOfMousedOverTile} onMouseLeave={ml} onMouseEnter={mo} src="sherlock/s01e02" headline="The Blind Banker" />
         </div>
         <div className={styles.additionalInfoFooter}>
-          <a className={styles.additionalInfoText} href="http://eepurl.com/b4kX5f" target="_blank">signup</a> / 
-          <a className={styles.additionalInfoText} href="mailto:xuanji@gmail.com">contact</a> / 
-          <a className={styles.additionalInfoText} href="#" onClick={ac}>about</a>
+          <div>Copyright &copy; 2016 BabbelGames</div>
         </div>
-        <div style={{marginTop: 10, visibility: this.state.showAbout ? 'visible' : 'hidden'}}>
-          babbelgames.io creates fun language learning games based on real native content. click on a picture above to get started.
-        </div>
-
       </div>
     );
   }

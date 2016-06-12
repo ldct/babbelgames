@@ -21,14 +21,14 @@ var NavigationBar = React.createClass({
           </div>
           <nav className="collapse navbar-collapse" role="navigation">
             <ul id={styles.navOptions} className="nav navbar-nav navbar-right">
-              <li><a href="#">Sign-up</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="http://eepurl.com/b4kX5f" target="_blank">Sign-up</a></li>
+              <li><a href="mailto:xuanji@gmail.com">Contact</a></li>
               <li><a href="#">About</a></li>
             </ul>      
           </nav>
         </div>
       </header>
-      );
+    );
   }
 });
 

@@ -1,6 +1,5 @@
 #header {
 	background: #fff;
-	-webkit-box-shadow: 1px 0 3px rgba(0,0,0,.7);
 	box-shadow: 1px 0 3px rgba(0,0,0,.7);
 	z-index: 99;
 	width: 100%;
@@ -19,6 +18,10 @@
     font-size: 18px;
     font-weight: 700;
     padding: 10px 30px 20px;
+}
+
+#navOptions > li > a:focus {
+	color: #777;
 }
 
 #navOptions > li > a:hover {
