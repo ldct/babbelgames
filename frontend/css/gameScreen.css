@@ -1,0 +1,122 @@
+.lineBlock {
+  margin: 0.75em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.lineBlock.italic {
+  font-style: italic;
+}
+
+.lineBlock > .right {
+  margin-right: 0.5em;
+}
+
+.gamescreen {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,0.09);
+    background-color: white;
+}
+
+.transcriptArea {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.englishTilesArea {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+}
+
+.dimOnHover:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+    cursor: pointer;
+}
+
+.tileStyle {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;       
+}
+
+@media only screen and (max-width: 500px) { /* small screen */
+    .gamescreen {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .gamescreen {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+    .transcriptArea {
+        -webkit-box-flex: 2;
+        -webkit-flex: 2 0 0;
+            -ms-flex: 2 0 0;
+                flex: 2 0 0;
+    }
+    .englishTilesArea {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 0;
+            -ms-flex: 1 0 0;
+                flex: 1 0 0;
+    }
+}

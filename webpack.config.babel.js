@@ -6,7 +6,7 @@ module.exports = {
   cache: true,
   context: path.join(__dirname, "frontend"),
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./js/App.jsx",
+  entry: "./js/components/App.jsx",
   externals: {
       // require("jquery") is external and available on the global var jQuery
       "jquery": "jQuery"

@@ -1,0 +1,37 @@
+.flippableSentenceContainer {
+  display: inline-block;
+  margin-right: 0.5em;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 2px;
+  height: 1.8em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;           
+}
+
+.dimOnHover:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+    cursor: pointer;
+}
+
+.front {
+    font-size: '0.7em';
+}

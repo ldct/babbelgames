@@ -1,6 +1,7 @@
-import styles from "../css/episodeTile.css";
+import styles from "../../css/episodeTile.css";
 
 import React from "react";
+import { Link } from "react-router";
 
 var EpisodeTile = React.createClass({
   onMouseEnter: function() {
@@ -12,7 +13,9 @@ var EpisodeTile = React.createClass({
   },
 
   render() {
-    var isSelected = !this.props.isPoster && this.props.srcOfMousedOverTile === this.props.src;
+    var isSelected = !this.props.isPoster && this.props.srcOfMousedOverTile === this.props.src,
+        src = this.props.src.replace("/", ".");
+
     var tile = (
         <div className={styles.eTile} 
           onMouseEnter = {this.onMouseEnter}
@@ -20,7 +23,7 @@ var EpisodeTile = React.createClass({
 
           <img className={styles.eImage}
             style={{ opacity: this.props.isPoster ? 1 : (isSelected ? 0.2 : 0.7) }}
-            src={'/img/' + this.props.src.replace('/', '.') + '.jpg'} />
+            src={'/img/' + src + '.jpg'} />
 
           <div className={styles.eTextContainer}
             style={{ visibility: isSelected ? 'visible' : 'hidden' }} >
@@ -29,16 +32,16 @@ var EpisodeTile = React.createClass({
             </div>
           </div>
           
-        </div>
-      )
+      </div>
+    );
 
     if (this.props.isPoster) {
       return tile;
     } else {
       return (
-        <a href={"/screenplayGame.html?src=" + this.props.src + '.srt.json'}>
+        <Link to={"/page/game/" + src + ".srt.json"}>
           {tile}
-        </a>
+        </Link>
       );
     }
 

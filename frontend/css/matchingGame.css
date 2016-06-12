@@ -1,0 +1,111 @@
+.header {
+  background-color: #3EA87F;
+  color: white;
+  font-family: Montserrat,Arial,sans-serif;
+  padding: 32px 52px 40px 31px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.headerLinkButton {
+    display: inline-block;
+    background-color: #CCEBF3;
+    margin-left: 10;
+    margin-right: 10;
+    padding: 4px 18px;
+    border-radius: 4px;
+    color: black;
+}
+
+.headerLinkButton a {
+    color: black;
+    text-decoration: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.headerLinkButton:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+    cursor: pointer;
+}
+
+.gamescreen {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,0.09);
+    background-color: white;
+}
+
+@media only screen and (max-width: 500px) { /* small screen */
+    .gamescreen {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .gamescreen {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.bigFontSize {
+    font-size: 18px;
+}
+
+.blackFont {
+    color: black;
+}
+
+.imageContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.imageContainer>img {
+    height: 170px;
+}
+
+.imageContainer>div {
+    margin-left: 30px;
+}
+
+.slightPadding {
+    padding: 10px;
+}

@@ -15,6 +15,13 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
+  get "/page/*glob" do
+    contents = File.read!("frontend/index.html")
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
   def metadataOf(series, episode) do
     case {series, episode} do
       {"friends", "s01e01"} -> %{
@@ -92,20 +99,6 @@ defmodule FrexServer do
 
   def randomIndex do
     :rand.uniform * 100000 |> round
-  end
-
-  get "/index.html" do
-    contents = File.read!("frontend/index.html")
-    conn
-    |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, contents)
-  end
-
-  get "/screenplayGame.html" do
-    contents = File.read!("frontend/screenplayGame.html")
-    conn
-    |> put_resp_content_type("text/html; charset=UTF-8")
-    |> send_resp(200, contents)
   end
 
   get "/img/:filename" do
