@@ -104,6 +104,7 @@ defmodule FrexServer do
   get "/img/:filename" do
     contents = File.read!("frontend/img/" <> filename)
     conn
+    |> put_resp_header("cache-control", "max-age=60")
     |> send_resp(200, contents)
   end
 
@@ -111,6 +112,7 @@ defmodule FrexServer do
     contents = File.read!("frontend/html/" <> filename)
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
+    |> put_resp_header("cache-control", "max-age=60")
     |> send_resp(200, contents)
   end
 
@@ -118,6 +120,7 @@ defmodule FrexServer do
     contents = File.read!("frontend/css/" <> filename)
     conn
     |> put_resp_content_type("text/css; charset=UTF-8")
+    |> put_resp_header("cache-control", "max-age=60")
     |> send_resp(200, contents)
   end
 
@@ -125,6 +128,7 @@ defmodule FrexServer do
     contents = File.read!("frontend/js/" <> filename)
     conn
     |> put_resp_content_type("application/javascript; charset=UTF-8")
+    |> put_resp_header("cache-control", "max-age=60")
     |> send_resp(200, contents)
   end
 
