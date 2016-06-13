@@ -2,7 +2,6 @@ import MatchingGame from "./MatchingGame.jsx";
 
 import React from "react";
 
-
 var ScreenPlayGame = React.createClass({
   getInitialState: function() {
     return {

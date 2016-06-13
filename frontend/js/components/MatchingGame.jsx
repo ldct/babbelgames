@@ -32,12 +32,6 @@ var MatchingGame = React.createClass({
       <div>
         <div className={styles.header}>
           <div className={styles.textAlignRight}>
-            <div className={styles.headerLinkButton}>
-              <a className={styles.bigFontSize} href="http://eepurl.com/b4kX5f" target="_blank">Sign Up</a>
-            </div>
-            <div className={styles.headerLinkButton}>
-              <a className={styles.bigFontSize} href="/index.html">All Shows</a>
-            </div>
           </div>
           <div className={styles.imageContainer}>
             <img src={this.props.posterImageSrc}/>
