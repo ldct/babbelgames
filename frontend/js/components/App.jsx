@@ -1,4 +1,5 @@
 import * as googleAnalytics from "../utility/googleAnalytics.jsx";
+import styles from "../../css/app.css";
 
 import EpisodeTileGallery from "./EpisodeTileGallery.jsx";
 import NavigationBar from "./NavigationBar.jsx";

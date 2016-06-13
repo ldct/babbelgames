@@ -39,6 +39,7 @@
 	}
 
 	#header > .container {
+		box-sizing: border-box;
 		width: 100%;
 	    padding-right: 60px;
 	    padding-left: 170px;

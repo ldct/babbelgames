@@ -108,9 +108,11 @@ var GameScreen = React.createClass({
       });
 
       if (matchingTileData.length === 0) {
-        var colonIndex = sentence.line.indexOf(':') === -1;
+        var colonIndex = sentence.line.indexOf(':') === -1,
+            classStr = colonIndex ? styles.lineBlock + " " + styles.italic : styles.lineBlock;
+        if(sentence.line === '\r') return null;
         return (
-          <div className={colonIndex ? styles.lineBlock + " " + styles.italic : styles.lineBlock} key={i} >
+          <div className={classStr} key={i} >
             {sentence.line}
           </div>
         );

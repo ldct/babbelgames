@@ -1,6 +1,7 @@
 .flippableSentenceContainer {
   display: inline-block;
   margin-right: 0.5em;
+  margin-top: 7px;
   border-color: #e5e6e9 #dfe0e4 #d0d1d5;
   border-width: 1px;
   border-style: solid;
