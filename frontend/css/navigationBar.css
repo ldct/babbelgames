@@ -3,7 +3,8 @@
 	box-shadow: 1px 0 3px rgba(0,0,0,.7);
 	z-index: 99;
 	width: 100%;
-	position: relative;
+	position: fixed;
+	top: 0;
 	border-radius: 0;
 	margin-top: 0px;
 }
@@ -35,7 +36,7 @@
 	cursor: pointer;
 }
 
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 1000px) {
 	#navOptions {
 		margin-top: 50px;
 	}

@@ -1,5 +1,6 @@
 .flexContainer {
 	min-height: 80%;
+	margin-top: 187px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
