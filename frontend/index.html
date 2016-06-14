@@ -1,26 +1,37 @@
-<!-- The bundle.min.js should not contain any external libraries besides react 
-	instead load them here and add them to the externals of webpack.config.babel.js
--->
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <title>Babbel Games</title>	
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Enjoy Babbel? Learn new languages while having fun at Babbel Games through a series of interactive games which include matching translated texts.">
+	    <link rel="shortcut icon" type="image/x-icon" href="/img/babbel.games.icon.png">
 
-<script src="https://code.jquery.com/jquery-2.2.1.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.js"></script>
+		<!-- The bundle.min.js should not contain any external libraries besides react 
+			instead load them here and add them to the externals of webpack.config.babel.js
+		-->
+		<script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.js"></script>
 
-<!-- 
-Using customized bootstrap files as only require navigation bar
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
- -->
+		<!-- 
+		Using customized bootstrap files as only require navigation bar
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		 -->
 
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-<script src="/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+		<script src="/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body>
+		<div id="container"></div>
+	</body>
+
+	<script src="/js/bundle.min.js"></script>
+
+</html>
 
 
-<meta name="viewport" content="width=device-width" />
-
-<body>
-	<div id="container"></div>
-</body>
-
-<script src="/js/bundle.min.js"></script>
