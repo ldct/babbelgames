@@ -11,6 +11,10 @@ var NavigationBar = React.createClass({
     this.props.history.push(newLocation);    
   },
 
+  returnToHomePage: function() {
+    this.props.history.push("/page/home");
+  },
+
   render: function() {
     return (
       <div>
@@ -25,7 +29,7 @@ var NavigationBar = React.createClass({
                 <span className="close-cross"></span>
               </button>
               <a id={styles.navbarBrand} className="navbar-brand brand" title="BabbelGames">
-                <img src="/img/babbel.games.logo.png" height="85px" alt="BabbelGames"></img>
+                <img src="/img/babbel.games.logo.png" onClick={this.returnToHomePage} alt="BabbelGames"></img>
               </a>
             </div>
             <nav className="collapse navbar-collapse" role="navigation">

@@ -31,6 +31,8 @@
 
 #navbarBrand > img {
 	padding-left: 10px;
+	height: 85px;
+	cursor: pointer;
 }
 
 @media screen and (min-width: 970px) {
