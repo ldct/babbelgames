@@ -7,7 +7,7 @@
   border-style: solid;
   border-radius: 2px;
   padding: 2px;
-  height: 1.8em;
+  height: 2.4em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -24,7 +24,7 @@
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;           
+          user-select: none;
 }
 
 .dimOnHover:hover {
