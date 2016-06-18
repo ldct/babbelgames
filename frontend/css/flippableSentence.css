@@ -7,7 +7,7 @@
   border-style: solid;
   border-radius: 2px;
   padding: 2px;
-  height: 2.4em;
+  min-height: 2.4em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
