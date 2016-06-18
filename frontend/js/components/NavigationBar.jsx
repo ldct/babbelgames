@@ -61,6 +61,10 @@ var NavigationBar = React.createClass({
     );
   },
 
+  returnToHomePage: function() {
+    this.props.history.push("/page/home");
+  },
+
   render: function() {
     return (
       <div>
@@ -78,7 +82,11 @@ var NavigationBar = React.createClass({
                   <span className="close-cross"></span>
               </button>
               <a id={styles.navbarBrand} className="navbar-brand brand" title="BabbelGames">
+<<<<<<< HEAD
                 <img src={this.state.imgName} onClick={this.returnToHomePage} alt="BabbelGames"></img>
+=======
+                <img src="/img/babbel.games.logo.png" onClick={this.returnToHomePage} alt="BabbelGames"></img>
+>>>>>>> 29d3231538e4311a0c620c5cc52af2f9b22f6a4b
               </a>
             </div>
             {this.createDropDown("", "deskTopNavOptions", {})}
