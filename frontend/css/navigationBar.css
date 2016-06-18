@@ -38,7 +38,6 @@
 	padding-left: 10px;
 	height: 85px;
 	cursor: pointer;
-<<<<<<< HEAD
 }
 
 #mobileNavOptions {
@@ -54,13 +53,6 @@
 @media screen and (min-width: 1000px) {
 	#deskTopNavOptions {
 		display: block;
-=======
-}
-
-@media screen and (min-width: 1000px) {
-	#navOptions {
-		margin-top: 50px;
->>>>>>> 29d3231538e4311a0c620c5cc52af2f9b22f6a4b
 	}
 
 	#header > .container {
