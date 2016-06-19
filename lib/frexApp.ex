@@ -2,10 +2,8 @@ defmodule FrexApp do
   use Application
 
   def start(_type, _args) do
-    # IO.inspect "hello world!"
-    # {:ok, _} = VikidiaSentenceCache.start_link
+    {:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
     Plug.Adapters.Cowboy.http(FrexServer, [], port: getPort)
-    |> IO.inspect
   end
 
   def getPort do
