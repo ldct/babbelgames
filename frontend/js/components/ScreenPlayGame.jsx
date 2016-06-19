@@ -1,5 +1,6 @@
 import MatchingGame from "./MatchingGame.jsx";
 
+import $ from "jquery";
 import React from "react";
 
 var ScreenPlayGame = React.createClass({
@@ -17,9 +18,7 @@ var ScreenPlayGame = React.createClass({
     var that = this,
         src = this.props.params.dataSource.replace(".", "/");
 
-    fetch('/sentenceMatchingGame/' + src).then(function (response) {
-      return response.json();
-    }).then(function (res) {
+    $.getJSON('/sentenceMatchingGame/' + src).then(function (res) {
 
       var screenplayLines = res.screenplay.split('\n').map((e, i) => {
         return {
