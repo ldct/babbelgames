@@ -2,7 +2,7 @@ defmodule FrexApp do
   use Application
 
   def start(_type, _args) do
-    {:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
+    BabbelgamesDb.initDb()
     Plug.Adapters.Cowboy.http(FrexServer, [], port: getPort)
   end
 

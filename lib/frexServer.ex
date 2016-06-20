@@ -1,11 +1,19 @@
 defmodule FrexServer do
-  use Plug.Router
 
+  use Plug.Router
+  plug Plug.Parsers, parsers: []
+
+  plug Ueberauth
   plug :match
   plug :dispatch
 
   get "/hello" do
     send_resp(conn, 200, "world")
+  end
+
+  get "/auth/facebook/callback" do
+    IO.inspect(conn)
+    send_resp(conn, 200, "cb")
   end
 
   get "/" do
@@ -59,6 +67,8 @@ defmodule FrexServer do
   end
 
   get "/sentenceMatchingGame/:series/:episode" do
+
+    IO.inspect(conn)
 
     cacheFilename = "cache/" <> series <> "\\" <> episode
 

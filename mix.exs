@@ -14,7 +14,7 @@ defmodule Frex.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:httpotion, :logger, :ueberauth, :postgrex, :ecto],
+    [applications: [:httpotion, :logger, :postgrex, :ueberauth_facebook],
      mod: {FrexApp, []}
     ]
   end
@@ -37,7 +37,8 @@ defmodule Frex.Mixfile do
       {:httpotion, "~> 2.1.0"},
       {:ueberauth, "~> 0.2"},
       {:postgrex, ">= 0.0.0"},
-      {:ecto, "~> 2.0.0-beta"}
+      {:ecto, "~> 2.0.0-beta"},
+      {:ueberauth_facebook, "~> 0.3"}
     ]
   end
 end
