@@ -65,10 +65,6 @@ var NavigationBar = React.createClass({
     );
   },
 
-  returnToHomePage: function() {
-    this.props.history.push("/page/home");
-  },
-
   render: function() {
     return (
       <div>

@@ -19,6 +19,7 @@
     font-size: 18px;
     font-weight: 700;
     padding: 10px 30px 20px;
+    cursor: pointer;
 }
 
 #deskTopNavOptions > li > a {
