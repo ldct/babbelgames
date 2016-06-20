@@ -2,6 +2,7 @@ import * as googleAnalytics from "../utility/googleAnalytics.jsx";
 import styles from "../../css/app.css";
 
 import EpisodeTileGallery from "./EpisodeTileGallery.jsx";
+import AboutPage from "./AboutPage.jsx";
 import NavigationBar from "./NavigationBar.jsx";
 import ScreenPlayGame from "./ScreenPlayGame.jsx";
 
@@ -34,11 +35,12 @@ var App = React.createClass({
 			<div>
 				<Router history={ browserHistory }>
 					<Route path="/" component={NavigationBar}>
+						<Route path="page/about" component={AboutPage}> </Route>
 						<Route path="page/home" episodes={episodes} component={EpisodeTileGallery}>	</Route>
 						<Route path="page/game/:dataSource" component={ScreenPlayGame}>	</Route>
-						
+
 					</Route>
-				</Router>	    
+				</Router>
 			</div>
 		);
 	}

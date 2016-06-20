@@ -23,8 +23,12 @@ var NavigationBar = React.createClass({
     this.resizeHandler();
   },
 
-  returnToHomePage: function() {
+  returnToHomePage: function(e) {
     this.props.history.push("/page/home");
+  },
+
+  goToAboutPage: function (e) {
+    this.props.history.push("/page/about");
   },
 
   handleClick: function() {
@@ -53,10 +57,10 @@ var NavigationBar = React.createClass({
     return (
       <nav className={className} role="navigation">
         <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
-          <li><a href="http://eepurl.com/b4kX5f" target="_blank">Sign-up</a></li>
-          <li><a href="mailto:xuanji@gmail.com">Contact</a></li>
-          <li><a href="#">About</a></li>
-        </ul>      
+          <li><a href="http://eepurl.com/b4kX5f" target="_blank">Sign Up</a></li>
+          <li><a onClick={this.returnToHomePage}>Log In</a></li>
+          <li><a onClick={this.goToAboutPage}>About</a></li>
+        </ul>
       </nav>
     );
   },
@@ -72,7 +76,7 @@ var NavigationBar = React.createClass({
           <div className={"container " + styles.container}>
             <div className={"navbar-header " + styles.topHeader}>
               <button type="button" className="navbar-toggle collapsed" id={styles.dropdownButton}
-                onClick={this.handleClick} 
+                onClick={this.handleClick}
                 style={{display: (this.state.desktopMode ? "none" : "block") }}
                 data-toggle="collapse" data-target=".collapse.navbar-collapse">
                   <span className="sr-only">Toggle navigation</span>
