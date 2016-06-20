@@ -58,7 +58,7 @@ var NavigationBar = React.createClass({
       <nav className={className} role="navigation">
         <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
           <li><a href="http://eepurl.com/b4kX5f" target="_blank">Sign Up</a></li>
-          <li><a onClick={this.returnToHomePage}>Log In</a></li>
+          <li><a href="/auth/facebook">Log In</a></li>
           <li><a onClick={this.goToAboutPage}>About</a></li>
         </ul>
       </nav>
