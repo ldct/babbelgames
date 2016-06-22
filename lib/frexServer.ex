@@ -12,7 +12,29 @@ defmodule FrexServer do
   end
 
   get "/auth/facebook/callback" do
-    IO.inspect(conn)
+
+    # TODO: generate a proper JWT token
+
+    %Plug.Conn{
+      assigns: %{
+        ueberauth_auth: %Ueberauth.Auth{
+          credentials: %Ueberauth.Auth.Credentials{
+            token: token
+          },
+          info: %Ueberauth.Auth.Info{
+            email: email,
+            image: image,
+            name: name
+          }
+        }
+      }
+    } = conn
+
+    IO.inspect({email, image, name})
+
+    BabbelgamesDb.addSession(email, token)
+    BabbelgamesDb.addUser(email) # todo: check if user exists and log in
+
     send_resp(conn, 200, "cb")
   end
 
