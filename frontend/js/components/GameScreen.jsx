@@ -5,6 +5,7 @@ import FlippableSentence from "./FlippableSentence.jsx";
 
 import React from "react";
 
+// TODO: rename to GameSlab
 var GameScreen = React.createClass({
   getInitialState: function() {
     return {
@@ -15,18 +16,27 @@ var GameScreen = React.createClass({
     };
   },
 
+  /*
+  frI: index of line id
+  frJ: index of flippableSentence within given line
+  enI: which english tile
+  */
   attemptMatch: function(frI, frJ, enI) {
-    const frenchBack = this.props.tileData.filter(td => {
+    const [frenchBack, /*frenchFront*/, /*speaker*/, lineNumber] = this.props.tileData.filter(td => {
       return td[3] == this.props.sentences[frI].lineNumber;
-    })[frJ][0];
+    })[frJ];
+
+    this.props.onMatchItems(lineNumber, frJ);
 
     if (frenchBack === this.state.englishTiles[enI]) {
+
       this.setState({
         matchedIds: this.state.matchedIds.concat(enI),
         matchedFrIdxs: this.state.matchedFrIdxs.concat(frI + '-' + frJ),
         selectedFrenchIdx: null,
         selectedEnglishIdx: null,
       });
+
     } else {
       this.setState({
         selectedFrenchIdx: null,
@@ -126,6 +136,7 @@ var GameScreen = React.createClass({
           const displayBoth = this.state.matchedFrIdxs.indexOf(i + "-" + j) !== -1;
           return (
             <FlippableSentence
+              lineNumber={td[3]}
               selected={i + "-" + j === this.state.selectedFrenchIdx}
               key={j}
               displayBoth={this.state.matchedFrIdxs.indexOf(i + "-" + j) !== -1}
@@ -148,7 +159,7 @@ var GameScreen = React.createClass({
       return (
         <div className={styles.tileStyle + " " + (this.state.selectedEnglishIdx === i ? "" : styles.dimOnHover) }
           style={inlineTileStyle}
-          key={i} 
+          key={i}
           onClick={this.handleEnglishClick.bind(this, i)} >
             {e}
         </div>

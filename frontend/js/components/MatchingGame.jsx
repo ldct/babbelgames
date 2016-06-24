@@ -24,7 +24,9 @@ var MatchingGame = React.createClass({
       });
 
       return (
-        <GameScreen key={i} sentences={chunks.chunk} rngSeed={chunks.rngSeed} tileData={matchingTileData} />
+        <GameScreen key={i} sentences={chunks.chunk} rngSeed={chunks.rngSeed} tileData={matchingTileData} onMatchItems={(a, b, c) => {
+          console.log(a, b, c);
+        }} />
       );
     }
 
