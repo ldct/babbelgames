@@ -1,7 +1,7 @@
 defmodule FrexServer do
 
   use Plug.Router
-  plug Plug.Parsers, parsers: []
+  plug Plug.Parsers, parsers: [:json], json_decoder: Poison
 
   plug Ueberauth
   plug :match
@@ -61,6 +61,28 @@ defmodule FrexServer do
     |> put_resp_content_type("text/html; charset=UTF-8")
     |> put_resp_header("cache-control", "max-age=60")
     |> send_resp(200, contents)
+  end
+
+  post "progress/correctMatch" do
+
+    IO.inspect(conn)
+
+    %Plug.Conn{
+      body_params: %{
+        "line_number" => lineNumber,
+        "tile_idx" => tileIdx,
+        "session_token" => sessionToken,
+        "episode_md5" => episodeMD5,
+      }
+    } = conn
+
+    # todo: which document
+    BabbelgamesDb.markCorrectPair(episodeMD5, sessionToken, lineNumber, tileIdx)
+
+
+    IO.inspect(lineNumber)
+    IO.inspect(tileIdx)
+    conn|> send_resp(200, "conn")
   end
 
   def metadataOf(series, episode) do

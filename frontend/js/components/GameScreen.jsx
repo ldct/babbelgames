@@ -26,7 +26,7 @@ var GameScreen = React.createClass({
       return td[3] == this.props.sentences[frI].lineNumber;
     })[frJ];
 
-    this.props.onMatchItems(lineNumber, frJ);
+    this.props.onMatchPair(lineNumber, frJ);
 
     if (frenchBack === this.state.englishTiles[enI]) {
 

@@ -24,9 +24,26 @@ var MatchingGame = React.createClass({
       });
 
       return (
-        <GameScreen key={i} sentences={chunks.chunk} rngSeed={chunks.rngSeed} tileData={matchingTileData} onMatchItems={(a, b, c) => {
-          console.log(a, b, c);
-        }} />
+        <GameScreen
+          key={i}
+          sentences={chunks.chunk}
+          rngSeed={chunks.rngSeed}
+          tileData={matchingTileData}
+          onMatchPair={(lineNumber, tileIdx) => {
+            if (localStorage.babbelgames_session_token) {
+              $.ajax("/progress/correctMatch", {
+                data: JSON.stringify({
+                  line_number: lineNumber,
+                  tile_idx: tileIdx,
+                  session_token: localStorage.babbelgames_session_token,
+                  episode_md5: this.props.episodeMD5,
+                }),
+                contentType: 'application/json',
+                type: 'POST',
+              });
+            }
+          }
+        } />
       );
     }
 

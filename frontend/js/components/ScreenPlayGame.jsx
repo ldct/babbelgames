@@ -80,10 +80,11 @@ var ScreenPlayGame = React.createClass({
   render: function() {
     return (
       <MatchingGame
-      metadata={this.state.metadata}
-      tileData={this.state.tileData}
-      posterImageSrc={this.state.posterImageSrc}
-      screenplaySections={this.state.screenplaySections} />
+        episodeMD5={md5(JSON.stringify(this.state.tileData))}
+        metadata={this.state.metadata}
+        tileData={this.state.tileData}
+        posterImageSrc={this.state.posterImageSrc}
+        screenplaySections={this.state.screenplaySections} />
     );
   }
 });
