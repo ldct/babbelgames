@@ -14,12 +14,6 @@ var NavigationBar = React.createClass({
   },
 
   componentDidMount: function() {
-    var location = this.props.location.pathname,
-        newLocation = location === "/" ? "/page/home" : location;
-
-    console.log(location + " " + newLocation);
-    this.props.history.push(newLocation);
-
     $(window).on("resize.navigationBar", this.resizeHandler);
     this.resizeHandler();
   },
