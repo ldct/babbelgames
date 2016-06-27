@@ -2,6 +2,7 @@ import styles from "../../css/navigationBar.css";
 
 import $ from "jquery";
 import React from "react";
+import {Router, Route, Link} from "react-router";
 
 var NavigationBar = React.createClass({
   getInitialState: function() {
@@ -59,7 +60,7 @@ var NavigationBar = React.createClass({
         <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
           <li><a href="http://eepurl.com/b4kX5f" target="_blank">Sign Up</a></li>
           <li><a href="/auth/facebook">Log In</a></li>
-          <li><a onClick={this.goToAboutPage}>About</a></li>
+          <li><Link to="/page/about">About</Link></li>
         </ul>
       </nav>
     );

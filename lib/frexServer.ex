@@ -41,10 +41,6 @@ defmodule FrexServer do
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")
     |> send_resp(200, contents)
-
-    # TODO: drop token and redirect
-
-    send_resp(conn, 200, "cb")
   end
 
   get "/" do
@@ -63,9 +59,8 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
+  # Client reports that a correct match has been made
   post "progress/correctMatch" do
-
-    IO.inspect(conn)
 
     %Plug.Conn{
       body_params: %{
@@ -76,13 +71,27 @@ defmodule FrexServer do
       }
     } = conn
 
-    # todo: which document
     BabbelgamesDb.markCorrectPair(episodeMD5, sessionToken, lineNumber, tileIdx)
 
+    conn|> send_resp(200, "OK")
+  end
 
-    IO.inspect(lineNumber)
-    IO.inspect(tileIdx)
-    conn|> send_resp(200, "conn")
+  get "progress/correctMatch/:episodeMD5" do
+
+    %Plug.Conn{
+      query_params: %{
+        "session_token" => sessionToken
+      }
+    } = conn
+
+    IO.inspect(sessionToken)
+
+    res = BabbelgamesDb.getCorrectPairs(episodeMD5, sessionToken)
+    |> Poison.encode!(pretty: true)
+    |> IO.inspect
+
+    conn
+    |> send_resp(200, res)
   end
 
   def metadataOf(series, episode) do
@@ -121,8 +130,6 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/:series/:episode" do
 
-    IO.inspect(conn)
-
     cacheFilename = "cache/" <> series <> "\\" <> episode
 
     if File.exists?(cacheFilename) do
@@ -156,14 +163,6 @@ defmodule FrexServer do
       |> put_resp_content_type("application/json")
       |> send_resp(200, jsonResult)
     end
-  end
-
-  def randomIndex(arr) do
-    :rand.uniform * (length(arr) - 1) |> round
-  end
-
-  def randomIndex do
-    :rand.uniform * 100000 |> round
   end
 
   get "/:resourceType/:filename" when resourceType in ["img", "js", "css"] do

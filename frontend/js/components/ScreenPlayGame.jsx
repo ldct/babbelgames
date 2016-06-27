@@ -3,6 +3,54 @@ import MatchingGame from "./MatchingGame.jsx";
 import $ from "jquery";
 import React from "react";
 
+const screenplaySectionsOf = function (res) {
+  var screenplayLines = res.screenplay.split('\n').map((e, i) => {
+    return {
+      'line': e,
+      'lineNumber': i
+    };
+  });
+
+  var screenplaySections = [];
+
+  var workingScreenplaySection = [];
+
+  while (screenplayLines.length > 0) {
+    workingScreenplaySection = workingScreenplaySection.concat(screenplayLines[0]);
+    screenplayLines = screenplayLines.slice(1);
+
+    var doRotate = false;
+
+    if (workingScreenplaySection.length > 9) {
+      doRotate = true;
+    }
+
+    var lines = workingScreenplaySection.map(l => l.line).join(' ');
+    if (lines.length > 300) {
+      doRotate = true;
+    }
+
+    if (doRotate) {
+      screenplaySections = screenplaySections.concat([workingScreenplaySection]);
+      workingScreenplaySection = [];
+    }
+
+  }
+
+  if (workingScreenplaySection.length) {
+    screenplaySections = screenplaySections.concat([workingScreenplaySection]);
+  }
+
+  screenplaySections = screenplaySections.map(chunk => {
+    return {
+      chunk: chunk,
+      rngSeed: Math.random() * 100000
+    }
+  });
+
+  return screenplaySections;
+}
+
 var ScreenPlayGame = React.createClass({
   getInitialState: function() {
     return {
@@ -18,53 +66,13 @@ var ScreenPlayGame = React.createClass({
     var that = this,
         src = this.props.params.dataSource.replace(".", "/");
 
-    $.getJSON('/sentenceMatchingGame/' + src).then(function (res) {
 
-      var screenplayLines = res.screenplay.split('\n').map((e, i) => {
-        return {
-          'line': e,
-          'lineNumber': i
-        };
+    $.getJSON('/sentenceMatchingGame/' + src).then(res => {
+      const episodeMD5 = md5(JSON.stringify(res.tileData));
+      $.getJSON('/progress/correctMatch/' + episodeMD5 + '?session_token=' + localStorage.babbelgames_session_token).then(pres => {
+        console.log(pres);
+        this.updateState(res, this.props.params.dataSource, screenplaySectionsOf(res));
       });
-
-      var screenplaySections = [];
-
-      var workingScreenplaySection = [];
-
-      while (screenplayLines.length > 0) {
-        workingScreenplaySection = workingScreenplaySection.concat(screenplayLines[0]);
-        screenplayLines = screenplayLines.slice(1);
-
-        var doRotate = false;
-
-        if (workingScreenplaySection.length > 9) {
-          doRotate = true;
-        }
-
-        var lines = workingScreenplaySection.map(l => l.line).join(' ');
-        if (lines.length > 300) {
-          doRotate = true;
-        }
-
-        if (doRotate) {
-          screenplaySections = screenplaySections.concat([workingScreenplaySection]);
-          workingScreenplaySection = [];
-        }
-
-      }
-
-      if (workingScreenplaySection.length) {
-        screenplaySections = screenplaySections.concat([workingScreenplaySection]);
-      }
-
-      screenplaySections = screenplaySections.map(chunk => {
-        return {
-          chunk: chunk,
-          rngSeed: Math.random() * 100000
-        }
-      });
-
-      that.updateState(res, that.props.params.dataSource, screenplaySections);
     });
   },
 

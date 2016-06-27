@@ -76,15 +76,38 @@ defmodule BabbelgamesDb do
 
 			pair = Integer.to_string(lineNumber) <> "-" <> Integer.to_string(tileIdx)
 
-			# TODO: create or append pair to array
 			Postgrex.query!(pid, """
 				INSERT INTO correct_pairs (user_email, episode_md5, pairs) VALUES ($1, $2, $3)
 				ON CONFLICT (user_email, episode_md5) DO UPDATE
 				SET pairs = uniq(correct_pairs.pairs || $3)
 			""", [user_email, episodeMD5, [pair]])
 		end
+	end
 
+	def getCorrectPairs(episodeMD5, sessionToken) do
+		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
+		%Postgrex.Result{
+			num_rows: num_rows,
+			rows: rows
+		} = Postgrex.query!(pid, """
+			SELECT user_email FROM SESSIONS WHERE secret = $1
+		""", [sessionToken])
 
+		if num_rows == 1 do
+			[[user_email]] = rows
+			IO.inspect(user_email)
 
+			%Postgrex.Result{
+				rows: rows
+			} = Postgrex.query!(pid, """
+				SELECT pairs FROM correct_pairs WHERE user_email = $1 AND episode_md5 = $2
+			""", [user_email, episodeMD5])
+
+			case rows do
+				[] -> []
+				[[correctPairs]] -> correctPairs
+			end
+
+		end
 	end
 end
