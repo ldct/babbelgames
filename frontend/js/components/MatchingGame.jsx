@@ -1,6 +1,6 @@
 import styles from "../../css/matchingGame.css";
 
-import GameScreen from "./GameScreen.jsx";
+import GameSlab from "./GameSlab.jsx";
 
 import React from "react";
 
@@ -24,7 +24,7 @@ var MatchingGame = React.createClass({
       });
 
       return (
-        <GameScreen
+        <GameSlab
           initialMatchedPairs={this.props.matchedPairs}
           key={i}
           sentences={chunks.chunk}

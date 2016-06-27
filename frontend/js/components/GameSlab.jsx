@@ -5,10 +5,9 @@ import FlippableSentence from "./FlippableSentence.jsx";
 
 import React from "react";
 
-// TODO: rename to GameSlab
 // TODO: refactor into a shuffling container
 // TODO: use lineNumber instead of frI in state
-var GameScreen = React.createClass({
+var GameSlab = React.createClass({
   getInitialState: function() {
     var englishTiles = JSON.parse(JSON.stringify(this.props.tileData)).map(td => {
       return td[0];
@@ -195,4 +194,4 @@ var GameScreen = React.createClass({
   }
 });
 
-export default GameScreen;
+export default GameSlab;
