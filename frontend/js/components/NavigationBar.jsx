@@ -7,7 +7,7 @@ import {Router, Route, Link} from "react-router";
 var NavigationBar = React.createClass({
   getInitialState: function() {
     return {
-      clickedOnCross: "none",
+      clickedOnHamburger: "none",
       desktopMode: true,
       imgName: "/img/babbel.games.logo.png"
     };
@@ -18,19 +18,11 @@ var NavigationBar = React.createClass({
     this.resizeHandler();
   },
 
-  returnToHomePage: function(e) {
-    this.props.history.push("/page/home");
-  },
-
-  goToAboutPage: function (e) {
-    this.props.history.push("/page/about");
-  },
-
-  handleClick: function() {
+  handleHamburgerClick: function() {
     var currentStatus = $("#" + styles.mobileNavOptions).css("display"),
         nextStatus = currentStatus === "block" ? "none" : "block";
 
-    this.setState({clickedOnCross: nextStatus});
+    this.setState({clickedOnHamburger: nextStatus});
   },
 
   resizeHandler: function() {
@@ -41,7 +33,7 @@ var NavigationBar = React.createClass({
     var desktopMode = $("#" + styles.deskTopNavOptions).is(":visible"),
         imgName = $(window).width() > 500 ? "/img/babbel.games.logo.png" : "/img/babbel.games.logo.small.png";
     return {
-      clickedOnCross: "none",
+      clickedOnHamburger: "none",
       desktopMode: desktopMode,
       imgName: imgName
     };
@@ -67,7 +59,7 @@ var NavigationBar = React.createClass({
           <div className={"container " + styles.container}>
             <div className={"navbar-header " + styles.topHeader}>
               <button type="button" className="navbar-toggle collapsed" id={styles.dropdownButton}
-                onClick={this.handleClick}
+                onClick={this.handleHamburgerClick}
                 style={{display: (this.state.desktopMode ? "none" : "block") }}
                 data-toggle="collapse" data-target=".collapse.navbar-collapse">
                   <span className="sr-only">Toggle navigation</span>
@@ -76,12 +68,12 @@ var NavigationBar = React.createClass({
                   <span className="icon-bar"></span>
                   <span className="close-cross"></span>
               </button>
-              <a id={styles.navbarBrand} className="navbar-brand brand" title="BabbelGames">
-                <img src={this.state.imgName} onClick={this.returnToHomePage} alt="BabbelGames"></img>
-              </a>
+              <Link to="/page/home" id={styles.navbarBrand} className="navbar-brand brand" title="BabbelGames">
+                <img src={this.state.imgName} alt="BabbelGames"></img>
+              </Link>
             </div>
             {this.createDropDown("", "deskTopNavOptions", {})}
-            {this.createDropDown("collapse navbar-collapse", "mobileNavOptions", {display: this.state.clickedOnCross})}
+            {this.createDropDown("collapse navbar-collapse", "mobileNavOptions", {display: this.state.clickedOnHamburger})}
           </div>
         </header>
         {this.props.children}

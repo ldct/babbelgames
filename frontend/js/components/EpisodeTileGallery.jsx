@@ -24,13 +24,14 @@ var EpisodeTileGallery = React.createClass({
   convertToTiles: function(arrObject) {
     var mo = this.handleMouseOverTile,
         ml = this.handleMouseOutTile;
-        
-    return arrObject.map(object => {
+
+    return arrObject.map((object, i) => {
       return (
         <EpisodeTile
+          key={i}
           onMouseEnter={mo}
-          onMouseLeave={ml} 
-          src={object.src} 
+          onMouseLeave={ml}
+          src={object.src}
           isPoster={object.isPoster}
           headline={object.headline}
           srcOfMousedOverTile={this.state.srcOfMousedOverTile} />

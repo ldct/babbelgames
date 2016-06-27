@@ -8,7 +8,7 @@ import ScreenPlayGame from "./ScreenPlayGame.jsx";
 
 import React from "react";
 import ReactDOM from "react-dom";
-import {Router, Route} from "react-router";
+import {Router, Route, Redirect} from "react-router";
 import { browserHistory } from 'react-router'
 
 // List of all the episode tiles that are availble on the starting page
@@ -34,11 +34,11 @@ var App = React.createClass({
 		return (
 			<div>
 				<Router history={ browserHistory }>
-					<Route path="/" component={NavigationBar}>
+					<Redirect from="/" to="page/home" />
+					<Route path="/" component={NavigationBar}>"
 						<Route path="page/about" component={AboutPage}> </Route>
 						<Route path="page/home" episodes={episodes} component={EpisodeTileGallery}>	</Route>
 						<Route path="page/game/:dataSource" component={ScreenPlayGame}>	</Route>
-
 					</Route>
 				</Router>
 			</div>
