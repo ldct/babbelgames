@@ -6,11 +6,48 @@ import FlippableSentence from "./FlippableSentence.jsx";
 import React from "react";
 
 // TODO: rename to GameSlab
+// TODO: refactor into a shuffling container
+// TODO: use lineNumber instead of frI in state
 var GameScreen = React.createClass({
   getInitialState: function() {
+    var englishTiles = JSON.parse(JSON.stringify(this.props.tileData)).map(td => {
+      return td[0];
+    });
+
+    window.rngSeed = this.props.rngSeed;
+    gameScreenHelper.shuffle(englishTiles);
+
     return {
-      matchedIds: [],
-      matchedFrIdxs: [],
+      englishTiles: englishTiles,
+      matchedIds: this.props.initialMatchedPairs.map(frIdx => {
+        var [lineNumber, frJ] = frIdx.split("-");
+        [lineNumber, frJ] = [parseInt(lineNumber, 10), parseInt(frJ, 10)];
+
+        // things with this lineNumber
+        const matches = this.props.tileData.filter(td => {
+          return td[3] == lineNumber;
+        });
+        const match = matches[frJ];
+
+        if (match) {
+          const [frenchBack, /*frenchFront*/, /*speaker*/, /*lineNumber*/] = match;
+          const matchingEnglish = englishTiles.indexOf(frenchBack);
+          if (matchingEnglish || matchingEnglish === 0) {
+            return matchingEnglish;
+          }
+        }
+      }),
+      matchedFrIdxs: this.props.initialMatchedPairs.map(frIdx => {
+        var [lineNumber, frJ] = frIdx.split("-");
+        [lineNumber, frJ] = [parseInt(lineNumber, 10), parseInt(frJ, 10)];
+
+        if (this.props.sentences[0]) {
+          var frI = lineNumber - this.props.sentences[0].lineNumber;
+
+          return(frI + "-" + frJ);
+        }
+
+      }),
       selectedEnglishIdx: null,
       selectedFrenchIdx: null,
     };
@@ -26,9 +63,9 @@ var GameScreen = React.createClass({
       return td[3] == this.props.sentences[frI].lineNumber;
     })[frJ];
 
-    this.props.onMatchPair(lineNumber, frJ);
-
     if (frenchBack === this.state.englishTiles[enI]) {
+
+      this.props.onMatchPair(lineNumber, frJ);
 
       this.setState({
         matchedIds: this.state.matchedIds.concat(enI),
@@ -84,17 +121,6 @@ var GameScreen = React.createClass({
     if (frenchWasSelected && englishWasSelected) {
       console.log('assertion failed');
     }
-  },
-
-  componentDidMount: function() {
-    var englishTiles = JSON.parse(JSON.stringify(this.props.tileData)).map(td => {
-      return td[0];
-    });
-
-    window.rngSeed = this.props.rngSeed;
-    gameScreenHelper.shuffle(englishTiles);
-
-    this.setState({ englishTiles: englishTiles });
   },
 
   render: function() {

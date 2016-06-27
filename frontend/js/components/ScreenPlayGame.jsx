@@ -69,15 +69,19 @@ var ScreenPlayGame = React.createClass({
 
     $.getJSON('/sentenceMatchingGame/' + src).then(res => {
       const episodeMD5 = md5(JSON.stringify(res.tileData));
-      $.getJSON('/progress/correctMatch/' + episodeMD5 + '?session_token=' + localStorage.babbelgames_session_token).then(pres => {
-        console.log(pres);
-        this.updateState(res, this.props.params.dataSource, screenplaySectionsOf(res));
-      });
+      if (!localStorage.babbelgames_session_token) {
+        this.updateState(res, this.props.params.dataSource, screenplaySectionsOf(res), []);
+      } else {
+        $.getJSON('/progress/correctMatch/' + episodeMD5 + '?session_token=' + localStorage.babbelgames_session_token).then(pres => {
+          this.updateState(res, this.props.params.dataSource, screenplaySectionsOf(res), pres);
+        });
+      }
     });
   },
 
-  updateState: function(res, dataSource, screenplaySections) {
+  updateState: function(res, dataSource, screenplaySections, matchedPairs) {
     this.setState({
+      matchedPairs: matchedPairs,
       metadata: res.metadata,
       tileData: res.tileData,
       posterImageSrc: "/img/" + dataSource.replace('.srt.json', '.jpg'),
@@ -88,6 +92,7 @@ var ScreenPlayGame = React.createClass({
   render: function() {
     return (
       <MatchingGame
+        matchedPairs={this.state.matchedPairs}
         episodeMD5={md5(JSON.stringify(this.state.tileData))}
         metadata={this.state.metadata}
         tileData={this.state.tileData}

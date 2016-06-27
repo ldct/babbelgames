@@ -165,11 +165,23 @@ defmodule FrexServer do
     end
   end
 
-  get "/:resourceType/:filename" when resourceType in ["img", "js", "css"] do
-    contents = File.read!("frontend/" <> resourceType <> "/" <> filename)
+  def static(conn, contentType, filepath) do
     conn
     |> put_resp_header("cache-control", "max-age=60")
-    |> send_resp(200, contents)
+    |> put_resp_content_type(contentType)
+    |> send_resp(200, File.read!(filepath))
+  end
+
+  get "/img/:filename" do
+    static(conn, "image", "frontend/img/" <> filename)
+  end
+
+  get "/js/:filename" do
+    static(conn, "application/javascript", "frontend/js/" <> filename)
+  end
+
+  get "/css/:filename" do
+    static(conn, "text/css", "frontend/css/" <> filename)
   end
 
   def translateFrenchWord(word) do

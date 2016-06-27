@@ -25,6 +25,7 @@ var MatchingGame = React.createClass({
 
       return (
         <GameScreen
+          initialMatchedPairs={this.props.matchedPairs}
           key={i}
           sentences={chunks.chunk}
           rngSeed={chunks.rngSeed}
