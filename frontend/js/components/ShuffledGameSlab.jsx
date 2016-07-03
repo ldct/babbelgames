@@ -163,9 +163,8 @@ var ShuffledGameSlab = React.createClass({
     <div className={styles.englishTilesArea}>{this.props.englishTiles.map((e, i) => {
       var inlineTileStyle = {
         backgroundColor: (this.state.selectedEnglishIdx === i) ? '#D58313' : 'rgba(255, 147, 0, 0.7)',
-        visibility: 'visibile'
+        visibility: (this.state.matchedIds.indexOf(i) !== -1) ? 'hidden' : 'visible'
       };
-      if (this.state.matchedIds.indexOf(i) !== -1) inlineTileStyle['visibility'] = 'hidden';
       return (
         <div className={styles.tileStyle + " " + (this.state.selectedEnglishIdx === i ? "" : styles.dimOnHover) }
           style={inlineTileStyle}
