@@ -1,7 +1,13 @@
 <html>
 <script>
-var token="{{token}}";
-localStorage.setItem("babbelgames_session_token", token);
+const userdata={{userdata}};
+
+if (userdata.token === undefined) {
+	// :(
+}
+
+localStorage.setItem("babbelgames_session_token", userdata.token);
+localStorage.setItem("babbelgames_profile_image_url", userdata.image_url);
 window.location = "/";
 </script>
 </html>

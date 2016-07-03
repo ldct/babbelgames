@@ -39,13 +39,29 @@ var NavigationBar = React.createClass({
     };
   },
 
+  handleLogOut: function () {
+    window.localStorage.removeItem('babbelgames_session_token');
+    window.localStorage.removeItem('babbelgames_profile_image_url');
+    window.location = "/page/home";
+  },
+
   // Creates a dropdown for links for both the mobile and desktop versions
   createDropDown: function(className, id, style) {
     return (
       <nav className={className} role="navigation">
         <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
-          <li><a href="http://eepurl.com/b4kX5f" target="_blank">Sign Up</a></li>
-          <li><a href="/auth/facebook">Log In</a></li>
+          <li>{window.localStorage.babbelgames_profile_image_url
+            ? <img
+                style={{
+                  borderRadius: '50%'
+                }}
+                src={window.localStorage.babbelgames_profile_image_url} />
+            : <a href="/auth/facebook">Log In</a>
+          }</li>
+          <li>{window.localStorage.babbelgames_profile_image_url
+            ? <a href="#" onClick={this.handleLogOut} >Log Out</a>
+            : null
+          }</li>
           <li><Link to="/page/about">About</Link></li>
         </ul>
       </nav>
@@ -69,7 +85,9 @@ var NavigationBar = React.createClass({
                   <span className="close-cross"></span>
               </button>
               <Link to="/page/home" id={styles.navbarBrand} className="navbar-brand brand" title="BabbelGames">
-                <img src={this.state.imgName} alt="BabbelGames"></img>
+                <img style={{
+                  height: 50,
+                }} src={this.state.imgName} alt="BabbelGames"></img>
               </Link>
             </div>
             {this.createDropDown("", "deskTopNavOptions", {})}

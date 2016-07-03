@@ -36,7 +36,11 @@ defmodule FrexServer do
     BabbelgamesDb.addUser(email) # todo: check if user exists and log in
 
     contents = File.read!("frontend/drop_and_redirect.html")
-    |> String.replace("{{token}}", token)
+    |> String.replace("{{userdata}}", Poison.encode!(%{
+      "token" => token,
+      "email" => email,
+      "image_url" => image,
+    }))
 
     conn
     |> put_resp_content_type("text/html; charset=UTF-8")

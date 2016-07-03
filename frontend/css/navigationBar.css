@@ -1,84 +1,80 @@
 #header {
-	background: #fff;
-	box-shadow: 1px 0 3px rgba(0,0,0,.7);
-	z-index: 99;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	border-radius: 0;
-	margin-top: 0px;
+    background: #fff;
+    box-shadow: 1px 0 3px rgba(0,0,0,.7);
+    z-index: 99;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-radius: 0;
+    margin-top: 0px;
 }
 
 #navbarBrand {
-	height: auto;
-    padding: 13px 0px 0px;
+    height: auto;
+    padding: 0;
 }
 
 #header .navOptions > li > a {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    padding: 10px 30px 20px;
+    padding: 15px 30px 15px;
     cursor: pointer;
 }
 
-#deskTopNavOptions > li > a {
-	margin-top: 50px;
-}
-
 #header .navOptions > li > a:focus {
-	color: #777;
+    color: #777;
 }
 
 #header .navOptions > li > a:hover {
-	background-color: #E32C26;
-	color: white;
+    background-color: #E32C26;
+    color: white;
 }
 
 #navbarBrand > img {
-	padding-left: 10px;
-	height: 85px;
-	cursor: pointer;
+    padding-left: 10px;
+    height: 85px;
+    cursor: pointer;
 }
 
 #mobileNavOptions {
-	display: none;
+    display: none;
 }
 
 #dropdownButton {
-	position: absolute;
+    position: absolute;
     right: 15px;
     background-color: white;
 }
 
 @media screen and (min-width: 1000px) {
-	#deskTopNavOptions {
-		display: block;
-	}
+    #deskTopNavOptions {
+        display: block;
+    }
 
-	#header > .container {
-		box-sizing: border-box;
-		width: 100%;
-	    padding-right: 60px;
-	    padding-left: 170px;
-	}
+    #header > .container {
+        box-sizing: border-box;
+        width: 100%;
+        padding-right: 60px;
+        padding-left: 170px;
+    }
 }
 
 /*Mobile device*/
 @media screen and (max-width: 1000px) {
-	#deskTopNavOptions {
-		display: none;
-	}
+    #deskTopNavOptions {
+        display: none;
+    }
 
-	#navbarBrand > img {
-		margin: 0 auto;
-	}
+    #navbarBrand > img {
+        margin: 0 auto;
+    }
 
-	#navbarBrand {
-		float: none;
-	}
+    #navbarBrand {
+        float: none;
+    }
 
-	.topHeader {
-		float: none;
-	}
+    .topHeader {
+        float: none;
+    }
 }
