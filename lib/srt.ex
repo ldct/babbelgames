@@ -331,22 +331,24 @@ defmodule Srt do
     def parseSrt(filename) do
         filename
         |> File.read!
-        |> String.replace("\r\n\r\n\r\n", "\r\n\r\n")
-        |> String.split("\r\n\r\n")
+        |> String.replace("\r", "")
+        |> String.replace("\n\n\n", "\n\n")
+        |> String.split("\n\n")
+        |> IO.inspect
         |> Enum.filter(fn e -> isEmptyEntry e end)
         |> Enum.map(fn e -> parseSrtEntry e end)
     end
 
     def isEmptyEntry(entry) do
         entry
-        |> String.split("\r\n")
+        |> String.split("\n")
         |> length
         >= 2
     end
 
     def parseSrtEntry(entry) do
         arr = entry
-        |> String.split("\r\n")
+        |> String.split("\n")
 
         time = arr
         |> Enum.at(1)
