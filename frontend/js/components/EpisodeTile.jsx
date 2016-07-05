@@ -23,7 +23,7 @@ var EpisodeTile = React.createClass({
 
           <img className={styles.eImage}
             style={{ opacity: this.props.isPoster ? 1 : (isSelected ? 0.2 : 0.7) }}
-            src={'/img' + this.props.imgSrc} />
+            src={'/img' + this.props.imageSrc} />
 
           <div className={styles.eTextContainer}
             style={{ visibility: isSelected ? 'visible' : 'hidden' }} >

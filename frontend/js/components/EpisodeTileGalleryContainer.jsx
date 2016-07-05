@@ -22,7 +22,6 @@ const EpisodeTileGalleryContainer = React.createClass({
     }
   },
   componentDidMount: function () {
-    console.log('mounted');
     $.getJSON('/episode_pairs.json', (res) => {
       this.setState({
         'episodePairs': res
@@ -36,7 +35,7 @@ const EpisodeTileGalleryContainer = React.createClass({
         {this.state.episodePairs.map((ep, i) => <EpisodeTile
           key={i}
           src={ep.uid}
-          imgSrc={'/' + ep.episode_poster_filename}
+          imageSrc={'/' + ep.episode_poster_filename}
           onMouseEnter={this.handleMouseOverTile}
           onMouseLeave={this.handleMouseOutTile}
           isPoster={false}
