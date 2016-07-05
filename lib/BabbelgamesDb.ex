@@ -43,6 +43,24 @@ defmodule BabbelgamesDb do
 				constraint uc_correct_pairs unique (user_email, episode_md5)
 			)
 		""", [])
+		Postgrex.query!(pid, """
+			CREATE TABLE IF NOT EXISTS episode_pairs (
+				uid TEXT,
+				user_email TEXT,
+				series_name TEXT,
+				episode_seqnumber TEXT,
+				episode_title TEXT,
+				episode_poster_filename TEXT,
+				l1_code TEXT,
+				l2_code TEXT,
+				l1_screenplay_filename TEXT,
+				l1_srt_filename TEXT,
+				l2_srt_filename TEXT,
+				constraint pk_episode_pairs primary key (uid)
+			)
+		""", [])
+		DbSeedData.initSeedData()
+
 	end
 
 	def addSession(user_email, secret) do
@@ -67,7 +85,7 @@ defmodule BabbelgamesDb do
 			num_rows: num_rows,
 			rows: rows
 		} = Postgrex.query!(pid, """
-			SELECT user_email FROM SESSIONS WHERE secret = $1
+			SELECT user_email FROM sessions WHERE secret = $1
 		""", [sessionToken])
 
 		if num_rows == 1 do
@@ -84,13 +102,32 @@ defmodule BabbelgamesDb do
 		end
 	end
 
+	def getAllEpisodePairs() do
+		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
+		x = Postgrex.query!(pid, """
+			SELECT * FROM episode_pairs
+		""", [])
+
+		%Postgrex.Result{
+			columns: columns,
+			num_rows: num_rows,
+			rows: rows
+		} = x
+
+		rows |> Enum.map(fn row ->
+			Enum.zip(columns, row)
+			|> Enum.into(%{})
+			|> IO.inspect
+		end)
+	end
+
 	def getCorrectPairs(episodeMD5, sessionToken) do
 		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
 		%Postgrex.Result{
 			num_rows: num_rows,
 			rows: rows
 		} = Postgrex.query!(pid, """
-			SELECT user_email FROM SESSIONS WHERE secret = $1
+			SELECT user_email FROM sessions WHERE secret = $1
 		""", [sessionToken])
 
 		if num_rows == 1 do

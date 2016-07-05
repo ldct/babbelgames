@@ -32,6 +32,7 @@ var EpisodeTileGallery = React.createClass({
           onMouseEnter={mo}
           onMouseLeave={ml}
           src={object.src}
+          imageSrc={'/' + object.src.replace('/', '.') + '.jpg'}
           isPoster={object.isPoster}
           headline={object.headline}
           srcOfMousedOverTile={this.state.srcOfMousedOverTile} />

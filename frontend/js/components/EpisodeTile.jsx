@@ -17,13 +17,13 @@ var EpisodeTile = React.createClass({
         src = this.props.src.replace("/", ".");
 
     var tile = (
-        <div className={styles.eTile} 
+        <div className={styles.eTile}
           onMouseEnter = {this.onMouseEnter}
           onMouseLeave = {this.onMouseLeave} >
 
           <img className={styles.eImage}
             style={{ opacity: this.props.isPoster ? 1 : (isSelected ? 0.2 : 0.7) }}
-            src={'/img/' + src + '.jpg'} />
+            src={'/img' + this.props.imgSrc} />
 
           <div className={styles.eTextContainer}
             style={{ visibility: isSelected ? 'visible' : 'hidden' }} >
@@ -31,7 +31,7 @@ var EpisodeTile = React.createClass({
               {this.props.headline}
             </div>
           </div>
-          
+
       </div>
     );
 

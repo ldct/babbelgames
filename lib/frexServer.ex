@@ -11,6 +11,15 @@ defmodule FrexServer do
     send_resp(conn, 200, "world")
   end
 
+  get "/episode_pairs.json" do
+    contents = BabbelgamesDb.getAllEpisodePairs()
+    |> Poison.encode!
+
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
   get "/auth/facebook/callback" do
 
     # TODO: generate a proper JWT token
@@ -99,35 +108,15 @@ defmodule FrexServer do
   end
 
   def metadataOf(series, episode) do
-    case {series, episode} do
-      {"friends", "s01e01"} -> %{
-        "title" => "The One Where Monica Gets a Roommate",
-        "subtitle" => "Friends s01e01"
-      }
-      {"friends", "s01e02"} -> %{
-        "title" => "The One With the Sonogram at the End",
-        "subtitle" => "Friends s01e02"
-      }
-      {"friends", "s01e03"} -> %{
-        "title" => "The One With the Thumb",
-        "subtitle" => "Friends s01e03"
-      }
-      {"friends", "s01e04"} -> %{
-        "title" => "The One With George Stephanopoulos",
-        "subtitle" => "Friends s01e04"
-      }
-      {"sherlock", "s01e01"} -> %{
-        "title" => "A Study in Pink",
-        "subtitle" => "Sherlock s01e01"
-      }
-      {"sherlock", "s01e02"} -> %{
-        "title" => "The Blind Banker",
-        "subtitle" => "Sherlock s01e02"
-      }
-      {"got", "s01e01"} -> %{
-        "title" => "Winter is Coming",
-        "subtitle" => "Game of Thrones s01e01"
-      }
+
+    matchingRows = Data.rows
+    |> Enum.filter(fn
+      %{:series => s, :episode => e} when series === s and episode === e -> true
+      _ -> false
+    end)
+
+    case matchingRows do
+      [row] -> row
       _ -> %{}
     end
   end

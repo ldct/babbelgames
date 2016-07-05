@@ -68,11 +68,11 @@ var ScreenPlayGame = React.createClass({
 
 
     $.getJSON('/sentenceMatchingGame/' + src).then(res => {
-      const episodeMD5 = md5(JSON.stringify(res.tileData));
+      const tileDataMD5 = md5(JSON.stringify(res.tileData));
       if (!localStorage.babbelgames_session_token) {
         this.updateState(res, this.props.params.dataSource, screenplaySectionsOf(res), []);
       } else {
-        $.getJSON('/progress/correctMatch/' + episodeMD5 + '?session_token=' + localStorage.babbelgames_session_token).then(pres => {
+        $.getJSON('/progress/correctMatch/' + tileDataMD5 + '?session_token=' + localStorage.babbelgames_session_token).then(pres => {
           this.updateState(res, this.props.params.dataSource, screenplaySectionsOf(res), pres);
         });
       }
