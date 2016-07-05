@@ -40,6 +40,7 @@ const EpisodeTileGalleryContainer = React.createClass({
           onMouseLeave={this.handleMouseOutTile}
           isPoster={false}
           headline={ep.episode_title}
+          href={"/page/game/" + ep.uid + ".srt.json"}
           srcOfMousedOverTile={this.state.srcOfMousedOverTile} />
         )}
       </div>

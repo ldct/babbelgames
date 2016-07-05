@@ -33,8 +33,8 @@ var EpisodeTileGallery = React.createClass({
           onMouseLeave={ml}
           src={object.src}
           imageSrc={'/' + object.src.replace('/', '.') + '.jpg'}
-          isPoster={object.isPoster}
           headline={object.headline}
+          href={object.isPoster ? null : "/page/game/" + object.src.replace('/', '.') + ".srt.json"}
           srcOfMousedOverTile={this.state.srcOfMousedOverTile} />
       );
     });

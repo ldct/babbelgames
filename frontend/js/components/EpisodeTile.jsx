@@ -13,7 +13,7 @@ var EpisodeTile = React.createClass({
   },
 
   render() {
-    var isSelected = !this.props.isPoster && this.props.srcOfMousedOverTile === this.props.src,
+    var isSelected = this.props.href && this.props.srcOfMousedOverTile === this.props.src,
         src = this.props.src.replace("/", ".");
 
     var tile = (
@@ -22,7 +22,7 @@ var EpisodeTile = React.createClass({
           onMouseLeave = {this.onMouseLeave} >
 
           <img className={styles.eImage}
-            style={{ opacity: this.props.isPoster ? 1 : (isSelected ? 0.2 : 0.7) }}
+            style={{ opacity: !this.props.href ? 1 : (isSelected ? 0.2 : 0.7) }}
             src={'/img' + this.props.imageSrc} />
 
           <div className={styles.eTextContainer}
@@ -35,14 +35,12 @@ var EpisodeTile = React.createClass({
       </div>
     );
 
-    if (this.props.isPoster) {
+    if (!this.props.href) {
       return tile;
     } else {
-      return (
-        <Link to={"/page/game/" + src + ".srt.json"}>
-          {tile}
-        </Link>
-      );
+      return <Link to={"/page/game/" + src + ".srt.json"}>
+        {tile}
+      </Link>
     }
 
   }
