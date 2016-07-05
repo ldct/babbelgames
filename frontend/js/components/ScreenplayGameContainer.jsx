@@ -2,6 +2,7 @@ import MatchingGame from "./MatchingGame.jsx";
 
 import $ from "jquery";
 import React from "react";
+import md5 from "blueimp-md5";
 
 const screenplaySectionsOf = function (res) {
   var screenplayLines = res.screenplay.split('\n').map((e, i) => {
@@ -51,7 +52,7 @@ const screenplaySectionsOf = function (res) {
   return screenplaySections;
 }
 
-var ScreenPlayGame = React.createClass({
+const ScreenplayGameContainer = React.createClass({
   getInitialState: function() {
     return {
       metadata: {title: "", subTitle: ""},
@@ -103,4 +104,4 @@ var ScreenPlayGame = React.createClass({
 });
 
 
-export default ScreenPlayGame;
+export default ScreenplayGameContainer;

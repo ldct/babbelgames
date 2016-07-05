@@ -165,6 +165,14 @@ defmodule FrexServer do
     |> send_resp(200, File.read!(filepath))
   end
 
+  get "/js/bundle.min.js" do
+    conn
+    conn
+    |> put_resp_header("cache-control", "max-age=0")
+    |> put_resp_content_type("application/javascript")
+    |> send_resp(200, File.read!("frontend/js/bundle.min.js"))
+  end
+
   get "/img/:filename" do
     static(conn, "image", "frontend/img/" <> filename)
   end

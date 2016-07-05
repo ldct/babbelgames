@@ -5,6 +5,7 @@ import { browserHistory } from 'react-router';
 import EpisodeTile from "./EpisodeTile.jsx";
 import styles from "../../css/episodeTileGallery.css";
 
+// TODO: separate container from actual thing
 const EpisodeTileGalleryContainer = React.createClass({
   getInitialState: function () {
     return {
