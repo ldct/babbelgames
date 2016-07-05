@@ -1,6 +1,14 @@
 # frex-backend
 backend for frex (lessons, user management)
 
+## Webpack
+
+Run this
+
+```
+NODE_ENV=production webpack
+```
+
 ## deployment
 
 Open command prompt and cd to your frex-backend and run
