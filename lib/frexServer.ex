@@ -121,6 +121,66 @@ defmodule FrexServer do
     end
   end
 
+  get "/sentenceMatchingGame/:uid" do
+
+    cacheFilename = "cache/" <> uid
+    if false && File.exists?(cacheFilename) do
+      conn
+      |> put_resp_content_type("application/json")
+      |> send_resp(200, File.read!(cacheFilename))
+    else
+
+      x = uid |> BabbelgamesDb.getEpisodePairDataOf
+      {:ok, %{
+        "l1_srt_filename" => l1SrtFilename,
+        "l2_srt_filename" => l2SrtFilename,
+        "l1_screenplay_filename" => l1ScreenplayFilename,
+        "episode_poster_filename" => episodePosterFilename,
+        "episode_title" => episodeTitle,
+        "episode_seqnumber" => episodeSeqnumber,
+        "series_name" => seriesName
+      }} = x
+
+      # %{"episode_poster_filename" => "friends-s01e01.jpg",
+      #   "episode_seqnumber" => "s01e01",
+      #   "episode_title" => "The One Where Monica Gets a Roommate", "l1_code" => "en",
+      #   "l1_screenplay_filename" => "friends-s01e01.txt",
+      #   "l1_srt_filename" => "en-friends-s01e01.srt", "l2_code" => "fr",
+      #   "l2_srt_filename" => "fr-friends-s01e01.srt", "series_name" => "Friends",
+      #   "uid" => "e1f985b1-f137-4d07-adc9-a014266981f3",
+      #   "user_email" => "xuanji@gmail.com"}}
+
+
+      "x" |> IO.inspect
+      x |> IO.inspect
+
+      entries = Srt.pairSrt(
+        "data/subtitles/" <> l1SrtFilename,
+        "data/subtitles/" <> l2SrtFilename,
+        "data/screenplay/" <> l1ScreenplayFilename
+      )
+      |> Enum.map(fn x -> Tuple.to_list(x) end)
+
+
+      jsonResult = Poison.encode!(%{
+        "tileData" => entries,
+        "screenplay" => File.read!("data/screenplay/" <> l1ScreenplayFilename),
+        "metadata" => %{
+          "title" => episodeTitle,
+          "subtitle" => seriesName <> " " <> episodeSeqnumber,
+          "poster_filename" => episodePosterFilename,
+        },
+      }, pretty: true)
+
+      File.write!(cacheFilename, jsonResult)
+
+      conn
+      |> put_resp_content_type("application/json")
+      |> send_resp(200, jsonResult)
+    end
+  end
+
+  # legacy version of above endpoint
   get "/sentenceMatchingGame/:series/:episode" do
 
     cacheFilename = "cache/" <> series <> "\\" <> episode

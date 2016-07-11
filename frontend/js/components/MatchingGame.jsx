@@ -31,7 +31,7 @@ var MatchingGame = React.createClass({
           rngSeed={chunks.rngSeed}
           tileData={matchingTileData}
           onMatchPair={(lineNumber, tileIdx) => {
-            if (localStorage.babbelgames_session_token) {
+            if (localStorage.babbelgames_session_token && this.props.episodeMD5) {
               $.ajax("/progress/correctMatch", {
                 data: JSON.stringify({
                   line_number: lineNumber,

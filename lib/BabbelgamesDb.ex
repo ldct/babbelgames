@@ -117,8 +117,30 @@ defmodule BabbelgamesDb do
 		rows |> Enum.map(fn row ->
 			Enum.zip(columns, row)
 			|> Enum.into(%{})
-			|> IO.inspect
 		end)
+	end
+
+	def getEpisodePairDataOf(uid) do
+		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
+		x = Postgrex.query!(pid, """
+			SELECT * FROM episode_pairs WHERE uid = $1
+		""", [uid])
+
+		%Postgrex.Result{
+			columns: columns,
+			num_rows: num_rows,
+			rows: rows
+		} = x
+
+		rows = rows |> Enum.map(fn row ->
+			Enum.zip(columns, row)
+			|> Enum.into(%{})
+		end)
+
+		case rows do
+			[row] -> {:ok, row}
+			_ -> {:not_found}
+		end
 	end
 
 	def getCorrectPairs(episodeMD5, sessionToken) do

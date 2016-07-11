@@ -64,9 +64,7 @@ const ScreenplayGameContainer = React.createClass({
 
   // Only one prop passed in which is the dataSource
   componentDidMount: function() {
-    var that = this,
-        src = this.props.params.dataSource.replace(".", "/");
-
+    const src = this.props.params.dataSource.replace('.srt.json', '');
 
     $.getJSON('/sentenceMatchingGame/' + src).then(res => {
       const tileDataMD5 = md5(JSON.stringify(res.tileData));
@@ -85,21 +83,24 @@ const ScreenplayGameContainer = React.createClass({
       matchedPairs: matchedPairs,
       metadata: res.metadata,
       tileData: res.tileData,
-      posterImageSrc: "/img/" + dataSource.replace('.srt.json', '.jpg'),
       screenplaySections: screenplaySections
     });
   },
 
   render: function() {
-    return (
-      <MatchingGame
-        matchedPairs={this.state.matchedPairs}
-        episodeMD5={md5(JSON.stringify(this.state.tileData))}
-        metadata={this.state.metadata}
-        tileData={this.state.tileData}
-        posterImageSrc={this.state.posterImageSrc}
-        screenplaySections={this.state.screenplaySections} />
-    );
+    if (!this.state.tileData.length) {
+      return <h1 style={{marginTop: 100}}>Loading</h1>
+    } else {
+      return (
+        <MatchingGame
+          matchedPairs={this.state.matchedPairs}
+          episodeMD5={md5(JSON.stringify(this.state.tileData))}
+          metadata={this.state.metadata}
+          tileData={this.state.tileData}
+          posterImageSrc={"/img/" + this.state.metadata.poster_filename}
+          screenplaySections={this.state.screenplaySections} />
+      );
+    }
   }
 });
 
