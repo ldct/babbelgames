@@ -124,7 +124,7 @@ defmodule FrexServer do
   get "/sentenceMatchingGame/:uid" do
 
     cacheFilename = "cache/" <> uid
-    if false && File.exists?(cacheFilename) do
+    if File.exists?(cacheFilename) do
       conn
       |> put_resp_content_type("application/json")
       |> send_resp(200, File.read!(cacheFilename))

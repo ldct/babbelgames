@@ -38,8 +38,7 @@ var App = React.createClass({
 					<Redirect from="/" to="page/home" />
 					<Route path="/" component={NavigationBar}>"
 						<Route path="page/about" component={AboutPage}> </Route>
-						<Route path="page/home" episodes={episodes} component={EpisodeTileGallery}>	</Route>
-						<Route path="page/home2" component={EpisodeTileGalleryContainer}> </Route>
+						<Route path="page/home" component={EpisodeTileGalleryContainer}> </Route>
 						<Route path="page/game/:dataSource" component={ScreenplayGameContainer}>	</Route>
 					</Route>
 				</Router>
