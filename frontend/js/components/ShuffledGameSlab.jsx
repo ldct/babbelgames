@@ -3,7 +3,7 @@ import * as gameScreenHelper from "../utility/gameScreenHelper.jsx";
 
 import FlippableSentence from "./FlippableSentence.jsx";
 
-import interact from "interact";
+// import interact from "interact";
 import React from "react";
 
 // TODO: use lineNumber instead of frI in state

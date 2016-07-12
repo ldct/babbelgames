@@ -15,3 +15,5 @@ bad/*
 pcfg-done/
 cache/*
 xuanji-OSX.pem
+*.sublime-project
+*.sublime-workspace
