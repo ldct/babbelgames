@@ -12,40 +12,39 @@ import ReactDOM from "react-dom";
 import {Router, Route, Redirect} from "react-router";
 import { browserHistory } from 'react-router'
 
-// List of all the episode tiles that are availble on the starting page
-const episodes = [
-  {src: "friends.poster", isPoster: true},
-  {src: "friends/s01e01", headline: "The One Where Monica Gets a Roommate"},
-  {src: "friends/s01e02", headline: "The One With the Sonogram at the End"},
-  {src: "friends/s01e03", headline: "The One With the Thumb"},
-  {src: "sherlock.poster", isPoster: true},
-  {src: "sherlock/s01e01", headline: "A Study in Pink"},
-  {src: "sherlock/s01e02", headline: "The Blind Banker"}
-];
+const TestComponent = React.createClass({
+    render: function () {
+        return <div>
+            <h1>Hi</h1>
+            <pre>{JSON.stringify(this.props, null, 2)}</pre>
+        </div>
+    }
+});
 
-var App = React.createClass({
+const App = React.createClass({
 
-	getIntialState: function() {
-		return {
-			currentEpisode: "friends/s01e01"
-		};
-	},
+    getIntialState: function() {
+        return {
+            currentEpisode: "friends/s01e01"
+        };
+    },
 
-	render: function() {
-		return (
-			<div>
-				<Router history={ browserHistory }>
-					<Redirect from="/" to="page/home" />
-					<Route path="/" component={NavigationBar}>"
-						<Route path="page/about" component={AboutPage} />
-						<Route path="page/home" component={EpisodeTileGalleryContainer} />
-						<Route path="page/game/:dataSource" component={MatchingGameContainer} />
-						<Route path="page/uploadEpisodePair" component={UploadEpisodePair} />
-					</Route>
-				</Router>
-			</div>
-		);
-	}
+    render: function() {
+        return (
+            <div>
+                <Router history={ browserHistory }>
+                    <Redirect from="/" to="page/home" />
+                    <Route path="/" component={NavigationBar}>"
+                        <Route path="page/about" component={AboutPage} />
+                        <Route path="page/home" component={EpisodeTileGalleryContainer} />
+                        <Route path="page/game/:dataSource" component={MatchingGameContainer} />
+                        <Route path="page/gameEditMode/:dataSource" editMode={true} component={MatchingGameContainer} />
+                        <Route path="page/uploadEpisodePair" component={UploadEpisodePair} />
+                    </Route>
+                </Router>
+            </div>
+        );
+    }
 
 });
 

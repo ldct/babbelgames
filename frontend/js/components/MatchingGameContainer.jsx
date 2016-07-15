@@ -62,11 +62,18 @@ const MatchingGameContainer = React.createClass({
     };
   },
 
-  // Only one prop passed in which is the dataSource
   componentDidMount: function() {
     const src = this.props.params.dataSource;
 
-    $.getJSON('/sentenceMatchingGame/' + src).then(res => {
+    const editMode = this.props.route.editMode;
+
+    var url = '/sentenceMatchingGame/' + src;
+
+    if (editMode) {
+      url += '?editMode=1'
+    }
+
+    $.getJSON(url).then(res => {
       const tileDataMD5 = md5(JSON.stringify(res.tileData));
       if (!localStorage.babbelgames_session_token) {
         this.updateState(res, this.props.params.dataSource, screenplaySectionsOf(res), []);

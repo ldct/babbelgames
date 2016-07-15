@@ -109,8 +109,18 @@ defmodule FrexServer do
 
   get "/sentenceMatchingGame/:uid" do
 
+    # TODO(xuanji): rename to ignoreCache
+    editMode = case conn do
+      %Plug.Conn{
+        query_params: %{
+          "editMode" => "1"
+        }
+      } -> true
+      _ -> false
+    end
+
     cacheFilename = "cache/" <> uid
-    if File.exists?(cacheFilename) do
+    if not editMode and File.exists?(cacheFilename) do
       conn
       |> put_resp_content_type("application/json")
       |> send_resp(200, File.read!(cacheFilename))
