@@ -48,7 +48,6 @@ var EpisodeTileGallery = React.createClass({
           {episodeTiles}
         </div>
         <div className={styles.additionalInfoFooter}>
-          <span class="flag-icon flag-icon-gr"></span>
           <div>Copyright &copy; 2016 BabbelGames</div>
         </div>
       </div>

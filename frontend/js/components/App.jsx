@@ -6,6 +6,7 @@ import EpisodeTileGalleryContainer from "./EpisodeTileGalleryContainer.jsx";
 import AboutPage from "./AboutPage.jsx";
 import NavigationBar from "./NavigationBar.jsx";
 import ScreenplayGameContainer from "./ScreenplayGameContainer.jsx";
+import UploadEpisodePair from "./UploadEpisodePair.jsx";
 
 import React from "react";
 import ReactDOM from "react-dom";
@@ -37,9 +38,10 @@ var App = React.createClass({
 				<Router history={ browserHistory }>
 					<Redirect from="/" to="page/home" />
 					<Route path="/" component={NavigationBar}>"
-						<Route path="page/about" component={AboutPage}> </Route>
-						<Route path="page/home" component={EpisodeTileGalleryContainer}> </Route>
-						<Route path="page/game/:dataSource" component={ScreenplayGameContainer}>	</Route>
+						<Route path="page/about" component={AboutPage} />
+						<Route path="page/home" component={EpisodeTileGalleryContainer} />
+						<Route path="page/game/:dataSource" component={ScreenplayGameContainer} />
+						<Route path="page/uploadEpisodePair" component={UploadEpisodePair} />
 					</Route>
 				</Router>
 			</div>

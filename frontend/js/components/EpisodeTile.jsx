@@ -3,7 +3,16 @@ import styles from "../../css/episodeTile.css";
 import React from "react";
 import { Link } from "react-router";
 
-var EpisodeTile = React.createClass({
+const Flag = React.createClass({
+  render: function () {
+    return {
+      'fr': <span className="flag-icon flag-icon-fr"></span>,
+      'pt-br': <span className="flag-icon flag-icon-br"></span>,
+    }[this.props.langCode] || <span>{this.props.langCode}</span>;
+  }
+});
+
+const EpisodeTile = React.createClass({
   onMouseEnter: function() {
     this.props.onMouseEnter(this.props.src);
   },
@@ -13,8 +22,8 @@ var EpisodeTile = React.createClass({
   },
 
   render() {
-    var isSelected = this.props.href && this.props.srcOfMousedOverTile === this.props.src,
-        src = this.props.src.replace("/", ".");
+    const isSelected = this.props.href && this.props.srcOfMousedOverTile === this.props.src;
+    const src = this.props.src.replace("/", ".");
 
     var tile = (
         <div className={styles.eTile}
@@ -30,6 +39,14 @@ var EpisodeTile = React.createClass({
             <div className={styles.eText}>
               {this.props.headline}
             </div>
+            <span style={{
+              position: 'absolute',
+              right: 0,
+              bottom: 0,
+              visibility: 'visible'
+            }}>
+              <Flag langCode={this.props.l2Code} />
+            </span>
           </div>
 
       </div>

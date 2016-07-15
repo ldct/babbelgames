@@ -42,6 +42,7 @@ const EpisodeTileGalleryContainer = React.createClass({
           isPoster={false}
           headline={ep.episode_title}
           href={"/page/game/" + ep.uid + ".srt.json"}
+          l2Code={ep.l2_code}
           srcOfMousedOverTile={this.state.srcOfMousedOverTile} />
         )}
       </div>

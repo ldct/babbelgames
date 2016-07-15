@@ -30,8 +30,8 @@ var NavigationBar = React.createClass({
   },
 
   retrieveState: function() {
-    var desktopMode = $("#" + styles.deskTopNavOptions).is(":visible"),
-        imgName = $(window).width() > 500 ? "/img/babbel.games.logo.png" : "/img/babbel.games.logo.small.png";
+    const desktopMode = $("#" + styles.deskTopNavOptions).is(":visible");
+    const imgName = $(window).width() > 500 ? "/img/babbel.games.logo.png" : "/img/babbel.games.logo.small.png";
     return {
       clickedOnHamburger: "none",
       desktopMode: desktopMode,
@@ -47,25 +47,44 @@ var NavigationBar = React.createClass({
 
   // Creates a dropdown for links for both the mobile and desktop versions
   createDropDown: function(className, id, style) {
-    return (
+    const isLoggedIn = !!window.localStorage.babbelgames_profile_image_url;
+
+    if (isLoggedIn) return (
       <nav className={className} role="navigation">
         <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
-          <li>{window.localStorage.babbelgames_profile_image_url
-            ? <img
-                style={{
-                  borderRadius: '50%'
-                }}
-                src={window.localStorage.babbelgames_profile_image_url} />
-            : <a href="/auth/facebook">Log In</a>
-          }</li>
-          <li>{window.localStorage.babbelgames_profile_image_url
-            ? <a href="#" onClick={this.handleLogOut} >Log Out</a>
-            : null
-          }</li>
+
+          <li>
+            <img
+              style={{
+                borderRadius: '50%'
+              }}
+              src={window.localStorage.babbelgames_profile_image_url} />
+          </li>
+
+          <li>
+            <a href="#" onClick={this.handleLogOut} >Log Out</a>
+          </li>
+
+          <li>
+            <Link to="/page/uploadEpisodePair">Upload</Link>
+          </li>
+
+          <li><Link to="/page/about">About</Link></li>
+
+        </ul>
+      </nav>
+    );
+    else return (
+      <nav className={className} role="navigation">
+        <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
+          <li>
+            <a href="/auth/facebook">Log In</a>
+          </li>
           <li><Link to="/page/about">About</Link></li>
         </ul>
       </nav>
     );
+
   },
 
   render: function() {
