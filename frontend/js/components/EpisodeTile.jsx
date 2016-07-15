@@ -56,7 +56,7 @@ const EpisodeTile = React.createClass({
     if (!this.props.href) {
       return tile;
     } else {
-      return <Link to={"/page/game/" + src + ".srt.json"}>
+      return <Link to={this.props.href}>
         {tile}
       </Link>
     }

@@ -1,11 +1,10 @@
 import * as googleAnalytics from "../utility/googleAnalytics.jsx";
 import styles from "../../css/app.css";
 
-import EpisodeTileGallery from "./EpisodeTileGallery.jsx";
 import EpisodeTileGalleryContainer from "./EpisodeTileGalleryContainer.jsx";
 import AboutPage from "./AboutPage.jsx";
 import NavigationBar from "./NavigationBar.jsx";
-import ScreenplayGameContainer from "./ScreenplayGameContainer.jsx";
+import MatchingGameContainer from "./MatchingGameContainer.jsx";
 import UploadEpisodePair from "./UploadEpisodePair.jsx";
 
 import React from "react";
@@ -40,7 +39,7 @@ var App = React.createClass({
 					<Route path="/" component={NavigationBar}>"
 						<Route path="page/about" component={AboutPage} />
 						<Route path="page/home" component={EpisodeTileGalleryContainer} />
-						<Route path="page/game/:dataSource" component={ScreenplayGameContainer} />
+						<Route path="page/game/:dataSource" component={MatchingGameContainer} />
 						<Route path="page/uploadEpisodePair" component={UploadEpisodePair} />
 					</Route>
 				</Router>

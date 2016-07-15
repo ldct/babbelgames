@@ -52,7 +52,7 @@ const screenplaySectionsOf = function (res) {
   return screenplaySections;
 }
 
-const ScreenplayGameContainer = React.createClass({
+const MatchingGameContainer = React.createClass({
   getInitialState: function() {
     return {
       metadata: {title: "", subTitle: ""},
@@ -64,7 +64,7 @@ const ScreenplayGameContainer = React.createClass({
 
   // Only one prop passed in which is the dataSource
   componentDidMount: function() {
-    const src = this.props.params.dataSource.replace('.srt.json', '');
+    const src = this.props.params.dataSource;
 
     $.getJSON('/sentenceMatchingGame/' + src).then(res => {
       const tileDataMD5 = md5(JSON.stringify(res.tileData));
@@ -105,4 +105,4 @@ const ScreenplayGameContainer = React.createClass({
 });
 
 
-export default ScreenplayGameContainer;
+export default MatchingGameContainer;
