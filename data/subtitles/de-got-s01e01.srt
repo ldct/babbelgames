@@ -4,7 +4,8 @@ Langsam, Junge.
 
 2
 00:03:11,280 --> 00:03:13,812
-Was erwartest du? Es sind Wilde.
+Was erwartest du?
+Es sind Wilde.
 
 3
 00:03:13,813 --> 00:03:16,010
@@ -130,7 +131,7 @@ Es ist ...
 
 30
 00:07:49,635 --> 00:07:56,445
-~ Syncro ~ 
+~ Syncro ~
 ~ The Hellraiser ~
 
 31

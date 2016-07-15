@@ -1,48 +1,19 @@
-1
-00:00:09,075 --> 00:00:11,910
-<i>( Gate rumbling, chains rattling )</i>
-
-2
-00:00:40,976 --> 00:00:43,278
-( Horse snorts )
-
-3
-00:00:55,392 --> 00:00:58,127
-<i>( Rumbling, chain rattling )</i>
-
-4
-00:01:14,345 --> 00:01:16,780
-( Horse whickers )
-
-5
-00:01:42,574 --> 00:01:45,042
-<i>( Wind whispering )</i>
-
 6
-00:01:54,955 --> 00:01:57,957
-- ( Nickers )
+00:01:56,259 --> 00:01:58,492
 - Easy, boy.
 
-7
-00:02:54,584 --> 00:02:56,418
-<i>( Gasps</i>
-
-8
-00:02:59,422 --> 00:03:01,589
-( whinnies )
-
 9
-00:03:10,699 --> 00:03:12,868
-Man: <i>What do you expect?</i>
-<i>They're savages.</i>
+00:03:11,280 --> 00:03:13,812
+What do you expect?
+They're savages.
 
 10
-00:03:12,902 --> 00:03:15,237
+00:03:13,813 --> 00:03:16,010
 One lot steals a goat
 from another lot,
 
 11
-00:03:15,271 --> 00:03:18,274
+00:03:16,011 --> 00:03:18,372
 before you know it they're
 ripping each other to pieces.
 
@@ -52,13 +23,12 @@ I've never seen wildlings
 do a thing like this.
 
 13
-00:03:20,511 --> 00:03:22,812
+00:03:21,029 --> 00:03:24,693
 I never seen a thing like
 this, not ever in my life.
 
 14
-00:03:22,847 --> 00:03:25,716
-- ( Horse snorts )
+00:03:24,694 --> 00:03:26,103
 - How close did you get?
 
 15
