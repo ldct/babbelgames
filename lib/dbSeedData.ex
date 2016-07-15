@@ -131,7 +131,7 @@ defmodule DbSeedData do
 			"en",
 			"de",
 			"got-s01e01.txt",
-			"en-got-s01e01.srt",
+			"enforde-got-s01e01.srt",
 			"de-got-s01e01.srt"
 		])
 	end
