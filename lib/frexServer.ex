@@ -124,7 +124,8 @@ defmodule FrexServer do
         "episode_poster_filename" => episodePosterFilename,
         "episode_title" => episodeTitle,
         "episode_seqnumber" => episodeSeqnumber,
-        "series_name" => seriesName
+        "series_name" => seriesName,
+        "l2_code" => l2Code,
       }} = x
 
       # %{"episode_poster_filename" => "friends-s01e01.jpg",
@@ -155,6 +156,7 @@ defmodule FrexServer do
           "title" => episodeTitle,
           "subtitle" => seriesName <> " " <> episodeSeqnumber,
           "poster_filename" => episodePosterFilename,
+          "l2_code" => l2Code
         },
       }, pretty: true)
 

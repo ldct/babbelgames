@@ -48,6 +48,12 @@ var MatchingGame = React.createClass({
       );
     }
 
+    const l2Name = {
+      'de': 'German',
+      'fr': 'French',
+      'pt-br': 'Portuguese'
+    }[this.props.metadata.l2_code];
+
     return (
       <div>
         <div className={styles.header}>
@@ -65,26 +71,14 @@ var MatchingGame = React.createClass({
 
         Welcome to babbelgames.io. <br /> <br />
 
-        Match the French and English phrases. Click on an English phrase (orange button) to select it, and then click on the matching French phrase (in blue).
+        Match the {l2Name} and English phrases. Click on an English phrase (orange button) to select it, and then click on the matching {l2Name} phrase (in blue).
 
         </div>
 
         </div>
 
-        {this.props.screenplaySections.slice(0, 2).map(renderChunks)}
+        {this.props.screenplaySections.map(renderChunks)}
 
-          <div className={styles.gamescreen}> <div className={styles.slightPadding}>
-          In the coming weeks we'll add new languages, new content, and new features. Sign in to save your progress, upload your own srt files, and enjoy different game modes.
-
-          <br /> <br />
-
-          Want to be notified? <a className={styles.blackFont} href="http://eepurl.com/b4kX5f" target="_blank">Sign up for our mailing list now!</a>
-
-          </div>
-
-          </div>
-
-        {this.props.screenplaySections.slice(2).map(renderChunks)}
         </div>
 
     );
