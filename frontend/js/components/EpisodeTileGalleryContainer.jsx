@@ -5,11 +5,9 @@ import { browserHistory } from 'react-router';
 import EpisodeTile from "./EpisodeTile.jsx";
 import styles from "../../css/episodeTileGallery.css";
 
-// TODO: separate container from actual thing
-const EpisodeTileGalleryContainer = React.createClass({
+const EpisodeTileGallery = React.createClass({
   getInitialState: function () {
     return {
-      episodePairs: [],
       srcOfMousedOverTile: null,
     };
   },
@@ -22,18 +20,11 @@ const EpisodeTileGalleryContainer = React.createClass({
       this.setState({ srcOfMousedOverTile: null });
     }
   },
-  componentDidMount: function () {
-    $.getJSON('/episode_pairs.json', (res) => {
-      this.setState({
-        'episodePairs': res
-      });
-    });
-  },
   render: function () {
 
     return <div className={styles.flexContainer}>
       <div className={styles.episodeTileContainer}>
-        {this.state.episodePairs.map((ep, i) => <EpisodeTile
+        {this.props.episodePairs.map((ep, i) => <EpisodeTile
           key={i}
           src={ep.uid}
           imageSrc={'/' + ep.episode_poster_filename}
@@ -52,6 +43,25 @@ const EpisodeTileGalleryContainer = React.createClass({
     </div>
 
     return <div></div>
+  }
+});
+
+const EpisodeTileGalleryContainer = React.createClass({
+  getInitialState: function () {
+    return {
+      'episodePairs': []
+    }
+  },
+  componentDidMount: function () {
+    $.getJSON('/episode_pairs.json', (res) => {
+      this.setState({
+        'episodePairs': res
+      });
+    });
+  },
+  render: function () {
+    return <EpisodeTileGallery
+      episodePairs={this.state.episodePairs} />
   }
 });
 
