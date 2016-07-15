@@ -107,20 +107,6 @@ defmodule FrexServer do
     |> send_resp(200, res)
   end
 
-  def metadataOf(series, episode) do
-
-    matchingRows = Data.rows
-    |> Enum.filter(fn
-      %{:series => s, :episode => e} when series === s and episode === e -> true
-      _ -> false
-    end)
-
-    case matchingRows do
-      [row] -> row
-      _ -> %{}
-    end
-  end
-
   get "/sentenceMatchingGame/:uid" do
 
     cacheFilename = "cache/" <> uid
@@ -170,44 +156,6 @@ defmodule FrexServer do
           "subtitle" => seriesName <> " " <> episodeSeqnumber,
           "poster_filename" => episodePosterFilename,
         },
-      }, pretty: true)
-
-      File.write!(cacheFilename, jsonResult)
-
-      conn
-      |> put_resp_content_type("application/json")
-      |> send_resp(200, jsonResult)
-    end
-  end
-
-  # legacy version of above endpoint
-  get "/sentenceMatchingGame/:series/:episode" do
-
-    cacheFilename = "cache/" <> series <> "\\" <> episode
-
-    if File.exists?(cacheFilename) do
-      conn
-      |> put_resp_content_type("application/json")
-      |> send_resp(200, File.read!(cacheFilename))
-    else
-      "file not exists" |> IO.inspect
-
-      srtFilename = episode
-      |> String.replace(".json", "")
-      |> IO.inspect
-
-      episodeFilename = srtFilename |> String.replace(".srt", "")
-
-      entries = Srt.pairSrt(
-        "data/subtitles/" <> series <> "/en/" <> srtFilename,
-        "data/subtitles/" <> series <> "/fr/" <> srtFilename,
-        "data/screenplay/" <> series <> "/" <> episodeFilename <> ".txt")
-      |> Enum.map(fn x -> Tuple.to_list(x) end)
-
-      jsonResult = Poison.encode!(%{
-        "tileData" => entries,
-        "screenplay" => File.read!("data/screenplay/" <> series <> "/" <> episodeFilename <> ".txt"),
-        "metadata" => metadataOf(series, episode |> String.replace(".srt.json", "")),
       }, pretty: true)
 
       File.write!(cacheFilename, jsonResult)

@@ -116,11 +116,23 @@ defmodule DbSeedData do
 			"ptbr-got-s01e01.srt"
 		])
 
-		#
-		#
-		# b5a2e223-91bc-431d-86fe-f323809100ed
-		# 0c7a9189-2811-4e96-ad43-5d90dbe84b38
-		# 138e0269-a7d0-42ad-9919-695b12cc5e40
-		# c500abf4-983c-4a44-b686-a2d1c6f2d238
+		Postgrex.query!(pid, """
+			INSERT INTO
+				episode_pairs (uid, user_email, series_name, episode_seqnumber, episode_title, episode_poster_filename, l1_code, l2_code, l1_screenplay_filename, l1_srt_filename, l2_srt_filename)
+			VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+			ON CONFLICT (uid) DO NOTHING
+		""", [
+			"b5a2e223-91bc-431d-86fe-f323809100ed",
+			"xuanji@gmail.com",
+			"Game of Thrones",
+			"s01e01",
+			"Winter is Coming",
+			"got-s01e01.jpg",
+			"en",
+			"de",
+			"got-s01e01.txt",
+			"en-got-s01e01.srt",
+			"de-got-s01e01.srt"
+		])
 	end
 end

@@ -65,10 +65,6 @@ var NavigationBar = React.createClass({
             <a href="#" onClick={this.handleLogOut} >Log Out</a>
           </li>
 
-          <li>
-            <Link to="/page/uploadEpisodePair">Upload</Link>
-          </li>
-
           <li><Link to="/page/about">About</Link></li>
 
         </ul>

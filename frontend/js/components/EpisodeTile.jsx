@@ -6,6 +6,7 @@ import { Link } from "react-router";
 const Flag = React.createClass({
   render: function () {
     return {
+      'de': <span className="flag-icon flag-icon-de"></span>,
       'fr': <span className="flag-icon flag-icon-fr"></span>,
       'pt-br': <span className="flag-icon flag-icon-br"></span>,
     }[this.props.langCode] || <span>{this.props.langCode}</span>;
