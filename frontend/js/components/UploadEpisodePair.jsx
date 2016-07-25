@@ -50,6 +50,18 @@ const UploadEpisodePair = React.createClass({
             <h1>UploadEpisodePair</h1>
             <table><tbody>
                 <tr>
+                    <td style={{textAlign: 'right'}}>Series Name</td>
+                    <td><input type="text" id="series-name" defaultValue="Friends"></input></td>
+                </tr>
+                <tr>
+                    <td style={{textAlign: 'right'}}>Episode Sequence Number</td>
+                    <td><input type="text" id="episode-seqnumber" defaultValue="s01e04"></input></td>
+                </tr>
+                <tr>
+                    <td style={{textAlign: 'right'}}>Episode Title</td>
+                    <td><input type="text" id="episode-title" defaultValue="The One With George Stephanopoulos"></input></td>
+                </tr>
+                <tr>
                     <td style={{textAlign: 'right'}}>Language</td>
                     <td>
                         <select name="select">
@@ -61,15 +73,15 @@ const UploadEpisodePair = React.createClass({
                 </tr>
                 <tr>
                     <td style={{textAlign: 'right'}}>English SRT</td>
-                    <td><input type="file" onChange={this.handleEnglishSrtChange} id="english-srt"></input></td>
+                    <td><input type="file" onChange={this.handleEnglishSrtChange}></input></td>
                 </tr>
                 <tr>
                     <td style={{textAlign: 'right'}}>English Screenplay</td>
-                    <td><input type="file" onChange={this.handleEnglishScreenplayChange} id="english-screenplay"></input></td>
+                    <td><input type="file" onChange={this.handleEnglishScreenplayChange}></input></td>
                 </tr>
                 <tr>
                     <td style={{textAlign: 'right'}}>L2 SRT</td>
-                    <td><input type="file" onChange={this.handleL2SrtChange} id="l2-srt"></input></td>
+                    <td><input type="file" onChange={this.handleL2SrtChange}></input></td>
                 </tr>
                 <tr>
                     <td></td>
