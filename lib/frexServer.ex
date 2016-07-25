@@ -20,6 +20,23 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
+  post "/uploadEpisodePair" do
+
+    %Plug.Conn{
+      body_params: %{
+        "english_screenplay_text" => englishScreenplayText,
+        "english_srt_text" => englishSrtText,
+        "l2_srt_text" => l2SrtText,
+      }
+    } = conn
+
+    englishScreenplayText |> IO.inspect
+
+    conn
+    |> put_resp_content_type("application/json; charset=UTF-8")
+    |> send_resp(200, '[]')
+  end
+
   get "/auth/facebook/callback" do
 
     # TODO: generate a proper JWT token
