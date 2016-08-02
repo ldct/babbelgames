@@ -20,6 +20,24 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
+  def writeContentAddressable!(contents, type) do
+    hash = :crypto.hash(:sha, contents)
+    |> Base.encode16
+    |> String.downcase
+
+    filename = case type do
+      :screenplay -> hash <> ".txt"
+      :subtitles -> hash <> ".srt"
+    end
+
+    case type do
+      :screenplay -> File.write!("data/screenplay/" <> filename, contents)
+      :subtitles -> File.write!("data/subtitles/" <> filename, contents)
+    end
+
+    {:ok, filename}
+  end
+
   post "/uploadEpisodePair" do
 
     %Plug.Conn{
@@ -27,10 +45,27 @@ defmodule FrexServer do
         "english_screenplay_text" => englishScreenplayText,
         "english_srt_text" => englishSrtText,
         "l2_srt_text" => l2SrtText,
+        "session_token" => sessionToken,
       }
     } = conn
 
-    englishScreenplayText |> IO.inspect
+    {:ok, englishScreenplayFilename} = writeContentAddressable!(englishScreenplayText, :screenplay)
+    {:ok, englishSrtFilename} = writeContentAddressable!(englishSrtText, :subtitles)
+    {:ok, l2SrtFilename} = writeContentAddressable!(l2SrtText, :subtitles)
+
+    {englishScreenplayFilename, englishSrtFilename, l2SrtFilename} |> IO.inspect
+
+    BabbelgamesDb.insertEpisodePair(
+      sessionToken,
+      "series_name",
+      "episode_seqnumber",
+      "epsiode_title",
+      "l1_code",
+      "l2_code",
+      englishScreenplayFilename,
+      englishSrtFilename,
+      l2SrtFilename
+    )
 
     conn
     |> put_resp_content_type("application/json; charset=UTF-8")

@@ -63,6 +63,38 @@ defmodule BabbelgamesDb do
 
 	end
 
+	def insertEpisodePair(sessionToken, series_name, episode_seqnumber, episode_title, l1_code, l2_code, l1_screenplay_filename, l1_srt_filename, l2_srt_filename) do
+		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
+
+		%Postgrex.Result{
+			num_rows: num_rows,
+			rows: rows
+		} = Postgrex.query!(pid, """
+			SELECT user_email FROM sessions WHERE secret = $1
+		""", [sessionToken])
+
+		if num_rows == 1 do
+			[[user_email]] = rows
+
+			uid = UUID.uuid4()
+			Postgrex.query!(pid, """
+				INSERT INTO episode_pairs (uid, user_email, series_name, episode_seqnumber, episode_title, l1_code, l2_code, l1_screenplay_filename, l1_srt_filename, l2_srt_filename)
+				VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+			""", [
+				uid,
+				user_email,
+				series_name,
+				episode_seqnumber,
+				episode_title,
+				l1_code,
+				l2_code,
+				l1_screenplay_filename,
+				l1_srt_filename,
+				l2_srt_filename
+			])
+		end
+	end
+
 	def addSession(user_email, secret) do
 		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
 		Postgrex.query!(pid, """
@@ -169,4 +201,5 @@ defmodule BabbelgamesDb do
 
 		end
 	end
+
 end

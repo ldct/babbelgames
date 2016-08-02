@@ -39,7 +39,7 @@ defmodule Frex.Mixfile do
       {:postgrex, ">= 0.0.0"},
       {:ecto, "~> 2.0.0-beta"},
       {:ueberauth_facebook, "~> 0.3"},
-      { :uuid, "~> 1.1" }
+      {:uuid, "~> 1.1" }
     ]
   end
 end

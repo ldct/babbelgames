@@ -11,7 +11,8 @@ const UploadEpisodePair = React.createClass({
             data: JSON.stringify({
                 english_srt_text: this.state.englishSrtText,
                 english_screenplay_text: this.state.englishScreenplayText,
-                l2_srt_text: this.state.englishSrtText,
+                l2_srt_text: this.state.l2SrtText,
+                session_token: localStorage.babbelgames_session_token,
             }),
             success: function (res) { console.log(res) },
             contentType: "application/json",
