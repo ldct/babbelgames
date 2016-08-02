@@ -46,6 +46,10 @@ defmodule FrexServer do
         "english_srt_text" => englishSrtText,
         "l2_srt_text" => l2SrtText,
         "session_token" => sessionToken,
+        "series_name" => seriesName,
+        "episode_seqnumber" => episodeSeqnumber,
+        "episode_title" => episodeTitle,
+        "l2_code" => l2Code,
       }
     } = conn
 
@@ -57,11 +61,11 @@ defmodule FrexServer do
 
     BabbelgamesDb.insertEpisodePair(
       sessionToken,
-      "series_name",
-      "episode_seqnumber",
-      "epsiode_title",
-      "l1_code",
-      "l2_code",
+      seriesName,
+      episodeSeqnumber,
+      episodeTitle,
+      "en",
+      l2Code,
       englishScreenplayFilename,
       englishSrtFilename,
       l2SrtFilename

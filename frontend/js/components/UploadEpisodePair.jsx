@@ -5,6 +5,7 @@ import { Link } from "react-router";
 
 const UploadEpisodePair = React.createClass({
     handleSubmit: function () {
+
         $.ajax({
             type: 'POST',
             url: '/uploadEpisodePair/',
@@ -13,6 +14,10 @@ const UploadEpisodePair = React.createClass({
                 english_screenplay_text: this.state.englishScreenplayText,
                 l2_srt_text: this.state.l2SrtText,
                 session_token: localStorage.babbelgames_session_token,
+                series_name: this.refs.seriesName.value,
+                episode_seqnumber: this.refs.episodeSeqnumber.value,
+                episode_title: this.refs.episodeTitle.value,
+                l2_code: this.refs.l2Code.value,
             }),
             success: function (res) { console.log(res) },
             contentType: "application/json",
@@ -52,23 +57,23 @@ const UploadEpisodePair = React.createClass({
             <table><tbody>
                 <tr>
                     <td style={{textAlign: 'right'}}>Series Name</td>
-                    <td><input type="text" id="series-name" defaultValue="Friends"></input></td>
+                    <td><input ref="seriesName" type="text" defaultValue="Friends"></input></td>
                 </tr>
                 <tr>
                     <td style={{textAlign: 'right'}}>Episode Sequence Number</td>
-                    <td><input type="text" id="episode-seqnumber" defaultValue="s01e04"></input></td>
+                    <td><input ref="episodeSeqnumber" type="text" defaultValue="s01e04"></input></td>
                 </tr>
                 <tr>
                     <td style={{textAlign: 'right'}}>Episode Title</td>
-                    <td><input type="text" id="episode-title" defaultValue="The One With George Stephanopoulos"></input></td>
+                    <td><input type="text" ref="episodeTitle" defaultValue="The One With George Stephanopoulos"></input></td>
                 </tr>
                 <tr>
                     <td style={{textAlign: 'right'}}>Language</td>
                     <td>
-                        <select name="select">
-                          <option value="value1">French</option>
-                          <option value="value2">German</option>
-                          <option value="value3">Portuguese (Brazilian)</option>
+                        <select name="select" ref="l2Code">
+                          <option value="fr">French</option>
+                          <option value="de">German</option>
+                          <option value="pt-br">Portuguese (Brazilian)</option>
                         </select>
                     </td>
                 </tr>
