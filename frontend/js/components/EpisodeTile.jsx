@@ -40,12 +40,7 @@ const EpisodeTile = React.createClass({
             <div className={styles.eText}>
               {this.props.headline}
             </div>
-            <span style={{
-              position: 'absolute',
-              right: 0,
-              bottom: 0,
-              visibility: 'visible'
-            }}>
+            <span className={styles.flagContainer}>
               <Flag langCode={this.props.l2Code} />
             </span>
           </div>

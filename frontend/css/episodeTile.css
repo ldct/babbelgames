@@ -45,3 +45,10 @@
 .eText {
 	max-width: 8em;
 }
+
+.flagContainer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	visibility: visible;
+}
