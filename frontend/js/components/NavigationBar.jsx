@@ -54,10 +54,7 @@ var NavigationBar = React.createClass({
         <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
 
           <li>
-            <img
-              style={{
-                borderRadius: '50%'
-              }}
+            <img style={{ borderRadius: '50%' }}
               src={window.localStorage.babbelgames_profile_image_url} />
           </li>
 
@@ -100,9 +97,7 @@ var NavigationBar = React.createClass({
                   <span className="close-cross"></span>
               </button>
               <Link to="/page/home" id={styles.navbarBrand} className="navbar-brand brand" title="BabbelGames">
-                <img style={{
-                  height: 50,
-                }} src={this.state.imgName} alt="BabbelGames"></img>
+                <img style={{ height: 50, }} src={this.state.imgName} alt="BabbelGames"></img>
               </Link>
             </div>
             {this.createDropDown("", "deskTopNavOptions", {})}

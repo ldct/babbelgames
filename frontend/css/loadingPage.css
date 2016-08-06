@@ -1,0 +1,75 @@
+#loaderWrapper {
+	position: relative;
+	top: 325px;
+	width: 100%;
+}
+
+#preloader {
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+	padding-bottom: 1px;
+}
+
+#preloader span {
+	display: block;
+	position: absolute;
+	border-radius: 16px;
+	height: 8px;
+	width: 32px;
+	bottom: 0;
+	background: #f7c4c2;
+	-webkit-animation: preloader 2.5s infinite cubic-bezier(0.4, 0.0, 0.2, 1) ;
+	        animation: preloader 2.5s infinite cubic-bezier(0.4, 0.0, 0.2, 1) ;
+}
+
+#preloader span:nth-child(2){
+	left: 40px;
+	-webkit-animation-delay: 100ms;
+	        animation-delay: 100ms;
+}
+
+#preloader span:nth-child(3){
+	left: 80px;
+	-webkit-animation-delay: 200ms;
+	        animation-delay: 200ms;
+}
+
+#preloader span:nth-child(4){
+	left: 120px;
+	-webkit-animation-delay: 300ms;
+	        animation-delay: 300ms;
+}
+
+#preloader span:nth-child(5){
+  	left: 160px;
+ 	-webkit-animation-delay: 400ms;
+ 	        animation-delay: 400ms;
+}
+
+@-webkit-keyframes preloader {
+	0% { height: 8px; -webkit-transform: translateY(0px); transform: translateY(0px); background: #f7c4c2;   }
+	25% { height: 60px; -webkit-transform: translateY(-14px); transform: translateY(-14px); background: #e53d37; }
+	50% {height:4px; -webkit-transform: translateY(0px); transform: translateY(0px); background: #f0918e; }
+	100%{ height:4px; -webkit-transform:translateY(0px) ; transform:translateY(0px) ;background: #a71a16; }
+}
+
+@keyframes preloader {
+	0% { height: 8px; -webkit-transform: translateY(0px); transform: translateY(0px); background: #f7c4c2;   }
+	25% { height: 60px; -webkit-transform: translateY(-14px); transform: translateY(-14px); background: #e53d37; }
+	50% {height:4px; -webkit-transform: translateY(0px); transform: translateY(0px); background: #f0918e; }
+	100%{ height:4px; -webkit-transform:translateY(0px) ; transform:translateY(0px) ;background: #a71a16; }
+}
+
+#loaderWrapper p {
+	color: #636363;
+	font-size: .889em;  
+}
+
+#loaderWrapper h2 {
+	font-size: 1.777em;
+}
+
+#loaderWrapper h2, #loaderWrapper p {
+	text-align: center;
+}

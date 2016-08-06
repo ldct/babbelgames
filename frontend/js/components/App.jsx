@@ -34,7 +34,7 @@ const App = React.createClass({
             <div>
                 <Router history={ browserHistory }>
                     <Redirect from="/" to="page/home" />
-                    <Route path="/" component={NavigationBar}>"
+                    <Route path="/" component={NavigationBar}>
                         <Route path="page/about" component={AboutPage} />
                         <Route path="page/home" component={EpisodeTileGalleryContainer} />
                         <Route path="page/game/:dataSource" component={MatchingGameContainer} />
@@ -45,7 +45,6 @@ const App = React.createClass({
             </div>
         );
     }
-
 });
 
 googleAnalytics.send();
