@@ -1,3 +1,4 @@
+import LoadingPage from "./LoadingPage.jsx";
 import MatchingGame from "./MatchingGame.jsx";
 
 import $ from "jquery";
@@ -58,7 +59,8 @@ const MatchingGameContainer = React.createClass({
       metadata: {title: "", subTitle: ""},
       tileData: [],
       posterImageSrc: "",
-      screenplaySections: []
+      screenplaySections: [],
+      finishedLoading: false,
     };
   },
 
@@ -85,6 +87,10 @@ const MatchingGameContainer = React.createClass({
     });
   },
 
+  componentDidUpdate: function(prevProps, prevState) {
+    // console.log("hello");
+  },
+
   updateState: function(res, dataSource, screenplaySections, matchedPairs) {
     this.setState({
       matchedPairs: matchedPairs,
@@ -98,14 +104,17 @@ const MatchingGameContainer = React.createClass({
     if (!this.state.tileData.length) {
       return <h1 style={{marginTop: 100}}>Loading</h1>
     } else {
-      return (
-        <MatchingGame
-          matchedPairs={this.state.matchedPairs}
-          episodeMD5={md5(JSON.stringify(this.state.tileData))}
-          metadata={this.state.metadata}
-          tileData={this.state.tileData}
-          posterImageSrc={"/img/" + this.state.metadata.poster_filename}
-          screenplaySections={this.state.screenplaySections} />
+        return (
+          //<LoadingPage style={{display: this.state.finishedLoading ? 'none': 'block' }}/>
+          <div>
+          <MatchingGame
+            matchedPairs={this.state.matchedPairs}
+            episodeMD5={md5(JSON.stringify(this.state.tileData))}
+            metadata={this.state.metadata}
+            tileData={this.state.tileData}
+            posterImageSrc={"/img/" + this.state.metadata.poster_filename}
+            screenplaySections={this.state.screenplaySections} />
+        </div>
       );
     }
   }
