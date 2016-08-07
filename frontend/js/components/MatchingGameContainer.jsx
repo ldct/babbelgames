@@ -60,7 +60,6 @@ const MatchingGameContainer = React.createClass({
       tileData: [],
       posterImageSrc: "",
       screenplaySections: [],
-      finishedLoading: false,
     };
   },
 
@@ -87,10 +86,6 @@ const MatchingGameContainer = React.createClass({
     });
   },
 
-  componentDidUpdate: function(prevProps, prevState) {
-    // console.log("hello");
-  },
-
   updateState: function(res, dataSource, screenplaySections, matchedPairs) {
     this.setState({
       matchedPairs: matchedPairs,
@@ -103,7 +98,6 @@ const MatchingGameContainer = React.createClass({
   render: function() {
     if (!this.state.tileData.length) {
       return <LoadingPage />
-      return <h1 style={{marginTop: 100}}>Loading</h1>
     } else {
         return (
           <div>
