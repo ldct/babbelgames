@@ -102,10 +102,10 @@ const MatchingGameContainer = React.createClass({
 
   render: function() {
     if (!this.state.tileData.length) {
+      return <LoadingPage />
       return <h1 style={{marginTop: 100}}>Loading</h1>
     } else {
         return (
-          //<LoadingPage style={{display: this.state.finishedLoading ? 'none': 'block' }}/>
           <div>
           <MatchingGame
             matchedPairs={this.state.matchedPairs}
