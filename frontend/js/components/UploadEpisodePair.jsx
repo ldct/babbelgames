@@ -13,6 +13,43 @@ import MenuItem from 'material-ui/MenuItem';
 import RaisedButton from 'material-ui/RaisedButton';
 
 
+const UploadButton = React.createClass({
+    getInitialState: function () {
+        return {
+            selectedFilename: null,
+        };
+    },
+    handleClickButton: function () {
+        this.refs.fileUpload.click();
+    },
+    handleFileChange: function (evt) {
+        this.setState({
+            selectedFilename: evt.target.files[0].name,
+        });
+        this.props.onFileChange(evt)
+    },
+    render: function () {
+        const buttonLabel = this.state.selectedFilename
+            ? (this.state.selectedFilename + " (" + this.props.label + " - click to change file)")
+            : ("upload " + this.props.label)
+        return <div>
+            <FlatButton
+                label={buttonLabel}
+                onClick={this.handleClickButton}
+                style={this.props.style}
+                backgroundColor="#eeeff2"
+            />
+            <input
+              ref="fileUpload"
+              type="file"
+              style={{"display" : "none"}}
+              onChange={this.handleFileChange}/>
+
+        </div>
+    }
+});
+
+
 const UploadEpisodePair = React.createClass({
     getChildContext() {
         return { muiTheme: getMuiTheme({
@@ -74,8 +111,10 @@ const UploadEpisodePair = React.createClass({
     handleL2SrtChange: function (evt) {
         const reader = new FileReader();
         reader.onloadend = (res) => {
+            const l2SrtText = res.target.result;
+            console.log(l2SrtText);
             this.setState({
-                'l2SrtText': res.target.result,
+                'l2SrtText': l2SrtText,
             });
         };
         reader.readAsText(evt.target.files[0]);
@@ -109,21 +148,30 @@ const UploadEpisodePair = React.createClass({
                         value={this.state.selectedL2Code}
                         onChange={this.handleL2CodeChange}
                         floatingLabelText="Target Language"
+                        style={{width: '100%'}}
                     >
                         <MenuItem value='fr' primaryText="French" />
                         <MenuItem value='de' primaryText="German" />
                         <MenuItem value='pt-br' primaryText="Portuguese (Brazilian)" />
                     </SelectField>
 
-                    <div>English SRT</div>
-                    <div><input type="file" onChange={this.handleEnglishSrtChange}></input></div>
+                    <UploadButton
+                        style={{width: '100%', marginTop: '25px', marginBottom: '5px', border: '1px solid #D8D9DC'}}
+                        onFileChange={this.handleEnglishSrtChange}
+                        label="english subtitle file"
+                    />
 
-                    <div>English Screenplay</div>
-                    <div><input type="file" onChange={this.handleEnglishScreenplayChange}></input></div>
+                    <UploadButton
+                        style={{width: '100%', marginTop: '25px', marginBottom: '5px', border: '1px solid #D8D9DC'}}
+                        onFileChange={this.handleEnglishScreenplayChange}
+                        label="english screenplay"
+                    />
 
-                    <div>L2 SRT</div>
-                    <div><input type="file" onChange={this.handleL2SrtChange}></input></div>
-
+                    <UploadButton
+                        style={{width: '100%', marginTop: '25px', marginBottom: '5px', border: '1px solid #D8D9DC'}}
+                        onFileChange={this.handleL2SrtChange}
+                        label="l2 .srt file"
+                    />
 
                     <RaisedButton
                         label="Submit"
