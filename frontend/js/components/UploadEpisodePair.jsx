@@ -12,6 +12,8 @@ import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
 import RaisedButton from 'material-ui/RaisedButton';
 
+import { browserHistory } from 'react-router'
+
 
 const UploadButton = React.createClass({
     getInitialState: function () {
@@ -70,8 +72,6 @@ const UploadEpisodePair = React.createClass({
     },
     handleSubmit: function () {
 
-        console.log(this.refs.seriesName.getValue());
-
         $.ajax({
             type: 'POST',
             url: '/uploadEpisodePair/',
@@ -84,8 +84,11 @@ const UploadEpisodePair = React.createClass({
                 episode_seqnumber: this.refs.episodeSeqnumber.getValue(),
                 episode_title: this.refs.episodeTitle.getValue(),
                 l2_code: this.state.selectedL2Code,
+                encoded_image: this.state.encodedImage,
             }),
-            success: function (res) { console.log(res) },
+            success: function (res) {
+                browserHistory.push('/page/game/' + res);
+            },
             contentType: "application/json",
             dataType: 'json'
         });
@@ -118,6 +121,17 @@ const UploadEpisodePair = React.createClass({
             });
         };
         reader.readAsText(evt.target.files[0]);
+    },
+    handleImageChange: function (evt) {
+        const reader = new FileReader();
+        reader.onloadend = (res) => {
+            const encodedImage = btoa(String.fromCharCode.apply(null, new Uint8Array(res.target.result)));
+            console.log(encodedImage);
+            this.setState({
+                'encodedImage': encodedImage,
+            });
+        };
+        reader.readAsArrayBuffer(evt.target.files[0]);
     },
     render: function () {
         return <div style={{marginTop: 100}}>
@@ -171,6 +185,12 @@ const UploadEpisodePair = React.createClass({
                         style={{width: '100%', marginTop: '25px', marginBottom: '5px', border: '1px solid #D8D9DC'}}
                         onFileChange={this.handleL2SrtChange}
                         label="l2 .srt file"
+                    />
+
+                    <UploadButton
+                        style={{width: '100%', marginTop: '25px', marginBottom: '5px', border: '1px solid #D8D9DC'}}
+                        onFileChange={this.handleImageChange}
+                        label="Image"
                     />
 
                     <RaisedButton

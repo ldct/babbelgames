@@ -38,6 +38,18 @@ defmodule FrexServer do
     {:ok, filename}
   end
 
+  def writeContentAddressableBinary!(encodedString) do
+    hash = :crypto.hash(:sha, encodedString)
+    |> Base.encode16
+    |> String.downcase
+
+    contents = Base.decode64!(encodedString)
+
+    File.write!("frontend/img/" <> hash, contents)
+
+    {:ok, hash}
+  end
+
   post "/uploadEpisodePair" do
 
     %Plug.Conn{
@@ -50,20 +62,23 @@ defmodule FrexServer do
         "episode_seqnumber" => episodeSeqnumber,
         "episode_title" => episodeTitle,
         "l2_code" => l2Code,
+        "encoded_image" => encodedImage,
       }
     } = conn
 
     {:ok, englishScreenplayFilename} = writeContentAddressable!(englishScreenplayText, :screenplay)
     {:ok, englishSrtFilename} = writeContentAddressable!(englishSrtText, :subtitles)
     {:ok, l2SrtFilename} = writeContentAddressable!(l2SrtText, :subtitles)
+    {:ok, imageFilename} = writeContentAddressableBinary!(encodedImage)
 
     {englishScreenplayFilename, englishSrtFilename, l2SrtFilename} |> IO.inspect
 
-    BabbelgamesDb.insertEpisodePair(
+    {:ok, uid} = BabbelgamesDb.insertEpisodePair(
       sessionToken,
       seriesName,
       episodeSeqnumber,
       episodeTitle,
+      imageFilename,
       "en",
       l2Code,
       englishScreenplayFilename,
@@ -73,7 +88,7 @@ defmodule FrexServer do
 
     conn
     |> put_resp_content_type("application/json; charset=UTF-8")
-    |> send_resp(200, '[]')
+    |> send_resp(200, "\"" <> uid <> "\"")
   end
 
   get "/auth/facebook/callback" do
