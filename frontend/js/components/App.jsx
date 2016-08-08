@@ -12,6 +12,8 @@ import ReactDOM from "react-dom";
 import {Router, Route, Redirect} from "react-router";
 import { browserHistory } from 'react-router'
 
+import injectTapEventPlugin from "react-tap-event-plugin";
+
 const TestComponent = React.createClass({
     render: function () {
         return <div>
@@ -48,6 +50,7 @@ const App = React.createClass({
 });
 
 googleAnalytics.send();
+injectTapEventPlugin();
 ReactDOM.render(
   <App/>,
   document.getElementById('container')
