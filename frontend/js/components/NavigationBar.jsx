@@ -97,7 +97,7 @@ var NavigationBar = React.createClass({
     return (
       <div>
 
-      <Navbar>
+      <Navbar fixedTop>
           <Navbar.Header style={{ display: 'flex', justifyContent: 'space-between' }}>
             <Navbar.Toggle style={{ marginLeft: 0, marginRight: 0, visibility: 'hidden' }} />
             <Link to="/page/home" title="BabbelGames">
