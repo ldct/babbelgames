@@ -48,33 +48,26 @@ var NavigationBar = React.createClass({
   // Creates a dropdown for links for both the mobile and desktop versions
   createDropDown: function(className, id, style) {
     const isLoggedIn = !!window.localStorage.babbelgames_profile_image_url;
+    const loggedInStyle = {display: isLoggedIn ? "block": "none"};
+    const loggedInStyleInv = {display: isLoggedIn ? "none": "block"};
 
-    if (isLoggedIn) return (
+    return (
       <nav className={className} role="navigation">
         <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
-
-          <li>
+          <li style={loggedInStyle}>
             <img style={{ borderRadius: '50%' }}
               src={window.localStorage.babbelgames_profile_image_url} />
           </li>
 
-          <li>
+          <li style={loggedInStyle}>
             <a href="#" onClick={this.handleLogOut} >Log Out</a>
           </li>
 
-          <li>
+          <li style={loggedInStyle}>
             <Link to="/page/uploadEpisodePair">Upload</Link>
           </li>
 
-          <li><Link to="/page/about">About</Link></li>
-
-        </ul>
-      </nav>
-    );
-    else return (
-      <nav className={className} role="navigation">
-        <ul id={styles[id]} className={"nav navbar-nav navbar-right " + styles.navOptions} style={style}>
-          <li>
+          <li style={loggedInStyleInv}>
             <a href="/auth/facebook">Log In</a>
           </li>
           <li><Link to="/page/about">About</Link></li>
