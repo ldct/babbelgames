@@ -10,8 +10,6 @@ import { LinkContainer } from 'react-router-bootstrap';
 var NavigationBar = React.createClass({
   getInitialState: function() {
     return {
-      clickedOnHamburger: "none",
-      desktopMode: true,
       imgName: "/img/babbel.games.logo.png",
       isSmallMode: $(window).width() > 768,
     };
@@ -22,26 +20,10 @@ var NavigationBar = React.createClass({
     this.resizeHandler();
   },
 
-  handleHamburgerClick: function() {
-    var currentStatus = $("#" + styles.mobileNavOptions).css("display"),
-        nextStatus = currentStatus === "block" ? "none" : "block";
-
-    this.setState({clickedOnHamburger: nextStatus});
-  },
-
   resizeHandler: function() {
-    this.setState(this.retrieveState());
-  },
-
-  retrieveState: function() {
-    const desktopMode = $("#" + styles.deskTopNavOptions).is(":visible");
-    const imgName = $(window).width() > 768 ? "/img/babbel.games.logo.png" : "/img/babbel.games.logo.small.png";
-    return {
-      clickedOnHamburger: "none",
-      desktopMode: desktopMode,
-      imgName: imgName,
-      isSmallMode: $(window).width() < 768,
-    };
+    const isSmallMode = $(window).width() < 768;
+    const imgName = isSmallMode ? "/img/babbel.games.logo.small.png" : "/img/babbel.games.logo.png";
+    this.setState({imgName: imgName, isSmallMode: isSmallMode});
   },
 
   handleLogOut: function () {
@@ -55,40 +37,28 @@ var NavigationBar = React.createClass({
     const isLoggedIn = !!window.localStorage.babbelgames_profile_image_url;
     const loggedInStyle = {display: isLoggedIn ? "block": "none"};
     const loggedInStyleInv = {display: isLoggedIn ? "none": "block"};
-
-    if (isLoggedIn) return (
-
+    return (
       <Nav pullRight>
-        <NavItem href="#" style={{ padding: 0 }}>
-          <img style={{
-            borderRadius: '50%',
-            marginTop: -20,
-            marginBottom: -16,
-            display: this.state.isSmallMode ? 'none' : null,
-          }}
+        <NavItem href="#" className={styles.profileImgWrapper} style={loggedInStyle}>
+          <img className={styles.profileImg}
+            style={{ display: this.state.isSmallMode ? 'none' : 'block' }}
             src={window.localStorage.babbelgames_profile_image_url} />
         </NavItem>
-        <NavItem href="#" onClick={this.handleLogOut}>Log Out</NavItem>
-        <LinkContainer to="/page/uploadEpisodePair">
+        <NavItem href="#" onClick={this.handleLogOut} style={loggedInStyle}>Log Out</NavItem>
+        <LinkContainer to="/page/uploadEpisodePair" style={loggedInStyle}>
           <NavItem href="#">Upload</NavItem>
         </LinkContainer>
-        <LinkContainer to="/page/about">
-          <NavItem href="#">About</NavItem>
-        </LinkContainer>
-      </Nav>
 
-    );
-    else return (
-      <Nav pullRight>
-        <NavItem href="/auth/facebook">
+        <NavItem href="/auth/facebook" style={loggedInStyleInv}>
           Log In
         </NavItem>
+
         <LinkContainer to="/page/about">
           <NavItem href="#">About</NavItem>
         </LinkContainer>
       </Nav>
-    );
 
+    );
   },
 
   render: function() {
@@ -96,20 +66,18 @@ var NavigationBar = React.createClass({
 
     return (
       <div>
-
-      <Navbar fixedTop>
-          <Navbar.Header style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <Navbar.Toggle style={{ marginLeft: 0, marginRight: 0, visibility: 'hidden' }} />
+        <Navbar fixedTop>
+          <Navbar.Header id={styles.navbarHeader}>
+            <Navbar.Toggle id={styles.navbarToggle} />
             <Link to="/page/home" title="BabbelGames">
-              <img style={{ padding: 0, height: '50px', margin: 'auto' }} src={this.state.imgName} alt="BabbelGames"></img>
+              <img id={styles.navbarImg} src={this.state.imgName} alt="BabbelGames"></img>
             </Link>
-          <Navbar.Toggle style={{ marginLeft: 0, marginRight: 0 }} />
+            <Navbar.Toggle id={styles.navbarToggleVisible} />
           </Navbar.Header>
           <Navbar.Collapse>
             {this.createDropDown()}
           </Navbar.Collapse>
         </Navbar>
-
 
         {this.props.children}
       </div>
