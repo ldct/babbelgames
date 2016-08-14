@@ -1,27 +1,36 @@
 # frex-backend
 backend for frex (lessons, user management)
 
-## Webpack
+## Dependencies
 
-Run this
+babbelgames requires postgres, elixir, node, webpack and babel to build.
 
-```
-NODE_ENV=production webpack
-```
+### Elixir
 
-## deployment
-
-Open command prompt and cd to your frex-backend and run
+Install elixir, make sure the commands `iex` and `mix` work. Then run
 ```
 mix deps.get
 ```
-
-After all the dependencies are installed run
+to install some elixir packages we depend on and
 ```
 iex -S mix
 ```
-The application should now be running on `http://localhost:4000/`
+to start the application, listening on localhost:4000.
 
+### node+webpack+babel
+
+Install node, webpack and babel. When developing run
+
+```
+webpack --watch
+```
+
+Once you are ready to commit, run
+```
+NODE_ENV=production webpack -p
+```
+
+and commit the compiled `bundle.min.js` file.
 
 ## installation for windows
 
