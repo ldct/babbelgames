@@ -1,8 +1,7 @@
 import styles from "../../css/matchingGame.css";
-
 import GameSlab from "./GameSlab.jsx";
-
 import React from "react";
+import $ from "jquery";
 
 var MatchingGame = React.createClass({
   getInitialState: function() {

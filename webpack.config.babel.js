@@ -7,10 +7,6 @@ module.exports = {
   context: path.join(__dirname, "frontend"),
   devtool: debug ? "inline-sourcemap" : null,
   entry: "./js/components/App.jsx",
-  externals: {
-      // require("jquery") is external and available on the global var jQuery
-      "jquery": "jQuery"
-  },
   module: {
     loaders: [
       // Extract css files
