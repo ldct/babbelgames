@@ -1,6 +1,5 @@
 defmodule BabbelgamesDb do
 	def initDb() do
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
 		# Postgrex.query!(pid, """
 		# 	DROP TABLE IF EXISTS users;
 		# """, [])
@@ -10,7 +9,7 @@ defmodule BabbelgamesDb do
 		# Postgrex.query!(pid, """
 		# 	DROP TABLE IF EXISTS correct_pairs;
 		# """, [])
-		Postgrex.query!(pid, """
+		DbWrapper.query!("""
 			CREATE OR REPLACE FUNCTION uniq (ANYARRAY) RETURNS ANYARRAY
 			LANGUAGE SQL
 			AS $body$
@@ -21,21 +20,21 @@ defmodule BabbelgamesDb do
 			  );
 			$body$;
 		""", [])
-		Postgrex.query!(pid, """
+		DbWrapper.query!("""
 			CREATE TABLE IF NOT EXISTS users (
 				uid TEXT,
 				user_email TEXT,
 				constraint pk_users primary key (user_email)
 			)
 		""", [])
-		Postgrex.query!(pid, """
+		DbWrapper.query!("""
 			CREATE TABLE IF NOT EXISTS sessions (
 				secret TEXT,
 				user_email TEXT,
 				constraint pk_sessions primary key (user_email)
 			)
 		""", [])
-		Postgrex.query!(pid, """
+		DbWrapper.query!("""
 			CREATE TABLE IF NOT EXISTS correct_pairs (
 				user_email TEXT,
 				episode_md5 TEXT,
@@ -43,7 +42,7 @@ defmodule BabbelgamesDb do
 				constraint uc_correct_pairs unique (user_email, episode_md5)
 			)
 		""", [])
-		Postgrex.query!(pid, """
+		DbWrapper.query!("""
 			CREATE TABLE IF NOT EXISTS episode_pairs (
 				uid TEXT,
 				user_email TEXT,
@@ -60,16 +59,13 @@ defmodule BabbelgamesDb do
 			)
 		""", [])
 		DbSeedData.initSeedData()
-
 	end
 
 	def insertEpisodePair(sessionToken, series_name, episode_seqnumber, episode_title, episode_poster_filename, l1_code, l2_code, l1_screenplay_filename, l1_srt_filename, l2_srt_filename) do
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
-
 		%Postgrex.Result{
 			num_rows: num_rows,
 			rows: rows
-		} = Postgrex.query!(pid, """
+		} = DbWrapper.query!("""
 			SELECT user_email FROM sessions WHERE secret = $1
 		""", [sessionToken])
 
@@ -77,7 +73,7 @@ defmodule BabbelgamesDb do
 			[[user_email]] = rows
 
 			uid = UUID.uuid4()
-			Postgrex.query!(pid, """
+			DbWrapper.query!("""
 				INSERT INTO episode_pairs (uid, user_email, series_name, episode_seqnumber, episode_title, episode_poster_filename, l1_code, l2_code, l1_screenplay_filename, l1_srt_filename, l2_srt_filename)
 				VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
 			""", [
@@ -99,8 +95,7 @@ defmodule BabbelgamesDb do
 	end
 
 	def addSession(user_email, secret) do
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
-		Postgrex.query!(pid, """
+		DbWrapper.query!("""
 			INSERT INTO SESSIONS (user_email, secret) VALUES ($1, $2)
 			ON CONFLICT ON CONSTRAINT pk_sessions DO UPDATE SET secret=$2
 		""", [user_email, secret])
@@ -108,18 +103,16 @@ defmodule BabbelgamesDb do
 
 	def addUser(email) do
 		uid = UUID.uuid4()
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
-		Postgrex.query!(pid, """
+		DbWrapper.query!("""
 			INSERT INTO users (uid, user_email) VALUES ($1, $2) ON CONFLICT DO NOTHING
 		""", [uid, email])
 	end
 
 	def markCorrectPair(episodeMD5, sessionToken, lineNumber, tileIdx) do
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
 		%Postgrex.Result{
 			num_rows: num_rows,
 			rows: rows
-		} = Postgrex.query!(pid, """
+		} = DbWrapper.query!("""
 			SELECT user_email FROM sessions WHERE secret = $1
 		""", [sessionToken])
 
@@ -129,7 +122,7 @@ defmodule BabbelgamesDb do
 
 			pair = Integer.to_string(lineNumber) <> "-" <> Integer.to_string(tileIdx)
 
-			Postgrex.query!(pid, """
+			DbWrapper.query!("""
 				INSERT INTO correct_pairs (user_email, episode_md5, pairs) VALUES ($1, $2, $3)
 				ON CONFLICT (user_email, episode_md5) DO UPDATE
 				SET pairs = uniq(correct_pairs.pairs || $3)
@@ -138,8 +131,7 @@ defmodule BabbelgamesDb do
 	end
 
 	def getAllEpisodePairs() do
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
-		x = Postgrex.query!(pid, """
+		x = DbWrapper.query!("""
 			SELECT * FROM episode_pairs
 		""", [])
 
@@ -156,8 +148,7 @@ defmodule BabbelgamesDb do
 	end
 
 	def getEpisodePairDataOf(uid) do
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
-		x = Postgrex.query!(pid, """
+		x = DbWrapper.query!("""
 			SELECT * FROM episode_pairs WHERE uid = $1
 		""", [uid])
 
@@ -179,11 +170,10 @@ defmodule BabbelgamesDb do
 	end
 
 	def getCorrectPairs(episodeMD5, sessionToken) do
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
 		%Postgrex.Result{
 			num_rows: num_rows,
 			rows: rows
-		} = Postgrex.query!(pid, """
+		} = DbWrapper.query!("""
 			SELECT user_email FROM sessions WHERE secret = $1
 		""", [sessionToken])
 
@@ -193,7 +183,7 @@ defmodule BabbelgamesDb do
 
 			%Postgrex.Result{
 				rows: rows
-			} = Postgrex.query!(pid, """
+			} = DbWrapper.query!("""
 				SELECT pairs FROM correct_pairs WHERE user_email = $1 AND episode_md5 = $2
 			""", [user_email, episodeMD5])
 
