@@ -1,10 +1,7 @@
+import $ from "jquery";
 import React from "react";
-import ReactDOM from "react-dom";
-import {Router, Route, Redirect} from "react-router";
-import { browserHistory } from 'react-router';
 import EpisodeTile from "./EpisodeTile.jsx";
 import styles from "../../css/episodeTileGallery.css";
-import $ from "jquery";
 
 const EpisodeTileGallery = React.createClass({
   getInitialState: function () {
