@@ -12,6 +12,7 @@ var GameSlab = React.createClass({
     gameScreenHelper.shuffle(englishTiles);
 
     return <ShuffledGameSlab
+      controlPressed={this.props.controlPressed}
       englishTiles={englishTiles}
       initialMatchedPairs={this.props.initialMatchedPairs}
       sentences={this.props.sentences}

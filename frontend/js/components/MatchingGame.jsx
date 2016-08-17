@@ -3,10 +3,30 @@ import GameSlab from "./GameSlab.jsx";
 import React from "react";
 import $ from "jquery";
 
-var MatchingGame = React.createClass({
+const MatchingGame = React.createClass({
+
+  handleKeyUp: function (evt) {
+    this.setState({
+      controlPressed: false,
+    });
+  },
+
+  handleKeyDown: function (evt) {
+    if (evt.keyCode === 17 || evt.keyCode === 91) {
+      this.setState({
+        controlPressed: true,
+      });
+    }
+  },
+
+  componentDidMount: function () {
+    document.addEventListener("keydown", this.handleKeyDown);
+    document.addEventListener("keyup", this.handleKeyUp);
+  },
+
   getInitialState: function() {
     return {
-      numMatched: 0
+      numMatched: 0,
     };
   },
 
@@ -29,6 +49,7 @@ var MatchingGame = React.createClass({
           sentences={chunks.chunk}
           rngSeed={chunks.rngSeed}
           tileData={matchingTileData}
+          controlPressed={this.state.controlPressed}
           onMatchPair={(lineNumber, tileIdx) => {
             if (localStorage.babbelgames_session_token && this.props.episodeMD5) {
               $.ajax("/progress/correctMatch", {

@@ -147,6 +147,7 @@ var ShuffledGameSlab = React.createClass({
           const displayBoth = this.state.matchedFrIdxs.indexOf(i + "-" + j) !== -1;
           return (
             <FlippableSentence
+              controlPressed={this.props.controlPressed}
               lineNumber={td[3]}
               selected={i + "-" + j === this.state.selectedFrenchIdx}
               key={j}

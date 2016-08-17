@@ -4,11 +4,13 @@ import EpisodeTile from "./EpisodeTile.jsx";
 import styles from "../../css/episodeTileGallery.css";
 
 const EpisodeTileGallery = React.createClass({
+
   getInitialState: function () {
     return {
       srcOfMousedOverTile: null,
     };
   },
+
   handleMouseOverTile: function(src) {
     this.setState({ srcOfMousedOverTile: src });
   },
@@ -18,6 +20,7 @@ const EpisodeTileGallery = React.createClass({
       this.setState({ srcOfMousedOverTile: null });
     }
   },
+
   render: function () {
 
     return <div className={styles.flexContainer}>
@@ -42,6 +45,7 @@ const EpisodeTileGallery = React.createClass({
 
     return <div></div>
   }
+
 });
 
 const EpisodeTileGalleryContainer = React.createClass({
