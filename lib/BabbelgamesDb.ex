@@ -193,6 +193,11 @@ defmodule BabbelgamesDb do
 			end
 
 		end
+
+		if num_rows == 0 do
+			[]
+		end
+
 	end
 
 end
