@@ -68,6 +68,7 @@ const FlippableSentence = React.createClass({
             <DefinableWord
               word={word}
               idx={i}
+              key={i}
               onMouseEnter={this.handleMouseEnter}
               onMouseLeave={this.handleMouseLeave}
               active={this.props.controlPressed && this.state.mousedOverWordIdx === i}
