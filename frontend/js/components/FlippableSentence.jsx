@@ -13,8 +13,8 @@ const DefinableWord = React.createClass({
     return (
       <span
         style={{
-          border: (this.props.active ? '1px solid pink' : null),
-          marginRight: '1em',
+          border: (this.props.active ? '1px solid pink' : '1px solid transparent'),
+          marginRight: '0.2em',
         }}
         onMouseEnter={this.handleMouseEnter}
         onMouseLeave={this.handleMouseLeave}
@@ -34,7 +34,6 @@ const FlippableSentence = React.createClass({
   },
 
   handleMouseEnter: function (idx) {
-    console.log('mouse enter');
     this.setState({
       mousedOverWordIdx: idx,
     });

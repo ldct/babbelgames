@@ -95,6 +95,8 @@ defmodule FrexServer do
 
     # TODO: generate a proper JWT token
 
+    IO.inspect("hi")
+
     %Plug.Conn{
       assigns: %{
         ueberauth_auth: %Ueberauth.Auth{
