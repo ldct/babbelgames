@@ -1,5 +1,6 @@
 import styles from "../../css/matchingGame.css";
 import GameSlab from "./GameSlab.jsx";
+import FlippableSentence from "./FlippableSentence.jsx";
 import React from "react";
 import $ from "jquery";
 
@@ -27,6 +28,7 @@ const MatchingGame = React.createClass({
   getInitialState: function() {
     return {
       numMatched: 0,
+      showAll: false,
     };
   },
 
@@ -87,7 +89,7 @@ const MatchingGame = React.createClass({
             </div>
           </div>
         </div>
-        <div className={styles.gamescreen} > <div className={styles.slightPadding}>
+        <div className={styles.gamescreen}> <div className={styles.slightPadding}>
 
         Welcome to babbelgames.io. <br /> <br />
 
@@ -97,7 +99,26 @@ const MatchingGame = React.createClass({
 
         </div>
 
-        {this.props.screenplaySections.map(renderChunks)}
+        {this.state.showAll
+          ? this.props.screenplaySections.map(renderChunks)
+          : this.props.screenplaySections.slice(0, 10).map(renderChunks)
+        }
+
+        {this.state.showAll
+          ? null
+          : <div className={styles.gamescreen}> <div className={styles.slightPadding}>
+            <FlippableSentence
+              controlPressed={false}
+              selected={false}
+              displayBoth={false}
+              onClick={() => {this.setState({showAll: true})}}
+              back={"Click to Show All"}
+              front={""} />
+            </div>
+            </div>
+        }
+
+
 
         </div>
 

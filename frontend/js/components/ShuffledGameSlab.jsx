@@ -118,6 +118,10 @@ var ShuffledGameSlab = React.createClass({
 
     return <div className={styles.gamescreen}>
 
+    <div>
+    {window.debugMode ? JSON.stringify(this.props.controlPressed): null}
+    </div>
+
     <div className={styles.transcriptArea}>
 
     {this.props.sentences.map((sentence, i) => {
