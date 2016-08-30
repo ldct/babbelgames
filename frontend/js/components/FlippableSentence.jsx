@@ -1,6 +1,7 @@
 import styles from "../../css/flippableSentence.css";
 
 import React from "react";
+import $ from "jquery";
 
 const DefinableWord = React.createClass({
   handleMouseEnter: function () {
@@ -34,14 +35,26 @@ const FlippableSentence = React.createClass({
   },
 
   handleMouseEnter: function (idx) {
-    console.log('mouseenter', idx);
+    // console.log('mouseenter', idx);
+    if (!localStorage.getItem('babbelgames_defined_words_cache')) {
+      localStorage.setItem('babbelgames_defined_words_cache', {});
+    }
+
+    var babbelgames_defined_words_cache = localStorage.getItem('babbelgames_defined_words_cache');
+
+    const wordToDefine = this.props.back.split(' ')[idx];
+
+    $.getJSON('/define_word/' + wordToDefine, (res) => {
+      console.log('defined word', res);
+    });
+
     this.setState({
       mousedOverWordIdx: idx,
     });
   },
 
   handleMouseLeave: function (idx) {
-    console.log('mouseleave', idx);
+    // console.log('mouseleave', idx);
     if (this.state.mousedOverWordIdx === idx) {
       this.setState({
         mousedOverWordIdx: null,

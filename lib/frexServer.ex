@@ -145,6 +145,14 @@ defmodule FrexServer do
     |> send_resp(200, contents)
   end
 
+  get "/define_word/:word" do
+    res = "hola"
+    |> Poison.encode!(pretty: true)
+
+    conn
+    |> send_resp(200, res)
+  end
+
   # Client reports that a correct match has been made
   post "progress/correctMatch" do
 
@@ -159,7 +167,7 @@ defmodule FrexServer do
 
     BabbelgamesDb.markCorrectPair(episodeMD5, sessionToken, lineNumber, tileIdx)
 
-    conn|> send_resp(200, "OK")
+    conn |> send_resp(200, "OK")
   end
 
   get "progress/correctMatch/:episodeMD5" do
