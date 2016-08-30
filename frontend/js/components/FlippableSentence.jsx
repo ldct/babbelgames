@@ -34,12 +34,14 @@ const FlippableSentence = React.createClass({
   },
 
   handleMouseEnter: function (idx) {
+    console.log('mouseenter', idx);
     this.setState({
       mousedOverWordIdx: idx,
     });
   },
 
   handleMouseLeave: function (idx) {
+    console.log('mouseleave', idx);
     if (this.state.mousedOverWordIdx === idx) {
       this.setState({
         mousedOverWordIdx: null,
