@@ -8,6 +8,7 @@ defmodule FrexServer do
   plug :dispatch
 
   get "/host" do
+    conn |> IO.inspect
     send_resp(conn, 200, conn.host)
   end
 
