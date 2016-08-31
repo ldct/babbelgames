@@ -7,6 +7,10 @@ defmodule FrexServer do
   plug :match
   plug :dispatch
 
+  get "/host" do
+    send_resp(conn, 200, conn.host)
+  end
+
   get "/hello" do
     send_resp(conn, 200, "world")
   end
