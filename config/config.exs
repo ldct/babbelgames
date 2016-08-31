@@ -4,12 +4,18 @@ use Mix.Config
 
 config :ueberauth, Ueberauth,
   providers: [
-    facebook: {Ueberauth.Strategy.Facebook, [profile_fields: "email,name"]}
+    facebook: {Ueberauth.Strategy.Facebook, [profile_fields: "email,name"]},
+    google: {Ueberauth.Strategy.Google, []}
   ]
 
 config :ueberauth, Ueberauth.Strategy.Facebook.OAuth,
   client_id: "1048553195181028",
   client_secret: "144b6cce9d58127303d5370436c0d604"
+
+config :ueberauth, Ueberauth.Strategy.Google.OAuth,
+  client_id: "314131318928-ga8ljbm1424g8ulkaosolgp9houskcmj.apps.googleusercontent.com",
+  client_secret: "lgayFMi3s-m7uzUv3lciFfIf"
+
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this

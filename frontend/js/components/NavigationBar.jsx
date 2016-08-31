@@ -53,6 +53,10 @@ var NavigationBar = React.createClass({
           Log In
         </NavItem>
 
+        <NavItem href="/auth/google" style={loggedInStyleInv}>
+          Log In (Google)
+        </NavItem>
+
         <LinkContainer to="/page/about">
           <NavItem href="#">About</NavItem>
         </LinkContainer>

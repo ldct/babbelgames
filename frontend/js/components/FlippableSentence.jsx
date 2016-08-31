@@ -64,10 +64,9 @@ const FlippableSentence = React.createClass({
 
   render: function() {
     return (
-      <div className={styles.flippableSentenceContainer + " " + ((!this.props.selected && this.props.onClick) ? styles.dimOnHover : "")}
+      <div className={styles.flippableSentenceContainer + " " + ((!this.props.selected && !this.props.controlPressed && this.props.onClick) ? styles.dimOnHover : "")}
         style={{
           backgroundColor: this.props.selected ? 'rgba(66, 143, 196, 1)' : 'rgba(66, 143, 196, 0.7)',
-          border: '1px solid pink',
         }}
         onClick={this.props.onClick} >
 

@@ -146,7 +146,11 @@ defmodule FrexServer do
   end
 
   get "/define_word/:word" do
-    res = "hola"
+
+    res = word
+    |> String.replace(".", "")
+    |> IO.inspect
+    |> translateFrenchWord
     |> Poison.encode!(pretty: true)
 
     conn
@@ -287,7 +291,19 @@ defmodule FrexServer do
   end
 
   def translateFrenchWord(word) do
-    api_key = File.read! "GOOGLE_TRANSLATE_API_KEY"
+
+    dbRes = BabbelgamesDb.defineWord(word, "fr")
+
+    case dbRes do
+      nil -> BabbelgamesDb.addDefinedWord(word, "fr", translateFrenchWordViaGoogle(word))
+      word -> word
+    end
+
+  end
+
+  def translateFrenchWordViaGoogle(word) do
+    IO.inspect("hitting google api")
+    api_key = "AIzaSyCelot8j13gsEeq898SZLycyq0GvcXb1PA"
 
     url = "https://www.googleapis.com/language/translate/v2?" <> URI.encode_query(%{
       "source" => "fr",

@@ -58,7 +58,37 @@ defmodule BabbelgamesDb do
 				constraint pk_episode_pairs primary key (uid)
 			)
 		""", [])
+		DbWrapper.query!("""
+			CREATE TABLE IF NOT EXISTS defined_words (
+				l2_word TEXT,
+				l2_code TEXT,
+				english_translated_word TEXT,
+				constraint uc_defined_words unique (l2_word, l2_code)
+			)
+		""", [])
 		DbSeedData.initSeedData()
+	end
+
+	def defineWord(l2_word, l2_code) do
+		%Postgrex.Result{
+			num_rows: num_rows,
+			rows: rows
+		} = DbWrapper.query!("""
+			SELECT english_translated_word FROM defined_words WHERE l2_word = $1 AND l2_code = $2
+		""", [l2_word, l2_code])
+
+		case rows do
+		   [] -> nil
+		   [[english_translated_word]] -> english_translated_word
+		end
+	end
+
+	def addDefinedWord(l2_word, l2_code, english_translated_word) do
+		DbWrapper.query!("""
+			INSERT INTO defined_words (l2_word, l2_code, english_translated_word)
+			VALUES ($1, $2, $3)
+		""", [l2_word, l2_code, english_translated_word])
+		english_translated_word
 	end
 
 	def insertEpisodePair(sessionToken, series_name, episode_seqnumber, episode_title, episode_poster_filename, l1_code, l2_code, l1_screenplay_filename, l1_srt_filename, l2_srt_filename) do
