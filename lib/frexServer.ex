@@ -187,11 +187,9 @@ defmodule FrexServer do
       }
     } = conn
 
-    IO.inspect(sessionToken)
-
     res = BabbelgamesDb.getCorrectPairs(episodeMD5, sessionToken)
-    |> Poison.encode!(pretty: true)
     |> IO.inspect
+    |> Poison.encode!(pretty: true)
 
     conn
     |> send_resp(200, res)

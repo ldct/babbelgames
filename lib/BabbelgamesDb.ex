@@ -207,25 +207,19 @@ defmodule BabbelgamesDb do
 			SELECT user_email FROM sessions WHERE secret = $1
 		""", [sessionToken])
 
-		if num_rows == 1 do
-			[[user_email]] = rows
-			IO.inspect(user_email)
+		case rows do
+			[] -> [] # todo: 403
+			[[user_email]] ->
+				%Postgrex.Result{
+					rows: rows
+				} = DbWrapper.query!("""
+					SELECT pairs FROM correct_pairs WHERE user_email = $1 AND episode_md5 = $2
+				""", [user_email, episodeMD5])
 
-			%Postgrex.Result{
-				rows: rows
-			} = DbWrapper.query!("""
-				SELECT pairs FROM correct_pairs WHERE user_email = $1 AND episode_md5 = $2
-			""", [user_email, episodeMD5])
-
-			case rows do
-				[] -> []
-				[[correctPairs]] -> correctPairs
-			end
-
-		end
-
-		if num_rows == 0 do
-			[]
+				case rows do
+					[] -> []
+					[[correctPairs]] -> correctPairs
+				end
 		end
 
 	end
