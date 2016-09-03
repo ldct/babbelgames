@@ -3,7 +3,7 @@ import styles from "../../css/navigationBar.css";
 import $ from "jquery";
 import React from "react";
 import { Router, Route, Link } from "react-router";
-import { Navbar, NavItem, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, NavItem, Nav, NavDropdown, MenuItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 
@@ -49,13 +49,16 @@ var NavigationBar = React.createClass({
           <NavItem href="#">Upload</NavItem>
         </LinkContainer>
 
-        <NavItem href="/auth/facebook" style={loggedInStyleInv}>
-          Log In
-        </NavItem>
+        <NavDropdown title="Log In" style={loggedInStyleInv}>
+          <MenuItem href="/auth/facebook">
+            Facebook
+          </MenuItem>
 
-        <NavItem href="/auth/google" style={loggedInStyleInv}>
-          Log In (Google)
-        </NavItem>
+          <MenuItem href="/auth/google">
+            Google
+          </MenuItem>
+        </NavDropdown>
+
 
         <LinkContainer to="/page/about">
           <NavItem href="#">About</NavItem>
