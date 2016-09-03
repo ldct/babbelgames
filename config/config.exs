@@ -5,7 +5,7 @@ use Mix.Config
 config :ueberauth, Ueberauth,
   providers: [
     facebook: {Ueberauth.Strategy.Facebook, [profile_fields: "email,name"]},
-    google: {Ueberauth.Strategy.Google, []}
+    google: {Ueberauth.Strategy.Google, [default_scope: "email"]}
   ]
 
 config :ueberauth, Ueberauth.Strategy.Facebook.OAuth,

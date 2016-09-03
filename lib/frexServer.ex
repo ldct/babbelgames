@@ -96,6 +96,39 @@ defmodule FrexServer do
     |> send_resp(200, "\"" <> uid <> "\"")
   end
 
+  get "/auth/google/callback" do
+
+
+    %Plug.Conn{
+      assigns: %{
+        ueberauth_auth: %Ueberauth.Auth{
+          credentials: %Ueberauth.Auth.Credentials{
+            token: token
+          },
+          info: %Ueberauth.Auth.Info{
+            email: email,
+            image: image,
+            name: name,
+          }
+        }
+      }
+    } = conn
+
+    BabbelgamesDb.addSession(email, token)
+    BabbelgamesDb.addUser(email)
+
+    contents = File.read!("frontend/drop_and_redirect.html")
+    |> String.replace("{{userdata}}", Poison.encode!(%{
+      "token" => token,
+      "email" => email,
+      "image_url" => image,
+    }))
+
+    conn
+    |> put_resp_content_type("text/html; charset=UTF-8")
+    |> send_resp(200, contents)
+  end
+
   get "/auth/facebook/callback" do
 
     # TODO: generate a proper JWT token
