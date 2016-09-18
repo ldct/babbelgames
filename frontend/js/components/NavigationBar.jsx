@@ -49,7 +49,7 @@ var NavigationBar = React.createClass({
           <NavItem href="#">Upload</NavItem>
         </LinkContainer>
 
-        <NavDropdown title="Log In" style={loggedInStyleInv}>
+        <NavDropdown title="Log In" style={loggedInStyleInv} id="login">
           <MenuItem href="/auth/facebook">
             Facebook
           </MenuItem>
