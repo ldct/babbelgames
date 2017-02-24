@@ -7,7 +7,7 @@ import $ from "jquery";
 
 
 // TODO: document this stuff
-const renderChunksFull = (tileData, matchedPairs, epsiodeMD5, chunks, i) => {
+const renderChunksFull = (state, tileData, matchedPairs, epsiodeMD5, chunks, i) => {
 
   var lineNumbers = chunks.chunk.map(s => s.lineNumber);
 
@@ -39,8 +39,15 @@ const renderChunksFull = (tileData, matchedPairs, epsiodeMD5, chunks, i) => {
             type: 'POST',
           });
         }
+    }}
+    onMatchAllPairs={(() => {
+      if (state.showRandom) {
+        console.log('next!');
+      } else {
+        console.log('scroll down!');
       }
-    } />
+    })}
+    />
   );
 }
 
@@ -91,7 +98,7 @@ const MatchingGame = React.createClass({
 
   render: function() {
     const renderChunks = (chunks, i) => {
-      return renderChunksFull(this.props.tileData, this.props.matchedPairs, this.props.episodeMD5, chunks, i);
+      return renderChunksFull(this.state, this.props.tileData, this.props.matchedPairs, this.props.episodeMD5, chunks, i);
     }
 
     const l2Name = langNameOfCode[this.props.metadata.l2_code];

@@ -26,6 +26,9 @@ const DefinableWord = React.createClass({
   }
 });
 
+/*
+TBD: rename this
+*/
 const FlippableSentence = React.createClass({
 
   getInitialState: function () {

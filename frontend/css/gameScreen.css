@@ -1,16 +1,8 @@
 .lineBlock {
   margin: 0.75em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .lineBlock.italic {
@@ -21,14 +13,8 @@
   margin-right: 0.5em;
 }
 
-.gamescreen {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+.shuffledGameSlab {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 30px;
     padding: 20px;
     border-radius: 2px;
@@ -36,16 +22,13 @@
     background-color: white;
 }
 
-.transcriptArea {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+.transcriptAndEnglishTilesArea {
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+}
+
+.transcriptArea {
+    display: flex;
+    flex-direction: column;
 }
 
 .englishTilesArea {
@@ -86,37 +69,23 @@
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none;       
+            user-select: none;
 }
 
 @media only screen and (max-width: 500px) { /* small screen */
-    .gamescreen {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-                flex-direction: column;
+    .transcriptAndEnglishTilesArea {
+        flex-direction: column;
     }
 }
 
 @media only screen and (min-width: 500px) {
-    .gamescreen {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: row;
-            -ms-flex-direction: row;
-                flex-direction: row;
+    .transcriptAndEnglishTilesArea {
+        flex-direction: row;
     }
     .transcriptArea {
-        -webkit-box-flex: 2;
-        -webkit-flex: 2 0 0;
-            -ms-flex: 2 0 0;
-                flex: 2 0 0;
+        flex: 2 0 0;
     }
     .englishTilesArea {
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 0 0;
-            -ms-flex: 1 0 0;
-                flex: 1 0 0;
+        flex: 1 0 0;
     }
 }

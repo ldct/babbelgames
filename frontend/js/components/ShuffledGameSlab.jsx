@@ -58,9 +58,15 @@ var ShuffledGameSlab = React.createClass({
 
       this.props.onMatchPair(lineNumber, frJ);
 
+      const newMatchedIds = this.state.matchedIds.concat(enI);
+
+      if (newMatchedIds.length === this.props.tileData.length) {
+        this.props.onMatchAllPairs();
+      }
+
       this.setState({
         lastCorrectOrWrongMessage: 'correct',
-        matchedIds: this.state.matchedIds.concat(enI),
+        matchedIds: newMatchedIds,
         matchedFrIdxs: this.state.matchedFrIdxs.concat(frI + '-' + frJ),
         selectedFrenchIdx: null,
         selectedEnglishIdx: null,
@@ -118,18 +124,7 @@ var ShuffledGameSlab = React.createClass({
 
   render: function() {
 
-    return <div className={styles.gamescreen}>
-
-    <div>
-    {window.debugMode ? JSON.stringify(this.props.controlPressed): null}
-    </div>
-
-    <div>Correct or wrong: {JSON.stringify(this.state.lastCorrectOrWrongMessage)}</div>
-
-    <div className={styles.transcriptArea}>
-
-    {this.props.sentences.map((sentence, i) => {
-
+    const transcript = this.props.sentences.map((sentence, i) => {
       if (sentence.line.length === 0) return null;
 
       var matchingTileData = this.props.tileData.filter(td => {
@@ -167,12 +162,10 @@ var ShuffledGameSlab = React.createClass({
         })}
       </div>
 
-    })}
-    </div>
+    });
 
-    {/* english tiles area (to the right) */}
-    <div className={styles.englishTilesArea}>{this.props.englishTiles.map((e, i) => {
-      var inlineTileStyle = {
+    const englishTiles = this.props.englishTiles.map((e, i) => {
+      const inlineTileStyle = {
         backgroundColor: (this.state.selectedEnglishIdx === i) ? '#D58313' : 'rgba(255, 147, 0, 0.7)',
         visibility: (this.state.matchedIds.indexOf(i) !== -1) ? 'hidden' : 'visible',
       };
@@ -184,8 +177,26 @@ var ShuffledGameSlab = React.createClass({
             {e}
         </div>
       );
-    })}</div>
+    })
+
+    return <div className={styles.shuffledGameSlab}>
+    <div>
+    {window.debugMode ? JSON.stringify(this.props.controlPressed): null}
     </div>
+
+    <div>Correct or Wrong: {JSON.stringify(this.state.lastCorrectOrWrongMessage)}</div>
+
+    <div className={styles.transcriptAndEnglishTilesArea}>
+
+    <div className={styles.transcriptArea}>
+    {transcript}
+    </div>
+
+    {/* english tiles area (to the right) */}
+    <div className={styles.englishTilesArea}>{englishTiles}</div>
+    </div>
+
+  </div>
   }
 });
 

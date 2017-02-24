@@ -18,6 +18,7 @@ var GameSlab = React.createClass({
       rngSeed={this.props.rngSeed}
       tileData={this.props.tileData}
       onMatchPair={this.props.onMatchPair}
+      onMatchAllPairs={this.props.onMatchAllPairs}
     />
   }
 });
