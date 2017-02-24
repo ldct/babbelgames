@@ -1,5 +1,3 @@
-# Babbelgames 
-
 ## Dependencies
 
 babbelgames requires postgres, elixir, node, webpack and babel to build.
@@ -18,7 +16,9 @@ to start the application, listening on localhost:4000.
 
 ### node+webpack+babel
 
-Install node, webpack and babel. When developing run
+Install node, webpack and babel. Then run `npm i` from the top-level (babbelgames) directory.
+
+When developing, run
 
 ```
 webpack --watch

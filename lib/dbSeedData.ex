@@ -1,6 +1,6 @@
 defmodule DbSeedData do
 	def initSeedData() do
-		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
+		{:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "babbelgames", database: "babbelgames")
 
 		Postgrex.query!(pid, """
 			INSERT INTO

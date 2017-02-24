@@ -4,12 +4,11 @@ import React from "react";
 
 var GameSlab = React.createClass({
   render: function () {
-    var englishTiles = JSON.parse(JSON.stringify(this.props.tileData)).map(td => {
+    var englishTiles = this.props.tileData.map(td => {
       return td[0];
     });
 
-    window.rngSeed = this.props.rngSeed;
-    gameScreenHelper.shuffle(englishTiles);
+    englishTiles = gameScreenHelper.shuffle(this.props.rngSeed, englishTiles);
 
     return <ShuffledGameSlab
       controlPressed={this.props.controlPressed}

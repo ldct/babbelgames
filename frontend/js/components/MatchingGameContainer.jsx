@@ -5,53 +5,9 @@ import $ from "jquery";
 import React from "react";
 import md5 from "blueimp-md5";
 
-const screenplaySectionsOf = function (res) {
-  var screenplayLines = res.screenplay.split('\n').map((e, i) => {
-    return {
-      'line': e,
-      'lineNumber': i
-    };
-  });
-
-  var screenplaySections = [];
-
-  var workingScreenplaySection = [];
-
-  while (screenplayLines.length > 0) {
-    workingScreenplaySection = workingScreenplaySection.concat(screenplayLines[0]);
-    screenplayLines = screenplayLines.slice(1);
-
-    var doRotate = false;
-
-    if (workingScreenplaySection.length > 9) {
-      doRotate = true;
-    }
-
-    var lines = workingScreenplaySection.map(l => l.line).join(' ');
-    if (lines.length > 300) {
-      doRotate = true;
-    }
-
-    if (doRotate) {
-      screenplaySections = screenplaySections.concat([workingScreenplaySection]);
-      workingScreenplaySection = [];
-    }
-
-  }
-
-  if (workingScreenplaySection.length) {
-    screenplaySections = screenplaySections.concat([workingScreenplaySection]);
-  }
-
-  screenplaySections = screenplaySections.map(chunk => {
-    return {
-      chunk: chunk,
-      rngSeed: Math.random() * 100000
-    }
-  });
-
-  return screenplaySections;
-}
+/*
+This component takes a data source id from props, queries the server for the matchinggame data, and renders a MatchingGame once the data is returned. It shows a loading screen before that.
+*/
 
 const MatchingGameContainer = React.createClass({
   getInitialState: function() {
@@ -102,6 +58,7 @@ const MatchingGameContainer = React.createClass({
         return (
           <div>
           <MatchingGame
+            rngSeed={Math.random() * 100000}
             matchedPairs={this.state.matchedPairs}
             episodeMD5={md5(JSON.stringify(this.state.tileData))}
             metadata={this.state.metadata}
@@ -113,6 +70,54 @@ const MatchingGameContainer = React.createClass({
     }
   }
 });
+
+const screenplaySectionsOf = function (res) {
+  var screenplayLines = res.screenplay.split('\n').map((e, i) => {
+    return {
+      'line': e,
+      'lineNumber': i
+    };
+  });
+
+  var screenplaySections = [];
+
+  var workingScreenplaySection = [];
+
+  while (screenplayLines.length > 0) {
+    workingScreenplaySection = workingScreenplaySection.concat(screenplayLines[0]);
+    screenplayLines = screenplayLines.slice(1);
+
+    var doRotate = false;
+
+    if (workingScreenplaySection.length > 9) {
+      doRotate = true;
+    }
+
+    var lines = workingScreenplaySection.map(l => l.line).join(' ');
+    if (lines.length > 300) {
+      doRotate = true;
+    }
+
+    if (doRotate) {
+      screenplaySections = screenplaySections.concat([workingScreenplaySection]);
+      workingScreenplaySection = [];
+    }
+
+  }
+
+  if (workingScreenplaySection.length) {
+    screenplaySections = screenplaySections.concat([workingScreenplaySection]);
+  }
+
+  screenplaySections = screenplaySections.map(chunk => {
+    return {
+      chunk: chunk,
+      rngSeed: Math.random() * 100000
+    }
+  });
+
+  return screenplaySections;
+}
 
 
 export default MatchingGameContainer;

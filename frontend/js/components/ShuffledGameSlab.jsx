@@ -1,5 +1,4 @@
 import styles from "../../css/gameScreen.css";
-import * as gameScreenHelper from "../utility/gameScreenHelper.jsx";
 
 import FlippableSentence from "./FlippableSentence.jsx";
 
@@ -10,6 +9,7 @@ import React from "react";
 var ShuffledGameSlab = React.createClass({
   getInitialState: function() {
     return {
+      lastCorrectOrWrongMessage: null,
       matchedIds: this.props.initialMatchedPairs.map(frIdx => {
         var [lineNumber, frJ] = frIdx.split("-");
         [lineNumber, frJ] = [parseInt(lineNumber, 10), parseInt(frJ, 10)];
@@ -59,6 +59,7 @@ var ShuffledGameSlab = React.createClass({
       this.props.onMatchPair(lineNumber, frJ);
 
       this.setState({
+        lastCorrectOrWrongMessage: 'correct',
         matchedIds: this.state.matchedIds.concat(enI),
         matchedFrIdxs: this.state.matchedFrIdxs.concat(frI + '-' + frJ),
         selectedFrenchIdx: null,
@@ -67,6 +68,7 @@ var ShuffledGameSlab = React.createClass({
 
     } else {
       this.setState({
+        lastCorrectOrWrongMessage: 'wrong',
         selectedFrenchIdx: null,
         selectedEnglishIdx: null,
       });
@@ -122,6 +124,8 @@ var ShuffledGameSlab = React.createClass({
     {window.debugMode ? JSON.stringify(this.props.controlPressed): null}
     </div>
 
+    <div>Correct or wrong: {JSON.stringify(this.state.lastCorrectOrWrongMessage)}</div>
+
     <div className={styles.transcriptArea}>
 
     {this.props.sentences.map((sentence, i) => {
@@ -166,10 +170,11 @@ var ShuffledGameSlab = React.createClass({
     })}
     </div>
 
+    {/* english tiles area (to the right) */}
     <div className={styles.englishTilesArea}>{this.props.englishTiles.map((e, i) => {
       var inlineTileStyle = {
         backgroundColor: (this.state.selectedEnglishIdx === i) ? '#D58313' : 'rgba(255, 147, 0, 0.7)',
-        visibility: (this.state.matchedIds.indexOf(i) !== -1) ? 'hidden' : 'visible'
+        visibility: (this.state.matchedIds.indexOf(i) !== -1) ? 'hidden' : 'visible',
       };
       return (
         <div className={styles.tileStyle + " " + (this.state.selectedEnglishIdx === i ? "" : styles.dimOnHover) }

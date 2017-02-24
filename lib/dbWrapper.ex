@@ -16,7 +16,7 @@ defmodule DbWrapper do
     # GenServer implementation
 
     def init(state) do
-        {:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "postgres", database: "babbelgames")
+        {:ok, pid} = Postgrex.start_link(hostname: "localhost", username: "babbelgames", database: "babbelgames")
 
         # pid becomes state available in handle_call / terminate
         {:ok, pid}

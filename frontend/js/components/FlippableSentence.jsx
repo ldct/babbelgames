@@ -44,9 +44,9 @@ const FlippableSentence = React.createClass({
 
     const wordToDefine = this.props.back.split(' ')[idx];
 
-    $.getJSON('/define_word/' + wordToDefine, (res) => {
-      console.log('defined word', res);
-    });
+    // $.getJSON('/define_word/' + wordToDefine, (res) => {
+    //   console.log('defined word', res);
+    // });
 
     this.setState({
       mousedOverWordIdx: idx,
