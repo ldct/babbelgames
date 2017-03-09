@@ -9,7 +9,7 @@ import md5 from "blueimp-md5";
 This component takes a data source id from props, queries the server for the matchinggame data, and renders a MatchingGame once the data is returned. It shows a loading screen before that.
 */
 
-const MatchingGameContainer = React.createClass({
+const MatchingGameLoader = React.createClass({
   getInitialState: function() {
     return {
       metadata: {title: "", subTitle: ""},
@@ -120,4 +120,4 @@ const screenplaySectionsOf = function (res) {
 }
 
 
-export default MatchingGameContainer;
+export default MatchingGameLoader;

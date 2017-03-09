@@ -4,7 +4,7 @@ import styles from "../../css/app.css";
 import EpisodeTileGalleryContainer from "./EpisodeTileGalleryContainer.jsx";
 import AboutPage from "./AboutPage.jsx";
 import NavigationBar from "./NavigationBar.jsx";
-import MatchingGameContainer from "./MatchingGameContainer.jsx";
+import MatchingGameLoader from "./MatchingGameLoader.jsx";
 import ShuffleWordsGameContainer from "./ShuffleWordsGameContainer.jsx";
 import UploadEpisodePair from "./UploadEpisodePair.jsx";
 
@@ -40,9 +40,9 @@ const App = React.createClass({
                     <Route path="/" component={NavigationBar}>
                         <Route path="page/about" component={AboutPage} />
                         <Route path="page/home" component={EpisodeTileGalleryContainer} />
-                        <Route path="page/game/:dataSource" component={MatchingGameContainer} />
+                        <Route path="page/game/:dataSource" component={MatchingGameLoader} />
                         <Route path="page/shuffleWordsGame/:dataSource" component={ShuffleWordsGameContainer} />
-                        <Route path="page/gameEditMode/:dataSource" editMode={true} component={MatchingGameContainer} />
+                        <Route path="page/gameEditMode/:dataSource" editMode={true} component={MatchingGameLoader} />
                         <Route path="page/uploadEpisodePair" component={UploadEpisodePair} />
                     </Route>
                 </Router>
