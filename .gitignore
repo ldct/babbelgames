@@ -17,3 +17,4 @@ cache/*
 xuanji-OSX.pem
 *.sublime-project
 *.sublime-workspace
+bundle.min.js

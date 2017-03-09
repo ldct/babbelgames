@@ -7,7 +7,7 @@ import $ from "jquery";
 
 
 // TODO: document this stuff
-const renderChunksFull = (state, tileData, matchedPairs, epsiodeMD5, chunks, i) => {
+const renderChunksFull = (onMatchAllPairs, state, tileData, matchedPairs, epsiodeMD5, chunks, i) => {
 
   var lineNumbers = chunks.chunk.map(s => s.lineNumber);
 
@@ -40,13 +40,7 @@ const renderChunksFull = (state, tileData, matchedPairs, epsiodeMD5, chunks, i) 
           });
         }
     }}
-    onMatchAllPairs={(() => {
-      if (state.showRandom) {
-        console.log('next!');
-      } else {
-        console.log('scroll down!');
-      }
-    })}
+    onMatchAllPairs={onMatchAllPairs}
     />
   );
 }
@@ -87,6 +81,7 @@ const MatchingGame = React.createClass({
     return {
       showAll: false, /* whether the show all button has been pressed */
       showRandom: false, /* whether to show in random order */
+      randomIdx: 0,
     };
   },
 
@@ -98,7 +93,16 @@ const MatchingGame = React.createClass({
 
   render: function() {
     const renderChunks = (chunks, i) => {
-      return renderChunksFull(this.state, this.props.tileData, this.props.matchedPairs, this.props.episodeMD5, chunks, i);
+      return renderChunksFull(() => {
+        if (this.state.showRandom) {
+          this.setState({
+            randomIdx: this.state.randomIdx + 1,
+          });
+          console.log('next!');
+        } else {
+          console.log('scroll down!');
+        }
+      }, this.state, this.props.tileData, this.props.matchedPairs, this.props.episodeMD5, chunks, i);
     }
 
     const l2Name = langNameOfCode[this.props.metadata.l2_code];
@@ -106,7 +110,7 @@ const MatchingGame = React.createClass({
     const shuffledSlabs = gameScreenHelper.shuffle(this.props.rngSeed, this.props.screenplaySections)
 
     const randomSlab = <div>
-    {renderChunks(shuffledSlabs[0])}
+    {renderChunks(shuffledSlabs[this.state.randomIdx], this.state.randomIdx)}
     </div>
 
     return (
@@ -123,6 +127,7 @@ const MatchingGame = React.createClass({
         <div>
           <div>Random: <button onClick={this.handleToggleShowRandom}>{JSON.stringify(this.state.showRandom)}</button></div>
           <div>{this.props.rngSeed}</div>
+          <div>{this.state.randomIdx}</div>
         </div>
 
         {/* instructions */}
