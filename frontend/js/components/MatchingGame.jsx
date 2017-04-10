@@ -7,7 +7,7 @@ import $ from "jquery";
 
 
 // TODO: document this stuff
-const renderChunksFull = (onMatchAllPairs, state, tileData, matchedPairs, epsiodeMD5, chunks, i) => {
+const renderChunksFull = (onMatchAllPairs, state, tileData, matchedPairs, episodeMD5, chunks, i) => {
 
   var lineNumbers = chunks.chunk.map(s => s.lineNumber);
 
