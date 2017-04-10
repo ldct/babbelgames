@@ -27,13 +27,13 @@ const renderChunksFull = (onMatchAllPairs, state, tileData, matchedPairs, epsiod
       tileData={matchingTileData}
       controlPressed={false}
       onMatchPair={(lineNumber, tileIdx) => {
-        if (localStorage.babbelgames_session_token && episodeMD5) {
+        if (localStorage.babbelgames_session_token && this.props.episodeMD5) {
           $.ajax("/progress/correctMatch", {
             data: JSON.stringify({
               line_number: lineNumber,
               tile_idx: tileIdx,
               session_token: localStorage.babbelgames_session_token,
-              episode_md5: episodeMD5,
+              episode_md5: this.props.episodeMD5,
             }),
             contentType: 'application/json',
             type: 'POST',
